@@ -1,0 +1,63 @@
+
+-- Products By Country --
+<Products_List>
+	<Year>
+		<Year_Name></Year_Name>
+		<Country>
+			<Country_Name> </Country_Name>
+			<Products>
+			 	<Product_Name></Product_Name>
+			 	
+			</Products>
+		</Country>
+	</Year>
+</Products_List>
+
+
+-- Products By Product --
+<Products List>
+	<Year>
+		<Year_Name></Year_Name>
+		<Product>
+			<Product_Name> </Product_Name>
+			<Countries>
+			 	<Country_Name></Country_Name>
+			 	
+			</Countries>
+		</Product>
+	</Year>
+</Products_List>
+
+----- GOODS
+
+-- Goods By Country --
+<Goods_List>
+	<Year>
+		<Year_Name> </Year_Name>
+		<Country>
+			<Country_Name> </Country_Name>
+			<Goods>
+				<Good>
+			 		<Good_Name> </Good_Name>
+			 		<Child_Labor> </Child_Labor>
+			 		<Forced_Labor> </Forced_Labor>
+			 	</Good>
+			</Goods>
+		</Country>
+	</Year>
+</Products List>
+
+-- Goods By Good --
+<Goods_List>
+	<Year>
+		<Year_Name></Year_Name>
+		<Good>
+			<Good_Name> </Good_Name>
+			<Country>
+			 	<Country_Name> </Country_Name>
+			 	<Child_Labor> </Child_Labor>
+			 	<Forced_Labor> </Forced_Labor>
+			</Country>
+		</Good>
+	</Year>
+</Goods_List>

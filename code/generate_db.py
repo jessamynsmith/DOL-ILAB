@@ -39,7 +39,7 @@ tables['clflproducts'] = (
     "   FOREIGN KEY (product_id)" 
     "       REFERENCES product(id)"
     "       ON DELETE CASCADE"
-    "       ON UPDATE CASCADE,"
+    "       ON UPDATE CASCADE"
     ") ENGINE=InnoDB")
 
 tables['clflgoods'] = (
@@ -57,10 +57,11 @@ tables['clflgoods'] = (
     "   FOREIGN KEY (good_id)" 
     "       REFERENCES good(id)"
     "       ON DELETE CASCADE"
-    "       ON UPDATE CASCADE,"
+    "       ON UPDATE CASCADE"
     ") ENGINE=InnoDB")
 
 def connect():
+    Error  = ""
     # Connect to MySQL database
     try:
         con = mysql.connector.connect(host='localhost', port=8889,
@@ -173,7 +174,6 @@ if __name__ == '__main__':
     # Sort countries and remove duplicates
     countries = sorted(remove_duplicates(gcountries + pcountries))
     #print "Countries: ", countries, ".\n Length: ", len(countries), "\n"
-
     
     for country in countries:
         insert_country(cursor, country)

@@ -153,6 +153,8 @@ def xml_products_by_product(goods_list, filename):
 
 if __name__ == '__main__':
 	plist = get_products_from_excel()
-	xml_products_by_country(plist, "../output/products_by_country.xml")
-	xml_products_by_product(plist, "../output/products_by_product.xml")
+	#xml_products_by_country(plist, "../output/products_by_country.xml")
+	#xml_products_by_product(plist, "../output/products_by_product.xml")
+	xml_products_by_country(plist, "products_by_country.xml")
+	xml_products_by_product(plist, "products_by_product.xml")
 
