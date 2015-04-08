@@ -107,24 +107,6 @@ def remove_duplicates(elements):
             seen.add(element)
     return output
 
-def insert_country(cursor, c):
-    add_country = ("INSERT INTO country (name) VALUES (\"{}\")".format(c))
-    #print add_country, "\n"
-    cursor.execute(add_country)
-    return
-
-def insert_good(cursor, g):
-    add_good = ("INSERT INTO good (name) VALUES (\"{}\")".format(g))
-    cursor.execute(add_good)
-    #print add_good, "\n"
-    return
-
-def insert_product(cursor, p):
-    add_product = ("INSERT INTO product (name) VALUES (\"{}\")".format(p))
-    cursor.execute(add_product)
-    #print add_product, "\n"
-    return
-
 def get_country_id(cursor, country):
     retval  = -1
     query = ("SELECT id FROM country WHERE name = \"{}\"".format(country.strip()))
@@ -151,6 +133,52 @@ def get_product_id(cursor, product):
     if (type(results[0][0]) is int) & (results[0][0] > 0):
         retval = results[0][0]
     return retval
+
+def insert_country(cursor, c):
+    add_country = ("INSERT INTO country (name) VALUES (\"{}\")".format(c))
+    #print add_country, "\n"
+    cursor.execute(add_country)
+    return
+
+def insert_good(cursor, g):
+    add_good = ("INSERT INTO good (name) VALUES (\"{}\")".format(g))
+    cursor.execute(add_good)
+    #print add_good, "\n"
+    return
+
+def insert_product(cursor, p):
+    add_product = ("INSERT INTO product (name) VALUES (\"{}\")".format(p))
+    cursor.execute(add_product)
+    #print add_product, "\n"
+    return
+
+def insert_clflproduct(cursor, product):
+    yr = int(product['Year'])
+    cy = product['Country']
+    cy_id = int(get_country_id(cursor, cy))
+    p = product['Good']
+    p_id = int(get_product_id(cursor, p))
+  
+    add_clflproduct = ("INSERT INTO clflproducts (year, country_id, product_id) VALUES ('%d', '%d', '%d')" % (yr, cy_id, p_id))
+    print add_clflproduct
+
+    cursor.execute(add_clflproduct)
+    #print add_clflproduct, "\n"
+    return
+
+def insert_clflgood(cursor, good):
+    yr = int(good['Year'])
+    cy = good['Country']
+    cy_id = int(get_country_id(cursor, cy))
+    gd = good['Good']
+    gd_id = int(get_good_id(cursor, gd))
+    cl = (1 if (str(good['Child Labor']).upper() == "T") else 0) 
+    fl = (1 if (str(good['Forced Labor']).upper() == "T") else 0)
+    add_clflgood = ("INSERT INTO clflgoods (year, country_id, good_id, child_labor, forced_labor) VALUES ('%d', '%d', '%d', '%d', '%d')" % (yr, cy_id, gd_id, cl, fl))
+
+    cursor.execute(add_clflgood)
+    #print add_clflgood, "\n"
+    return
 
 if __name__ == '__main__':  
     # Build MySQL Infrastructure
@@ -184,7 +212,16 @@ if __name__ == '__main__':
     for product in products:
         insert_product(cursor, product)
 
-    print get_country_id(cursor, "Nepal")
+    for good in goods_list:
+        insert_clflgood(cursor, good)
+
+    for product in products_list:
+        insert_clflproduct(cursor, product)
+
+
+    #for country in countries:
+    #    print str(get_country_id(country), " - ", str(country)
+
 
     conn.close()
 
