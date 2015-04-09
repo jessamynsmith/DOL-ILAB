@@ -3,6 +3,7 @@
 import mysql.connector
 import generate_products 
 import generate_goods 
+import generate_master_data
 
 global db_name
 db_name = 'DOLILAB'
@@ -136,7 +137,8 @@ tables[9] = (
     "   FOREIGN KEY (upcr_id)" 
     "       REFERENCES upcr(id)"
     "       ON DELETE CASCADE"
-    "       ON UPDATE CASCADE"
+    "       ON UPDATE CASCADE,"
+    "   CONSTRAINT pk_id_sur PRIMARY KEY (country_id, survey_name)"
     ") ENGINE = InnoDB")
 
 def connect():
