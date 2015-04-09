@@ -60,6 +60,84 @@ tables['clflgoods'] = (
     "       ON UPDATE CASCADE"
     ") ENGINE=InnoDB")
 
+tables['cws'] = (
+    "CREATE  TABLE cws ("
+    "   id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,"
+    "   country_id INT,"
+    "   year VARCHAR(10),"
+    "   survey_source VARCHAR(20),"
+    "   age_range VARCHAR(6),"
+    "   total_child_pop INT,"
+    "   agriculture FLOAT,"
+    "   services FLOAT,"
+    "   industry FLOAT,"
+    "   FOREIGN KEY (country_id)" 
+    "       REFERENCES country(id)"
+    ") ENGINE=InnoDB")
+
+tables['esas'] = (
+    "CREATE  TABLE esas ("
+    "   id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,"
+    "   country_id INT,"
+    "   year VARCHAR(10)," 
+    "   age_range VARCHAR(6),"
+    "   percentage FLOAT,"
+    "   FOREIGN KEY (country_id)" 
+    "       REFERENCES country(id)"
+    ") ENGINE=InnoDB")
+
+tables['cwas'] = (
+    "CREATE  TABLE cwas ("
+    "   id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,"
+    "   country_id INT,"
+    "   year VARCHAR(10),"
+    "   age_range VARCHAR(6),"
+    "   total FLOAT,"
+    "   FOREIGN KEY (country_id)" 
+    "       REFERENCES country(id)"
+    ") ENGINE=InnoDB")
+
+tables['upcr'] = (
+    "CREATE  TABLE upcr ("
+    "   id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,"
+    "   country_id INT,"
+    "   year INT," 
+    "   rate FLOAT,"
+    "   FOREIGN KEY (country_id)" 
+    "       REFERENCES country(id)"
+    ") ENGINE=InnoDB")
+
+tables['country_profile'] = (
+    "CREATE TABLE country_profile ("
+    "   country_id INT NOT NULL,"
+    "   survey_name VARCHAR(300),"
+    "   cws_id INT,"
+    "   esas_id INT,"
+    "   cwas_id INT,"
+    "   upcr_id INT,"
+    "   FOREIGN KEY (country_id)"
+    "       REFERENCES country(id)"
+    "       ON DELETE CASCADE"
+    "       ON UPDATE CASCADE,"
+    "   FOREIGN KEY (cws_id)"
+    "       REFERENCES cws(id)"
+    "       ON DELETE CASCADE"
+    "       ON UPDATE CASCADE,"
+    "   FOREIGN KEY (esas_id)"
+    "       REFERENCES esas(id)"
+    "       ON DELETE CASCADE"
+    "       ON UPDATE CASCADE,"
+    "   FOREIGN KEY (cwas_id)"
+    "       REFERENCES cwas(id)"
+    "       ON DELETE CASCADE"
+    "       ON UPDATE CASCADE,"
+    "   FOREIGN KEY (upcr_id)" 
+    "       REFERENCES upcr(id)"
+    "       ON DELETE CASCADE"
+    "       ON UPDATE CASCADE,"
+    "   CONSTRAINT pk_id_sur PRIMARY KEY (country_id, survey_name)"
+    ") ENGINE = InnoDB")
+
 def connect():
     Error  = ""
     # Connect to MySQL database
