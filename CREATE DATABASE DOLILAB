@@ -1,18 +1,20 @@
 
+    CREATE DATABASE DOLILAB;
+
     CREATE  TABLE country (
        id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
        name VARCHAR(45)
-    ) ENGINE=InnoDB)
+    ) ENGINE=InnoDB;
 
     CREATE  TABLE good (
        id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
        name VARCHAR(45)
-    ) ENGINE=InnoDB)
+    ) ENGINE=InnoDB;
 
     CREATE  TABLE product (
        id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
        name VARCHAR(45)
-    ) ENGINE=InnoDB)  
+    ) ENGINE=InnoDB;  
 
     CREATE  TABLE clflproducts (
        id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
@@ -27,7 +29,7 @@
            REFERENCES product(id)
            ON DELETE CASCADE
            ON UPDATE CASCADE
-    ) ENGINE=InnoDB)
+    ) ENGINE=InnoDB;
 
     CREATE  TABLE clflgoods (
        id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
@@ -44,7 +46,7 @@
            REFERENCES good(id)
            ON DELETE CASCADE
            ON UPDATE CASCADE
-    ) ENGINE=InnoDB)
+    ) ENGINE=InnoDB;
 
     CREATE  TABLE cws (
        id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
@@ -58,7 +60,7 @@
        industry FLOAT,
        FOREIGN KEY (country_id) 
            REFERENCES country(id)
-    ) ENGINE=InnoDB
+    ) ENGINE=InnoDB;
 
     CREATE  TABLE esas (
        id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
@@ -68,7 +70,7 @@
        percentage FLOAT,
        FOREIGN KEY (country_id) 
            REFERENCES country(id)
-    ) ENGINE=InnoDB
+    ) ENGINE=InnoDB;
 
     CREATE  TABLE cwas (
        id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
@@ -78,7 +80,7 @@
        total FLOAT,
        FOREIGN KEY (country_id) 
            REFERENCES country(id)
-   ) ENGINE=InnoDB
+   ) ENGINE=InnoDB;
 
     CREATE  TABLE upcr (
        id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
@@ -87,7 +89,7 @@
        rate FLOAT,
        FOREIGN KEY (country_id) 
            REFERENCES country(id)
-    ) ENGINE=InnoDB
+    ) ENGINE=InnoDB;
 
     CREATE TABLE country_profile (
        country_id INT NOT NULL,
@@ -117,4 +119,4 @@
            ON DELETE CASCADE
            ON UPDATE CASCADE,
        CONSTRAINT pk_id_sur PRIMARY KEY (country_id, survey_name)
-    ) ENGINE = InnoDB
+    ) ENGINE = InnoDB;
