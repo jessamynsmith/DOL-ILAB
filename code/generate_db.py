@@ -4,29 +4,31 @@ import mysql.connector
 import generate_products 
 import generate_goods 
 
+global db_name
 db_name = 'DOLILAB'
 
+global tables 
 tables = {}
  
-tables['country'] = (
+tables[0] = (
     "CREATE  TABLE country ("
     "   id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,"
     "   name VARCHAR(45)"
     ") ENGINE=InnoDB")
 
-tables['good'] = (
+tables[1] = (
     "CREATE  TABLE good ("
     "   id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,"
     "   name VARCHAR(45)"
     ") ENGINE=InnoDB")
 
-tables['product'] = (
+tables[2] = (
     "CREATE  TABLE product ("
     "   id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,"
     "   name VARCHAR(45)"
     ") ENGINE=InnoDB")  
 
-tables['clflproducts'] = (
+tables[3] = (
     "CREATE  TABLE clflproducts ("
     "   id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,"
     "   year INT NOT NULL," 
@@ -42,7 +44,7 @@ tables['clflproducts'] = (
     "       ON UPDATE CASCADE"
     ") ENGINE=InnoDB")
 
-tables['clflgoods'] = (
+tables[4] = (
     "CREATE  TABLE clflgoods ("
     "   id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,"
     "   year INT NOT NULL," 
@@ -60,7 +62,7 @@ tables['clflgoods'] = (
     "       ON UPDATE CASCADE"
     ") ENGINE=InnoDB")
 
-tables['cws'] = (
+tables[5] = (
     "CREATE  TABLE cws ("
     "   id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,"
     "   country_id INT,"
@@ -75,7 +77,7 @@ tables['cws'] = (
     "       REFERENCES country(id)"
     ") ENGINE=InnoDB")
 
-tables['esas'] = (
+tables[6] = (
     "CREATE  TABLE esas ("
     "   id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,"
     "   country_id INT,"
@@ -86,7 +88,7 @@ tables['esas'] = (
     "       REFERENCES country(id)"
     ") ENGINE=InnoDB")
 
-tables['cwas'] = (
+tables[7] = (
     "CREATE  TABLE cwas ("
     "   id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,"
     "   country_id INT,"
@@ -97,7 +99,7 @@ tables['cwas'] = (
     "       REFERENCES country(id)"
     ") ENGINE=InnoDB")
 
-tables['upcr'] = (
+tables[8] = (
     "CREATE  TABLE upcr ("
     "   id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,"
     "   country_id INT,"
@@ -107,7 +109,7 @@ tables['upcr'] = (
     "       REFERENCES country(id)"
     ") ENGINE=InnoDB")
 
-tables['country_profile'] = (
+tables[9] = (
     "CREATE TABLE country_profile ("
     "   country_id INT NOT NULL,"
     "   survey_name VARCHAR(300),"
@@ -134,8 +136,7 @@ tables['country_profile'] = (
     "   FOREIGN KEY (upcr_id)" 
     "       REFERENCES upcr(id)"
     "       ON DELETE CASCADE"
-    "       ON UPDATE CASCADE,"
-    "   CONSTRAINT pk_id_sur PRIMARY KEY (country_id, survey_name)"
+    "       ON UPDATE CASCADE"
     ") ENGINE = InnoDB")
 
 def connect():
@@ -163,10 +164,9 @@ def create_database(cursor):
 
 def create_tables(cursor):
     # Creating tables in ILAB Database 
-    success = 0
     for name, ddl in tables.iteritems():
         try:
-            print("Creating table {}: ".format(name))
+            #print("Creating table {}: ".format(name))
             #cursor.execute("DROP TABLE IF EXISTS {%s}", name) 
             cursor.execute(ddl)
         except mysql.connector.Error as err:
@@ -238,7 +238,7 @@ def insert_clflproduct(cursor, product):
     p_id = int(get_product_id(cursor, p))
   
     add_clflproduct = ("INSERT INTO clflproducts (year, country_id, product_id) VALUES ('%d', '%d', '%d')" % (yr, cy_id, p_id))
-    print add_clflproduct
+    #print add_clflproduct
 
     cursor.execute(add_clflproduct)
     #print add_clflproduct, "\n"
@@ -265,6 +265,7 @@ if __name__ == '__main__':
     cursor = conn.cursor()
 
     create_database(cursor)
+
     create_tables(cursor)
 
     goods_list = generate_goods.get_goods_from_excel()                             # Extract goods from Excel spreadsheet
