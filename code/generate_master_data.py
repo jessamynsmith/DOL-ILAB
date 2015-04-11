@@ -41,8 +41,8 @@ def get_master_data_from_excel():
 	    md[UPCR+' : Year'] = row_values[17]
 	    md[UPCR+' : Rate'] = row_values[18]
 	    md_list.append(md)
-	    print str(rownum)
-	    print md
+	    #print str(rownum)
+	    #print md
 	return md_list
 
 

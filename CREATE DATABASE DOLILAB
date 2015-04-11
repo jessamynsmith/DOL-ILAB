@@ -55,9 +55,9 @@
        survey_source VARCHAR(20),
        age_range VARCHAR(6),
        total_child_pop INT,
-       agriculture FLOAT,
-       services FLOAT,
-       industry FLOAT,
+       cws_agriculture FLOAT,
+       cws_services FLOAT,
+       cws_industry FLOAT,
        FOREIGN KEY (country_id) 
            REFERENCES country(id)
     ) ENGINE=InnoDB;

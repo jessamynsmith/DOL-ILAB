@@ -71,9 +71,11 @@ tables[5] = (
     "   survey_source VARCHAR(20),"
     "   age_range VARCHAR(6),"
     "   total_child_pop INT,"
-    "   agriculture FLOAT,"
-    "   services FLOAT,"
-    "   industry FLOAT,"
+    "   total_percentage_working_children FLOAT,"
+    "   total_working_population INT,"
+    "   cws_agriculture FLOAT,"
+    "   cws_services FLOAT,"
+    "   cws_industry FLOAT,"
     "   FOREIGN KEY (country_id)" 
     "       REFERENCES country(id)"
     ") ENGINE=InnoDB")
@@ -140,6 +142,13 @@ tables[9] = (
     "       ON UPDATE CASCADE,"
     "   CONSTRAINT pk_id_sur PRIMARY KEY (country_id, survey_name)"
     ") ENGINE = InnoDB")
+
+CWS = '''Children's Work Statistics'''
+ESAS = "Education Statistics: Attendance Statistics"
+CWAS = "Children Working and Studying (7-14 yrs old)"
+UPCR = "UNESCO Primary Completion Rate"
+empty_brackets = '''""'''
+brace = '''"'''
 
 def connect():
     Error  = ""
@@ -260,10 +269,95 @@ def insert_clflgood(cursor, good):
     #print add_clflgood, "\n"
     return
 
+def empty(x):
+    retval = False
+
+    if x == None:
+        retval = True
+
+    if (type(x) == type(str())) or (type(x) == type(unicode())): 
+        if len(x) == 0:
+            retval = True
+
+    return retval
+
+def bracket(x):
+    retval = x
+
+    if (type(x)==type(unicode())):
+        retval = brace + x + brace
+
+    if (type(x)==type(str())):
+        x = str(x).strip()
+        if (x[0] == "'") and (x[len(x)-1] == "'"):
+            retval = x
+        else:
+            if (x[0] == '''"''') and (x[len(x)-1] == '''"'''):
+                retval = x
+            else:
+                retval = brace + x + brace
+    
+    return retval
+
+def insert_master_data(cursor, entry):
+
+        print "entry ", entry, "\n"
+        cty = entry['Country']
+        cty_id = int(get_country_id(cursor, cty))
+        survey_name = (bracket(entry['Survey Name']) if (not empty(entry['Survey Name'])) else empty_brackets)
+        cws_year = (bracket(entry[CWS+' : Year']) if (not empty(entry[CWS+' : Year'])) else empty_brackets)
+        cws_survey_source = (bracket(entry[CWS+' : Survey Source']) if (not empty(entry[CWS+' : Survey Source'])) else empty_brackets)
+        cws_age_range = (bracket(entry[CWS+' : Age Range']) if (not empty(entry[CWS+' : Age Range'])) else empty_brackets)
+        cws_tcp = (int(entry[CWS+' : Total Child Population']) if (not empty(entry[CWS+' : Total Child Population'])) else int(0))
+        cws_twc = (float(entry[CWS+' : Total % of Working Children']) if (not empty(entry[CWS+' : Total % of Working Children'])) else float(0.0))
+        cws_twp = (int(entry[CWS+' : Total Working Population'])  if (not empty(entry[CWS+' : Total Working Population'])) else int(0))
+        cws_a = (float(entry[CWS+' : Agriculture']) if (not empty(entry[CWS+' : Agriculture'])) else float(0.0))
+        cws_s = (float(entry[CWS+' : Service']) if (not empty(entry[CWS+' : Service'])) else float(0.0))
+        cws_i = (float(entry[CWS+' : Industry']) if (not empty(entry[CWS+' : Industry'])) else float(0.0))
+        esas_year = (bracket(entry[ESAS+' : Year']) if (not empty(entry[ESAS+' : Year'])) else empty_brackets)
+        esas_age_range = (bracket(entry[ESAS+' : Age Range']) if (not empty(entry[ESAS+' : Age Range'])) else empty_brackets)
+        esas_p = (float(entry[ESAS+' : %'])  if (not empty(entry[ESAS+' : %'])) else float(0.0))
+        cwas_year = (bracket(entry[CWAS+' : Year']) if (not empty(entry[CWAS+' : Year'])) else empty_brackets)
+        cwas_age_range = (bracket(entry[CWAS+' : Age Range']) if (not empty(entry[CWAS+' : Age Range'])) else empty_brackets)
+        cwas_total = (float(entry[CWAS+' : Total'])  if (not empty(entry[CWAS+' : Total'])) else float(0.0))
+        upcr_year = (entry[UPCR+' : Year'] if (not empty(entry[UPCR+' : Year'])) else empty_brackets)
+        upcr_rate = (entry[UPCR+' : Rate'] if (not empty(entry[UPCR+' : Rate'])) else empty_brackets) 
+
+        #Insert into CWS     
+        add_cws = ("INSERT INTO cws (country_id, year, survey_source, age_range, total_child_pop, total_percentage_working_children, total_working_population, cws_agriculture, cws_services, cws_industry) VALUES (%d, %s, %s, %s, %d, %.1f, %d, %.1f, %.1f, %.1f)") % (cty_id, cws_year, cws_survey_source, cws_age_range, cws_tcp, cws_twc, cws_twp, cws_a, cws_s, cws_i)
+        cursor.execute(add_cws)
+        cws_id = cursor.lastrowid
+    
+        #Insert into ESAS
+        add_esas = ("INSERT INTO esas (country_id, year, age_range, percentage) VALUES ('%d', '%s', '%s', '%.1f')") % (cty_id, esas_year, esas_age_range, esas_p)
+        cursor.execute(add_esas)
+        esas_id = cursor.lastrowid
+
+        #Insert into CWAS
+        add_cwas = ("INSERT INTO cwas (country_id, year, age_range, total) VALUES (%d, %s, %s, %.1f)") % (cty_id, cwas_year, cwas_age_range, cwas_total)
+        cursor.execute(add_cwas)
+        cwas_id = cursor.lastrowid
+        
+        #Insert into UPCR
+        add_upcr = ("INSERT INTO upcr (country_id, year, rate) VALUES (%d, %s, %s)") % (cty_id, upcr_year, upcr_rate)
+        cursor.execute(add_upcr)
+        upcr_id = cursor.lastrowid
+
+        #Insert into country_profile 
+        add_country_profile = ("INSERT INTO country_profile (country_id, survey_name, cws_id, esas_id, cwas_id, upcr_id) VALUES (%d, %s, %d, %d, %d, %d)") % (cty_id, survey_name, cws_id, esas_id, cwas_id, upcr_id)
+        cursor.execute(add_country_profile)
+        
+        return
+
+
+
 if __name__ == '__main__':  
     # Build MySQL Infrastructure
+
+    global conn
     conn = connect()
 
+    global cursor
     cursor = conn.cursor()
 
     create_database(cursor)
@@ -273,35 +367,48 @@ if __name__ == '__main__':
     goods_list = generate_goods.get_goods_from_excel()                             # Extract goods from Excel spreadsheet
     goods = sorted(remove_duplicates(generate_goods.get_goods(goods_list)))                # Get list of goods
     gcountries = generate_products.get_countries(goods_list)                          # Get countries mentioned in the list of goods 
-    #print "Goods: ", goods, ".\n Length: ", len(goods), "\n"
+    ##print "Goods: ", goods, ".\n Length: ", len(goods), "\n"
 
     products_list = generate_products.get_products_from_excel()                       # Extract products from Excel spreadsheet
     products = sorted(remove_duplicates(generate_products.get_products(products_list)))       # Get list of products
     pcountries = generate_products.get_countries(products_list)                       # Get countries mentioned in the list of products
-    #print "Products: ", products, ".\n Length: ", len(products), "\n"
+    ##print "Products: ", products, ".\n Length: ", len(products), "\n"
+
+    #Get Master Data
+    master_data = generate_master_data.get_master_data_from_excel()
+    
+    mcountries = generate_products.get_countries(master_data) 
 
     # Sort countries and remove duplicates
-    countries = sorted(remove_duplicates(gcountries + pcountries))
+    countries = sorted(remove_duplicates(gcountries + pcountries + mcountries))
     #print "Countries: ", countries, ".\n Length: ", len(countries), "\n"
-    
+
+
+
+    # Insert entries into country table
     for country in countries:
         insert_country(cursor, country)
 
+    # Insert entries into good table
     for good in goods:
         insert_good(cursor, good)
 
+    # Insert entries in product table
     for product in products:
         insert_product(cursor, product)
 
+    # Insert entries in clflgood table
     for good in goods_list:
         insert_clflgood(cursor, good)
 
+    # Insert entries in clflproduct table
     for product in products_list:
         insert_clflproduct(cursor, product)
 
+    # Insert entries into master data tables
+    for entry in master_data:
+        insert_master_data(cursor, entry)
 
-    #for country in countries:
-    #    print str(get_country_id(country), " - ", str(country)
 
 
     conn.close()
