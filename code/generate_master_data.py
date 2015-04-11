@@ -48,7 +48,7 @@ def get_master_data_from_excel():
 
 def write_record(target, md):
 
-	print md, "\n"
+	#print md, "\n"
 
 	target.write("\t<Country>\n")
 
@@ -76,9 +76,9 @@ def write_record(target, md):
 	target.write("\t\t\t<Total_Percentage_of_Working_Children>")
 	target.write(str(md[CWS+' : Total % of Working Children']))
 	target.write("</Total_Percentage_of_Working_Children>\n")
-	target.write("\t\t\t<Total Working Population>")
+	target.write("\t\t\t<Total_Working_Population>")
 	target.write(str(md[CWS+' : Total Working Population']))
-	target.write("</Total Working Population>\n")
+	target.write("</Total_Working_Population>\n")
 	target.write("\t\t\t<Agriculture>")
 	target.write(str(md[CWS+' : Agriculture']))
 	target.write("</Agriculture>\n")
