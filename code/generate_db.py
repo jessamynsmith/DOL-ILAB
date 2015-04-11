@@ -301,7 +301,6 @@ def bracket(x):
 
 def insert_master_data(cursor, entry):
 
-        print "entry ", entry, "\n"
         cty = entry['Country']
         cty_id = int(get_country_id(cursor, cty))
         survey_name = (bracket(entry['Survey Name']) if (not empty(entry['Survey Name'])) else empty_brackets)

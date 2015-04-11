@@ -1,6 +1,6 @@
 
 -- Products By Country --
-<Products_List>
+<Product_List>
 	<Year>
 		<Year_Name></Year_Name>
 		<Country>
@@ -10,28 +10,32 @@
 			 	
 			</Products>
 		</Country>
+		...
 	</Year>
-</Products_List>
+	...
+</Product_List>
 
 
 -- Products By Product --
-<Products List>
+<Product_List>
 	<Year>
 		<Year_Name></Year_Name>
 		<Product>
 			<Product_Name> </Product_Name>
 			<Countries>
 			 	<Country_Name></Country_Name>
-			 	
+			 	...
 			</Countries>
 		</Product>
+		...
 	</Year>
-</Products_List>
+	...
+</Product_List>
 
 ----- GOODS
 
 -- Goods By Country --
-<Goods_List>
+<Good_List>
 	<Year>
 		<Year_Name> </Year_Name>
 		<Country>
@@ -42,13 +46,16 @@
 			 		<Child_Labor> </Child_Labor>
 			 		<Forced_Labor> </Forced_Labor>
 			 	</Good>
+			 	...
 			</Goods>
 		</Country>
+		...
 	</Year>
-</Products List>
+	...
+</Good_List>
 
 -- Goods By Good --
-<Goods_List>
+<Good_List>
 	<Year>
 		<Year_Name></Year_Name>
 		<Good>
@@ -58,45 +65,45 @@
 			 	<Child_Labor> </Child_Labor>
 			 	<Forced_Labor> </Forced_Labor>
 			</Country>
+			...
 		</Good>
+		...
 	</Year>
-</Goods_List>
+	...
+</Good_List>
 
 
 -- Master Data --
 
-
-<Country_Profile>
-
+<Master_Data>
+<Country>
 	<Name>  </Name>
 	<Survey_Name> </Survey_Name>
-	
 	<Childrens_Work_Statistics>
 		<Year> </Year>
 		<Survey_Source> </Survey_Source>
 		<Age_Range> </Age_Range>
 		<Total_Child_Population> </Total_Child_Population>
 		<Total_Percentage_of_Working_Children> </Total_Percentage_of_Working_Children>
+		<Total Working Population></Total Working Population>
 		<Agriculture> </Agriculture>
 		<Services> </Services>
 		<Industry> </Industry>
 	</Childrens_Work_Statistics>
-	
 	<Education_Statistics_Attendance_Statistics>
 		<Year> </Year>
 		<Age_Range> </Age_Range>
 		<Percentage> </Percentage>
 	</Education_Statistics_Attendance_Statistics>
-	
 	<Children_Work_And_Studying>
 		<Year> </Year>
 		<Age_Range> </Age_Range>
 		<Total></Total>
 	</Children_Work_And_Studying>
-
 	<Unesco_Primary_Completion_Rate>
 		<Year> </Year>
 		<Rate> </Rate>
 	</Unesco_Primary_Completion_Rate>
-
-</Country_Profile>
+</Country>
+...
+</Master_Data>

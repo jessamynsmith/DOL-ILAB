@@ -75,7 +75,7 @@ def xml_products_by_country(goods_list, filename):
 
 	# Write XML Header
 	target.write(xml_header+"\n")
-	target.write("<Product List>\n")
+	target.write("<Product_List>\n")
 	#print ("written to file")
 
 	# Sets of attributes
@@ -105,7 +105,7 @@ def xml_products_by_country(goods_list, filename):
 			target.write("\t\t</Country>\n")
 			countries.append(country)
 	target.write("\t</Year>\n")
-	target.write("</Product List>\n")
+	target.write("</Product_List>\n")
 	target.close()
 	#print "Closed file"
 
@@ -117,7 +117,7 @@ def xml_products_by_product(goods_list, filename):
 
 	# Write XML Header
 	target.write(xml_header+"\n")
-	target.write("<Product List>\n")
+	target.write("<Product_List>\n")
 	#print ("written to file")
 
 	# Sets of attributes
@@ -147,7 +147,7 @@ def xml_products_by_product(goods_list, filename):
 			target.write("\t\t</Product>\n")
 			products.append(good)
 	target.write("\t</Year>\n")
-	target.write("</Product List>\n")
+	target.write("</Product_List>\n")
 	target.close()
 	#print "Closed file"
 

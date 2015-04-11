@@ -76,14 +76,11 @@ def raw_dump_to_json(goods_list, fname):
 
 def xml_goods_by_country(goods_list, filename):
 	
-	target = open(filename, 'w')
-
-	# Wipe the file
-	target.truncate()
+	target = open(filename, 'w+')
 
 	# Write XML Header
 	target.write(xml_header+"\n")
-	target.write("<Goods List>\n")
+	target.write("<Goods_List>\n")
 
 	# Sets of attributes
 	yr = []
@@ -117,7 +114,7 @@ def xml_goods_by_country(goods_list, filename):
 			target.write("\t\t</Country>\n")
 			countries.append(country)
 	target.write("\t</Year>\n")
-	target.write("</Good List>\n")
+	target.write("</Good_List>\n")
 	target.close()
 	#print "Closed file"
 
@@ -127,7 +124,7 @@ def xml_goods_by_good(goods_list, filename):
 
 	# Write XML Header
 	target.write(xml_header+"\n")
-	target.write("<Good List>\n")
+	target.write("<Good_List>\n")
 	#print ("written to file")
 
 	# Sets of attributes
@@ -161,7 +158,7 @@ def xml_goods_by_good(goods_list, filename):
 			target.write("\t\t\t</Good>\n")
 			products.append(good)
 	target.write("\t</Year>\n")
-	target.write("</Good List>\n")
+	target.write("</Good_List>\n")
 	target.close()
 	#print "Closed file"
 

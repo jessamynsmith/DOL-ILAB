@@ -4,6 +4,7 @@ import xlrd
 from collections import OrderedDict
  
 source_filename = '../source_data/Master_Data_Table_for_TDA2014_30_jan_2015.xlsx' 
+
 xml_header = """<?xml version="1.0" encoding="UTF-8"?>"""
 
 CWS = '''Children's Work Statistics'''
@@ -45,8 +46,105 @@ def get_master_data_from_excel():
 	    #print md
 	return md_list
 
+def write_record(target, md):
+
+	print md, "\n"
+
+	target.write("\t<Country>\n")
+
+	target.write("\t\t<Name>")
+	target.write(md['Country'])
+	target.write("</Name>\n")
+
+	target.write("\t\t<Survey_Name>")
+	target.write((md['Survey Name']).encode('utf8') )
+	target.write("</Survey_Name>\n")
+
+	target.write("\t\t<Childrens_Work_Statistics>\n")
+	target.write("\t\t\t<Year>")
+	target.write(md[CWS+' : Year'])
+	target.write("</Year>\n")
+	target.write("\t\t\t<Survey_Score>")
+	target.write(md[CWS+' : Survey Source'])
+	target.write("</Survey_Score>\n")
+	target.write("\t\t\t<Age_Range>")
+	target.write(md[CWS+' : Age Range'])
+	target.write("</Age_Range>\n")
+	target.write("\t\t\t<Total_Child_Population>")
+	target.write(str(md[CWS+' : Total Child Population']))
+	target.write("</Total_Child_Population>\n")
+	target.write("\t\t\t<Total_Percentage_of_Working_Children>")
+	target.write(str(md[CWS+' : Total % of Working Children']))
+	target.write("</Total_Percentage_of_Working_Children>\n")
+	target.write("\t\t\t<Total Working Population>")
+	target.write(str(md[CWS+' : Total Working Population']))
+	target.write("</Total Working Population>\n")
+	target.write("\t\t\t<Agriculture>")
+	target.write(str(md[CWS+' : Agriculture']))
+	target.write("</Agriculture>\n")
+	target.write("\t\t\t<Service>")
+	target.write(str(md[CWS+' : Service']))
+	target.write("</Service>\n")
+	target.write("\t\t\t<Industry>")
+	target.write(str(md[CWS+' : Industry']))
+	target.write("</Industry>\n")
+	target.write("\t\t</Childrens_Work_Statistics>\n")
+
+	target.write("\t\t<Education_Statistics_Attendance_Statistics>\n")
+	target.write("\t\t\t<Year>")
+	md[ESAS+' : Year']
+	target.write("</Year>\n")
+	target.write("\t\t\t<Age_Range>")
+	md[ESAS+' : Age Range']
+	target.write("</Age_Range>\n")
+	target.write("\t\t\t<Percentage>")
+	md[ESAS+' : %']
+	target.write("</Percentage>\n")
+	target.write("\t\t</Education_Statistics_Attendance_Statistics>\n")
+
+	target.write("\t\t<Children_Work_And_Studying>\n")
+	target.write("\t\t\t<Year>")
+	md[CWAS+' : Year']
+	target.write("</Year>\n")
+	target.write("\t\t\t<Age_Range>")
+	md[CWAS+' : Age Range']
+	target.write("</Age_Range>\n")
+	target.write("\t\t\t<Total>")
+	md[CWAS+' : Total']
+	target.write("</Total>\n")
+	target.write("\t\t</Children_Work_And_Studying>\n")
+
+	target.write("\t\t<Unesco_Primary_Completion_Rate>\n")
+	target.write("\t\t\t<Year>")
+	md[UPCR+' : Year']
+	target.write("</Year>\n")
+	target.write("\t\t\t<Rate>")
+	md[UPCR+' : Rate']
+	target.write("</Rate>\n")
+	target.write("\t\t</Unesco_Primary_Completion_Rate>\n")
+
+	target.write("\t</Country>\n")
+
+
+	return
+
+def xml_master_data(mlist, filename):
+
+	target = open(filename, 'w+')
+
+	# Write XML Header
+	target.write(xml_header+"\n")
+	target.write("<Master_Data>\n")
+
+	for country_record in mlist:
+		write_record(target, country_record)
+
+	target.write("</Master_Data>\n")
+	target.close()
+	return
 
 if __name__ == '__main__':
 	mdlist = get_master_data_from_excel()
 	#print mdlist
+	xml_master_data(mdlist, "../output/master_data_by_country.xml")
 
