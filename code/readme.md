@@ -1,3 +1,18 @@
+# DOL-ILAB Data Manipulation for Bureau for International Labor Affairs
+
+This effort uses Python.
+
+The sample code in the code folder enables the processing of the data in the goods.xls (and products.xls) into an array of goods (and products).
+	
+generate_good.py does the conversion from XL to a goods_list. It also creates XML files located in the output folder (ordered by country or by good). It also produces a raw dump of the XL sheet into JSON.
+
+generate_product.py does the same thing as generate_good.py but for products
+
+generate_db generates a MySQL db and dump the countries, goods and products into it. This is ongoing work. The mappings will be dumped next. 
+	
+The difference between goods and products is a legsilative one. Products are defined those things that the Bureau are 100% sure involve forced labor.
+
+XML Formats are:
 
 -- Products By Country --
 <Product_List>
