@@ -114,7 +114,8 @@ tables[8] = (
 
 tables[9] = (
     "CREATE TABLE country_profile ("
-    "   country_id INT NOT NULL,"
+    "   year INT NOT NULL," 
+    "   country_id INT NOT NULL," 
     "   survey_name VARCHAR(300),"
     "   cws_id INT,"
     "   esas_id INT,"
@@ -301,6 +302,7 @@ def bracket(x):
 
 def insert_master_data(cursor, entry):
 
+        e_year = entry['Year']
         cty = entry['Country']
         cty_id = int(get_country_id(cursor, cty))
         survey_name = (bracket(entry['Survey Name']) if (not empty(entry['Survey Name'])) else empty_brackets)
@@ -343,7 +345,7 @@ def insert_master_data(cursor, entry):
         upcr_id = cursor.lastrowid
 
         #Insert into country_profile 
-        add_country_profile = ("INSERT INTO country_profile (country_id, survey_name, cws_id, esas_id, cwas_id, upcr_id) VALUES (%d, %s, %d, %d, %d, %d)") % (cty_id, survey_name, cws_id, esas_id, cwas_id, upcr_id)
+        add_country_profile = ("INSERT INTO country_profile (year, country_id, survey_name, cws_id, esas_id, cwas_id, upcr_id) VALUES (%d, %d, %s, %d, %d, %d, %d)") % (e_year, cty_id, survey_name, cws_id, esas_id, cwas_id, upcr_id)
         cursor.execute(add_country_profile)
         
         return

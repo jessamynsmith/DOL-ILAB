@@ -76,34 +76,38 @@
 -- Master Data --
 
 <Master_Data>
-<Country>
-	<Name>  </Name>
-	<Survey_Name> </Survey_Name>
-	<Childrens_Work_Statistics>
-		<Year> </Year>
-		<Survey_Source> </Survey_Source>
-		<Age_Range> </Age_Range>
-		<Total_Child_Population> </Total_Child_Population>
-		<Total_Percentage_of_Working_Children> </Total_Percentage_of_Working_Children>
-		<Total_Working_Population></Total_Working_Population>
-		<Agriculture> </Agriculture>
-		<Services> </Services>
-		<Industry> </Industry>
-	</Childrens_Work_Statistics>
-	<Education_Statistics_Attendance_Statistics>
-		<Year> </Year>
-		<Age_Range> </Age_Range>
-		<Percentage> </Percentage>
-	</Education_Statistics_Attendance_Statistics>
-	<Children_Work_And_Studying>
-		<Year> </Year>
-		<Age_Range> </Age_Range>
-		<Total></Total>
-	</Children_Work_And_Studying>
-	<Unesco_Primary_Completion_Rate>
-		<Year> </Year>
-		<Rate> </Rate>
-	</Unesco_Primary_Completion_Rate>
-</Country>
-...
+	<Year>
+		<Year_Name> </Year_Name>
+		<Country>
+			<Name>  </Name>
+			<Survey_Name> </Survey_Name>
+			<Childrens_Work_Statistics>
+				<Year> </Year>
+				<Survey_Source> </Survey_Source>
+				<Age_Range> </Age_Range>
+				<Total_Child_Population> </Total_Child_Population>
+				<Total_Percentage_of_Working_Children> </Total_Percentage_of_Working_Children>
+				<Total_Working_Population></Total_Working_Population>
+				<Agriculture> </Agriculture>
+				<Services> </Services>
+				<Industry> </Industry>
+			</Childrens_Work_Statistics>
+			<Education_Statistics_Attendance_Statistics>
+				<Year> </Year>
+				<Age_Range> </Age_Range>
+				<Percentage> </Percentage>
+			</Education_Statistics_Attendance_Statistics>
+			<Children_Work_And_Studying>
+				<Year> </Year>
+				<Age_Range> </Age_Range>
+				<Total></Total>
+			</Children_Work_And_Studying>
+			<Unesco_Primary_Completion_Rate>
+				<Year> </Year>
+				<Rate> </Rate>
+			</Unesco_Primary_Completion_Rate>
+		</Country>
+		...
+	</Year>
+	...
 </Master_Data>
