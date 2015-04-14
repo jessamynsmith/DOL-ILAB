@@ -6,7 +6,7 @@ sourcepath = "../source_data/countries/docx/"
 targetpath = "../source_data/countries/html/"
 fullstop = "."
 html_ext =".html"
-abiword_cmd = "abiword -t "
+abiword_cmd = "/Applications/abiword -t "
 
 
 def convert_doc_to_html(filename):
