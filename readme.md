@@ -1,6 +1,12 @@
 # DOL-ILAB Data Manipulation for Bureau for International Labor Affairs
 
-This effort uses Python.
+The development language is Python. The core data standard used is XML. MySQL is the database used.
+
+The mission of this project is to convert the data provided by the Office of Forced and Child Labor (in DOL), hereafter called OFCL) to machine-readable forms. 
+
+The data provided by OFCL is:
+- Three excel spreadsheets, which contains 1) goods, 2) products, 3) master data for the countries monitored by OFCL
+- Around 150 Word documents that describe information on the countries that the office monitors.
 
 The sample code in the code folder enables the processing of the data in the goods.xls (and products.xls) into an array of goods (and products).
 	
