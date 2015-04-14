@@ -141,10 +141,13 @@ def xml_master_data(mlist, filename):
 
 	target.write("</Master_Data>\n")
 	target.close()
+
 	return
 
 if __name__ == '__main__':
+	
 	mdlist = get_master_data_from_excel()
 	#print mdlist
+	
 	xml_master_data(mdlist, "../output/master_data_by_country.xml")
 
