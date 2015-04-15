@@ -1,6 +1,6 @@
 # DOL-ILAB Data Manipulation for Bureau for International Labor Affairs
 
-The development language is Python. The core data standard used is XML. MySQL is the database used.
+The development language is Python 2.7.9. The core data standard used is XML. MySQL is the database used.
 
 The mission of this project is to convert the data provided by the Office of Forced and Child Labor (in DOL), hereafter called OFCL) to machine-readable forms. 
 
