@@ -467,5 +467,3 @@ class Parser:
 
     self.check_country(country_details)
     return country_details
-
-Parser()
