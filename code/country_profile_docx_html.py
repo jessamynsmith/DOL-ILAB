@@ -2,8 +2,8 @@ from os import listdir
 from os.path import isfile, join
 import commands
 
-sourcepath = "../source_data/countries/docx/"
-targetpath = "../source_data/countries/html/"
+sourcepath = "../source_data/countries/2013/docx/"
+targetpath = "../source_data/countries/2013/html/"
 fullstop = "."
 html_ext =".html"
 abiword_cmd = "/Applications/abiword -t "
@@ -21,6 +21,7 @@ def convert_doc_to_html(filename):
 	out = commands.getoutput(convert_state)
 
 	return
+
 
 def convert_all():
 
