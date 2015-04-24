@@ -28,11 +28,7 @@ tables["synonyms"] = (
     "CREATE  TABLE synonyms ("
     "   id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,"
     "	name VARCHAR(30),"
-    "   code VARCHAR(3)"
-#    "   FOREIGN KEY (ccode)" 
-#    "       REFERENCES country(code)"
-#    "       ON DELETE CASCADE"
-#    "       ON UPDATE CASCADE"
+    "   iso2 VARCHAR(3)"
     ") ENGINE=InnoDB")
 
 def get_countries_from_excel():
@@ -68,8 +64,8 @@ def get_synonyms_from_excel():
 		cset = rvalues[1].split(delimiter)
 		for cs in cset:
 			syn = OrderedDict()
-			syn['Country'] = cs
-			syn['Code'] = value
+			syn['Country'] = cs.strip()
+			syn['ISO2'] = value.strip()
 			syns_list.append(syn)
 	
 	return syns_list
@@ -124,8 +120,8 @@ def insert_country(cursor, c):
 
 def insert_synonym(cursor, s):
     n = s['Country']
-    nc = s['Code']
-    add_syn = ("INSERT INTO synonyms (name, code) VALUES (%s, %s)" )
+    nc = s['ISO2']
+    add_syn = ("INSERT INTO synonyms (name, iso2) VALUES (%s, %s)" )
     cursor.execute(add_syn, (n, nc))
     #print add_country
     return
