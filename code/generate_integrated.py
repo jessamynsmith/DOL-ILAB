@@ -194,8 +194,8 @@ if __name__ == '__main__':
 
 	full_list = build()
 
-	to_xml_by_country(full_list, "../output/all_goods_2013_by_country.xml")
-	to_xml_by_good(full_list,"../output/all_goods_2013_by_good.xml")
+	to_xml_by_country(full_list, "../output/extra/all_goods_2013_by_country.xml")
+	to_xml_by_good(full_list,"../output/extra/all_goods_2013_by_good.xml")
 
 
 	

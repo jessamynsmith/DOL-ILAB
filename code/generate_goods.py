@@ -164,21 +164,21 @@ def to_xml_by_good(goods_list, filename):
 
 if __name__ == '__main__':
 	glist = from_excelsheet(0)
-	to_xml_by_country(glist, "../output/goods_2013_by_country.xml")
-	to_xml_by_good(glist,"../output/goods_2013_by_good.xml")
+	to_xml_by_country(glist, "../output/extra/goods_2013_by_country.xml")
+	to_xml_by_good(glist,"../output/extra/goods_2013_by_good.xml")
 
 	glist = from_excelsheet(1)
-	to_xml_by_country(glist, "../output/goods_2012_by_country.xml")
-	to_xml_by_good(glist,"../output/goods_2012_by_good.xml")
+	to_xml_by_country(glist, "../output/extra/goods_2012_by_country.xml")
+	to_xml_by_good(glist,"../output/extra/goods_2012_by_good.xml")
 
 	glist = from_excelsheet(2)
-	to_xml_by_country(glist, "../output/goods_2011_by_country.xml")
-	to_xml_by_good(glist,"../output/goods_2011_by_good.xml")
+	to_xml_by_country(glist, "../output/extra/goods_2011_by_country.xml")
+	to_xml_by_good(glist,"../output/extra/goods_2011_by_good.xml")
 
 	glist = from_excelsheet(3)
-	to_xml_by_country(glist, "../output/goods_2010_by_country.xml")
-	to_xml_by_good(glist,"../output/goods_2010_by_good.xml")
+	to_xml_by_country(glist, "../output/extra/goods_2010_by_country.xml")
+	to_xml_by_good(glist,"../output/extra/goods_2010_by_good.xml")
 
 	glist = from_excelsheet(4)
-	to_xml_by_country(glist, "../output/goods_2009_by_country.xml")
-	to_xml_by_good(glist,"../output/goods_2009_by_good.xml")
+	to_xml_by_country(glist, "../output/extra/goods_2009_by_country.xml")
+	to_xml_by_good(glist,"../output/extra/goods_2009_by_good.xml")
