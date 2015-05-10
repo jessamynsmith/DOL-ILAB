@@ -6,7 +6,7 @@ import mysql.connector
 
 brackets = '''"'''
 delimiter = ";"
-source_filename = '../data/Countries_and_ISOs_April_21_2015.xlsx' 
+source_filename = '../source_data/ISO_Countries/Countries_and_ISOs_April_21_2015.xlsx' 
 
 
 global db_name, tables, syns
@@ -17,7 +17,7 @@ syns = []
 tables["country"] = (
     "CREATE  TABLE country ("
     "   id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,"
-    "	name VARCHAR(30),"
+    "	name VARCHAR(100),"
     "	iso2 VARCHAR(2),"
     "	iso3 VARCHAR(3),"
     "   code VARCHAR(3),"
@@ -27,7 +27,7 @@ tables["country"] = (
 tables["synonyms"] = (
     "CREATE  TABLE synonyms ("
     "   id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,"
-    "	name VARCHAR(30),"
+    "	name VARCHAR(100),"
     "   iso2 VARCHAR(3)"
     ") ENGINE=InnoDB")
 

@@ -1,9 +1,5 @@
-
-
-import xlrd
 from collections import OrderedDict
- 
-source_filename = '../source_data/Master_Data_Table_for_TDA2014_30_jan_2015.xlsx' 
+import generate_master_data, add_iso2_to_goods_and_products
 
 xml_header = """<?xml version="1.0" encoding="UTF-8"?>"""
 
@@ -13,39 +9,58 @@ CWAS = "Children Working and Studying (7-14 yrs old)"
 UPCR = "UNESCO Primary Completion Rate"
 
 
-def from_excelsheet(sheetno):
-	# Open the workbook and select the first worksheet
-	wb = xlrd.open_workbook(source_filename)
-	sh = wb.sheet_by_index(sheetno)
-	md_list = []
-	# Iterate through each row in worksheet 
-	for rownum in range(3, sh.nrows):
-	    md = OrderedDict()
-	    row_values = sh.row_values(rownum)
-	    md['Year'] = row_values[0]
-	    md['Country'] = str(row_values[1]).strip()
-	    md['Survey Name'] = row_values[2]
-	    md[CWS+' : Year'] = str(row_values[3]).strip()
-	    md[CWS+' : Survey Source'] = str(row_values[4]).strip()
-	    md[CWS+' : Age Range'] = str(row_values[5]).strip()
-	    md[CWS+' : Total Child Population'] = row_values[6]
-	    md[CWS+' : Total % of Working Children'] = row_values[7]
-	    md[CWS+' : Total Working Population'] = row_values[8]
-	    md[CWS+' : Agriculture'] = row_values[9]
-	    md[CWS+' : Service'] = row_values[10]
-	    md[CWS+' : Industry'] = row_values[11]
-	    md[ESAS+' : Year'] = row_values[12]
-	    md[ESAS+' : Age Range'] = str(row_values[13]).strip()
-	    md[ESAS+' : %'] = row_values[14]
-	    md[CWAS+' : Year'] = str(row_values[15]).strip()
-	    md[CWAS+' : Age Range'] = str(row_values[16]).strip()
-	    md[CWAS+' : Total'] = row_values[17]
-	    md[UPCR+' : Year'] = row_values[18]
-	    md[UPCR+' : Rate'] = row_values[19]
-	    md_list.append(md)
-	    #print str(rownum)
-	    #print md
-	return md_list
+def get_good_set(goods, year, iso2):
+
+	outer = []
+
+	if iso2 != -1:
+		for n in range(0, len(goods)):
+			inner = []
+			if (goods[n]['Year'] == int(year)) and (goods[n]['ISO2'].strip() == iso2.strip()):
+				inner.append(goods[n]['Good'])
+				inner.append(goods[n]['Child Labor'])
+				inner.append(goods[n]['Forced Labor'])
+				inner.append(goods[n]['Forced Child Labor'])
+				outer.append(inner)
+	
+	return outer
+
+
+
+def master_with_all_goods(mdlist, goods):
+
+	outlist = []
+
+	for m in mdlist:
+		md = OrderedDict()
+		md['Year'] = m['Year']
+		md['Country'] = m['Country']
+		md['ISO2'] = add_iso2_to_goods_and_products.get_ISO2(md['Country'])
+		if md['ISO2'] == -1:
+			print "ISO2 code not found for", md['Country']
+		md['Goods'] = get_good_set(goods, md['Year'], md['ISO2'])
+		md['Survey Name'] = m['Survey Name']
+		md[CWS+' : Year'] = m[CWS+' : Year']
+		md[CWS+' : Survey Source'] = m[CWS+' : Survey Source']
+		md[CWS+' : Age Range'] = m[CWS+' : Age Range']
+		md[CWS+' : Total Child Population'] = m[CWS+' : Total Child Population']
+		md[CWS+' : Total % of Working Children'] = m[CWS+' : Total % of Working Children']
+		md[CWS+' : Total Working Population'] = m[CWS+' : Total Working Population']
+		md[CWS+' : Agriculture'] = m[CWS+' : Agriculture']
+		md[CWS+' : Service'] = m[CWS+' : Service']
+		md[CWS+' : Industry'] = m[CWS+' : Industry']
+		md[ESAS+' : Year'] = m[ESAS+' : Year']
+		md[ESAS+' : Age Range'] = m[ESAS+' : Age Range']
+		md[ESAS+' : %'] = m[ESAS+' : %']
+		md[CWAS+' : Year'] = m[CWAS+' : Year']
+		md[CWAS+' : Age Range'] = m[CWAS+' : Age Range']
+		md[CWAS+' : Total'] = m[CWAS+' : Total']
+		md[UPCR+' : Year'] = m[UPCR+' : Year']
+		md[UPCR+' : Rate'] = m[UPCR+' : Rate']
+		outlist.append(md)
+
+	return outlist
+
 
 def write_record(target, md):
 
@@ -56,6 +71,32 @@ def write_record(target, md):
 	target.write("\t\t\t<Name>")
 	target.write(md['Country'])
 	target.write("</Name>\n")
+
+	target.write("\t\t\t<ISO2>")
+	target.write(md['ISO2'])
+	target.write("</ISO2>\n")
+
+	goods = md['Goods']
+
+	target.write("\t\t\t<Good_List>\n")
+
+	for good in goods:
+		target.write("\t\t\t\t<Good>\n")
+		target.write("\t\t\t\t\t<Good_Name>")
+		target.write(good[0].strip())
+		target.write("</Good_Name>\n")
+		target.write("\t\t\t\t\t<Child_Labor>")
+		target.write(good[1].strip())
+		target.write("</Child_Labor>\n")	
+		target.write("\t\t\t\t\t<Forced_Labor>")
+		target.write(good[2].strip())
+		target.write("</Forced_Labor>\n")	
+		target.write("\t\t\t\t\t<Forced_Child_Labor>")
+		target.write(good[3].strip())
+		target.write("</Forced_Child_Labor>\n")	
+		target.write("\t\t\t\t</Good>\n")
+
+	target.write("\t\t\t</Good_List>\n")		
 
 	target.write("\t\t\t<Survey_Name>")
 	target.write((md['Survey Name']).encode('utf8') )
@@ -129,6 +170,7 @@ def write_record(target, md):
 
 	return
 
+
 def to_xml(mlist, filename):
 
 	target = open(filename, 'w+')
@@ -157,13 +199,23 @@ def to_xml(mlist, filename):
 
 
 def build():
-	mdl = from_excelsheet(0)	
-	return mdl
+
+	mdb = generate_master_data.build()
+	gdb = add_iso2_to_goods_and_products.build()
+
+	mdgd = master_with_all_goods(mdb, gdb)
+
+	return mdgd
 
 
 
-if __name__ == '__main__':
-	
-	mdlist = build()	
-	to_xml(mdlist, "../output/master_data_2013_by_country.xml")
+if __name__ == '__main__':  
+
+	newm = build()
+
+	to_xml(newm, "../output/master_data_ISO_2013_by_country.xml")
+
+
+
+
 

@@ -10,10 +10,10 @@ source_filename = '../source_data/goods.xls'
 xml_header = """<?xml version="1.0" encoding="UTF-8"?>"""
 
 
-def get_goods_from_excel():
+def from_excelsheet(sheetno):
 	# Open the workbook and select the first worksheet
 	wb = xlrd.open_workbook(source_filename)
-	sh = wb.sheet_by_index(0)
+	sh = wb.sheet_by_index(sheetno)
 	goods_list = []
 	# Iterate through each row in worksheet 
 	for rownum in range(1, sh.nrows):
@@ -59,7 +59,7 @@ def get_country_tuples_for_good(goods_list,good, yr):
 		r = goods_list[num]
 		y = int(r['Year'])
 		g = str(r['Good']).strip()
-		if (y == yr) and ( good == g):
+		if (y == yr) and ( good.upper() == g.upper()):
 			country_tuple['Country'] = str(r['Country']).strip()
 			country_tuple['Child Labor'] = str(r['Child Labor']).strip()
 			country_tuple['Forced Labor'] = str(r['Forced Labor']).strip()
@@ -74,7 +74,7 @@ def raw_dump_to_json(goods_list, fname):
 	    f.write(j)
 
 
-def xml_goods_by_country(goods_list, filename):
+def to_xml_by_country(goods_list, filename):
 	
 	target = open(filename, 'w+')
 
@@ -118,7 +118,7 @@ def xml_goods_by_country(goods_list, filename):
 	target.close()
 	#print "Closed file"
 
-def xml_goods_by_good(goods_list, filename):
+def to_xml_by_good(goods_list, filename):
 	
 	target = open(filename, 'w+')
 
@@ -163,7 +163,22 @@ def xml_goods_by_good(goods_list, filename):
 	#print "Closed file"
 
 if __name__ == '__main__':
-	glist = get_goods_from_excel()
-	xml_goods_by_country(glist, "../output/goods_by_country.xml")
-	xml_goods_by_good(glist,"../output/goods_by_good.xml")
+	glist = from_excelsheet(0)
+	to_xml_by_country(glist, "../output/goods_2013_by_country.xml")
+	to_xml_by_good(glist,"../output/goods_2013_by_good.xml")
 
+	glist = from_excelsheet(1)
+	to_xml_by_country(glist, "../output/goods_2012_by_country.xml")
+	to_xml_by_good(glist,"../output/goods_2012_by_good.xml")
+
+	glist = from_excelsheet(2)
+	to_xml_by_country(glist, "../output/goods_2011_by_country.xml")
+	to_xml_by_good(glist,"../output/goods_2011_by_good.xml")
+
+	glist = from_excelsheet(3)
+	to_xml_by_country(glist, "../output/goods_2010_by_country.xml")
+	to_xml_by_good(glist,"../output/goods_2010_by_good.xml")
+
+	glist = from_excelsheet(4)
+	to_xml_by_country(glist, "../output/goods_2009_by_country.xml")
+	to_xml_by_good(glist,"../output/goods_2009_by_good.xml")

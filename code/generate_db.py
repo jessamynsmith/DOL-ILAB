@@ -365,12 +365,12 @@ if __name__ == '__main__':
 
     create_tables(cursor)
 
-    goods_list = generate_goods.get_goods_from_excel()                             # Extract goods from Excel spreadsheet
+    goods_list = generate_goods.get_goods_from_excel(0)                             # Extract goods from Excel spreadsheet
     goods = sorted(remove_duplicates(generate_goods.get_goods(goods_list)))                # Get list of goods
     gcountries = generate_products.get_countries(goods_list)                          # Get countries mentioned in the list of goods 
-    ##print "Goods: ", goods, ".\n Length: ", len(goods), "\n"
+    #print "Goods: ", goods, ".\n Length: ", len(goods), "\n"
 
-    products_list = generate_products.get_products_from_excel()                       # Extract products from Excel spreadsheet
+    products_list = generate_products.get_products_from_excel(0)                       # Extract products from Excel spreadsheet
     products = sorted(remove_duplicates(generate_products.get_products(products_list)))       # Get list of products
     pcountries = generate_products.get_countries(products_list)                       # Get countries mentioned in the list of products
     ##print "Products: ", products, ".\n Length: ", len(products), "\n"

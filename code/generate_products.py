@@ -42,14 +42,14 @@ def get_countries_for_good(goods_list,good, yr):
 		y = int(r['Year'])
 		c = str(r['Country']).strip()
 		g = str(r['Good']).strip()
-		if (y == yr) and ( good == g):
+		if (y == yr) and ( good.upper() == g.upper()):
 			countries.append(c)
 	return countries
 
-def get_products_from_excel():
+def from_excelsheet(sheetno):
 	# Open the workbook and select the first worksheet
 	wb = xlrd.open_workbook(source_filename)
-	sh = wb.sheet_by_index(0)
+	sh = wb.sheet_by_index(sheetno)
 	goods_list = []
 	# Iterate through each row in worksheet 
 	for rownum in range(1, sh.nrows):
@@ -69,7 +69,7 @@ def raw_dump_to_json(goods_list, filename):
 	    f.write(j)
 
 
-def xml_products_by_country(goods_list, filename):
+def to_xml_by_country(goods_list, filename):
 	
 	target = open(filename, 'w+')
 
@@ -109,7 +109,7 @@ def xml_products_by_country(goods_list, filename):
 	target.close()
 	#print "Closed file"
 
-def xml_products_by_product(goods_list, filename):
+def to_xml_by_product(goods_list, filename):
 	
 	target = open(filename, 'w')
 	# Wipe the file
@@ -152,9 +152,7 @@ def xml_products_by_product(goods_list, filename):
 	#print "Closed file"
 
 if __name__ == '__main__':
-	plist = get_products_from_excel()
-	#xml_products_by_country(plist, "../output/products_by_country.xml")
-	#xml_products_by_product(plist, "../output/products_by_product.xml")
-	xml_products_by_country(plist, "products_by_country.xml")
-	xml_products_by_product(plist, "products_by_product.xml")
+	plist = from_excelsheet(0)
+	to_xml_by_country(plist, "../output/products_2013_by_country.xml")
+	to_xml_by_product(plist, "../output/products_2013_by_product.xml")
 
