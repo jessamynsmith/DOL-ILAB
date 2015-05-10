@@ -1,10 +1,12 @@
 
 import json
+import csv
 from collections import OrderedDict
 import add_iso2_to_goods_and_products
 import merge_country_master_with_goods
+import get_region
 
-c_json_file = "../output/countries_profile.json"
+c_json_file = "../output/extra/countries_profile.json"
 
 CWS = '''Children's Work Statistics'''
 ESAS = "Education Statistics: Attendance Statistics"
@@ -29,10 +31,17 @@ def get_master_data(mdlist, iso2, yr):
 
 def merge_data(cps, master):
 	result = []
+
+	regions = get_region.build()
+
 	for cp in cps:
 		nr = OrderedDict()
 		nr['Country'] = cp['country'].encode('utf8')
-		nr['ISO2'] = add_iso2_to_goods_and_products.get_ISO2(nr['Country'])
+		iso2 = add_iso2_to_goods_and_products.get_ISO2(nr['Country'])
+		nr['Region'] = get_region.find_by_ISO2(iso2, regions)
+		if nr['Region'] == -1:
+			print "No region found for ", nr['Country']
+		nr['ISO2'] = iso2
 		nr['Advancement_Level'] = cp['advancement_level']
 		nr['Description'] = cp['description']
 		m = get_master_data(master, nr['ISO2'], year_last_report)
@@ -97,14 +106,12 @@ def merge_data(cps, master):
 
 	return result
 
-def raw_dump_to_json(clist, fname):
-
-	j = json.dumps(clist) 
-	
-	with open(fname, 'w') as f:
+def to_json(clist, fname):
+	j = json.dumps(clist) 	
+	with open(fname, 'w+') as f:
 	    f.write(j)
-
 	return
+
 
 if __name__ == '__main__':
 
@@ -113,5 +120,6 @@ if __name__ == '__main__':
 
 	profiles = merge_data(country_profiles, master_data)
 
-	raw_dump_to_json(profiles, "../output/countries.json")
+	to_json(profiles, "../output/countries.json")
+
 
