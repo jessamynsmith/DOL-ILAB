@@ -1,7 +1,8 @@
 import json
 from collections import OrderedDict
 from pprint import pprint
-import generate_integrated, generate_goods, generate_products, ISO_country_query
+import generate_integrated, generate_goods, generate_products, ISO_country_query, get_region
+
 
 xml_header = """<?xml version="1.0" encoding="UTF-8"?>"""
 
@@ -62,12 +63,15 @@ def to_xml_by_country(goods_list, filename):
 	yr = []
 	countries = []
 
+	regions = get_region.build()
+
 	# Group by Country
 	for n in range(0, len(goods_list)):
 		row = goods_list[n]
 		year = int(row['Year'])
 		country = str(row['Country']).strip()
 		iso_2 = str(row['ISO2']).strip()
+		region = get_region.find_by_ISO2(iso_2, regions)
 		good = str(row['Good']).strip()
 		if (year not in yr):
 			if (len(yr) > 0) and (n != (len(goods_list))):
@@ -78,6 +82,7 @@ def to_xml_by_country(goods_list, filename):
 		if 	(country not in countries):
 			target.write("\t\t<Country>\n"+"\t\t\t<Country_Name>"+country+"</Country_Name>"+"\n")
 			target.write("\t\t\t<ISO2>"+iso_2+"</ISO2>"+"\n")
+			target.write("\t\t\t<Region>"+region+"</Region>"+"\n")
 			good_tuples = generate_integrated.get_integrated_good_tuples_for_country(goods_list,country, year)
 			target.write("\t\t\t<Goods>\n")
 			#print ("Year: " + str(year)+ ": "+country+": "+str(good_tuples))
@@ -111,6 +116,8 @@ def to_xml_by_good(goods_list, filename):
 	yr = []
 	products = []
 
+	regions = get_region.build()
+
 	# Group by Good
 	for n in range(0, len(goods_list)):
 		row = goods_list[n]
@@ -132,7 +139,10 @@ def to_xml_by_good(goods_list, filename):
 				#print countryset[count]
 				target.write("\t\t\t\t\t\t<Country>\n")
 				target.write("\t\t\t\t\t\t\t"+"<Country_Name>"+str(countryset[count]['Country'])+"</Country_Name>\n")
-				target.write("\t\t\t\t\t\t\t"+"<ISO2>"+str(countryset[count]['ISO2'])+"</ISO2>\n")				
+				iso_2 = str(countryset[count]['ISO2'])
+				target.write("\t\t\t\t\t\t\t"+"<ISO2>"+iso_2+"</ISO2>\n")
+				region = get_region.find_by_ISO2(iso_2, regions)
+				target.write("\t\t\t\t\t\t\t"+"<Region>"+region+"</Region>\n")				
 				target.write("\t\t\t\t\t\t\t"+"<Child_Labor>"+str(countryset[count]['Child Labor'])+"</Child_Labor>\n")
 				target.write("\t\t\t\t\t\t\t"+"<Forced_Labor>"+str(countryset[count]['Forced Labor'])+"</Forced_Labor>\n")
 				target.write("\t\t\t\t\t\t\t"+"<Forced_Child_Labor>"+str(countryset[count]['Forced Child Labor'])+"</Forced_Child_Labor>\n")
