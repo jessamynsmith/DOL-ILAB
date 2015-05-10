@@ -8,6 +8,7 @@
 						<Country>
 							<Country_Name>Afghanistan</Country_Name>
 							<ISO2>AF</ISO2>
+							<Region>Asia & Pacific</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>T</Forced_Labor>
 							<Forced_Child_Labor>T</Forced_Child_Labor>
@@ -15,6 +16,7 @@
 						<Country>
 							<Country_Name>Argentina</Country_Name>
 							<ISO2>AR</ISO2>
+							<Region>Latin America & Caribbean</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -22,6 +24,7 @@
 						<Country>
 							<Country_Name>Bangladesh</Country_Name>
 							<ISO2>BD</ISO2>
+							<Region>Asia & Pacific</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -29,6 +32,7 @@
 						<Country>
 							<Country_Name>Bolivia</Country_Name>
 							<ISO2>BO</ISO2>
+							<Region>Latin America & Caribbean</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -36,6 +40,7 @@
 						<Country>
 							<Country_Name>Brazil</Country_Name>
 							<ISO2>BR</ISO2>
+							<Region>Latin America & Caribbean</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -43,6 +48,7 @@
 						<Country>
 							<Country_Name>Burma</Country_Name>
 							<ISO2>BU</ISO2>
+							<Region>Asia & Pacific</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>T</Forced_Labor>
 							<Forced_Child_Labor>T</Forced_Child_Labor>
@@ -50,6 +56,7 @@
 						<Country>
 							<Country_Name>Cambodia</Country_Name>
 							<ISO2>KH</ISO2>
+							<Region>Asia & Pacific</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -57,6 +64,7 @@
 						<Country>
 							<Country_Name>China</Country_Name>
 							<ISO2>CN</ISO2>
+							<Region>Asia & Pacific</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>T</Forced_Labor>
 							<Forced_Child_Labor>T</Forced_Child_Labor>
@@ -64,6 +72,7 @@
 						<Country>
 							<Country_Name>Ecuador</Country_Name>
 							<ISO2>EC</ISO2>
+							<Region>Latin America & Caribbean</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -71,6 +80,7 @@
 						<Country>
 							<Country_Name>India</Country_Name>
 							<ISO2>IN</ISO2>
+							<Region>Asia & Pacific</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>T</Forced_Labor>
 							<Forced_Child_Labor>T</Forced_Child_Labor>
@@ -78,6 +88,7 @@
 						<Country>
 							<Country_Name>Nepal</Country_Name>
 							<ISO2>NP</ISO2>
+							<Region>Asia & Pacific</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>T</Forced_Labor>
 							<Forced_Child_Labor>T</Forced_Child_Labor>
@@ -85,6 +96,7 @@
 						<Country>
 							<Country_Name>North Korea</Country_Name>
 							<ISO2>KP</ISO2>
+							<Region>Asia & Pacific</Region>
 							<Child_Labor>F</Child_Labor>
 							<Forced_Labor>T</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -92,6 +104,7 @@
 						<Country>
 							<Country_Name>Pakistan</Country_Name>
 							<ISO2>PK</ISO2>
+							<Region>Asia & Pacific</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>T</Forced_Labor>
 							<Forced_Child_Labor>T</Forced_Child_Labor>
@@ -99,6 +112,7 @@
 						<Country>
 							<Country_Name>Paraguay</Country_Name>
 							<ISO2>PY</ISO2>
+							<Region>Latin America & Caribbean</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -106,6 +120,7 @@
 						<Country>
 							<Country_Name>Peru</Country_Name>
 							<ISO2>PE</ISO2>
+							<Region>Latin America & Caribbean</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -113,6 +128,7 @@
 						<Country>
 							<Country_Name>Uganda</Country_Name>
 							<ISO2>UG</ISO2>
+							<Region>Sub-Saharan Africa</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -120,6 +136,7 @@
 						<Country>
 							<Country_Name>Vietnam</Country_Name>
 							<ISO2>VN</ISO2>
+							<Region>Asia & Pacific</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -132,6 +149,7 @@
 						<Country>
 							<Country_Name>Afghanistan</Country_Name>
 							<ISO2>AF</ISO2>
+							<Region>Asia & Pacific</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -139,6 +157,7 @@
 						<Country>
 							<Country_Name>India</Country_Name>
 							<ISO2>IN</ISO2>
+							<Region>Asia & Pacific</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>T</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -146,6 +165,7 @@
 						<Country>
 							<Country_Name>Iran</Country_Name>
 							<ISO2>IR</ISO2>
+							<Region>Middle East & North Africa</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -153,6 +173,7 @@
 						<Country>
 							<Country_Name>Nepal</Country_Name>
 							<ISO2>NP</ISO2>
+							<Region>Asia & Pacific</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>T</Forced_Labor>
 							<Forced_Child_Labor>T</Forced_Child_Labor>
@@ -160,6 +181,7 @@
 						<Country>
 							<Country_Name>Pakistan</Country_Name>
 							<ISO2>PK</ISO2>
+							<Region>Asia & Pacific</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>T</Forced_Labor>
 							<Forced_Child_Labor>T</Forced_Child_Labor>
@@ -172,6 +194,7 @@
 						<Country>
 							<Country_Name>Afghanistan</Country_Name>
 							<ISO2>AF</ISO2>
+							<Region>Asia & Pacific</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -179,6 +202,7 @@
 						<Country>
 							<Country_Name>China</Country_Name>
 							<ISO2>CN</ISO2>
+							<Region>Asia & Pacific</Region>
 							<Child_Labor>F</Child_Labor>
 							<Forced_Labor>T</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -186,6 +210,7 @@
 						<Country>
 							<Country_Name>Colombia</Country_Name>
 							<ISO2>CO</ISO2>
+							<Region>Latin America & Caribbean</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -193,6 +218,7 @@
 						<Country>
 							<Country_Name>Mongolia</Country_Name>
 							<ISO2>MN</ISO2>
+							<Region>Asia & Pacific</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -200,6 +226,7 @@
 						<Country>
 							<Country_Name>North Korea</Country_Name>
 							<ISO2>KP</ISO2>
+							<Region>Asia & Pacific</Region>
 							<Child_Labor>F</Child_Labor>
 							<Forced_Labor>T</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -207,6 +234,7 @@
 						<Country>
 							<Country_Name>Pakistan</Country_Name>
 							<ISO2>PK</ISO2>
+							<Region>Asia & Pacific</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>T</Forced_Labor>
 							<Forced_Child_Labor>T</Forced_Child_Labor>
@@ -214,6 +242,7 @@
 						<Country>
 							<Country_Name>Ukraine</Country_Name>
 							<ISO2>UA</ISO2>
+							<Region>Europe & Eurasia</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -226,6 +255,7 @@
 						<Country>
 							<Country_Name>Afghanistan</Country_Name>
 							<ISO2>AF</ISO2>
+							<Region>Asia & Pacific</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -238,6 +268,7 @@
 						<Country>
 							<Country_Name>Angola</Country_Name>
 							<ISO2>AO</ISO2>
+							<Region>Sub-Saharan Africa</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>T</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -245,6 +276,7 @@
 						<Country>
 							<Country_Name>Central African Republic</Country_Name>
 							<ISO2>CF</ISO2>
+							<Region>Sub-Saharan Africa</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -252,6 +284,7 @@
 						<Country>
 							<Country_Name>Democratic Republic of the Congo</Country_Name>
 							<ISO2>CD</ISO2>
+							<Region>Sub-Saharan Africa</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -259,6 +292,7 @@
 						<Country>
 							<Country_Name>Guinea</Country_Name>
 							<ISO2>GN</ISO2>
+							<Region>Sub-Saharan Africa</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -266,6 +300,7 @@
 						<Country>
 							<Country_Name>Liberia</Country_Name>
 							<ISO2>LR</ISO2>
+							<Region>Sub-Saharan Africa</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -273,6 +308,7 @@
 						<Country>
 							<Country_Name>Sierra Leone</Country_Name>
 							<ISO2>SL</ISO2>
+							<Region>Sub-Saharan Africa</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>T</Forced_Labor>
 							<Forced_Child_Labor>T</Forced_Child_Labor>
@@ -285,6 +321,7 @@
 						<Country>
 							<Country_Name>Argentina</Country_Name>
 							<ISO2>AR</ISO2>
+							<Region>Latin America & Caribbean</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -297,6 +334,7 @@
 						<Country>
 							<Country_Name>Argentina</Country_Name>
 							<ISO2>AR</ISO2>
+							<Region>Latin America & Caribbean</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -304,6 +342,7 @@
 						<Country>
 							<Country_Name>Azerbaijan</Country_Name>
 							<ISO2>AZ</ISO2>
+							<Region>Europe & Eurasia</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -311,6 +350,7 @@
 						<Country>
 							<Country_Name>Benin</Country_Name>
 							<ISO2>BJ</ISO2>
+							<Region>Sub-Saharan Africa</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>T</Forced_Labor>
 							<Forced_Child_Labor>T</Forced_Child_Labor>
@@ -318,6 +358,7 @@
 						<Country>
 							<Country_Name>Brazil</Country_Name>
 							<ISO2>BR</ISO2>
+							<Region>Latin America & Caribbean</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -325,6 +366,7 @@
 						<Country>
 							<Country_Name>Burkina Faso</Country_Name>
 							<ISO2>BF</ISO2>
+							<Region>Sub-Saharan Africa</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>T</Forced_Labor>
 							<Forced_Child_Labor>T</Forced_Child_Labor>
@@ -332,6 +374,7 @@
 						<Country>
 							<Country_Name>China</Country_Name>
 							<ISO2>CN</ISO2>
+							<Region>Asia & Pacific</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>T</Forced_Labor>
 							<Forced_Child_Labor>T</Forced_Child_Labor>
@@ -339,6 +382,7 @@
 						<Country>
 							<Country_Name>Egypt</Country_Name>
 							<ISO2>EG</ISO2>
+							<Region>Middle East & North Africa</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -346,6 +390,7 @@
 						<Country>
 							<Country_Name>India</Country_Name>
 							<ISO2>IN</ISO2>
+							<Region>Asia & Pacific</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -353,6 +398,7 @@
 						<Country>
 							<Country_Name>Kazakhstan</Country_Name>
 							<ISO2>KZ</ISO2>
+							<Region>Asia & Pacific</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>T</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -360,6 +406,7 @@
 						<Country>
 							<Country_Name>Kyrgyz Republic</Country_Name>
 							<ISO2>KV</ISO2>
+							<Region>Asia & Pacific</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -367,6 +414,7 @@
 						<Country>
 							<Country_Name>Mali</Country_Name>
 							<ISO2>ML</ISO2>
+							<Region>Sub-Saharan Africa</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -374,6 +422,7 @@
 						<Country>
 							<Country_Name>Pakistan</Country_Name>
 							<ISO2>PK</ISO2>
+							<Region>Asia & Pacific</Region>
 							<Child_Labor>F</Child_Labor>
 							<Forced_Labor>T</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -381,6 +430,7 @@
 						<Country>
 							<Country_Name>Paraguay</Country_Name>
 							<ISO2>PY</ISO2>
+							<Region>Latin America & Caribbean</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -388,6 +438,7 @@
 						<Country>
 							<Country_Name>Tajikistan</Country_Name>
 							<ISO2>TJ</ISO2>
+							<Region>Asia & Pacific</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>T</Forced_Labor>
 							<Forced_Child_Labor>T</Forced_Child_Labor>
@@ -395,6 +446,7 @@
 						<Country>
 							<Country_Name>Turkey</Country_Name>
 							<ISO2>TR</ISO2>
+							<Region>Europe & Eurasia</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -402,6 +454,7 @@
 						<Country>
 							<Country_Name>Turkmenistan</Country_Name>
 							<ISO2>TM</ISO2>
+							<Region>Asia & Pacific</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>T</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -409,6 +462,7 @@
 						<Country>
 							<Country_Name>Uzbekistan</Country_Name>
 							<ISO2>UZ</ISO2>
+							<Region>Asia & Pacific</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>T</Forced_Labor>
 							<Forced_Child_Labor>T</Forced_Child_Labor>
@@ -416,6 +470,7 @@
 						<Country>
 							<Country_Name>Zambia</Country_Name>
 							<ISO2>ZM</ISO2>
+							<Region>Sub-Saharan Africa</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -428,6 +483,7 @@
 						<Country>
 							<Country_Name>Argentina</Country_Name>
 							<ISO2>AR</ISO2>
+							<Region>Latin America & Caribbean</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -440,6 +496,7 @@
 						<Country>
 							<Country_Name>Argentina</Country_Name>
 							<ISO2>AR</ISO2>
+							<Region>Latin America & Caribbean</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>T</Forced_Labor>
 							<Forced_Child_Labor>T</Forced_Child_Labor>
@@ -447,6 +504,7 @@
 						<Country>
 							<Country_Name>Bangladesh</Country_Name>
 							<ISO2>BD</ISO2>
+							<Region>Asia & Pacific</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -454,6 +512,7 @@
 						<Country>
 							<Country_Name>Brazil</Country_Name>
 							<ISO2>BR</ISO2>
+							<Region>Latin America & Caribbean</Region>
 							<Child_Labor>F</Child_Labor>
 							<Forced_Labor>T</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -461,6 +520,7 @@
 						<Country>
 							<Country_Name>China</Country_Name>
 							<ISO2>CN</ISO2>
+							<Region>Asia & Pacific</Region>
 							<Child_Labor>F</Child_Labor>
 							<Forced_Labor>T</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -468,6 +528,7 @@
 						<Country>
 							<Country_Name>India</Country_Name>
 							<ISO2>IN</ISO2>
+							<Region>Asia & Pacific</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>T</Forced_Labor>
 							<Forced_Child_Labor>T</Forced_Child_Labor>
@@ -475,6 +536,7 @@
 						<Country>
 							<Country_Name>Jordan</Country_Name>
 							<ISO2>JO</ISO2>
+							<Region>Middle East & North Africa</Region>
 							<Child_Labor>F</Child_Labor>
 							<Forced_Labor>T</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -482,6 +544,7 @@
 						<Country>
 							<Country_Name>Malaysia</Country_Name>
 							<ISO2>MY</ISO2>
+							<Region>Asia & Pacific</Region>
 							<Child_Labor>F</Child_Labor>
 							<Forced_Labor>T</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -489,6 +552,7 @@
 						<Country>
 							<Country_Name>Thailand</Country_Name>
 							<ISO2>TH</ISO2>
+							<Region>Asia & Pacific</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>T</Forced_Labor>
 							<Forced_Child_Labor>T</Forced_Child_Labor>
@@ -496,6 +560,7 @@
 						<Country>
 							<Country_Name>Vietnam</Country_Name>
 							<ISO2>VN</ISO2>
+							<Region>Asia & Pacific</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>T</Forced_Labor>
 							<Forced_Child_Labor>T</Forced_Child_Labor>
@@ -508,6 +573,7 @@
 						<Country>
 							<Country_Name>Argentina</Country_Name>
 							<ISO2>AR</ISO2>
+							<Region>Latin America & Caribbean</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -520,6 +586,7 @@
 						<Country>
 							<Country_Name>Argentina</Country_Name>
 							<ISO2>AR</ISO2>
+							<Region>Latin America & Caribbean</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -532,6 +599,7 @@
 						<Country>
 							<Country_Name>Argentina</Country_Name>
 							<ISO2>AR</ISO2>
+							<Region>Latin America & Caribbean</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -544,6 +612,7 @@
 						<Country>
 							<Country_Name>Argentina</Country_Name>
 							<ISO2>AR</ISO2>
+							<Region>Latin America & Caribbean</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -551,6 +620,7 @@
 						<Country>
 							<Country_Name>Brazil</Country_Name>
 							<ISO2>BR</ISO2>
+							<Region>Latin America & Caribbean</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -558,6 +628,7 @@
 						<Country>
 							<Country_Name>Cambodia</Country_Name>
 							<ISO2>KH</ISO2>
+							<Region>Asia & Pacific</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -565,6 +636,7 @@
 						<Country>
 							<Country_Name>Indonesia</Country_Name>
 							<ISO2>ID</ISO2>
+							<Region>Asia & Pacific</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -572,6 +644,7 @@
 						<Country>
 							<Country_Name>Kenya</Country_Name>
 							<ISO2>KE</ISO2>
+							<Region>Sub-Saharan Africa</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -579,6 +652,7 @@
 						<Country>
 							<Country_Name>Kyrgyz Republic</Country_Name>
 							<ISO2>KV</ISO2>
+							<Region>Asia & Pacific</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -586,6 +660,7 @@
 						<Country>
 							<Country_Name>Lebanon</Country_Name>
 							<ISO2>LB</ISO2>
+							<Region>Middle East & North Africa</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -593,6 +668,7 @@
 						<Country>
 							<Country_Name>Malawi</Country_Name>
 							<ISO2>MW</ISO2>
+							<Region>Sub-Saharan Africa</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>T</Forced_Labor>
 							<Forced_Child_Labor>T</Forced_Child_Labor>
@@ -600,6 +676,7 @@
 						<Country>
 							<Country_Name>Mexico</Country_Name>
 							<ISO2>MX</ISO2>
+							<Region>Latin America & Caribbean</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -607,6 +684,7 @@
 						<Country>
 							<Country_Name>Mozambique</Country_Name>
 							<ISO2>MZ</ISO2>
+							<Region>Sub-Saharan Africa</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -614,6 +692,7 @@
 						<Country>
 							<Country_Name>Nicaragua</Country_Name>
 							<ISO2>NI</ISO2>
+							<Region>Latin America & Caribbean</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -621,6 +700,7 @@
 						<Country>
 							<Country_Name>Philippines</Country_Name>
 							<ISO2>PH</ISO2>
+							<Region>Asia & Pacific</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -628,6 +708,7 @@
 						<Country>
 							<Country_Name>Tanzania</Country_Name>
 							<ISO2>TZ</ISO2>
+							<Region>Sub-Saharan Africa</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -635,6 +716,7 @@
 						<Country>
 							<Country_Name>Uganda</Country_Name>
 							<ISO2>UG</ISO2>
+							<Region>Sub-Saharan Africa</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -642,6 +724,7 @@
 						<Country>
 							<Country_Name>Zambia</Country_Name>
 							<ISO2>ZM</ISO2>
+							<Region>Sub-Saharan Africa</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -654,6 +737,7 @@
 						<Country>
 							<Country_Name>Argentina</Country_Name>
 							<ISO2>AR</ISO2>
+							<Region>Latin America & Caribbean</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -661,6 +745,7 @@
 						<Country>
 							<Country_Name>Dominican Republic</Country_Name>
 							<ISO2>DO</ISO2>
+							<Region>Latin America & Caribbean</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -668,6 +753,7 @@
 						<Country>
 							<Country_Name>Mexico</Country_Name>
 							<ISO2>MX</ISO2>
+							<Region>Latin America & Caribbean</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -680,6 +766,7 @@
 						<Country>
 							<Country_Name>Argentina</Country_Name>
 							<ISO2>AR</ISO2>
+							<Region>Latin America & Caribbean</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -692,6 +779,7 @@
 						<Country>
 							<Country_Name>Bangladesh</Country_Name>
 							<ISO2>BD</ISO2>
+							<Region>Asia & Pacific</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -699,6 +787,7 @@
 						<Country>
 							<Country_Name>India</Country_Name>
 							<ISO2>IN</ISO2>
+							<Region>Asia & Pacific</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -711,6 +800,7 @@
 						<Country>
 							<Country_Name>Bangladesh</Country_Name>
 							<ISO2>BD</ISO2>
+							<Region>Asia & Pacific</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>T</Forced_Labor>
 							<Forced_Child_Labor>T</Forced_Child_Labor>
@@ -723,6 +813,7 @@
 						<Country>
 							<Country_Name>Bangladesh</Country_Name>
 							<ISO2>BD</ISO2>
+							<Region>Asia & Pacific</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -730,6 +821,7 @@
 						<Country>
 							<Country_Name>Brazil</Country_Name>
 							<ISO2>BR</ISO2>
+							<Region>Latin America & Caribbean</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -737,6 +829,7 @@
 						<Country>
 							<Country_Name>China</Country_Name>
 							<ISO2>CN</ISO2>
+							<Region>Asia & Pacific</Region>
 							<Child_Labor>F</Child_Labor>
 							<Forced_Labor>T</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -744,6 +837,7 @@
 						<Country>
 							<Country_Name>India</Country_Name>
 							<ISO2>IN</ISO2>
+							<Region>Asia & Pacific</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -756,6 +850,7 @@
 						<Country>
 							<Country_Name>Bangladesh</Country_Name>
 							<ISO2>BD</ISO2>
+							<Region>Asia & Pacific</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -768,6 +863,7 @@
 						<Country>
 							<Country_Name>Bangladesh</Country_Name>
 							<ISO2>BD</ISO2>
+							<Region>Asia & Pacific</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -780,6 +876,7 @@
 						<Country>
 							<Country_Name>Bangladesh</Country_Name>
 							<ISO2>BD</ISO2>
+							<Region>Asia & Pacific</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -787,6 +884,7 @@
 						<Country>
 							<Country_Name>Pakistan</Country_Name>
 							<ISO2>PK</ISO2>
+							<Region>Asia & Pacific</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -799,6 +897,7 @@
 						<Country>
 							<Country_Name>Bangladesh</Country_Name>
 							<ISO2>BD</ISO2>
+							<Region>Asia & Pacific</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -806,6 +905,7 @@
 						<Country>
 							<Country_Name>India</Country_Name>
 							<ISO2>IN</ISO2>
+							<Region>Asia & Pacific</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -818,6 +918,7 @@
 						<Country>
 							<Country_Name>Bangladesh</Country_Name>
 							<ISO2>BD</ISO2>
+							<Region>Asia & Pacific</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -830,6 +931,7 @@
 						<Country>
 							<Country_Name>Bangladesh</Country_Name>
 							<ISO2>BD</ISO2>
+							<Region>Asia & Pacific</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -837,6 +939,7 @@
 						<Country>
 							<Country_Name>Cambodia</Country_Name>
 							<ISO2>KH</ISO2>
+							<Region>Asia & Pacific</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -844,6 +947,7 @@
 						<Country>
 							<Country_Name>Niger</Country_Name>
 							<ISO2>NE</ISO2>
+							<Region>Sub-Saharan Africa</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -856,6 +960,7 @@
 						<Country>
 							<Country_Name>Bangladesh</Country_Name>
 							<ISO2>BD</ISO2>
+							<Region>Asia & Pacific</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -863,6 +968,7 @@
 						<Country>
 							<Country_Name>Burma</Country_Name>
 							<ISO2>BU</ISO2>
+							<Region>Asia & Pacific</Region>
 							<Child_Labor>F</Child_Labor>
 							<Forced_Labor>T</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -870,6 +976,7 @@
 						<Country>
 							<Country_Name>Cambodia</Country_Name>
 							<ISO2>KH</ISO2>
+							<Region>Asia & Pacific</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -877,6 +984,7 @@
 						<Country>
 							<Country_Name>Thailand</Country_Name>
 							<ISO2>TH</ISO2>
+							<Region>Asia & Pacific</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>T</Forced_Labor>
 							<Forced_Child_Labor>T</Forced_Child_Labor>
@@ -889,6 +997,7 @@
 						<Country>
 							<Country_Name>Bangladesh</Country_Name>
 							<ISO2>BD</ISO2>
+							<Region>Asia & Pacific</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -901,6 +1010,7 @@
 						<Country>
 							<Country_Name>Bangladesh</Country_Name>
 							<ISO2>BD</ISO2>
+							<Region>Asia & Pacific</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -908,6 +1018,7 @@
 						<Country>
 							<Country_Name>Cambodia</Country_Name>
 							<ISO2>KH</ISO2>
+							<Region>Asia & Pacific</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -915,6 +1026,7 @@
 						<Country>
 							<Country_Name>China</Country_Name>
 							<ISO2>CN</ISO2>
+							<Region>Asia & Pacific</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -922,6 +1034,7 @@
 						<Country>
 							<Country_Name>North Korea</Country_Name>
 							<ISO2>KP</ISO2>
+							<Region>Asia & Pacific</Region>
 							<Child_Labor>F</Child_Labor>
 							<Forced_Labor>T</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -934,6 +1047,7 @@
 						<Country>
 							<Country_Name>Bangladesh</Country_Name>
 							<ISO2>BD</ISO2>
+							<Region>Asia & Pacific</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -946,6 +1060,7 @@
 						<Country>
 							<Country_Name>Belize</Country_Name>
 							<ISO2>BZ</ISO2>
+							<Region>Latin America & Caribbean</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -953,6 +1068,7 @@
 						<Country>
 							<Country_Name>Ecuador</Country_Name>
 							<ISO2>EC</ISO2>
+							<Region>Latin America & Caribbean</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -960,6 +1076,7 @@
 						<Country>
 							<Country_Name>Nicaragua</Country_Name>
 							<ISO2>NI</ISO2>
+							<Region>Latin America & Caribbean</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -967,6 +1084,7 @@
 						<Country>
 							<Country_Name>Philippines</Country_Name>
 							<ISO2>PH</ISO2>
+							<Region>Asia & Pacific</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -979,6 +1097,7 @@
 						<Country>
 							<Country_Name>Belize</Country_Name>
 							<ISO2>BZ</ISO2>
+							<Region>Latin America & Caribbean</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -986,6 +1105,7 @@
 						<Country>
 							<Country_Name>Turkey</Country_Name>
 							<ISO2>TR</ISO2>
+							<Region>Europe & Eurasia</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -998,6 +1118,7 @@
 						<Country>
 							<Country_Name>Belize</Country_Name>
 							<ISO2>BZ</ISO2>
+							<Region>Latin America & Caribbean</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -1005,6 +1126,7 @@
 						<Country>
 							<Country_Name>Bolivia</Country_Name>
 							<ISO2>BO</ISO2>
+							<Region>Latin America & Caribbean</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>T</Forced_Labor>
 							<Forced_Child_Labor>T</Forced_Child_Labor>
@@ -1012,6 +1134,7 @@
 						<Country>
 							<Country_Name>Brazil</Country_Name>
 							<ISO2>BR</ISO2>
+							<Region>Latin America & Caribbean</Region>
 							<Child_Labor>F</Child_Labor>
 							<Forced_Labor>T</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -1019,6 +1142,7 @@
 						<Country>
 							<Country_Name>Burma</Country_Name>
 							<ISO2>BU</ISO2>
+							<Region>Asia & Pacific</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>T</Forced_Labor>
 							<Forced_Child_Labor>T</Forced_Child_Labor>
@@ -1026,6 +1150,7 @@
 						<Country>
 							<Country_Name>Colombia</Country_Name>
 							<ISO2>CO</ISO2>
+							<Region>Latin America & Caribbean</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -1033,6 +1158,7 @@
 						<Country>
 							<Country_Name>Dominican Republic</Country_Name>
 							<ISO2>DO</ISO2>
+							<Region>Latin America & Caribbean</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>T</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -1040,6 +1166,7 @@
 						<Country>
 							<Country_Name>El Salvador</Country_Name>
 							<ISO2>SV</ISO2>
+							<Region>Latin America & Caribbean</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -1047,6 +1174,7 @@
 						<Country>
 							<Country_Name>Guatemala</Country_Name>
 							<ISO2>GT</ISO2>
+							<Region>Latin America & Caribbean</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -1054,6 +1182,7 @@
 						<Country>
 							<Country_Name>India</Country_Name>
 							<ISO2>IN</ISO2>
+							<Region>Asia & Pacific</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -1061,6 +1190,7 @@
 						<Country>
 							<Country_Name>Kenya</Country_Name>
 							<ISO2>KE</ISO2>
+							<Region>Sub-Saharan Africa</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -1068,6 +1198,7 @@
 						<Country>
 							<Country_Name>Mexico</Country_Name>
 							<ISO2>MX</ISO2>
+							<Region>Latin America & Caribbean</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -1075,6 +1206,7 @@
 						<Country>
 							<Country_Name>Pakistan</Country_Name>
 							<ISO2>PK</ISO2>
+							<Region>Asia & Pacific</Region>
 							<Child_Labor>F</Child_Labor>
 							<Forced_Labor>T</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -1082,6 +1214,7 @@
 						<Country>
 							<Country_Name>Panama</Country_Name>
 							<ISO2>PA</ISO2>
+							<Region>Latin America & Caribbean</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -1089,6 +1222,7 @@
 						<Country>
 							<Country_Name>Paraguay</Country_Name>
 							<ISO2>PY</ISO2>
+							<Region>Latin America & Caribbean</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -1096,6 +1230,7 @@
 						<Country>
 							<Country_Name>Philippines</Country_Name>
 							<ISO2>PH</ISO2>
+							<Region>Asia & Pacific</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -1103,6 +1238,7 @@
 						<Country>
 							<Country_Name>Thailand</Country_Name>
 							<ISO2>TH</ISO2>
+							<Region>Asia & Pacific</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -1110,6 +1246,7 @@
 						<Country>
 							<Country_Name>Uganda</Country_Name>
 							<ISO2>UG</ISO2>
+							<Region>Sub-Saharan Africa</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -1122,6 +1259,7 @@
 						<Country>
 							<Country_Name>Benin</Country_Name>
 							<ISO2>BJ</ISO2>
+							<Region>Sub-Saharan Africa</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -1134,6 +1272,7 @@
 						<Country>
 							<Country_Name>Bolivia</Country_Name>
 							<ISO2>BO</ISO2>
+							<Region>Latin America & Caribbean</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>T</Forced_Labor>
 							<Forced_Child_Labor>T</Forced_Child_Labor>
@@ -1141,6 +1280,7 @@
 						<Country>
 							<Country_Name>Peru</Country_Name>
 							<ISO2>PE</ISO2>
+							<Region>Latin America & Caribbean</Region>
 							<Child_Labor>F</Child_Labor>
 							<Forced_Labor>T</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -1153,6 +1293,7 @@
 						<Country>
 							<Country_Name>Bolivia</Country_Name>
 							<ISO2>BO</ISO2>
+							<Region>Latin America & Caribbean</Region>
 							<Child_Labor>F</Child_Labor>
 							<Forced_Labor>T</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -1160,6 +1301,7 @@
 						<Country>
 							<Country_Name>Brazil</Country_Name>
 							<ISO2>BR</ISO2>
+							<Region>Latin America & Caribbean</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>T</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -1167,6 +1309,7 @@
 						<Country>
 							<Country_Name>Chad</Country_Name>
 							<ISO2>TD</ISO2>
+							<Region>Sub-Saharan Africa</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -1174,6 +1317,7 @@
 						<Country>
 							<Country_Name>Ethiopia</Country_Name>
 							<ISO2>ET</ISO2>
+							<Region>Sub-Saharan Africa</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -1181,6 +1325,7 @@
 						<Country>
 							<Country_Name>Lesotho</Country_Name>
 							<ISO2>LS</ISO2>
+							<Region>Sub-Saharan Africa</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -1188,6 +1333,7 @@
 						<Country>
 							<Country_Name>Mauritania</Country_Name>
 							<ISO2>MR</ISO2>
+							<Region>Sub-Saharan Africa</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -1195,6 +1341,7 @@
 						<Country>
 							<Country_Name>Namibia</Country_Name>
 							<ISO2>NA</ISO2>
+							<Region>Sub-Saharan Africa</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -1202,6 +1349,7 @@
 						<Country>
 							<Country_Name>Niger</Country_Name>
 							<ISO2>NE</ISO2>
+							<Region>Sub-Saharan Africa</Region>
 							<Child_Labor>F</Child_Labor>
 							<Forced_Labor>T</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -1209,6 +1357,7 @@
 						<Country>
 							<Country_Name>Paraguay</Country_Name>
 							<ISO2>PY</ISO2>
+							<Region>Latin America & Caribbean</Region>
 							<Child_Labor>F</Child_Labor>
 							<Forced_Labor>T</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -1216,6 +1365,7 @@
 						<Country>
 							<Country_Name>South Sudan</Country_Name>
 							<ISO2>SS</ISO2>
+							<Region>Sub-Saharan Africa</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>T</Forced_Labor>
 							<Forced_Child_Labor>T</Forced_Child_Labor>
@@ -1223,6 +1373,7 @@
 						<Country>
 							<Country_Name>Uganda</Country_Name>
 							<ISO2>UG</ISO2>
+							<Region>Sub-Saharan Africa</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -1230,6 +1381,7 @@
 						<Country>
 							<Country_Name>Zambia</Country_Name>
 							<ISO2>ZM</ISO2>
+							<Region>Sub-Saharan Africa</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -1242,6 +1394,7 @@
 						<Country>
 							<Country_Name>Bolivia</Country_Name>
 							<ISO2>BO</ISO2>
+							<Region>Latin America & Caribbean</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>T</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -1249,6 +1402,7 @@
 						<Country>
 							<Country_Name>Guatemala</Country_Name>
 							<ISO2>GT</ISO2>
+							<Region>Latin America & Caribbean</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -1256,6 +1410,7 @@
 						<Country>
 							<Country_Name>Philippines</Country_Name>
 							<ISO2>PH</ISO2>
+							<Region>Asia & Pacific</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -1268,6 +1423,7 @@
 						<Country>
 							<Country_Name>Bolivia</Country_Name>
 							<ISO2>BO</ISO2>
+							<Region>Latin America & Caribbean</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -1275,6 +1431,7 @@
 						<Country>
 							<Country_Name>Burkina Faso</Country_Name>
 							<ISO2>BF</ISO2>
+							<Region>Sub-Saharan Africa</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>T</Forced_Labor>
 							<Forced_Child_Labor>T</Forced_Child_Labor>
@@ -1282,6 +1439,7 @@
 						<Country>
 							<Country_Name>Colombia</Country_Name>
 							<ISO2>CO</ISO2>
+							<Region>Latin America & Caribbean</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -1289,6 +1447,7 @@
 						<Country>
 							<Country_Name>Democratic Republic of the Congo</Country_Name>
 							<ISO2>CD</ISO2>
+							<Region>Sub-Saharan Africa</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>T</Forced_Labor>
 							<Forced_Child_Labor>T</Forced_Child_Labor>
@@ -1296,6 +1455,7 @@
 						<Country>
 							<Country_Name>Ecuador</Country_Name>
 							<ISO2>EC</ISO2>
+							<Region>Latin America & Caribbean</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -1303,6 +1463,7 @@
 						<Country>
 							<Country_Name>Ethiopia</Country_Name>
 							<ISO2>ET</ISO2>
+							<Region>Sub-Saharan Africa</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -1310,6 +1471,7 @@
 						<Country>
 							<Country_Name>Ghana</Country_Name>
 							<ISO2>GH</ISO2>
+							<Region>Sub-Saharan Africa</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -1317,6 +1479,7 @@
 						<Country>
 							<Country_Name>Guinea</Country_Name>
 							<ISO2>GN</ISO2>
+							<Region>Sub-Saharan Africa</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -1324,6 +1487,7 @@
 						<Country>
 							<Country_Name>Indonesia</Country_Name>
 							<ISO2>ID</ISO2>
+							<Region>Asia & Pacific</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -1331,6 +1495,7 @@
 						<Country>
 							<Country_Name>Mali</Country_Name>
 							<ISO2>ML</ISO2>
+							<Region>Sub-Saharan Africa</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -1338,6 +1503,7 @@
 						<Country>
 							<Country_Name>Mongolia</Country_Name>
 							<ISO2>MN</ISO2>
+							<Region>Asia & Pacific</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -1345,6 +1511,7 @@
 						<Country>
 							<Country_Name>Nicaragua</Country_Name>
 							<ISO2>NI</ISO2>
+							<Region>Latin America & Caribbean</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -1352,6 +1519,7 @@
 						<Country>
 							<Country_Name>Niger</Country_Name>
 							<ISO2>NE</ISO2>
+							<Region>Sub-Saharan Africa</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -1359,6 +1527,7 @@
 						<Country>
 							<Country_Name>North Korea</Country_Name>
 							<ISO2>KP</ISO2>
+							<Region>Asia & Pacific</Region>
 							<Child_Labor>F</Child_Labor>
 							<Forced_Labor>T</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -1366,6 +1535,7 @@
 						<Country>
 							<Country_Name>Peru</Country_Name>
 							<ISO2>PE</ISO2>
+							<Region>Latin America & Caribbean</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>T</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -1373,6 +1543,7 @@
 						<Country>
 							<Country_Name>Philippines</Country_Name>
 							<ISO2>PH</ISO2>
+							<Region>Asia & Pacific</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -1380,6 +1551,7 @@
 						<Country>
 							<Country_Name>Senegal</Country_Name>
 							<ISO2>SN</ISO2>
+							<Region>Sub-Saharan Africa</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -1387,6 +1559,7 @@
 						<Country>
 							<Country_Name>Suriname</Country_Name>
 							<ISO2>SR</ISO2>
+							<Region>Latin America & Caribbean</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -1394,6 +1567,7 @@
 						<Country>
 							<Country_Name>Tanzania</Country_Name>
 							<ISO2>TZ</ISO2>
+							<Region>Sub-Saharan Africa</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -1406,6 +1580,7 @@
 						<Country>
 							<Country_Name>Bolivia</Country_Name>
 							<ISO2>BO</ISO2>
+							<Region>Latin America & Caribbean</Region>
 							<Child_Labor>F</Child_Labor>
 							<Forced_Labor>T</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -1413,6 +1588,7 @@
 						<Country>
 							<Country_Name>Turkey</Country_Name>
 							<ISO2>TR</ISO2>
+							<Region>Europe & Eurasia</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -1425,6 +1601,7 @@
 						<Country>
 							<Country_Name>Bolivia</Country_Name>
 							<ISO2>BO</ISO2>
+							<Region>Latin America & Caribbean</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -1437,6 +1614,7 @@
 						<Country>
 							<Country_Name>Bolivia</Country_Name>
 							<ISO2>BO</ISO2>
+							<Region>Latin America & Caribbean</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -1449,6 +1627,7 @@
 						<Country>
 							<Country_Name>Bolivia</Country_Name>
 							<ISO2>BO</ISO2>
+							<Region>Latin America & Caribbean</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -1461,6 +1640,7 @@
 						<Country>
 							<Country_Name>Brazil</Country_Name>
 							<ISO2>BR</ISO2>
+							<Region>Latin America & Caribbean</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -1473,6 +1653,7 @@
 						<Country>
 							<Country_Name>Brazil</Country_Name>
 							<ISO2>BR</ISO2>
+							<Region>Latin America & Caribbean</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -1480,6 +1661,7 @@
 						<Country>
 							<Country_Name>Guinea</Country_Name>
 							<ISO2>GN</ISO2>
+							<Region>Sub-Saharan Africa</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -1492,6 +1674,7 @@
 						<Country>
 							<Country_Name>Brazil</Country_Name>
 							<ISO2>BR</ISO2>
+							<Region>Latin America & Caribbean</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -1504,6 +1687,7 @@
 						<Country>
 							<Country_Name>Brazil</Country_Name>
 							<ISO2>BR</ISO2>
+							<Region>Latin America & Caribbean</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>T</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -1511,6 +1695,7 @@
 						<Country>
 							<Country_Name>Uganda</Country_Name>
 							<ISO2>UG</ISO2>
+							<Region>Sub-Saharan Africa</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -1523,6 +1708,7 @@
 						<Country>
 							<Country_Name>Brazil</Country_Name>
 							<ISO2>BR</ISO2>
+							<Region>Latin America & Caribbean</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -1530,6 +1716,7 @@
 						<Country>
 							<Country_Name>Cambodia</Country_Name>
 							<ISO2>KH</ISO2>
+							<Region>Asia & Pacific</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -1537,6 +1724,7 @@
 						<Country>
 							<Country_Name>Nigeria</Country_Name>
 							<ISO2>NG</ISO2>
+							<Region>Sub-Saharan Africa</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -1549,6 +1737,7 @@
 						<Country>
 							<Country_Name>Brazil</Country_Name>
 							<ISO2>BR</ISO2>
+							<Region>Latin America & Caribbean</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -1561,6 +1750,7 @@
 						<Country>
 							<Country_Name>Brazil</Country_Name>
 							<ISO2>BR</ISO2>
+							<Region>Latin America & Caribbean</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -1568,6 +1758,7 @@
 						<Country>
 							<Country_Name>Burma</Country_Name>
 							<ISO2>BU</ISO2>
+							<Region>Asia & Pacific</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>T</Forced_Labor>
 							<Forced_Child_Labor>T</Forced_Child_Labor>
@@ -1575,6 +1766,7 @@
 						<Country>
 							<Country_Name>Dominican Republic</Country_Name>
 							<ISO2>DO</ISO2>
+							<Region>Latin America & Caribbean</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -1582,6 +1774,7 @@
 						<Country>
 							<Country_Name>India</Country_Name>
 							<ISO2>IN</ISO2>
+							<Region>Asia & Pacific</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>T</Forced_Labor>
 							<Forced_Child_Labor>T</Forced_Child_Labor>
@@ -1589,6 +1782,7 @@
 						<Country>
 							<Country_Name>Kenya</Country_Name>
 							<ISO2>KE</ISO2>
+							<Region>Sub-Saharan Africa</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -1596,6 +1790,7 @@
 						<Country>
 							<Country_Name>Mali</Country_Name>
 							<ISO2>ML</ISO2>
+							<Region>Sub-Saharan Africa</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>T</Forced_Labor>
 							<Forced_Child_Labor>T</Forced_Child_Labor>
@@ -1603,6 +1798,7 @@
 						<Country>
 							<Country_Name>Philippines</Country_Name>
 							<ISO2>PH</ISO2>
+							<Region>Asia & Pacific</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -1610,6 +1806,7 @@
 						<Country>
 							<Country_Name>Uganda</Country_Name>
 							<ISO2>UG</ISO2>
+							<Region>Sub-Saharan Africa</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -1622,6 +1819,7 @@
 						<Country>
 							<Country_Name>Brazil</Country_Name>
 							<ISO2>BR</ISO2>
+							<Region>Latin America & Caribbean</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -1629,6 +1827,7 @@
 						<Country>
 							<Country_Name>Kenya</Country_Name>
 							<ISO2>KE</ISO2>
+							<Region>Sub-Saharan Africa</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -1636,6 +1835,7 @@
 						<Country>
 							<Country_Name>Tanzania</Country_Name>
 							<ISO2>TZ</ISO2>
+							<Region>Sub-Saharan Africa</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -1648,6 +1848,7 @@
 						<Country>
 							<Country_Name>Brazil</Country_Name>
 							<ISO2>BR</ISO2>
+							<Region>Latin America & Caribbean</Region>
 							<Child_Labor>F</Child_Labor>
 							<Forced_Labor>T</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -1655,6 +1856,7 @@
 						<Country>
 							<Country_Name>Cambodia</Country_Name>
 							<ISO2>KH</ISO2>
+							<Region>Asia & Pacific</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -1662,6 +1864,7 @@
 						<Country>
 							<Country_Name>North Korea</Country_Name>
 							<ISO2>KP</ISO2>
+							<Region>Asia & Pacific</Region>
 							<Child_Labor>F</Child_Labor>
 							<Forced_Labor>T</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -1669,6 +1872,7 @@
 						<Country>
 							<Country_Name>Peru</Country_Name>
 							<ISO2>PE</ISO2>
+							<Region>Latin America & Caribbean</Region>
 							<Child_Labor>F</Child_Labor>
 							<Forced_Labor>T</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -1681,6 +1885,7 @@
 						<Country>
 							<Country_Name>Burma</Country_Name>
 							<ISO2>BU</ISO2>
+							<Region>Asia & Pacific</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>T</Forced_Labor>
 							<Forced_Child_Labor>T</Forced_Child_Labor>
@@ -1693,6 +1898,7 @@
 						<Country>
 							<Country_Name>Burma</Country_Name>
 							<ISO2>BU</ISO2>
+							<Region>Asia & Pacific</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>T</Forced_Labor>
 							<Forced_Child_Labor>T</Forced_Child_Labor>
@@ -1705,6 +1911,7 @@
 						<Country>
 							<Country_Name>Burma</Country_Name>
 							<ISO2>BU</ISO2>
+							<Region>Asia & Pacific</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>T</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -1717,6 +1924,7 @@
 						<Country>
 							<Country_Name>Burma</Country_Name>
 							<ISO2>BU</ISO2>
+							<Region>Asia & Pacific</Region>
 							<Child_Labor>F</Child_Labor>
 							<Forced_Labor>T</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -1729,6 +1937,7 @@
 						<Country>
 							<Country_Name>Burma</Country_Name>
 							<ISO2>BU</ISO2>
+							<Region>Asia & Pacific</Region>
 							<Child_Labor>F</Child_Labor>
 							<Forced_Labor>T</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -1741,6 +1950,7 @@
 						<Country>
 							<Country_Name>Burma</Country_Name>
 							<ISO2>BU</ISO2>
+							<Region>Asia & Pacific</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>T</Forced_Labor>
 							<Forced_Child_Labor>T</Forced_Child_Labor>
@@ -1748,6 +1958,7 @@
 						<Country>
 							<Country_Name>Cambodia</Country_Name>
 							<ISO2>KH</ISO2>
+							<Region>Asia & Pacific</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -1755,6 +1966,7 @@
 						<Country>
 							<Country_Name>Indonesia</Country_Name>
 							<ISO2>ID</ISO2>
+							<Region>Asia & Pacific</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -1762,6 +1974,7 @@
 						<Country>
 							<Country_Name>Liberia</Country_Name>
 							<ISO2>LR</ISO2>
+							<Region>Sub-Saharan Africa</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -1769,6 +1982,7 @@
 						<Country>
 							<Country_Name>Philippines</Country_Name>
 							<ISO2>PH</ISO2>
+							<Region>Asia & Pacific</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -1781,6 +1995,7 @@
 						<Country>
 							<Country_Name>Burma</Country_Name>
 							<ISO2>BU</ISO2>
+							<Region>Asia & Pacific</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>T</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -1793,6 +2008,7 @@
 						<Country>
 							<Country_Name>Burma</Country_Name>
 							<ISO2>BU</ISO2>
+							<Region>Asia & Pacific</Region>
 							<Child_Labor>F</Child_Labor>
 							<Forced_Labor>T</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -1805,6 +2021,7 @@
 						<Country>
 							<Country_Name>Burma</Country_Name>
 							<ISO2>BU</ISO2>
+							<Region>Asia & Pacific</Region>
 							<Child_Labor>F</Child_Labor>
 							<Forced_Labor>T</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -1817,6 +2034,7 @@
 						<Country>
 							<Country_Name>Burma</Country_Name>
 							<ISO2>BU</ISO2>
+							<Region>Asia & Pacific</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>T</Forced_Labor>
 							<Forced_Child_Labor>T</Forced_Child_Labor>
@@ -1829,6 +2047,7 @@
 						<Country>
 							<Country_Name>Cambodia</Country_Name>
 							<ISO2>KH</ISO2>
+							<Region>Asia & Pacific</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -1841,6 +2060,7 @@
 						<Country>
 							<Country_Name>Cambodia</Country_Name>
 							<ISO2>KH</ISO2>
+							<Region>Asia & Pacific</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -1848,6 +2068,7 @@
 						<Country>
 							<Country_Name>Ghana</Country_Name>
 							<ISO2>GH</ISO2>
+							<Region>Sub-Saharan Africa</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>T</Forced_Labor>
 							<Forced_Child_Labor>T</Forced_Child_Labor>
@@ -1855,6 +2076,7 @@
 						<Country>
 							<Country_Name>Indonesia</Country_Name>
 							<ISO2>ID</ISO2>
+							<Region>Asia & Pacific</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -1862,6 +2084,7 @@
 						<Country>
 							<Country_Name>Kenya</Country_Name>
 							<ISO2>KE</ISO2>
+							<Region>Sub-Saharan Africa</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -1869,6 +2092,7 @@
 						<Country>
 							<Country_Name>Peru</Country_Name>
 							<ISO2>PE</ISO2>
+							<Region>Latin America & Caribbean</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -1876,6 +2100,7 @@
 						<Country>
 							<Country_Name>Philippines</Country_Name>
 							<ISO2>PH</ISO2>
+							<Region>Asia & Pacific</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -1883,6 +2108,7 @@
 						<Country>
 							<Country_Name>Thailand</Country_Name>
 							<ISO2>TH</ISO2>
+							<Region>Asia & Pacific</Region>
 							<Child_Labor>F</Child_Labor>
 							<Forced_Labor>T</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -1890,6 +2116,7 @@
 						<Country>
 							<Country_Name>Uganda</Country_Name>
 							<ISO2>UG</ISO2>
+							<Region>Sub-Saharan Africa</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -1897,6 +2124,7 @@
 						<Country>
 							<Country_Name>Yemen</Country_Name>
 							<ISO2>YE</ISO2>
+							<Region>Middle East & North Africa</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -1909,6 +2137,7 @@
 						<Country>
 							<Country_Name>Cambodia</Country_Name>
 							<ISO2>KH</ISO2>
+							<Region>Asia & Pacific</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -1921,6 +2150,7 @@
 						<Country>
 							<Country_Name>Cameroon</Country_Name>
 							<ISO2>CM</ISO2>
+							<Region>Sub-Saharan Africa</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -1928,6 +2158,7 @@
 						<Country>
 							<Country_Name>Cote d'Ivoire</Country_Name>
 							<ISO2>CI</ISO2>
+							<Region>Sub-Saharan Africa</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>T</Forced_Labor>
 							<Forced_Child_Labor>T</Forced_Child_Labor>
@@ -1935,6 +2166,7 @@
 						<Country>
 							<Country_Name>Ghana</Country_Name>
 							<ISO2>GH</ISO2>
+							<Region>Sub-Saharan Africa</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -1942,6 +2174,7 @@
 						<Country>
 							<Country_Name>Guinea</Country_Name>
 							<ISO2>GN</ISO2>
+							<Region>Sub-Saharan Africa</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -1949,6 +2182,7 @@
 						<Country>
 							<Country_Name>Nigeria</Country_Name>
 							<ISO2>NG</ISO2>
+							<Region>Sub-Saharan Africa</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>T</Forced_Labor>
 							<Forced_Child_Labor>T</Forced_Child_Labor>
@@ -1956,6 +2190,7 @@
 						<Country>
 							<Country_Name>Sierra Leone</Country_Name>
 							<ISO2>SL</ISO2>
+							<Region>Sub-Saharan Africa</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -1968,6 +2203,7 @@
 						<Country>
 							<Country_Name>China</Country_Name>
 							<ISO2>CN</ISO2>
+							<Region>Asia & Pacific</Region>
 							<Child_Labor>F</Child_Labor>
 							<Forced_Labor>T</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -1980,6 +2216,7 @@
 						<Country>
 							<Country_Name>China</Country_Name>
 							<ISO2>CN</ISO2>
+							<Region>Asia & Pacific</Region>
 							<Child_Labor>F</Child_Labor>
 							<Forced_Labor>T</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -1992,6 +2229,7 @@
 						<Country>
 							<Country_Name>China</Country_Name>
 							<ISO2>CN</ISO2>
+							<Region>Asia & Pacific</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>T</Forced_Labor>
 							<Forced_Child_Labor>T</Forced_Child_Labor>
@@ -1999,6 +2237,7 @@
 						<Country>
 							<Country_Name>Malaysia</Country_Name>
 							<ISO2>MY</ISO2>
+							<Region>Asia & Pacific</Region>
 							<Child_Labor>F</Child_Labor>
 							<Forced_Labor>T</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -2011,6 +2250,7 @@
 						<Country>
 							<Country_Name>China</Country_Name>
 							<ISO2>CN</ISO2>
+							<Region>Asia & Pacific</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>T</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -2018,6 +2258,7 @@
 						<Country>
 							<Country_Name>El Salvador</Country_Name>
 							<ISO2>SV</ISO2>
+							<Region>Latin America & Caribbean</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -2025,6 +2266,7 @@
 						<Country>
 							<Country_Name>Guatemala</Country_Name>
 							<ISO2>GT</ISO2>
+							<Region>Latin America & Caribbean</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -2032,6 +2274,7 @@
 						<Country>
 							<Country_Name>India</Country_Name>
 							<ISO2>IN</ISO2>
+							<Region>Asia & Pacific</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -2039,6 +2282,7 @@
 						<Country>
 							<Country_Name>Peru</Country_Name>
 							<ISO2>PE</ISO2>
+							<Region>Latin America & Caribbean</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -2051,6 +2295,7 @@
 						<Country>
 							<Country_Name>China</Country_Name>
 							<ISO2>CN</ISO2>
+							<Region>Asia & Pacific</Region>
 							<Child_Labor>F</Child_Labor>
 							<Forced_Labor>T</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -2063,6 +2308,7 @@
 						<Country>
 							<Country_Name>China</Country_Name>
 							<ISO2>CN</ISO2>
+							<Region>Asia & Pacific</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>T</Forced_Labor>
 							<Forced_Child_Labor>T</Forced_Child_Labor>
@@ -2075,6 +2321,7 @@
 						<Country>
 							<Country_Name>Colombia</Country_Name>
 							<ISO2>CO</ISO2>
+							<Region>Latin America & Caribbean</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -2087,6 +2334,7 @@
 						<Country>
 							<Country_Name>Colombia</Country_Name>
 							<ISO2>CO</ISO2>
+							<Region>Latin America & Caribbean</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>T</Forced_Labor>
 							<Forced_Child_Labor>T</Forced_Child_Labor>
@@ -2094,6 +2342,7 @@
 						<Country>
 							<Country_Name>Peru</Country_Name>
 							<ISO2>PE</ISO2>
+							<Region>Latin America & Caribbean</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -2106,6 +2355,7 @@
 						<Country>
 							<Country_Name>Colombia</Country_Name>
 							<ISO2>CO</ISO2>
+							<Region>Latin America & Caribbean</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -2113,6 +2363,7 @@
 						<Country>
 							<Country_Name>Cote d'Ivoire</Country_Name>
 							<ISO2>CI</ISO2>
+							<Region>Sub-Saharan Africa</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>T</Forced_Labor>
 							<Forced_Child_Labor>T</Forced_Child_Labor>
@@ -2120,6 +2371,7 @@
 						<Country>
 							<Country_Name>Dominican Republic</Country_Name>
 							<ISO2>DO</ISO2>
+							<Region>Latin America & Caribbean</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -2127,6 +2379,7 @@
 						<Country>
 							<Country_Name>El Salvador</Country_Name>
 							<ISO2>SV</ISO2>
+							<Region>Latin America & Caribbean</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -2134,6 +2387,7 @@
 						<Country>
 							<Country_Name>Guatemala</Country_Name>
 							<ISO2>GT</ISO2>
+							<Region>Latin America & Caribbean</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -2141,6 +2395,7 @@
 						<Country>
 							<Country_Name>Guinea</Country_Name>
 							<ISO2>GN</ISO2>
+							<Region>Sub-Saharan Africa</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -2148,6 +2403,7 @@
 						<Country>
 							<Country_Name>Honduras</Country_Name>
 							<ISO2>HN</ISO2>
+							<Region>Latin America & Caribbean</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -2155,6 +2411,7 @@
 						<Country>
 							<Country_Name>Kenya</Country_Name>
 							<ISO2>KE</ISO2>
+							<Region>Sub-Saharan Africa</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -2162,6 +2419,7 @@
 						<Country>
 							<Country_Name>Mexico</Country_Name>
 							<ISO2>MX</ISO2>
+							<Region>Latin America & Caribbean</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -2169,6 +2427,7 @@
 						<Country>
 							<Country_Name>Nicaragua</Country_Name>
 							<ISO2>NI</ISO2>
+							<Region>Latin America & Caribbean</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -2176,6 +2435,7 @@
 						<Country>
 							<Country_Name>Panama</Country_Name>
 							<ISO2>PA</ISO2>
+							<Region>Latin America & Caribbean</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -2183,6 +2443,7 @@
 						<Country>
 							<Country_Name>Sierra Leone</Country_Name>
 							<ISO2>SL</ISO2>
+							<Region>Sub-Saharan Africa</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -2190,6 +2451,7 @@
 						<Country>
 							<Country_Name>Tanzania</Country_Name>
 							<ISO2>TZ</ISO2>
+							<Region>Sub-Saharan Africa</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -2197,6 +2459,7 @@
 						<Country>
 							<Country_Name>Uganda</Country_Name>
 							<ISO2>UG</ISO2>
+							<Region>Sub-Saharan Africa</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -2209,6 +2472,7 @@
 						<Country>
 							<Country_Name>Colombia</Country_Name>
 							<ISO2>CO</ISO2>
+							<Region>Latin America & Caribbean</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -2221,6 +2485,7 @@
 						<Country>
 							<Country_Name>Colombia</Country_Name>
 							<ISO2>CO</ISO2>
+							<Region>Latin America & Caribbean</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -2228,6 +2493,7 @@
 						<Country>
 							<Country_Name>Mexico</Country_Name>
 							<ISO2>MX</ISO2>
+							<Region>Latin America & Caribbean</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -2235,6 +2501,7 @@
 						<Country>
 							<Country_Name>Paraguay</Country_Name>
 							<ISO2>PY</ISO2>
+							<Region>Latin America & Caribbean</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -2242,6 +2509,7 @@
 						<Country>
 							<Country_Name>Philippines</Country_Name>
 							<ISO2>PH</ISO2>
+							<Region>Asia & Pacific</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -2249,6 +2517,7 @@
 						<Country>
 							<Country_Name>Russia</Country_Name>
 							<ISO2>RU</ISO2>
+							<Region>Europe & Eurasia</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>T</Forced_Labor>
 							<Forced_Child_Labor>T</Forced_Child_Labor>
@@ -2256,6 +2525,7 @@
 						<Country>
 							<Country_Name>Thailand</Country_Name>
 							<ISO2>TH</ISO2>
+							<Region>Asia & Pacific</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -2263,6 +2533,7 @@
 						<Country>
 							<Country_Name>Ukraine</Country_Name>
 							<ISO2>UA</ISO2>
+							<Region>Europe & Eurasia</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -2275,6 +2546,7 @@
 						<Country>
 							<Country_Name>Democratic Republic of the Congo</Country_Name>
 							<ISO2>CD</ISO2>
+							<Region>Sub-Saharan Africa</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>T</Forced_Labor>
 							<Forced_Child_Labor>T</Forced_Child_Labor>
@@ -2287,6 +2559,7 @@
 						<Country>
 							<Country_Name>Democratic Republic of the Congo</Country_Name>
 							<ISO2>CD</ISO2>
+							<Region>Sub-Saharan Africa</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>T</Forced_Labor>
 							<Forced_Child_Labor>T</Forced_Child_Labor>
@@ -2299,6 +2572,7 @@
 						<Country>
 							<Country_Name>Democratic Republic of the Congo</Country_Name>
 							<ISO2>CD</ISO2>
+							<Region>Sub-Saharan Africa</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -2311,6 +2585,7 @@
 						<Country>
 							<Country_Name>Democratic Republic of the Congo</Country_Name>
 							<ISO2>CD</ISO2>
+							<Region>Sub-Saharan Africa</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -2323,6 +2598,7 @@
 						<Country>
 							<Country_Name>Democratic Republic of the Congo</Country_Name>
 							<ISO2>CD</ISO2>
+							<Region>Sub-Saharan Africa</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>T</Forced_Labor>
 							<Forced_Child_Labor>T</Forced_Child_Labor>
@@ -2335,6 +2611,7 @@
 						<Country>
 							<Country_Name>Dominican Republic</Country_Name>
 							<ISO2>DO</ISO2>
+							<Region>Latin America & Caribbean</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -2347,6 +2624,7 @@
 						<Country>
 							<Country_Name>Ecuador</Country_Name>
 							<ISO2>EC</ISO2>
+							<Region>Latin America & Caribbean</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -2359,6 +2637,7 @@
 						<Country>
 							<Country_Name>Egypt</Country_Name>
 							<ISO2>EG</ISO2>
+							<Region>Middle East & North Africa</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -2366,6 +2645,7 @@
 						<Country>
 							<Country_Name>Paraguay</Country_Name>
 							<ISO2>PY</ISO2>
+							<Region>Latin America & Caribbean</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -2378,6 +2658,7 @@
 						<Country>
 							<Country_Name>El Salvador</Country_Name>
 							<ISO2>SV</ISO2>
+							<Region>Latin America & Caribbean</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -2385,6 +2666,7 @@
 						<Country>
 							<Country_Name>Nicaragua</Country_Name>
 							<ISO2>NI</ISO2>
+							<Region>Latin America & Caribbean</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -2397,6 +2679,7 @@
 						<Country>
 							<Country_Name>Ethiopia</Country_Name>
 							<ISO2>ET</ISO2>
+							<Region>Sub-Saharan Africa</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>T</Forced_Labor>
 							<Forced_Child_Labor>T</Forced_Child_Labor>
@@ -2409,6 +2692,7 @@
 						<Country>
 							<Country_Name>Ghana</Country_Name>
 							<ISO2>GH</ISO2>
+							<Region>Sub-Saharan Africa</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>T</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -2421,6 +2705,7 @@
 						<Country>
 							<Country_Name>Guatemala</Country_Name>
 							<ISO2>GT</ISO2>
+							<Region>Latin America & Caribbean</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -2433,6 +2718,7 @@
 						<Country>
 							<Country_Name>Guatemala</Country_Name>
 							<ISO2>GT</ISO2>
+							<Region>Latin America & Caribbean</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -2440,6 +2726,7 @@
 						<Country>
 							<Country_Name>Nicaragua</Country_Name>
 							<ISO2>NI</ISO2>
+							<Region>Latin America & Caribbean</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -2447,6 +2734,7 @@
 						<Country>
 							<Country_Name>Nigeria</Country_Name>
 							<ISO2>NG</ISO2>
+							<Region>Sub-Saharan Africa</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>T</Forced_Labor>
 							<Forced_Child_Labor>T</Forced_Child_Labor>
@@ -2459,6 +2747,7 @@
 						<Country>
 							<Country_Name>Honduras</Country_Name>
 							<ISO2>HN</ISO2>
+							<Region>Latin America & Caribbean</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -2471,6 +2760,7 @@
 						<Country>
 							<Country_Name>Honduras</Country_Name>
 							<ISO2>HN</ISO2>
+							<Region>Latin America & Caribbean</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -2478,6 +2768,7 @@
 						<Country>
 							<Country_Name>Mexico</Country_Name>
 							<ISO2>MX</ISO2>
+							<Region>Latin America & Caribbean</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -2485,6 +2776,7 @@
 						<Country>
 							<Country_Name>Panama</Country_Name>
 							<ISO2>PA</ISO2>
+							<Region>Latin America & Caribbean</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -2497,6 +2789,7 @@
 						<Country>
 							<Country_Name>India</Country_Name>
 							<ISO2>IN</ISO2>
+							<Region>Asia & Pacific</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -2509,6 +2802,7 @@
 						<Country>
 							<Country_Name>India</Country_Name>
 							<ISO2>IN</ISO2>
+							<Region>Asia & Pacific</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>T</Forced_Labor>
 							<Forced_Child_Labor>T</Forced_Child_Labor>
@@ -2521,6 +2815,7 @@
 						<Country>
 							<Country_Name>India</Country_Name>
 							<ISO2>IN</ISO2>
+							<Region>Asia & Pacific</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>T</Forced_Labor>
 							<Forced_Child_Labor>T</Forced_Child_Labor>
@@ -2528,6 +2823,7 @@
 						<Country>
 							<Country_Name>Nepal</Country_Name>
 							<ISO2>NP</ISO2>
+							<Region>Asia & Pacific</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>T</Forced_Labor>
 							<Forced_Child_Labor>T</Forced_Child_Labor>
@@ -2540,6 +2836,7 @@
 						<Country>
 							<Country_Name>India</Country_Name>
 							<ISO2>IN</ISO2>
+							<Region>Asia & Pacific</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -2547,6 +2844,7 @@
 						<Country>
 							<Country_Name>Zambia</Country_Name>
 							<ISO2>ZM</ISO2>
+							<Region>Sub-Saharan Africa</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -2559,6 +2857,7 @@
 						<Country>
 							<Country_Name>India</Country_Name>
 							<ISO2>IN</ISO2>
+							<Region>Asia & Pacific</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -2566,6 +2865,7 @@
 						<Country>
 							<Country_Name>Pakistan</Country_Name>
 							<ISO2>PK</ISO2>
+							<Region>Asia & Pacific</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -2578,6 +2878,7 @@
 						<Country>
 							<Country_Name>India</Country_Name>
 							<ISO2>IN</ISO2>
+							<Region>Asia & Pacific</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -2590,6 +2891,7 @@
 						<Country>
 							<Country_Name>India</Country_Name>
 							<ISO2>IN</ISO2>
+							<Region>Asia & Pacific</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -2602,6 +2904,7 @@
 						<Country>
 							<Country_Name>India</Country_Name>
 							<ISO2>IN</ISO2>
+							<Region>Asia & Pacific</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -2614,6 +2917,7 @@
 						<Country>
 							<Country_Name>India</Country_Name>
 							<ISO2>IN</ISO2>
+							<Region>Asia & Pacific</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -2626,6 +2930,7 @@
 						<Country>
 							<Country_Name>India</Country_Name>
 							<ISO2>IN</ISO2>
+							<Region>Asia & Pacific</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -2638,6 +2943,7 @@
 						<Country>
 							<Country_Name>India</Country_Name>
 							<ISO2>IN</ISO2>
+							<Region>Asia & Pacific</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -2650,6 +2956,7 @@
 						<Country>
 							<Country_Name>India</Country_Name>
 							<ISO2>IN</ISO2>
+							<Region>Asia & Pacific</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>T</Forced_Labor>
 							<Forced_Child_Labor>T</Forced_Child_Labor>
@@ -2657,6 +2964,7 @@
 						<Country>
 							<Country_Name>Madagascar</Country_Name>
 							<ISO2>MG</ISO2>
+							<Region>Sub-Saharan Africa</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -2664,6 +2972,7 @@
 						<Country>
 							<Country_Name>Nepal</Country_Name>
 							<ISO2>NP</ISO2>
+							<Region>Asia & Pacific</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>T</Forced_Labor>
 							<Forced_Child_Labor>T</Forced_Child_Labor>
@@ -2671,6 +2980,7 @@
 						<Country>
 							<Country_Name>Zambia</Country_Name>
 							<ISO2>ZM</ISO2>
+							<Region>Sub-Saharan Africa</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -2683,6 +2993,7 @@
 						<Country>
 							<Country_Name>India</Country_Name>
 							<ISO2>IN</ISO2>
+							<Region>Asia & Pacific</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -2695,6 +3006,7 @@
 						<Country>
 							<Country_Name>Indonesia</Country_Name>
 							<ISO2>ID</ISO2>
+							<Region>Asia & Pacific</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -2707,6 +3019,7 @@
 						<Country>
 							<Country_Name>Indonesia</Country_Name>
 							<ISO2>ID</ISO2>
+							<Region>Asia & Pacific</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -2714,6 +3027,7 @@
 						<Country>
 							<Country_Name>Malaysia</Country_Name>
 							<ISO2>MY</ISO2>
+							<Region>Asia & Pacific</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>T</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -2721,6 +3035,7 @@
 						<Country>
 							<Country_Name>Sierra Leone</Country_Name>
 							<ISO2>SL</ISO2>
+							<Region>Sub-Saharan Africa</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -2733,6 +3048,7 @@
 						<Country>
 							<Country_Name>Kenya</Country_Name>
 							<ISO2>KE</ISO2>
+							<Region>Sub-Saharan Africa</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -2745,6 +3061,7 @@
 						<Country>
 							<Country_Name>Kenya</Country_Name>
 							<ISO2>KE</ISO2>
+							<Region>Sub-Saharan Africa</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -2752,6 +3069,7 @@
 						<Country>
 							<Country_Name>Malawi</Country_Name>
 							<ISO2>MW</ISO2>
+							<Region>Sub-Saharan Africa</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -2759,6 +3077,7 @@
 						<Country>
 							<Country_Name>Rwanda</Country_Name>
 							<ISO2>RW</ISO2>
+							<Region>Sub-Saharan Africa</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -2766,6 +3085,7 @@
 						<Country>
 							<Country_Name>Tanzania</Country_Name>
 							<ISO2>TZ</ISO2>
+							<Region>Sub-Saharan Africa</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -2773,6 +3093,7 @@
 						<Country>
 							<Country_Name>Uganda</Country_Name>
 							<ISO2>UG</ISO2>
+							<Region>Sub-Saharan Africa</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -2785,6 +3106,7 @@
 						<Country>
 							<Country_Name>Madagascar</Country_Name>
 							<ISO2>MG</ISO2>
+							<Region>Sub-Saharan Africa</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -2797,6 +3119,7 @@
 						<Country>
 							<Country_Name>Madagascar</Country_Name>
 							<ISO2>MG</ISO2>
+							<Region>Sub-Saharan Africa</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -2804,6 +3127,7 @@
 						<Country>
 							<Country_Name>Uganda</Country_Name>
 							<ISO2>UG</ISO2>
+							<Region>Sub-Saharan Africa</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -2816,6 +3140,7 @@
 						<Country>
 							<Country_Name>Mauritania</Country_Name>
 							<ISO2>MR</ISO2>
+							<Region>Sub-Saharan Africa</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -2828,6 +3153,7 @@
 						<Country>
 							<Country_Name>Mexico</Country_Name>
 							<ISO2>MX</ISO2>
+							<Region>Latin America & Caribbean</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -2840,6 +3166,7 @@
 						<Country>
 							<Country_Name>Mexico</Country_Name>
 							<ISO2>MX</ISO2>
+							<Region>Latin America & Caribbean</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -2852,6 +3179,7 @@
 						<Country>
 							<Country_Name>Mexico</Country_Name>
 							<ISO2>MX</ISO2>
+							<Region>Latin America & Caribbean</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -2864,6 +3192,7 @@
 						<Country>
 							<Country_Name>Mexico</Country_Name>
 							<ISO2>MX</ISO2>
+							<Region>Latin America & Caribbean</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -2876,6 +3205,7 @@
 						<Country>
 							<Country_Name>Mexico</Country_Name>
 							<ISO2>MX</ISO2>
+							<Region>Latin America & Caribbean</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -2888,6 +3218,7 @@
 						<Country>
 							<Country_Name>Mongolia</Country_Name>
 							<ISO2>MN</ISO2>
+							<Region>Asia & Pacific</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -2900,6 +3231,7 @@
 						<Country>
 							<Country_Name>Nicaragua</Country_Name>
 							<ISO2>NI</ISO2>
+							<Region>Latin America & Caribbean</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -2912,6 +3244,7 @@
 						<Country>
 							<Country_Name>Niger</Country_Name>
 							<ISO2>NE</ISO2>
+							<Region>Sub-Saharan Africa</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -2924,6 +3257,7 @@
 						<Country>
 							<Country_Name>Niger</Country_Name>
 							<ISO2>NE</ISO2>
+							<Region>Sub-Saharan Africa</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -2936,6 +3270,7 @@
 						<Country>
 							<Country_Name>Nigeria</Country_Name>
 							<ISO2>NG</ISO2>
+							<Region>Sub-Saharan Africa</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>T</Forced_Labor>
 							<Forced_Child_Labor>T</Forced_Child_Labor>
@@ -2943,6 +3278,7 @@
 						<Country>
 							<Country_Name>Sierra Leone</Country_Name>
 							<ISO2>SL</ISO2>
+							<Region>Sub-Saharan Africa</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -2955,6 +3291,7 @@
 						<Country>
 							<Country_Name>Nigeria</Country_Name>
 							<ISO2>NG</ISO2>
+							<Region>Sub-Saharan Africa</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -2967,6 +3304,7 @@
 						<Country>
 							<Country_Name>North Korea</Country_Name>
 							<ISO2>KP</ISO2>
+							<Region>Asia & Pacific</Region>
 							<Child_Labor>F</Child_Labor>
 							<Forced_Labor>T</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -2979,6 +3317,7 @@
 						<Country>
 							<Country_Name>North Korea</Country_Name>
 							<ISO2>KP</ISO2>
+							<Region>Asia & Pacific</Region>
 							<Child_Labor>F</Child_Labor>
 							<Forced_Labor>T</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -2991,6 +3330,7 @@
 						<Country>
 							<Country_Name>Pakistan</Country_Name>
 							<ISO2>PK</ISO2>
+							<Region>Asia & Pacific</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -3003,6 +3343,7 @@
 						<Country>
 							<Country_Name>Pakistan</Country_Name>
 							<ISO2>PK</ISO2>
+							<Region>Asia & Pacific</Region>
 							<Child_Labor>F</Child_Labor>
 							<Forced_Labor>T</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -3015,6 +3356,7 @@
 						<Country>
 							<Country_Name>Philippines</Country_Name>
 							<ISO2>PH</ISO2>
+							<Region>Asia & Pacific</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -3027,6 +3369,7 @@
 						<Country>
 							<Country_Name>Philippines</Country_Name>
 							<ISO2>PH</ISO2>
+							<Region>Asia & Pacific</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -3039,6 +3382,7 @@
 						<Country>
 							<Country_Name>Philippines</Country_Name>
 							<ISO2>PH</ISO2>
+							<Region>Asia & Pacific</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -3051,6 +3395,7 @@
 						<Country>
 							<Country_Name>Philippines</Country_Name>
 							<ISO2>PH</ISO2>
+							<Region>Asia & Pacific</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -3063,6 +3408,7 @@
 						<Country>
 							<Country_Name>Tanzania</Country_Name>
 							<ISO2>TZ</ISO2>
+							<Region>Sub-Saharan Africa</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -3075,6 +3421,7 @@
 						<Country>
 							<Country_Name>Tanzania</Country_Name>
 							<ISO2>TZ</ISO2>
+							<Region>Sub-Saharan Africa</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -3087,6 +3434,7 @@
 						<Country>
 							<Country_Name>Tanzania</Country_Name>
 							<ISO2>TZ</ISO2>
+							<Region>Sub-Saharan Africa</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -3099,6 +3447,7 @@
 						<Country>
 							<Country_Name>Turkey</Country_Name>
 							<ISO2>TR</ISO2>
+							<Region>Europe & Eurasia</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -3111,6 +3460,7 @@
 						<Country>
 							<Country_Name>Turkey</Country_Name>
 							<ISO2>TR</ISO2>
+							<Region>Europe & Eurasia</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -3123,6 +3473,7 @@
 						<Country>
 							<Country_Name>Turkey</Country_Name>
 							<ISO2>TR</ISO2>
+							<Region>Europe & Eurasia</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -3135,6 +3486,7 @@
 						<Country>
 							<Country_Name>Turkey</Country_Name>
 							<ISO2>TR</ISO2>
+							<Region>Europe & Eurasia</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
@@ -3147,6 +3499,7 @@
 						<Country>
 							<Country_Name>Turkey</Country_Name>
 							<ISO2>TR</ISO2>
+							<Region>Europe & Eurasia</Region>
 							<Child_Labor>T</Child_Labor>
 							<Forced_Labor>F</Forced_Labor>
 							<Forced_Child_Labor>F</Forced_Child_Labor>
