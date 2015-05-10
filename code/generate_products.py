@@ -153,6 +153,6 @@ def to_xml_by_product(goods_list, filename):
 
 if __name__ == '__main__':
 	plist = from_excelsheet(0)
-	to_xml_by_country(plist, "../output/products_2013_by_country.xml")
-	to_xml_by_product(plist, "../output/products_2013_by_product.xml")
+	to_xml_by_country(plist, "../output/extra/products_2013_by_country.xml")
+	to_xml_by_product(plist, "../output/extra/products_2013_by_product.xml")
 

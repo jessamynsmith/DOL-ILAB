@@ -165,5 +165,5 @@ def build():
 if __name__ == '__main__':
 	
 	mdlist = build()	
-	to_xml(mdlist, "../output/master_data_2013_by_country.xml")
+	to_xml(mdlist, "../output/extra/master_data_2013_by_country.xml")
 

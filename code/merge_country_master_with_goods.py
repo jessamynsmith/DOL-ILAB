@@ -213,7 +213,7 @@ if __name__ == '__main__':
 
 	newm = build()
 
-	to_xml(newm, "../output/master_data_ISO_2013_by_country.xml")
+	to_xml(newm, "../output/extra/master_data_ISO_2013_by_country.xml")
 
 
 
