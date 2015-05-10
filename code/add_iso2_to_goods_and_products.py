@@ -163,7 +163,7 @@ def raw_dump_to_json(goods_list, fname):
 if __name__ == '__main__':  
 	m = build()
 	#print m
-	to_xml_by_country(m, "../output/all_goods_with_ISO2_2013_by_country.xml")
+	to_xml_by_country(m, "../output/extra/all_goods_with_ISO2_2013_by_country.xml")
 	to_xml_by_good(m,"../output/all_goods_with_ISO2_2013_by_good.xml")
 
-	raw_dump_to_json(m, "../output/goods_by_good.json")
+	raw_dump_to_json(m, "../output/extra/goods_by_good.json")
