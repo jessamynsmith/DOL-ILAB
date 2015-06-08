@@ -10,6 +10,7 @@
 			<Year></Year>
 			<Survey_Score></Survey_Score>
 			<Age_Range></Age_Range>
+			<Total_Child_Population>673949.0			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children></Total_Percentage_of_Working_Children>
 			<Total_Working_Population></Total_Working_Population>
 			<Agriculture></Agriculture>
@@ -41,6 +42,7 @@
 			<Year>2010.0</Year>
 			<Survey_Score>SIMPOC</Survey_Score>
 			<Age_Range>5-14</Age_Range>
+			<Total_Child_Population>23665.0			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children>4.56862047172</Total_Percentage_of_Working_Children>
 			<Total_Working_Population>23665.0</Total_Working_Population>
 			<Agriculture>87.4708222625</Agriculture>
@@ -72,6 +74,7 @@
 			<Year></Year>
 			<Survey_Score></Survey_Score>
 			<Age_Range></Age_Range>
+			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children></Total_Percentage_of_Working_Children>
 			<Total_Working_Population></Total_Working_Population>
 			<Agriculture></Agriculture>
@@ -103,6 +106,7 @@
 			<Year>2001.0</Year>
 			<Survey_Score>MICS 2</Survey_Score>
 			<Age_Range>5-14</Age_Range>
+			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children>25.7</Total_Percentage_of_Working_Children>
 			<Total_Working_Population>694458.0</Total_Working_Population>
 			<Agriculture></Agriculture>
@@ -134,6 +138,7 @@
 			<Year></Year>
 			<Survey_Score></Survey_Score>
 			<Age_Range></Age_Range>
+			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children></Total_Percentage_of_Working_Children>
 			<Total_Working_Population></Total_Working_Population>
 			<Agriculture></Agriculture>
@@ -165,6 +170,7 @@
 			<Year>2004.0</Year>
 			<Survey_Score>EANNA</Survey_Score>
 			<Age_Range>5-14</Age_Range>
+			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children>11.0</Total_Percentage_of_Working_Children>
 			<Total_Working_Population>366235.0</Total_Working_Population>
 			<Agriculture>12.9</Agriculture>
@@ -196,6 +202,7 @@
 			<Year>2010.0</Year>
 			<Survey_Score>DHS</Survey_Score>
 			<Age_Range>5-14</Age_Range>
+			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children>8.1</Total_Percentage_of_Working_Children>
 			<Total_Working_Population>30493.8745</Total_Working_Population>
 			<Agriculture></Agriculture>
@@ -227,6 +234,7 @@
 			<Year>2005.0</Year>
 			<Survey_Score>SIMPOC</Survey_Score>
 			<Age_Range>5-14</Age_Range>
+			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children>4.5</Total_Percentage_of_Working_Children>
 			<Total_Working_Population>70033.5</Total_Working_Population>
 			<Agriculture>91.9</Agriculture>
@@ -258,6 +266,7 @@
 			<Year></Year>
 			<Survey_Score></Survey_Score>
 			<Age_Range></Age_Range>
+			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children></Total_Percentage_of_Working_Children>
 			<Total_Working_Population></Total_Working_Population>
 			<Agriculture></Agriculture>
@@ -289,6 +298,7 @@
 			<Year>2005-2006</Year>
 			<Survey_Score>LFS</Survey_Score>
 			<Age_Range>5-14</Age_Range>
+			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children>10.1</Total_Percentage_of_Working_Children>
 			<Total_Working_Population>3717540.0</Total_Working_Population>
 			<Agriculture>45.5479389643</Agriculture>
@@ -320,6 +330,7 @@
 			<Year></Year>
 			<Survey_Score></Survey_Score>
 			<Age_Range></Age_Range>
+			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children></Total_Percentage_of_Working_Children>
 			<Total_Working_Population></Total_Working_Population>
 			<Agriculture></Agriculture>
@@ -351,6 +362,7 @@
 			<Year>2011.0</Year>
 			<Survey_Score>MICS 4</Survey_Score>
 			<Age_Range>5-14</Age_Range>
+			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children>8.3</Total_Percentage_of_Working_Children>
 			<Total_Working_Population>6933.95</Total_Working_Population>
 			<Agriculture></Agriculture>
@@ -382,6 +394,7 @@
 			<Year>2006.0</Year>
 			<Survey_Score>DHS</Survey_Score>
 			<Age_Range>5-14</Age_Range>
+			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children>31.5</Total_Percentage_of_Working_Children>
 			<Total_Working_Population>850785.0</Total_Working_Population>
 			<Agriculture></Agriculture>
@@ -413,6 +426,7 @@
 			<Year>2010.0</Year>
 			<Survey_Score>MICS 4</Survey_Score>
 			<Age_Range>5-14</Age_Range>
+			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children>3.8</Total_Percentage_of_Working_Children>
 			<Total_Working_Population>6338.11</Total_Working_Population>
 			<Agriculture></Agriculture>
@@ -444,6 +458,7 @@
 			<Year>2009.0</Year>
 			<Survey_Score>ECH</Survey_Score>
 			<Age_Range>7-14</Age_Range>
+			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children>20.2</Total_Percentage_of_Working_Children>
 			<Total_Working_Population>388541.0</Total_Working_Population>
 			<Agriculture>70.9402611307</Agriculture>
@@ -475,6 +490,7 @@
 			<Year>2006.0</Year>
 			<Survey_Score>MICS 3</Survey_Score>
 			<Age_Range>5-14</Age_Range>
+			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children>8.9</Total_Percentage_of_Working_Children>
 			<Total_Working_Population>44017.0</Total_Working_Population>
 			<Agriculture></Agriculture>
@@ -506,6 +522,7 @@
 			<Year></Year>
 			<Survey_Score></Survey_Score>
 			<Age_Range></Age_Range>
+			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children></Total_Percentage_of_Working_Children>
 			<Total_Working_Population></Total_Working_Population>
 			<Agriculture></Agriculture>
@@ -537,6 +554,7 @@
 			<Year>2011.0</Year>
 			<Survey_Score>PNAD</Survey_Score>
 			<Age_Range>5-14</Age_Range>
+			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children>3.47511688028</Total_Percentage_of_Working_Children>
 			<Total_Working_Population>1116499.0</Total_Working_Population>
 			<Agriculture>56.43</Agriculture>
@@ -568,6 +586,7 @@
 			<Year></Year>
 			<Survey_Score></Survey_Score>
 			<Age_Range></Age_Range>
+			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children></Total_Percentage_of_Working_Children>
 			<Total_Working_Population></Total_Working_Population>
 			<Agriculture></Agriculture>
@@ -599,6 +618,7 @@
 			<Year></Year>
 			<Survey_Score></Survey_Score>
 			<Age_Range></Age_Range>
+			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children></Total_Percentage_of_Working_Children>
 			<Total_Working_Population></Total_Working_Population>
 			<Agriculture></Agriculture>
@@ -630,6 +650,7 @@
 			<Year>2010.0</Year>
 			<Survey_Score>DHS</Survey_Score>
 			<Age_Range>5-14</Age_Range>
+			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children>42.1</Total_Percentage_of_Working_Children>
 			<Total_Working_Population>2116751.8</Total_Working_Population>
 			<Agriculture></Agriculture>
@@ -661,6 +682,7 @@
 			<Year>2010-2011</Year>
 			<Survey_Score>DHS</Survey_Score>
 			<Age_Range>5-14</Age_Range>
+			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children>27.17</Total_Percentage_of_Working_Children>
 			<Total_Working_Population>633126.11</Total_Working_Population>
 			<Agriculture></Agriculture>
@@ -692,6 +714,7 @@
 			<Year>2001-02</Year>
 			<Survey_Score>HHS</Survey_Score>
 			<Age_Range>10-14</Age_Range>
+			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children>3.2</Total_Percentage_of_Working_Children>
 			<Total_Working_Population>2392.0</Total_Working_Population>
 			<Agriculture>79.2</Agriculture>
@@ -723,6 +746,7 @@
 			<Year>2009.0</Year>
 			<Survey_Score>SES</Survey_Score>
 			<Age_Range>5-14</Age_Range>
+			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children>28.65</Total_Percentage_of_Working_Children>
 			<Total_Working_Population>888370.43</Total_Working_Population>
 			<Agriculture>84.83</Agriculture>
@@ -754,6 +778,7 @@
 			<Year>2011.0</Year>
 			<Survey_Score>DHS</Survey_Score>
 			<Age_Range>5-14</Age_Range>
+			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children>56.2</Total_Percentage_of_Working_Children>
 			<Total_Working_Population></Total_Working_Population>
 			<Agriculture></Agriculture>
@@ -785,6 +810,7 @@
 			<Year>2006.0</Year>
 			<Survey_Score>MICS 3</Survey_Score>
 			<Age_Range>5-14</Age_Range>
+			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children>51.1</Total_Percentage_of_Working_Children>
 			<Total_Working_Population>602932.0</Total_Working_Population>
 			<Agriculture></Agriculture>
@@ -816,6 +842,7 @@
 			<Year>2004.0</Year>
 			<Survey_Score>DHS</Survey_Score>
 			<Age_Range>5-14</Age_Range>
+			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children>53.0</Total_Percentage_of_Working_Children>
 			<Total_Working_Population>1535025.0</Total_Working_Population>
 			<Agriculture></Agriculture>
@@ -847,6 +874,7 @@
 			<Year>2003.0</Year>
 			<Survey_Score>SIMPOC</Survey_Score>
 			<Age_Range>5-14</Age_Range>
+			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children>3.5</Total_Percentage_of_Working_Children>
 			<Total_Working_Population>97928.0</Total_Working_Population>
 			<Agriculture>24.7</Agriculture>
@@ -878,6 +906,7 @@
 			<Year></Year>
 			<Survey_Score></Survey_Score>
 			<Age_Range></Age_Range>
+			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children></Total_Percentage_of_Working_Children>
 			<Total_Working_Population></Total_Working_Population>
 			<Agriculture></Agriculture>
@@ -909,6 +938,7 @@
 			<Year></Year>
 			<Survey_Score></Survey_Score>
 			<Age_Range></Age_Range>
+			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children></Total_Percentage_of_Working_Children>
 			<Total_Working_Population></Total_Working_Population>
 			<Agriculture></Agriculture>
@@ -940,6 +970,7 @@
 			<Year>2012.0</Year>
 			<Survey_Score>GEIH-MTI</Survey_Score>
 			<Age_Range>5-14</Age_Range>
+			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children>5.92842564157</Total_Percentage_of_Working_Children>
 			<Total_Working_Population>514092.5</Total_Working_Population>
 			<Agriculture>39.1722311036</Agriculture>
@@ -971,6 +1002,7 @@
 			<Year>2000.0</Year>
 			<Survey_Score>MICS 2</Survey_Score>
 			<Age_Range>5-14</Age_Range>
+			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children>35.6</Total_Percentage_of_Working_Children>
 			<Total_Working_Population>56840.0</Total_Working_Population>
 			<Agriculture></Agriculture>
@@ -1002,6 +1034,7 @@
 			<Year>2010.0</Year>
 			<Survey_Score>MICS 4</Survey_Score>
 			<Age_Range>5-14</Age_Range>
+			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children>16.9337388725</Total_Percentage_of_Working_Children>
 			<Total_Working_Population>3327805.9</Total_Working_Population>
 			<Agriculture></Agriculture>
@@ -1033,6 +1066,7 @@
 			<Year>2005.0</Year>
 			<Survey_Score>DHS</Survey_Score>
 			<Age_Range>5-14</Age_Range>
+			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children>27.0</Total_Percentage_of_Working_Children>
 			<Total_Working_Population>256993.0</Total_Working_Population>
 			<Agriculture></Agriculture>
@@ -1064,6 +1098,7 @@
 			<Year></Year>
 			<Survey_Score></Survey_Score>
 			<Age_Range></Age_Range>
+			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children></Total_Percentage_of_Working_Children>
 			<Total_Working_Population></Total_Working_Population>
 			<Agriculture></Agriculture>
@@ -1095,6 +1130,7 @@
 			<Year>2011.0</Year>
 			<Survey_Score>ENAHO</Survey_Score>
 			<Age_Range>5-14</Age_Range>
+			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children>2.16972746827</Total_Percentage_of_Working_Children>
 			<Total_Working_Population>16160.0</Total_Working_Population>
 			<Agriculture>45.0742574257</Agriculture>
@@ -1117,7 +1153,7 @@
 		</Unesco_Primary_Completion_Rate>
 	</Country>
 	<Country>
-		<Country_Name>Cote d'Ivoire</Country_Name>
+		<Country_Name>Côte d'Ivoire</Country_Name>
 		<Country_ISO2>CI</Country_ISO2>
 		<Country_ISO3>CIV</Country_ISO3>
 		<Country_Region>Sub-Saharan Africa</Country_Region>
@@ -1126,6 +1162,7 @@
 			<Year>2006.0</Year>
 			<Survey_Score>MICS 3</Survey_Score>
 			<Age_Range>5-14</Age_Range>
+			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children>39.8</Total_Percentage_of_Working_Children>
 			<Total_Working_Population>2181894.0</Total_Working_Population>
 			<Agriculture></Agriculture>
@@ -1148,7 +1185,7 @@
 		</Unesco_Primary_Completion_Rate>
 	</Country>
 	<Country>
-		<Country_Name>Dijibouti</Country_Name>
+		<Country_Name>Djibouti</Country_Name>
 		<Country_ISO2>DJ</Country_ISO2>
 		<Country_ISO3>DJI</Country_ISO3>
 		<Country_Region>Sub-Saharan Africa</Country_Region>
@@ -1157,6 +1194,7 @@
 			<Year>2006.0</Year>
 			<Survey_Score>MICS 3</Survey_Score>
 			<Age_Range>5-14</Age_Range>
+			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children>12.3</Total_Percentage_of_Working_Children>
 			<Total_Working_Population>23693.0</Total_Working_Population>
 			<Agriculture></Agriculture>
@@ -1188,6 +1226,7 @@
 			<Year></Year>
 			<Survey_Score></Survey_Score>
 			<Age_Range></Age_Range>
+			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children></Total_Percentage_of_Working_Children>
 			<Total_Working_Population></Total_Working_Population>
 			<Agriculture></Agriculture>
@@ -1219,6 +1258,7 @@
 			<Year>2011.0</Year>
 			<Survey_Score>ENHOGAR</Survey_Score>
 			<Age_Range>10-14</Age_Range>
+			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children>5.3</Total_Percentage_of_Working_Children>
 			<Total_Working_Population>54850.0</Total_Working_Population>
 			<Agriculture>29.1066545123</Agriculture>
@@ -1250,6 +1290,7 @@
 			<Year>2011.0</Year>
 			<Survey_Score>ENEMDU</Survey_Score>
 			<Age_Range>5-14</Age_Range>
+			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children>2.72293983416</Total_Percentage_of_Working_Children>
 			<Total_Working_Population>75688.66</Total_Working_Population>
 			<Agriculture>70.985168504</Agriculture>
@@ -1281,6 +1322,7 @@
 			<Year>2005.0</Year>
 			<Survey_Score>DHS</Survey_Score>
 			<Age_Range>5-14</Age_Range>
+			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children>6.7</Total_Percentage_of_Working_Children>
 			<Total_Working_Population>993417.0</Total_Working_Population>
 			<Agriculture></Agriculture>
@@ -1312,6 +1354,7 @@
 			<Year>2011.0</Year>
 			<Survey_Score>EHPM</Survey_Score>
 			<Age_Range>5-14</Age_Range>
+			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children>6.3</Total_Percentage_of_Working_Children>
 			<Total_Working_Population>84927.0</Total_Working_Population>
 			<Agriculture>55.97</Agriculture>
@@ -1343,6 +1386,7 @@
 			<Year></Year>
 			<Survey_Score></Survey_Score>
 			<Age_Range></Age_Range>
+			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children></Total_Percentage_of_Working_Children>
 			<Total_Working_Population></Total_Working_Population>
 			<Agriculture></Agriculture>
@@ -1374,6 +1418,7 @@
 			<Year>2011.0</Year>
 			<Survey_Score>DHS</Survey_Score>
 			<Age_Range>5-14</Age_Range>
+			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children>22.0</Total_Percentage_of_Working_Children>
 			<Total_Working_Population>5545319.0</Total_Working_Population>
 			<Agriculture></Agriculture>
@@ -1405,6 +1450,7 @@
 			<Year></Year>
 			<Survey_Score></Survey_Score>
 			<Age_Range></Age_Range>
+			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children></Total_Percentage_of_Working_Children>
 			<Total_Working_Population></Total_Working_Population>
 			<Agriculture></Agriculture>
@@ -1436,6 +1482,7 @@
 			<Year></Year>
 			<Survey_Score></Survey_Score>
 			<Age_Range></Age_Range>
+			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children></Total_Percentage_of_Working_Children>
 			<Total_Working_Population></Total_Working_Population>
 			<Agriculture></Agriculture>
@@ -1467,6 +1514,7 @@
 			<Year></Year>
 			<Survey_Score></Survey_Score>
 			<Age_Range></Age_Range>
+			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children></Total_Percentage_of_Working_Children>
 			<Total_Working_Population></Total_Working_Population>
 			<Agriculture></Agriculture>
@@ -1498,6 +1546,7 @@
 			<Year>2005-06</Year>
 			<Survey_Score>MICS 3</Survey_Score>
 			<Age_Range>5-14</Age_Range>
+			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children>36.4</Total_Percentage_of_Working_Children>
 			<Total_Working_Population>180954.0</Total_Working_Population>
 			<Agriculture></Agriculture>
@@ -1529,6 +1578,7 @@
 			<Year>2005.0</Year>
 			<Survey_Score>MICS 3</Survey_Score>
 			<Age_Range>5-14</Age_Range>
+			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children>29.1</Total_Percentage_of_Working_Children>
 			<Total_Working_Population>172378.0</Total_Working_Population>
 			<Agriculture></Agriculture>
@@ -1560,6 +1610,7 @@
 			<Year>2006.0</Year>
 			<Survey_Score>MICS 3</Survey_Score>
 			<Age_Range>5-14</Age_Range>
+			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children>43.5</Total_Percentage_of_Working_Children>
 			<Total_Working_Population>2731596.0</Total_Working_Population>
 			<Agriculture></Agriculture>
@@ -1591,6 +1642,7 @@
 			<Year></Year>
 			<Survey_Score></Survey_Score>
 			<Age_Range></Age_Range>
+			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children></Total_Percentage_of_Working_Children>
 			<Total_Working_Population></Total_Working_Population>
 			<Agriculture></Agriculture>
@@ -1622,6 +1674,7 @@
 			<Year></Year>
 			<Survey_Score></Survey_Score>
 			<Age_Range></Age_Range>
+			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children></Total_Percentage_of_Working_Children>
 			<Total_Working_Population></Total_Working_Population>
 			<Agriculture></Agriculture>
@@ -1653,6 +1706,7 @@
 			<Year>2011.0</Year>
 			<Survey_Score>ENCOVI</Survey_Score>
 			<Age_Range>7-14</Age_Range>
+			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children>13.4</Total_Percentage_of_Working_Children>
 			<Total_Working_Population>414250.0</Total_Working_Population>
 			<Agriculture>68.3</Agriculture>
@@ -1684,6 +1738,7 @@
 			<Year>2010.0</Year>
 			<Survey_Score>SIMPOC</Survey_Score>
 			<Age_Range>5-14</Age_Range>
+			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children>38.7970516823</Total_Percentage_of_Working_Children>
 			<Total_Working_Population>1118519.0</Total_Working_Population>
 			<Agriculture>76.2025147125</Agriculture>
@@ -1715,6 +1770,7 @@
 			<Year>2006.0</Year>
 			<Survey_Score>MICS 3</Survey_Score>
 			<Age_Range>5-14</Age_Range>
+			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children>47.3</Total_Percentage_of_Working_Children>
 			<Total_Working_Population>219734.0</Total_Working_Population>
 			<Agriculture></Agriculture>
@@ -1746,6 +1802,7 @@
 			<Year>2006-07</Year>
 			<Survey_Score>MICS 3</Survey_Score>
 			<Age_Range>5-14</Age_Range>
+			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children>23.0</Total_Percentage_of_Working_Children>
 			<Total_Working_Population>44787.0</Total_Working_Population>
 			<Agriculture></Agriculture>
@@ -1777,6 +1834,7 @@
 			<Year>2005.0</Year>
 			<Survey_Score>DHS</Survey_Score>
 			<Age_Range>5-14</Age_Range>
+			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children>29.0</Total_Percentage_of_Working_Children>
 			<Total_Working_Population>659864.0</Total_Working_Population>
 			<Agriculture></Agriculture>
@@ -1808,6 +1866,7 @@
 			<Year></Year>
 			<Survey_Score></Survey_Score>
 			<Age_Range></Age_Range>
+			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children></Total_Percentage_of_Working_Children>
 			<Total_Working_Population></Total_Working_Population>
 			<Agriculture></Agriculture>
@@ -1839,6 +1898,7 @@
 			<Year>2007.0</Year>
 			<Survey_Score>HHS</Survey_Score>
 			<Age_Range>5-14</Age_Range>
+			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children>7.2</Total_Percentage_of_Working_Children>
 			<Total_Working_Population>151468.0</Total_Working_Population>
 			<Agriculture>61.5</Agriculture>
@@ -1870,6 +1930,7 @@
 			<Year>2009-2010</Year>
 			<Survey_Score>NSS-R66</Survey_Score>
 			<Age_Range>5-14</Age_Range>
+			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children>1.97</Total_Percentage_of_Working_Children>
 			<Total_Working_Population>4371604.0</Total_Working_Population>
 			<Agriculture>69.5</Agriculture>
@@ -1901,6 +1962,7 @@
 			<Year>2010 (Aug)</Year>
 			<Survey_Score>LFS</Survey_Score>
 			<Age_Range>10-14</Age_Range>
+			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children>3.7</Total_Percentage_of_Working_Children>
 			<Total_Working_Population>816363.0</Total_Working_Population>
 			<Agriculture>61.59</Agriculture>
@@ -1932,6 +1994,7 @@
 			<Year>2011.0</Year>
 			<Survey_Score>MICS 4</Survey_Score>
 			<Age_Range>5-14</Age_Range>
+			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children>5.31740207696</Total_Percentage_of_Working_Children>
 			<Total_Working_Population>454330.0</Total_Working_Population>
 			<Agriculture></Agriculture>
@@ -1963,6 +2026,7 @@
 			<Year>2006.0</Year>
 			<Survey_Score>MICS 3</Survey_Score>
 			<Age_Range>5-14</Age_Range>
+			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children>8.4</Total_Percentage_of_Working_Children>
 			<Total_Working_Population>48336.0</Total_Working_Population>
 			<Agriculture></Agriculture>
@@ -1994,6 +2058,7 @@
 			<Year>2007.0</Year>
 			<Survey_Score>SIMPOC</Survey_Score>
 			<Age_Range>5-14</Age_Range>
+			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children>0.8</Total_Percentage_of_Working_Children>
 			<Total_Working_Population>11255.0</Total_Working_Population>
 			<Agriculture>40.5</Agriculture>
@@ -2025,6 +2090,7 @@
 			<Year>2006.0</Year>
 			<Survey_Score>MICS 3</Survey_Score>
 			<Age_Range>5-14</Age_Range>
+			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children>3.2</Total_Percentage_of_Working_Children>
 			<Total_Working_Population>79690.0</Total_Working_Population>
 			<Agriculture></Agriculture>
@@ -2056,6 +2122,7 @@
 			<Year>2000.0</Year>
 			<Survey_Score>MICS 2</Survey_Score>
 			<Age_Range>5-14</Age_Range>
+			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children>32.5</Total_Percentage_of_Working_Children>
 			<Total_Working_Population>2943310.0</Total_Working_Population>
 			<Agriculture></Agriculture>
@@ -2078,7 +2145,7 @@
 		</Unesco_Primary_Completion_Rate>
 	</Country>
 	<Country>
-		<Country_Name>Kiritabi</Country_Name>
+		<Country_Name>Kiribati</Country_Name>
 		<Country_ISO2>KI</Country_ISO2>
 		<Country_ISO3>KIR</Country_ISO3>
 		<Country_Region>Asia & Pacific</Country_Region>
@@ -2087,6 +2154,7 @@
 			<Year></Year>
 			<Survey_Score></Survey_Score>
 			<Age_Range></Age_Range>
+			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children></Total_Percentage_of_Working_Children>
 			<Total_Working_Population></Total_Working_Population>
 			<Agriculture></Agriculture>
@@ -2111,13 +2179,14 @@
 	<Country>
 		<Country_Name>Kosovo</Country_Name>
 		<Country_ISO2>KS</Country_ISO2>
-		<Country_ISO3></Country_ISO3>
+		<Country_ISO3>KSO</Country_ISO3>
 		<Country_Region>Europe & Eurasia</Country_Region>
 		<Survey_Name></Survey_Name>
 		<Childrens_Work_Statistics>
 			<Year></Year>
 			<Survey_Score></Survey_Score>
 			<Age_Range></Age_Range>
+			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children></Total_Percentage_of_Working_Children>
 			<Total_Working_Population></Total_Working_Population>
 			<Agriculture></Agriculture>
@@ -2142,13 +2211,14 @@
 	<Country>
 		<Country_Name>Kyrgyz Republic</Country_Name>
 		<Country_ISO2>KV</Country_ISO2>
-		<Country_ISO3></Country_ISO3>
-		<Country_Region>Europe & Eurasia</Country_Region>
+		<Country_ISO3>KVR</Country_ISO3>
+		<Country_Region>Asia & Pacific</Country_Region>
 		<Survey_Name>Multiple Indicator Cluster Survey 3</Survey_Name>
 		<Childrens_Work_Statistics>
 			<Year>2006.0</Year>
 			<Survey_Score>MICS3</Survey_Score>
 			<Age_Range>5-14</Age_Range>
+			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children>4.5</Total_Percentage_of_Working_Children>
 			<Total_Working_Population>48305.0</Total_Working_Population>
 			<Agriculture></Agriculture>
@@ -2180,6 +2250,7 @@
 			<Year></Year>
 			<Survey_Score></Survey_Score>
 			<Age_Range></Age_Range>
+			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children></Total_Percentage_of_Working_Children>
 			<Total_Working_Population></Total_Working_Population>
 			<Agriculture></Agriculture>
@@ -2211,6 +2282,7 @@
 			<Year>2000.0</Year>
 			<Survey_Score>MICS 2</Survey_Score>
 			<Age_Range>5-14</Age_Range>
+			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children>28.1</Total_Percentage_of_Working_Children>
 			<Total_Working_Population>124632.3</Total_Working_Population>
 			<Agriculture></Agriculture>
@@ -2242,6 +2314,7 @@
 			<Year>2010.0</Year>
 			<Survey_Score>LFS</Survey_Score>
 			<Age_Range>5-14</Age_Range>
+			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children>16.5611787728</Total_Percentage_of_Working_Children>
 			<Total_Working_Population>136340.1</Total_Working_Population>
 			<Agriculture>78.4194695947</Agriculture>
@@ -2273,6 +2346,7 @@
 			<Year>2005.0</Year>
 			<Survey_Score>MICS3</Survey_Score>
 			<Age_Range>5-14</Age_Range>
+			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children>9.9</Total_Percentage_of_Working_Children>
 			<Total_Working_Population>30052.0</Total_Working_Population>
 			<Agriculture></Agriculture>
@@ -2304,6 +2378,7 @@
 			<Year>2007.0</Year>
 			<Survey_Score>SIMPOC</Survey_Score>
 			<Age_Range>5-14</Age_Range>
+			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children>22.1</Total_Percentage_of_Working_Children>
 			<Total_Working_Population>1206992.0</Total_Working_Population>
 			<Agriculture>87.4</Agriculture>
@@ -2335,6 +2410,7 @@
 			<Year>2010-2011</Year>
 			<Survey_Score>HIS</Survey_Score>
 			<Age_Range>5-14</Age_Range>
+			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children>20.6</Total_Percentage_of_Working_Children>
 			<Total_Working_Population>885332.8</Total_Working_Population>
 			<Agriculture></Agriculture>
@@ -2366,6 +2442,7 @@
 			<Year>2009.0</Year>
 			<Survey_Score>DHS</Survey_Score>
 			<Age_Range>5-14</Age_Range>
+			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children>3.9</Total_Percentage_of_Working_Children>
 			<Total_Working_Population>2364.2094</Total_Working_Population>
 			<Agriculture></Agriculture>
@@ -2397,6 +2474,7 @@
 			<Year>2005.0</Year>
 			<Survey_Score>SIMPOC</Survey_Score>
 			<Age_Range>5-14</Age_Range>
+			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children>46.4</Total_Percentage_of_Working_Children>
 			<Total_Working_Population>1700782.06</Total_Working_Population>
 			<Agriculture>82.5959748876</Agriculture>
@@ -2428,6 +2506,7 @@
 			<Year>2007.0</Year>
 			<Survey_Score>MICS 3</Survey_Score>
 			<Age_Range>5-14</Age_Range>
+			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children>18.2</Total_Percentage_of_Working_Children>
 			<Total_Working_Population>172936.0</Total_Working_Population>
 			<Agriculture></Agriculture>
@@ -2459,6 +2538,7 @@
 			<Year></Year>
 			<Survey_Score></Survey_Score>
 			<Age_Range></Age_Range>
+			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children></Total_Percentage_of_Working_Children>
 			<Total_Working_Population></Total_Working_Population>
 			<Agriculture></Agriculture>
@@ -2490,6 +2570,7 @@
 			<Year>2009.0</Year>
 			<Survey_Score>LFS-SIMPOC</Survey_Score>
 			<Age_Range>5-14</Age_Range>
+			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children>24.277330891</Total_Percentage_of_Working_Children>
 			<Total_Working_Population>102104.7</Total_Working_Population>
 			<Agriculture>97.2649128052</Agriculture>
@@ -2521,6 +2602,7 @@
 			<Year>2011-12</Year>
 			<Survey_Score>LFS-NCLS</Survey_Score>
 			<Age_Range>5-14</Age_Range>
+			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children>13.7591566632</Total_Percentage_of_Working_Children>
 			<Total_Working_Population>60245.67</Total_Working_Population>
 			<Agriculture>85.8116688853</Agriculture>
@@ -2552,6 +2634,7 @@
 			<Year>2005.0</Year>
 			<Survey_Score>MICS3</Survey_Score>
 			<Age_Range>5-14</Age_Range>
+			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children>12.9</Total_Percentage_of_Working_Children>
 			<Total_Working_Population></Total_Working_Population>
 			<Agriculture></Agriculture>
@@ -2583,6 +2666,7 @@
 			<Year></Year>
 			<Survey_Score></Survey_Score>
 			<Age_Range></Age_Range>
+			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children></Total_Percentage_of_Working_Children>
 			<Total_Working_Population></Total_Working_Population>
 			<Agriculture></Agriculture>
@@ -2614,6 +2698,7 @@
 			<Year>2003-04</Year>
 			<Survey_Score>DHS</Survey_Score>
 			<Age_Range>10-14</Age_Range>
+			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children>4.5</Total_Percentage_of_Working_Children>
 			<Total_Working_Population>150178.0</Total_Working_Population>
 			<Agriculture></Agriculture>
@@ -2645,6 +2730,7 @@
 			<Year>2008.0</Year>
 			<Survey_Score>MICS3</Survey_Score>
 			<Age_Range>5-14</Age_Range>
+			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children>22.5</Total_Percentage_of_Working_Children>
 			<Total_Working_Population>1526559.77</Total_Working_Population>
 			<Agriculture></Agriculture>
@@ -2676,6 +2762,7 @@
 			<Year></Year>
 			<Survey_Score></Survey_Score>
 			<Age_Range></Age_Range>
+			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children></Total_Percentage_of_Working_Children>
 			<Total_Working_Population></Total_Working_Population>
 			<Agriculture></Agriculture>
@@ -2707,6 +2794,7 @@
 			<Year>2008.0</Year>
 			<Survey_Score>LFS</Survey_Score>
 			<Age_Range>5-14</Age_Range>
+			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children>33.6694310276</Total_Percentage_of_Working_Children>
 			<Total_Working_Population>2097162.8</Total_Working_Population>
 			<Agriculture>88.8284309107</Agriculture>
@@ -2738,6 +2826,7 @@
 			<Year>2005.0</Year>
 			<Survey_Score>HHS</Survey_Score>
 			<Age_Range>5-14</Age_Range>
+			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children>8.4</Total_Percentage_of_Working_Children>
 			<Total_Working_Population>109380.0</Total_Working_Population>
 			<Agriculture>70.7</Agriculture>
@@ -2769,6 +2858,7 @@
 			<Year>2009.0</Year>
 			<Survey_Score>SIMPOC</Survey_Score>
 			<Age_Range>5-14</Age_Range>
+			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children>47.77</Total_Percentage_of_Working_Children>
 			<Total_Working_Population>1561570.0</Total_Working_Population>
 			<Agriculture>13.55</Agriculture>
@@ -2800,6 +2890,7 @@
 			<Year>2011.0</Year>
 			<Survey_Score>MICS 4</Survey_Score>
 			<Age_Range>5-14</Age_Range>
+			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children>31.1</Total_Percentage_of_Working_Children>
 			<Total_Working_Population>13924739.0</Total_Working_Population>
 			<Agriculture></Agriculture>
@@ -2831,6 +2922,7 @@
 			<Year></Year>
 			<Survey_Score></Survey_Score>
 			<Age_Range></Age_Range>
+			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children></Total_Percentage_of_Working_Children>
 			<Total_Working_Population></Total_Working_Population>
 			<Agriculture></Agriculture>
@@ -2862,6 +2954,7 @@
 			<Year></Year>
 			<Survey_Score></Survey_Score>
 			<Age_Range></Age_Range>
+			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children></Total_Percentage_of_Working_Children>
 			<Total_Working_Population></Total_Working_Population>
 			<Agriculture></Agriculture>
@@ -2893,6 +2986,7 @@
 			<Year></Year>
 			<Survey_Score></Survey_Score>
 			<Age_Range></Age_Range>
+			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children></Total_Percentage_of_Working_Children>
 			<Total_Working_Population></Total_Working_Population>
 			<Agriculture></Agriculture>
@@ -2924,6 +3018,7 @@
 			<Year>2010-2011</Year>
 			<Survey_Score>LFS</Survey_Score>
 			<Age_Range>10-14</Age_Range>
+			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children>12.9981497318</Total_Percentage_of_Working_Children>
 			<Total_Working_Population>2449480.0</Total_Working_Population>
 			<Agriculture>76.0490798047</Agriculture>
@@ -2955,6 +3050,7 @@
 			<Year>2010.0</Year>
 			<Survey_Score>ETI</Survey_Score>
 			<Age_Range>5-14</Age_Range>
+			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children>4.46809619149</Total_Percentage_of_Working_Children>
 			<Total_Working_Population>30016.0</Total_Working_Population>
 			<Agriculture>73.5407782516</Agriculture>
@@ -2986,6 +3082,7 @@
 			<Year></Year>
 			<Survey_Score></Survey_Score>
 			<Age_Range></Age_Range>
+			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children></Total_Percentage_of_Working_Children>
 			<Total_Working_Population></Total_Working_Population>
 			<Agriculture></Agriculture>
@@ -3017,6 +3114,7 @@
 			<Year>2005.0</Year>
 			<Survey_Score>HHS</Survey_Score>
 			<Age_Range>10-14</Age_Range>
+			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children>15.3</Total_Percentage_of_Working_Children>
 			<Total_Working_Population>113072.0</Total_Working_Population>
 			<Agriculture>60.8</Agriculture>
@@ -3048,6 +3146,7 @@
 			<Year>2011.0</Year>
 			<Survey_Score>ENAHO</Survey_Score>
 			<Age_Range>6-14</Age_Range>
+			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children>19.3833363229</Total_Percentage_of_Working_Children>
 			<Total_Working_Population>1014688.0</Total_Working_Population>
 			<Agriculture></Agriculture>
@@ -3079,6 +3178,7 @@
 			<Year>2001.0</Year>
 			<Survey_Score>SIMPOC</Survey_Score>
 			<Age_Range>5-14</Age_Range>
+			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children>11.0</Total_Percentage_of_Working_Children>
 			<Total_Working_Population>2180565.0</Total_Working_Population>
 			<Agriculture>65.3558014027</Agriculture>
@@ -3110,6 +3210,7 @@
 			<Year></Year>
 			<Survey_Score></Survey_Score>
 			<Age_Range></Age_Range>
+			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children></Total_Percentage_of_Working_Children>
 			<Total_Working_Population></Total_Working_Population>
 			<Agriculture></Agriculture>
@@ -3141,6 +3242,7 @@
 			<Year></Year>
 			<Survey_Score></Survey_Score>
 			<Age_Range></Age_Range>
+			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children></Total_Percentage_of_Working_Children>
 			<Total_Working_Population></Total_Working_Population>
 			<Agriculture></Agriculture>
@@ -3172,6 +3274,7 @@
 			<Year>2010.0</Year>
 			<Survey_Score>DHS</Survey_Score>
 			<Age_Range>5-14</Age_Range>
+			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children>16.1</Total_Percentage_of_Working_Children>
 			<Total_Working_Population>482180.3</Total_Working_Population>
 			<Agriculture></Agriculture>
@@ -3194,37 +3297,6 @@
 		</Unesco_Primary_Completion_Rate>
 	</Country>
 	<Country>
-		<Country_Name>Saint Kitts and Nevis</Country_Name>
-		<Country_ISO2>KN</Country_ISO2>
-		<Country_ISO3>KNA</Country_ISO3>
-		<Country_Region>Latin America & Caribbean</Country_Region>
-		<Survey_Name></Survey_Name>
-		<Childrens_Work_Statistics>
-			<Year></Year>
-			<Survey_Score></Survey_Score>
-			<Age_Range></Age_Range>
-			<Total_Percentage_of_Working_Children></Total_Percentage_of_Working_Children>
-			<Total_Working_Population></Total_Working_Population>
-			<Agriculture></Agriculture>
-			<Service></Service>
-			<Industry></Industry>
-		</Childrens_Work_Statistics>
-		<Education_Statistics_Attendance_Statistics>
-			<Year></Year>
-			<Age_Range></Age_Range>
-			<Percentage></Percentage>
-		</Education_Statistics_Attendance_Statistics>
-		<Children_Work_And_Studying>
-			<Year></Year>
-			<Age_Range></Age_Range>
-			<Total></Total>
-		</Children_Work_And_Studying>
-		<Unesco_Primary_Completion_Rate>
-			<Year>2012.0</Year>
-			<Rate>92.6</Rate>
-		</Unesco_Primary_Completion_Rate>
-	</Country>
-	<Country>
 		<Country_Name>Saint Helena, Ascension and Tristan da Cunha (formerly called Saint Helena)</Country_Name>
 		<Country_ISO2>SH</Country_ISO2>
 		<Country_ISO3>SHN</Country_ISO3>
@@ -3234,6 +3306,7 @@
 			<Year></Year>
 			<Survey_Score></Survey_Score>
 			<Age_Range></Age_Range>
+			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children></Total_Percentage_of_Working_Children>
 			<Total_Working_Population></Total_Working_Population>
 			<Agriculture></Agriculture>
@@ -3256,6 +3329,38 @@
 		</Unesco_Primary_Completion_Rate>
 	</Country>
 	<Country>
+		<Country_Name>Saint Kitts and Nevis</Country_Name>
+		<Country_ISO2>KN</Country_ISO2>
+		<Country_ISO3>KNA</Country_ISO3>
+		<Country_Region>Latin America & Caribbean</Country_Region>
+		<Survey_Name></Survey_Name>
+		<Childrens_Work_Statistics>
+			<Year></Year>
+			<Survey_Score></Survey_Score>
+			<Age_Range></Age_Range>
+			<Total_Child_Population>			</Total_Child_Population>
+			<Total_Percentage_of_Working_Children></Total_Percentage_of_Working_Children>
+			<Total_Working_Population></Total_Working_Population>
+			<Agriculture></Agriculture>
+			<Service></Service>
+			<Industry></Industry>
+		</Childrens_Work_Statistics>
+		<Education_Statistics_Attendance_Statistics>
+			<Year></Year>
+			<Age_Range></Age_Range>
+			<Percentage></Percentage>
+		</Education_Statistics_Attendance_Statistics>
+		<Children_Work_And_Studying>
+			<Year></Year>
+			<Age_Range></Age_Range>
+			<Total></Total>
+		</Children_Work_And_Studying>
+		<Unesco_Primary_Completion_Rate>
+			<Year>2012.0</Year>
+			<Rate>92.6</Rate>
+		</Unesco_Primary_Completion_Rate>
+	</Country>
+	<Country>
 		<Country_Name>Saint Lucia</Country_Name>
 		<Country_ISO2>LC</Country_ISO2>
 		<Country_ISO3>LCA</Country_ISO3>
@@ -3265,6 +3370,7 @@
 			<Year></Year>
 			<Survey_Score></Survey_Score>
 			<Age_Range></Age_Range>
+			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children></Total_Percentage_of_Working_Children>
 			<Total_Working_Population></Total_Working_Population>
 			<Agriculture></Agriculture>
@@ -3296,6 +3402,7 @@
 			<Year></Year>
 			<Survey_Score></Survey_Score>
 			<Age_Range></Age_Range>
+			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children></Total_Percentage_of_Working_Children>
 			<Total_Working_Population></Total_Working_Population>
 			<Agriculture></Agriculture>
@@ -3327,6 +3434,7 @@
 			<Year></Year>
 			<Survey_Score></Survey_Score>
 			<Age_Range></Age_Range>
+			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children></Total_Percentage_of_Working_Children>
 			<Total_Working_Population></Total_Working_Population>
 			<Agriculture></Agriculture>
@@ -3358,6 +3466,7 @@
 			<Year>2000.0</Year>
 			<Survey_Score>MICS 2</Survey_Score>
 			<Age_Range>5-14</Age_Range>
+			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children>15.4</Total_Percentage_of_Working_Children>
 			<Total_Working_Population>6218.0</Total_Working_Population>
 			<Agriculture></Agriculture>
@@ -3389,6 +3498,7 @@
 			<Year>2010-2011</Year>
 			<Survey_Score>DHS</Survey_Score>
 			<Age_Range>5-14</Age_Range>
+			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children>14.9</Total_Percentage_of_Working_Children>
 			<Total_Working_Population>510419.74</Total_Working_Population>
 			<Agriculture></Agriculture>
@@ -3420,6 +3530,7 @@
 			<Year>2005.0</Year>
 			<Survey_Score>MICS 3</Survey_Score>
 			<Age_Range>5-14</Age_Range>
+			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children>6.0</Total_Percentage_of_Working_Children>
 			<Total_Working_Population></Total_Working_Population>
 			<Agriculture></Agriculture>
@@ -3451,6 +3562,7 @@
 			<Year></Year>
 			<Survey_Score></Survey_Score>
 			<Age_Range></Age_Range>
+			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children></Total_Percentage_of_Working_Children>
 			<Total_Working_Population></Total_Working_Population>
 			<Agriculture></Agriculture>
@@ -3482,6 +3594,7 @@
 			<Year>2010.0</Year>
 			<Survey_Score>MICS 4</Survey_Score>
 			<Age_Range>5-14</Age_Range>
+			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children>34.7</Total_Percentage_of_Working_Children>
 			<Total_Working_Population>579851.3</Total_Working_Population>
 			<Agriculture></Agriculture>
@@ -3513,6 +3626,7 @@
 			<Year></Year>
 			<Survey_Score></Survey_Score>
 			<Age_Range></Age_Range>
+			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children></Total_Percentage_of_Working_Children>
 			<Total_Working_Population></Total_Working_Population>
 			<Agriculture></Agriculture>
@@ -3544,6 +3658,7 @@
 			<Year>2006.0</Year>
 			<Survey_Score>MICS 3</Survey_Score>
 			<Age_Range>5-14</Age_Range>
+			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children>39.8</Total_Percentage_of_Working_Children>
 			<Total_Working_Population>1012863.0</Total_Working_Population>
 			<Agriculture></Agriculture>
@@ -3575,6 +3690,7 @@
 			<Year></Year>
 			<Survey_Score></Survey_Score>
 			<Age_Range></Age_Range>
+			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children></Total_Percentage_of_Working_Children>
 			<Total_Working_Population></Total_Working_Population>
 			<Agriculture></Agriculture>
@@ -3606,6 +3722,7 @@
 			<Year>2008.0</Year>
 			<Survey_Score>CENSUS</Survey_Score>
 			<Age_Range>10-14</Age_Range>
+			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children>45.6</Total_Percentage_of_Working_Children>
 			<Total_Working_Population>463624.0</Total_Working_Population>
 			<Agriculture>60.2</Agriculture>
@@ -3637,6 +3754,7 @@
 			<Year>2008-2009</Year>
 			<Survey_Score>SIMPOC</Survey_Score>
 			<Age_Range>5-14</Age_Range>
+			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children>9.17</Total_Percentage_of_Working_Children>
 			<Total_Working_Population>302864.63</Total_Working_Population>
 			<Agriculture>66.97</Agriculture>
@@ -3668,6 +3786,7 @@
 			<Year>2010.0</Year>
 			<Survey_Score>MICS 4</Survey_Score>
 			<Age_Range>5-14</Age_Range>
+			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children>6.44539253137</Total_Percentage_of_Working_Children>
 			<Total_Working_Population>6671.261</Total_Working_Population>
 			<Agriculture></Agriculture>
@@ -3699,6 +3818,7 @@
 			<Year>2010.0</Year>
 			<Survey_Score>MICS 4</Survey_Score>
 			<Age_Range>5-14</Age_Range>
+			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children>11.729758576</Total_Percentage_of_Working_Children>
 			<Total_Working_Population>35368.022</Total_Working_Population>
 			<Agriculture></Agriculture>
@@ -3730,6 +3850,7 @@
 			<Year>2010-2011</Year>
 			<Survey_Score>NPS</Survey_Score>
 			<Age_Range>5-14</Age_Range>
+			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children>25.1</Total_Percentage_of_Working_Children>
 			<Total_Working_Population>3157442.4</Total_Working_Population>
 			<Agriculture></Agriculture>
@@ -3752,37 +3873,6 @@
 		</Unesco_Primary_Completion_Rate>
 	</Country>
 	<Country>
-		<Country_Name>Timor-Leste</Country_Name>
-		<Country_ISO2>TL</Country_ISO2>
-		<Country_ISO3>TLS</Country_ISO3>
-		<Country_Region>Asia & Pacific</Country_Region>
-		<Survey_Name>Timor-Leste Survey of Living Standards</Survey_Name>
-		<Childrens_Work_Statistics>
-			<Year>2007.0</Year>
-			<Survey_Score>TLSLS</Survey_Score>
-			<Age_Range>10-14</Age_Range>
-			<Total_Percentage_of_Working_Children>19.9</Total_Percentage_of_Working_Children>
-			<Total_Working_Population>26268.0</Total_Working_Population>
-			<Agriculture>97.6</Agriculture>
-			<Service>1.0</Service>
-			<Industry>1.4</Industry>
-		</Childrens_Work_Statistics>
-		<Education_Statistics_Attendance_Statistics>
-			<Year>2007.0</Year>
-			<Age_Range>7-14</Age_Range>
-			<Percentage>69.7</Percentage>
-		</Education_Statistics_Attendance_Statistics>
-		<Children_Work_And_Studying>
-			<Year>2007.0</Year>
-			<Age_Range>10-14</Age_Range>
-			<Total>12.6</Total>
-		</Children_Work_And_Studying>
-		<Unesco_Primary_Completion_Rate>
-			<Year>2011.0</Year>
-			<Rate>71.0</Rate>
-		</Unesco_Primary_Completion_Rate>
-	</Country>
-	<Country>
 		<Country_Name>Thailand</Country_Name>
 		<Country_ISO2>TH</Country_ISO2>
 		<Country_ISO3>THA</Country_ISO3>
@@ -3792,6 +3882,7 @@
 			<Year>2005-06</Year>
 			<Survey_Score>MICS 3</Survey_Score>
 			<Age_Range>5-14</Age_Range>
+			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children>13.0</Total_Percentage_of_Working_Children>
 			<Total_Working_Population>1302267.0</Total_Working_Population>
 			<Agriculture></Agriculture>
@@ -3814,6 +3905,38 @@
 		</Unesco_Primary_Completion_Rate>
 	</Country>
 	<Country>
+		<Country_Name>Timor-Leste</Country_Name>
+		<Country_ISO2>TL</Country_ISO2>
+		<Country_ISO3>TLS</Country_ISO3>
+		<Country_Region>Asia & Pacific</Country_Region>
+		<Survey_Name>Timor-Leste Survey of Living Standards</Survey_Name>
+		<Childrens_Work_Statistics>
+			<Year>2007.0</Year>
+			<Survey_Score>TLSLS</Survey_Score>
+			<Age_Range>10-14</Age_Range>
+			<Total_Child_Population>			</Total_Child_Population>
+			<Total_Percentage_of_Working_Children>19.9</Total_Percentage_of_Working_Children>
+			<Total_Working_Population>26268.0</Total_Working_Population>
+			<Agriculture>97.6</Agriculture>
+			<Service>1.0</Service>
+			<Industry>1.4</Industry>
+		</Childrens_Work_Statistics>
+		<Education_Statistics_Attendance_Statistics>
+			<Year>2007.0</Year>
+			<Age_Range>7-14</Age_Range>
+			<Percentage>69.7</Percentage>
+		</Education_Statistics_Attendance_Statistics>
+		<Children_Work_And_Studying>
+			<Year>2007.0</Year>
+			<Age_Range>10-14</Age_Range>
+			<Total>12.6</Total>
+		</Children_Work_And_Studying>
+		<Unesco_Primary_Completion_Rate>
+			<Year>2011.0</Year>
+			<Rate>71.0</Rate>
+		</Unesco_Primary_Completion_Rate>
+	</Country>
+	<Country>
 		<Country_Name>Togo</Country_Name>
 		<Country_ISO2>TG</Country_ISO2>
 		<Country_ISO3>TGO</Country_ISO3>
@@ -3823,6 +3946,7 @@
 			<Year>2010.0</Year>
 			<Survey_Score>MICS 4</Survey_Score>
 			<Age_Range>5-14</Age_Range>
+			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children>35.7</Total_Percentage_of_Working_Children>
 			<Total_Working_Population>616132.3</Total_Working_Population>
 			<Agriculture></Agriculture>
@@ -3854,6 +3978,7 @@
 			<Year></Year>
 			<Survey_Score></Survey_Score>
 			<Age_Range></Age_Range>
+			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children></Total_Percentage_of_Working_Children>
 			<Total_Working_Population></Total_Working_Population>
 			<Agriculture></Agriculture>
@@ -3885,6 +4010,7 @@
 			<Year></Year>
 			<Survey_Score></Survey_Score>
 			<Age_Range></Age_Range>
+			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children></Total_Percentage_of_Working_Children>
 			<Total_Working_Population></Total_Working_Population>
 			<Agriculture></Agriculture>
@@ -3916,6 +4042,7 @@
 			<Year>2006.0</Year>
 			<Survey_Score>MICS  3</Survey_Score>
 			<Age_Range>5-14</Age_Range>
+			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children>3.0</Total_Percentage_of_Working_Children>
 			<Total_Working_Population>5975.0</Total_Working_Population>
 			<Agriculture></Agriculture>
@@ -3947,6 +4074,7 @@
 			<Year></Year>
 			<Survey_Score></Survey_Score>
 			<Age_Range></Age_Range>
+			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children></Total_Percentage_of_Working_Children>
 			<Total_Working_Population></Total_Working_Population>
 			<Agriculture></Agriculture>
@@ -3978,6 +4106,7 @@
 			<Year>2006.0</Year>
 			<Survey_Score>SIMPOC</Survey_Score>
 			<Age_Range>6-14</Age_Range>
+			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children>2.6</Total_Percentage_of_Working_Children>
 			<Total_Working_Population>320254.4</Total_Working_Population>
 			<Agriculture>57.1</Agriculture>
@@ -4009,6 +4138,7 @@
 			<Year></Year>
 			<Survey_Score></Survey_Score>
 			<Age_Range></Age_Range>
+			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children></Total_Percentage_of_Working_Children>
 			<Total_Working_Population></Total_Working_Population>
 			<Agriculture></Agriculture>
@@ -4040,6 +4170,7 @@
 			<Year></Year>
 			<Survey_Score></Survey_Score>
 			<Age_Range></Age_Range>
+			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children></Total_Percentage_of_Working_Children>
 			<Total_Working_Population></Total_Working_Population>
 			<Agriculture></Agriculture>
@@ -4071,6 +4202,7 @@
 			<Year>2010.0</Year>
 			<Survey_Score>LFS</Survey_Score>
 			<Age_Range>5-14</Age_Range>
+			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children>30.9</Total_Percentage_of_Working_Children>
 			<Total_Working_Population>3034126.2</Total_Working_Population>
 			<Agriculture>95.4014793009</Agriculture>
@@ -4102,6 +4234,7 @@
 			<Year>2005.0</Year>
 			<Survey_Score>MICS 3</Survey_Score>
 			<Age_Range>5-14</Age_Range>
+			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children>15.1</Total_Percentage_of_Working_Children>
 			<Total_Working_Population>904210.0</Total_Working_Population>
 			<Agriculture></Agriculture>
@@ -4133,6 +4266,7 @@
 			<Year>2009.0</Year>
 			<Survey_Score>SIMPOC</Survey_Score>
 			<Age_Range>5-14</Age_Range>
+			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children>6.1</Total_Percentage_of_Working_Children>
 			<Total_Working_Population>31954.65</Total_Working_Population>
 			<Agriculture>28.4</Agriculture>
@@ -4164,6 +4298,7 @@
 			<Year>2006.0</Year>
 			<Survey_Score>MICS 3</Survey_Score>
 			<Age_Range>5-14</Age_Range>
+			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children>4.3</Total_Percentage_of_Working_Children>
 			<Total_Working_Population>244095.0</Total_Working_Population>
 			<Agriculture></Agriculture>
@@ -4195,6 +4330,7 @@
 			<Year></Year>
 			<Survey_Score></Survey_Score>
 			<Age_Range></Age_Range>
+			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children></Total_Percentage_of_Working_Children>
 			<Total_Working_Population></Total_Working_Population>
 			<Agriculture></Agriculture>
@@ -4226,6 +4362,7 @@
 			<Year>2006.0</Year>
 			<Survey_Score>HHS</Survey_Score>
 			<Age_Range>10-14</Age_Range>
+			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children>5.1</Total_Percentage_of_Working_Children>
 			<Total_Working_Population>138641.0</Total_Working_Population>
 			<Agriculture>32.3419557541</Agriculture>
@@ -4257,6 +4394,7 @@
 			<Year></Year>
 			<Survey_Score></Survey_Score>
 			<Age_Range></Age_Range>
+			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children></Total_Percentage_of_Working_Children>
 			<Total_Working_Population></Total_Working_Population>
 			<Agriculture></Agriculture>
@@ -4288,6 +4426,7 @@
 			<Year></Year>
 			<Survey_Score></Survey_Score>
 			<Age_Range></Age_Range>
+			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children></Total_Percentage_of_Working_Children>
 			<Total_Working_Population></Total_Working_Population>
 			<Agriculture></Agriculture>
@@ -4319,6 +4458,7 @@
 			<Year></Year>
 			<Survey_Score></Survey_Score>
 			<Age_Range></Age_Range>
+			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children></Total_Percentage_of_Working_Children>
 			<Total_Working_Population></Total_Working_Population>
 			<Agriculture></Agriculture>
@@ -4350,6 +4490,7 @@
 			<Year>2010.0</Year>
 			<Survey_Score>SIMPOC</Survey_Score>
 			<Age_Range>5-14</Age_Range>
+			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children>13.5694493656</Total_Percentage_of_Working_Children>
 			<Total_Working_Population>834865.8</Total_Working_Population>
 			<Agriculture>69.9946630949</Agriculture>
@@ -4381,6 +4522,7 @@
 			<Year>2008.0</Year>
 			<Survey_Score>LFS</Survey_Score>
 			<Age_Range>5-14</Age_Range>
+			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children>28.1</Total_Percentage_of_Working_Children>
 			<Total_Working_Population>992721.681</Total_Working_Population>
 			<Agriculture>91.8</Agriculture>
@@ -4412,37 +4554,7 @@
 			<Year></Year>
 			<Survey_Score></Survey_Score>
 			<Age_Range></Age_Range>
-			<Total_Percentage_of_Working_Children></Total_Percentage_of_Working_Children>
-			<Total_Working_Population></Total_Working_Population>
-			<Agriculture></Agriculture>
-			<Service></Service>
-			<Industry></Industry>
-		</Childrens_Work_Statistics>
-		<Education_Statistics_Attendance_Statistics>
-			<Year></Year>
-			<Age_Range></Age_Range>
-			<Percentage></Percentage>
-		</Education_Statistics_Attendance_Statistics>
-		<Children_Work_And_Studying>
-			<Year></Year>
-			<Age_Range></Age_Range>
-			<Total></Total>
-		</Children_Work_And_Studying>
-		<Unesco_Primary_Completion_Rate>
-			<Year></Year>
-			<Rate></Rate>
-		</Unesco_Primary_Completion_Rate>
-	</Country>
-	<Country>
-		<Country_Name>Western Sahara</Country_Name>
-		<Country_ISO2>EH</Country_ISO2>
-		<Country_ISO3>ESH</Country_ISO3>
-		<Country_Region>Middle East & North Africa</Country_Region>
-		<Survey_Name></Survey_Name>
-		<Childrens_Work_Statistics>
-			<Year></Year>
-			<Survey_Score></Survey_Score>
-			<Age_Range></Age_Range>
+			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children></Total_Percentage_of_Working_Children>
 			<Total_Working_Population></Total_Working_Population>
 			<Agriculture></Agriculture>

@@ -19,7 +19,7 @@ csl = ISO_countries.build()
 
 mappings = [ 'Country_Name', 'Survey_Name', 
               CWS+' : Year', CWS+' : Survey Source', CWS+' : Age Range', CWS +' : Total Child Population',
-              CWS+' : Total % of Working Children', CWS+' : Total Working Population', 
+              CWS+' : Total Percentage of Working Children', CWS+' : Total Working Population', 
               CWS+' : Agriculture', CWS+' : Service', CWS+' : Industry', 
               ESAS+' : Year', ESAS+' : Age Range', ESAS+' : Percentage', 
               CWAS+' : Year', CWAS+' : Age Range', CWAS+' : Total', 
@@ -57,7 +57,7 @@ def include_extra(masterdata):
 	    md[CWS+' : Survey Source'] = mdrec[CWS+' : Survey Source']
 	    md[CWS+' : Age Range'] = mdrec[CWS+' : Age Range']
 	    md[CWS +' : Total Child Population'] = mdrec[CWS +' : Total Child Population']
-	    md[CWS+' : Total % of Working Children'] = mdrec[CWS+' : Total % of Working Children']
+	    md[CWS+' : Total Percentage of Working Children'] = mdrec[CWS+' : Total Percentage of Working Children']
 	    md[CWS+' : Total Working Population'] = mdrec[CWS+' : Total Working Population']
 	    md[CWS+' : Agriculture'] = mdrec[CWS+' : Agriculture']
 	    md[CWS+' : Service'] = mdrec[CWS+' : Service']
@@ -110,11 +110,11 @@ def write_record(target, md):
 	target.write("\t\t\t<Age_Range>")
 	target.write(md[CWS+' : Age Range'])
 	target.write("</Age_Range>\n")
-	target.write("\t\t\t<Total_Child_Population'>")
+	target.write("\t\t\t<Total_Child_Population>")
 	target.write(md[CWS +' : Total Child Population'])
-	target.write("\t\t\t</Total_Child_Population'>\n")
+	target.write("\t\t\t</Total_Child_Population>\n")
 	target.write("\t\t\t<Total_Percentage_of_Working_Children>")
-	target.write(str(md[CWS+' : Total % of Working Children']))
+	target.write(str(md[CWS+' : Total Percentage of Working Children']))
 	target.write("</Total_Percentage_of_Working_Children>\n")
 	target.write("\t\t\t<Total_Working_Population>")
 	target.write(str(md[CWS+' : Total Working Population']))
@@ -204,8 +204,8 @@ def order_by_country(mdlist):
 		newcws['Year'] = mdrec[CWS+' : Year']
 		newcws['Survey Source'] = mdrec[CWS+' : Survey Source']
 		newcws['Age Range'] = mdrec[CWS+' : Age Range']
-	    newcws['Total Child Population'] = mdrec[CWS +' : Total Child Population']
-		newcws['Total % of Working Children'] = mdrec[CWS+' : Total % of Working Children']
+		newcws['Total Child Population'] = mdrec[CWS +' : Total Child Population']
+		newcws['Total Percentage of Working Children'] = mdrec[CWS+' : Total Percentage of Working Children']
 		newcws['Total Working Population'] = mdrec[CWS+' : Total Working Population']
 		newcws['Agriculture'] = mdrec[CWS+' : Agriculture']
 		newcws['Service'] = mdrec[CWS+' : Service']
@@ -243,4 +243,4 @@ if __name__ == '__main__':
 	to_json(json_target, mdlist)
 	to_csv(csv_target, mdlist)
 
-	print mdlist
+	
