@@ -208,12 +208,12 @@ def write_record(target, cr, count):
 			count += 1
 			for l in kv:
 				this_key_group = (ckeys[n])[:(len(ckeys[n])-1)]
-				if len(kv) > 1:
+				if len(kv) > 0:
 					if ckeys[n].strip().upper() == "COUNTRIES":
 						this_key_group = "Country"
 					target.write( tabs(count) + create_starting_xml_tag(this_key_group) + newline)
 				write_record(target, l, count+1)
-				if len(kv) > 1:
+				if len(kv) > 0:
 					target.write( tabs(count) + create_closing_xml_tag(this_key_group) + newline)
 			end = create_closing_xml_tag(ckeys[n]) + newline
 			target.write( tabs(count) + end )

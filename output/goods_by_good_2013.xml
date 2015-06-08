@@ -4,6 +4,7 @@
 		<Good_Name>Alcoholic Beverages</Good_Name>
 		<Good_Sector>Manufacturing</Good_Sector>
 		<Countries>
+			<Country>
 				<Country_Name>Cambodia</Country_Name>
 				<Country_ISO2>KH</Country_ISO2>
 				<Country_ISO3>KHM</Country_ISO3>
@@ -11,12 +12,14 @@
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 				<Forced_Child_Labor>No</Forced_Child_Labor>
+			</Country>
 			</Countries>
 	</Good>
 	<Good>
 		<Good_Name>Artificial Flowers</Good_Name>
 		<Good_Sector>Manufacturing</Good_Sector>
 		<Countries>
+			<Country>
 				<Country_Name>China</Country_Name>
 				<Country_ISO2>CN</Country_ISO2>
 				<Country_ISO3>CHN</Country_ISO3>
@@ -24,12 +27,14 @@
 				<Child_Labor>No</Child_Labor>
 				<Forced_Labor>Yes</Forced_Labor>
 				<Forced_Child_Labor>No</Forced_Child_Labor>
+			</Country>
 			</Countries>
 	</Good>
 	<Good>
 		<Good_Name>Baked Goods</Good_Name>
 		<Good_Sector>Manufacturing</Good_Sector>
 		<Countries>
+			<Country>
 				<Country_Name>Dominican Republic</Country_Name>
 				<Country_ISO2>DO</Country_ISO2>
 				<Country_ISO3>DOM</Country_ISO3>
@@ -37,12 +42,14 @@
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 				<Forced_Child_Labor>No</Forced_Child_Labor>
+			</Country>
 			</Countries>
 	</Good>
 	<Good>
 		<Good_Name>Bamboo</Good_Name>
 		<Good_Sector>Agriculture</Good_Sector>
 		<Countries>
+			<Country>
 				<Country_Name>Burma</Country_Name>
 				<Country_ISO2>BU</Country_ISO2>
 				<Country_ISO3>BUR</Country_ISO3>
@@ -50,6 +57,7 @@
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>Yes</Forced_Labor>
 				<Forced_Child_Labor>Yes</Forced_Child_Labor>
+			</Country>
 			</Countries>
 	</Good>
 	<Good>
@@ -98,6 +106,7 @@
 		<Good_Name>Beans (green beans)</Good_Name>
 		<Good_Sector>Agriculture</Good_Sector>
 		<Countries>
+			<Country>
 				<Country_Name>Mexico</Country_Name>
 				<Country_ISO2>MX</Country_ISO2>
 				<Country_ISO3>MEX</Country_ISO3>
@@ -105,12 +114,14 @@
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 				<Forced_Child_Labor>No</Forced_Child_Labor>
+			</Country>
 			</Countries>
 	</Good>
 	<Good>
 		<Good_Name>Beans (green, soy, yellow)</Good_Name>
 		<Good_Sector>Agriculture</Good_Sector>
 		<Countries>
+			<Country>
 				<Country_Name>Burma</Country_Name>
 				<Country_ISO2>BU</Country_ISO2>
 				<Country_ISO3>BUR</Country_ISO3>
@@ -118,12 +129,14 @@
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>Yes</Forced_Labor>
 				<Forced_Child_Labor>Yes</Forced_Child_Labor>
+			</Country>
 			</Countries>
 	</Good>
 	<Good>
 		<Good_Name>Beef</Good_Name>
 		<Good_Sector>Manufacturing</Good_Sector>
 		<Countries>
+			<Country>
 				<Country_Name>Brazil</Country_Name>
 				<Country_ISO2>BR</Country_ISO2>
 				<Country_ISO3>BRA</Country_ISO3>
@@ -131,6 +144,7 @@
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 				<Forced_Child_Labor>No</Forced_Child_Labor>
+			</Country>
 			</Countries>
 	</Good>
 	<Good>
@@ -161,6 +175,7 @@
 		<Good_Name>Blueberries</Good_Name>
 		<Good_Sector>Agriculture</Good_Sector>
 		<Countries>
+			<Country>
 				<Country_Name>Argentina</Country_Name>
 				<Country_ISO2>AR</Country_ISO2>
 				<Country_ISO3>ARG</Country_ISO3>
@@ -168,12 +183,14 @@
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 				<Forced_Child_Labor>No</Forced_Child_Labor>
+			</Country>
 			</Countries>
 	</Good>
 	<Good>
 		<Good_Name>Brassware</Good_Name>
 		<Good_Sector>Manufacturing</Good_Sector>
 		<Countries>
+			<Country>
 				<Country_Name>India</Country_Name>
 				<Country_ISO2>IN</Country_ISO2>
 				<Country_ISO3>IND</Country_ISO3>
@@ -181,6 +198,7 @@
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 				<Forced_Child_Labor>No</Forced_Child_Labor>
+			</Country>
 			</Countries>
 	</Good>
 	<Good>
@@ -370,6 +388,7 @@
 		<Good_Name>Bricks (clay)</Good_Name>
 		<Good_Sector>Manufacturing</Good_Sector>
 		<Countries>
+			<Country>
 				<Country_Name>Colombia</Country_Name>
 				<Country_ISO2>CO</Country_ISO2>
 				<Country_ISO3>COL</Country_ISO3>
@@ -377,12 +396,14 @@
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 				<Forced_Child_Labor>No</Forced_Child_Labor>
+			</Country>
 			</Countries>
 	</Good>
 	<Good>
 		<Good_Name>Broccoli</Good_Name>
 		<Good_Sector>Agriculture</Good_Sector>
 		<Countries>
+			<Country>
 				<Country_Name>Guatemala</Country_Name>
 				<Country_ISO2>GT</Country_ISO2>
 				<Country_ISO3>GTM</Country_ISO3>
@@ -390,6 +411,7 @@
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 				<Forced_Child_Labor>No</Forced_Child_Labor>
+			</Country>
 			</Countries>
 	</Good>
 	<Good>
@@ -483,6 +505,7 @@
 		<Good_Name>Cassiterite (tin ore)</Good_Name>
 		<Good_Sector>Mining</Good_Sector>
 		<Countries>
+			<Country>
 				<Country_Name>Congo, Democratic Republic of the</Country_Name>
 				<Country_ISO2>CD</Country_ISO2>
 				<Country_ISO3>COD</Country_ISO3>
@@ -490,6 +513,7 @@
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>Yes</Forced_Labor>
 				<Forced_Child_Labor>Yes</Forced_Child_Labor>
+			</Country>
 			</Countries>
 	</Good>
 	<Good>
@@ -610,6 +634,7 @@
 		<Good_Name>Cement</Good_Name>
 		<Good_Sector>Manufacturing</Good_Sector>
 		<Countries>
+			<Country>
 				<Country_Name>North Korea</Country_Name>
 				<Country_ISO2>KP</Country_ISO2>
 				<Country_ISO3>PRK</Country_ISO3>
@@ -617,12 +642,14 @@
 				<Child_Labor>No</Child_Labor>
 				<Forced_Labor>Yes</Forced_Labor>
 				<Forced_Child_Labor>No</Forced_Child_Labor>
+			</Country>
 			</Countries>
 	</Good>
 	<Good>
 		<Good_Name>Ceramics</Good_Name>
 		<Good_Sector>Manufacturing</Good_Sector>
 		<Countries>
+			<Country>
 				<Country_Name>Brazil</Country_Name>
 				<Country_ISO2>BR</Country_ISO2>
 				<Country_ISO3>BRA</Country_ISO3>
@@ -630,6 +657,7 @@
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 				<Forced_Child_Labor>No</Forced_Child_Labor>
+			</Country>
 			</Countries>
 	</Good>
 	<Good>
@@ -660,6 +688,7 @@
 		<Good_Name>Chile Peppers</Good_Name>
 		<Good_Sector>Agriculture</Good_Sector>
 		<Countries>
+			<Country>
 				<Country_Name>Mexico</Country_Name>
 				<Country_ISO2>MX</Country_ISO2>
 				<Country_ISO3>MEX</Country_ISO3>
@@ -667,12 +696,14 @@
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 				<Forced_Child_Labor>No</Forced_Child_Labor>
+			</Country>
 			</Countries>
 	</Good>
 	<Good>
 		<Good_Name>Christmas Decorations</Good_Name>
 		<Good_Sector>Manufacturing</Good_Sector>
 		<Countries>
+			<Country>
 				<Country_Name>China</Country_Name>
 				<Country_ISO2>CN</Country_ISO2>
 				<Country_ISO3>CHN</Country_ISO3>
@@ -680,6 +711,7 @@
 				<Child_Labor>No</Child_Labor>
 				<Forced_Labor>Yes</Forced_Labor>
 				<Forced_Child_Labor>No</Forced_Child_Labor>
+			</Country>
 			</Countries>
 	</Good>
 	<Good>
@@ -710,6 +742,7 @@
 		<Good_Name>Cloves</Good_Name>
 		<Good_Sector>Agriculture</Good_Sector>
 		<Countries>
+			<Country>
 				<Country_Name>Tanzania</Country_Name>
 				<Country_ISO2>TZ</Country_ISO2>
 				<Country_ISO3>TZA</Country_ISO3>
@@ -717,6 +750,7 @@
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 				<Forced_Child_Labor>No</Forced_Child_Labor>
+			</Country>
 			</Countries>
 	</Good>
 	<Good>
@@ -876,6 +910,7 @@
 		<Good_Name>Coconuts</Good_Name>
 		<Good_Sector>Agriculture</Good_Sector>
 		<Countries>
+			<Country>
 				<Country_Name>Philippines</Country_Name>
 				<Country_ISO2>PH</Country_ISO2>
 				<Country_ISO3>PHL</Country_ISO3>
@@ -883,6 +918,7 @@
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 				<Forced_Child_Labor>No</Forced_Child_Labor>
+			</Country>
 			</Countries>
 	</Good>
 	<Good>
@@ -1021,6 +1057,7 @@
 		<Good_Name>Coltan (tantalum ore)</Good_Name>
 		<Good_Sector>Mining</Good_Sector>
 		<Countries>
+			<Country>
 				<Country_Name>Congo, Democratic Republic of the</Country_Name>
 				<Country_ISO2>CD</Country_ISO2>
 				<Country_ISO3>COD</Country_ISO3>
@@ -1028,12 +1065,14 @@
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>Yes</Forced_Labor>
 				<Forced_Child_Labor>Yes</Forced_Child_Labor>
+			</Country>
 			</Countries>
 	</Good>
 	<Good>
 		<Good_Name>Copper</Good_Name>
 		<Good_Sector>Mining</Good_Sector>
 		<Countries>
+			<Country>
 				<Country_Name>Congo, Democratic Republic of the</Country_Name>
 				<Country_ISO2>CD</Country_ISO2>
 				<Country_ISO3>COD</Country_ISO3>
@@ -1041,6 +1080,7 @@
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 				<Forced_Child_Labor>No</Forced_Child_Labor>
+			</Country>
 			</Countries>
 	</Good>
 	<Good>
@@ -1248,6 +1288,7 @@
 		<Good_Name>Cottonseed (hybrid)</Good_Name>
 		<Good_Sector>Agriculture</Good_Sector>
 		<Countries>
+			<Country>
 				<Country_Name>India</Country_Name>
 				<Country_ISO2>IN</Country_ISO2>
 				<Country_ISO3>IND</Country_ISO3>
@@ -1255,12 +1296,14 @@
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>Yes</Forced_Labor>
 				<Forced_Child_Labor>Yes</Forced_Child_Labor>
+			</Country>
 			</Countries>
 	</Good>
 	<Good>
 		<Good_Name>Cucumbers</Good_Name>
 		<Good_Sector>Agriculture</Good_Sector>
 		<Countries>
+			<Country>
 				<Country_Name>Mexico</Country_Name>
 				<Country_ISO2>MX</Country_ISO2>
 				<Country_ISO3>MEX</Country_ISO3>
@@ -1268,12 +1311,14 @@
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 				<Forced_Child_Labor>No</Forced_Child_Labor>
+			</Country>
 			</Countries>
 	</Good>
 	<Good>
 		<Good_Name>Cumin</Good_Name>
 		<Good_Sector>Agriculture</Good_Sector>
 		<Countries>
+			<Country>
 				<Country_Name>Turkey</Country_Name>
 				<Country_ISO2>TR</Country_ISO2>
 				<Country_ISO3>TUR</Country_ISO3>
@@ -1281,6 +1326,7 @@
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 				<Forced_Child_Labor>No</Forced_Child_Labor>
+			</Country>
 			</Countries>
 	</Good>
 	<Good>
@@ -1347,6 +1393,7 @@
 		<Good_Name>Dried Fish</Good_Name>
 		<Good_Sector>Manufacturing</Good_Sector>
 		<Countries>
+			<Country>
 				<Country_Name>Bangladesh</Country_Name>
 				<Country_ISO2>BD</Country_ISO2>
 				<Country_ISO3>BGD</Country_ISO3>
@@ -1354,12 +1401,14 @@
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>Yes</Forced_Labor>
 				<Forced_Child_Labor>Yes</Forced_Child_Labor>
+			</Country>
 			</Countries>
 	</Good>
 	<Good>
 		<Good_Name>Eggplants</Good_Name>
 		<Good_Sector>Agriculture</Good_Sector>
 		<Countries>
+			<Country>
 				<Country_Name>Mexico</Country_Name>
 				<Country_ISO2>MX</Country_ISO2>
 				<Country_ISO3>MEX</Country_ISO3>
@@ -1367,6 +1416,7 @@
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 				<Forced_Child_Labor>No</Forced_Child_Labor>
+			</Country>
 			</Countries>
 	</Good>
 	<Good>
@@ -1421,6 +1471,7 @@
 		<Good_Name>Emeralds</Good_Name>
 		<Good_Sector>Mining</Good_Sector>
 		<Countries>
+			<Country>
 				<Country_Name>Colombia</Country_Name>
 				<Country_ISO2>CO</Country_ISO2>
 				<Country_ISO3>COL</Country_ISO3>
@@ -1428,12 +1479,14 @@
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 				<Forced_Child_Labor>No</Forced_Child_Labor>
+			</Country>
 			</Countries>
 	</Good>
 	<Good>
 		<Good_Name>Fashion Accessories</Good_Name>
 		<Good_Sector>Manufacturing</Good_Sector>
 		<Countries>
+			<Country>
 				<Country_Name>Philippines</Country_Name>
 				<Country_ISO2>PH</Country_ISO2>
 				<Country_ISO3>PHL</Country_ISO3>
@@ -1441,6 +1494,7 @@
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 				<Forced_Child_Labor>No</Forced_Child_Labor>
+			</Country>
 			</Countries>
 	</Good>
 	<Good>
@@ -1585,6 +1639,7 @@
 		<Good_Name>Flowers</Good_Name>
 		<Good_Sector>Agriculture</Good_Sector>
 		<Countries>
+			<Country>
 				<Country_Name>Ecuador</Country_Name>
 				<Country_ISO2>EC</Country_ISO2>
 				<Country_ISO3>ECU</Country_ISO3>
@@ -1592,12 +1647,14 @@
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 				<Forced_Child_Labor>No</Forced_Child_Labor>
+			</Country>
 			</Countries>
 	</Good>
 	<Good>
 		<Good_Name>Flowers (poppies)</Good_Name>
 		<Good_Sector>Agriculture</Good_Sector>
 		<Countries>
+			<Country>
 				<Country_Name>Afghanistan</Country_Name>
 				<Country_ISO2>AF</Country_ISO2>
 				<Country_ISO3>AFG</Country_ISO3>
@@ -1605,12 +1662,14 @@
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 				<Forced_Child_Labor>No</Forced_Child_Labor>
+			</Country>
 			</Countries>
 	</Good>
 	<Good>
 		<Good_Name>Fluorspar (mineral)</Good_Name>
 		<Good_Sector>Mining</Good_Sector>
 		<Countries>
+			<Country>
 				<Country_Name>Mongolia</Country_Name>
 				<Country_ISO2>MN</Country_ISO2>
 				<Country_ISO3>MNG</Country_ISO3>
@@ -1618,6 +1677,7 @@
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 				<Forced_Child_Labor>No</Forced_Child_Labor>
+			</Country>
 			</Countries>
 	</Good>
 	<Good>
@@ -1666,6 +1726,7 @@
 		<Good_Name>Footwear (sandals)</Good_Name>
 		<Good_Sector>Manufacturing</Good_Sector>
 		<Countries>
+			<Country>
 				<Country_Name>Indonesia</Country_Name>
 				<Country_ISO2>ID</Country_ISO2>
 				<Country_ISO3>IDN</Country_ISO3>
@@ -1673,12 +1734,14 @@
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 				<Forced_Child_Labor>No</Forced_Child_Labor>
+			</Country>
 			</Countries>
 	</Good>
 	<Good>
 		<Good_Name>Furniture</Good_Name>
 		<Good_Sector>Manufacturing</Good_Sector>
 		<Countries>
+			<Country>
 				<Country_Name>Turkey</Country_Name>
 				<Country_ISO2>TR</Country_ISO2>
 				<Country_ISO3>TUR</Country_ISO3>
@@ -1686,12 +1749,14 @@
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 				<Forced_Child_Labor>No</Forced_Child_Labor>
+			</Country>
 			</Countries>
 	</Good>
 	<Good>
 		<Good_Name>Furniture (steel)</Good_Name>
 		<Good_Sector>Manufacturing</Good_Sector>
 		<Countries>
+			<Country>
 				<Country_Name>Bangladesh</Country_Name>
 				<Country_ISO2>BD</Country_ISO2>
 				<Country_ISO3>BGD</Country_ISO3>
@@ -1699,12 +1764,14 @@
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 				<Forced_Child_Labor>No</Forced_Child_Labor>
+			</Country>
 			</Countries>
 	</Good>
 	<Good>
 		<Good_Name>Garlic</Good_Name>
 		<Good_Sector>Agriculture</Good_Sector>
 		<Countries>
+			<Country>
 				<Country_Name>Argentina</Country_Name>
 				<Country_ISO2>AR</Country_ISO2>
 				<Country_ISO3>ARG</Country_ISO3>
@@ -1712,6 +1779,7 @@
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 				<Forced_Child_Labor>No</Forced_Child_Labor>
+			</Country>
 			</Countries>
 	</Good>
 	<Good>
@@ -1829,6 +1897,7 @@
 		<Good_Name>Glass</Good_Name>
 		<Good_Sector>Manufacturing</Good_Sector>
 		<Countries>
+			<Country>
 				<Country_Name>Bangladesh</Country_Name>
 				<Country_ISO2>BD</Country_ISO2>
 				<Country_ISO3>BGD</Country_ISO3>
@@ -1836,6 +1905,7 @@
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 				<Forced_Child_Labor>No</Forced_Child_Labor>
+			</Country>
 			</Countries>
 	</Good>
 	<Good>
@@ -1866,6 +1936,7 @@
 		<Good_Name>Goats</Good_Name>
 		<Good_Sector>Agriculture</Good_Sector>
 		<Countries>
+			<Country>
 				<Country_Name>Mauritania</Country_Name>
 				<Country_ISO2>MR</Country_ISO2>
 				<Country_ISO3>MRT</Country_ISO3>
@@ -1873,6 +1944,7 @@
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 				<Forced_Child_Labor>No</Forced_Child_Labor>
+			</Country>
 			</Countries>
 	</Good>
 	<Good>
@@ -2080,6 +2152,7 @@
 		<Good_Name>Granite (crushed)</Good_Name>
 		<Good_Sector>Mining</Good_Sector>
 		<Countries>
+			<Country>
 				<Country_Name>Benin</Country_Name>
 				<Country_ISO2>BJ</Country_ISO2>
 				<Country_ISO3>BEN</Country_ISO3>
@@ -2087,12 +2160,14 @@
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 				<Forced_Child_Labor>No</Forced_Child_Labor>
+			</Country>
 			</Countries>
 	</Good>
 	<Good>
 		<Good_Name>Grapes</Good_Name>
 		<Good_Sector>Agriculture</Good_Sector>
 		<Countries>
+			<Country>
 				<Country_Name>Argentina</Country_Name>
 				<Country_ISO2>AR</Country_ISO2>
 				<Country_ISO3>ARG</Country_ISO3>
@@ -2100,6 +2175,7 @@
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 				<Forced_Child_Labor>No</Forced_Child_Labor>
+			</Country>
 			</Countries>
 	</Good>
 	<Good>
@@ -2139,6 +2215,7 @@
 		<Good_Name>Gypsum (mineral)</Good_Name>
 		<Good_Sector>Mining</Good_Sector>
 		<Countries>
+			<Country>
 				<Country_Name>Niger</Country_Name>
 				<Country_ISO2>NE</Country_ISO2>
 				<Country_ISO3>NER</Country_ISO3>
@@ -2146,12 +2223,14 @@
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 				<Forced_Child_Labor>No</Forced_Child_Labor>
+			</Country>
 			</Countries>
 	</Good>
 	<Good>
 		<Good_Name>Hazelnuts</Good_Name>
 		<Good_Sector>Agriculture</Good_Sector>
 		<Countries>
+			<Country>
 				<Country_Name>Turkey</Country_Name>
 				<Country_ISO2>TR</Country_ISO2>
 				<Country_ISO3>TUR</Country_ISO3>
@@ -2159,12 +2238,14 @@
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 				<Forced_Child_Labor>No</Forced_Child_Labor>
+			</Country>
 			</Countries>
 	</Good>
 	<Good>
 		<Good_Name>Heterogenite (cobalt ore)</Good_Name>
 		<Good_Sector>Mining</Good_Sector>
 		<Countries>
+			<Country>
 				<Country_Name>Congo, Democratic Republic of the</Country_Name>
 				<Country_ISO2>CD</Country_ISO2>
 				<Country_ISO3>COD</Country_ISO3>
@@ -2172,12 +2253,14 @@
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 				<Forced_Child_Labor>No</Forced_Child_Labor>
+			</Country>
 			</Countries>
 	</Good>
 	<Good>
 		<Good_Name>Hogs</Good_Name>
 		<Good_Sector>Agriculture</Good_Sector>
 		<Countries>
+			<Country>
 				<Country_Name>Philippines</Country_Name>
 				<Country_ISO2>PH</Country_ISO2>
 				<Country_ISO3>PHL</Country_ISO3>
@@ -2185,12 +2268,14 @@
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 				<Forced_Child_Labor>No</Forced_Child_Labor>
+			</Country>
 			</Countries>
 	</Good>
 	<Good>
 		<Good_Name>Incense (agarbatti)</Good_Name>
 		<Good_Sector>Manufacturing</Good_Sector>
 		<Countries>
+			<Country>
 				<Country_Name>India</Country_Name>
 				<Country_ISO2>IN</Country_ISO2>
 				<Country_ISO3>IND</Country_ISO3>
@@ -2198,12 +2283,14 @@
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 				<Forced_Child_Labor>No</Forced_Child_Labor>
+			</Country>
 			</Countries>
 	</Good>
 	<Good>
 		<Good_Name>Iron</Good_Name>
 		<Good_Sector>Mining</Good_Sector>
 		<Countries>
+			<Country>
 				<Country_Name>North Korea</Country_Name>
 				<Country_ISO2>KP</Country_ISO2>
 				<Country_ISO3>PRK</Country_ISO3>
@@ -2211,12 +2298,14 @@
 				<Child_Labor>No</Child_Labor>
 				<Forced_Labor>Yes</Forced_Labor>
 				<Forced_Child_Labor>No</Forced_Child_Labor>
+			</Country>
 			</Countries>
 	</Good>
 	<Good>
 		<Good_Name>Jade</Good_Name>
 		<Good_Sector>Mining</Good_Sector>
 		<Countries>
+			<Country>
 				<Country_Name>Burma</Country_Name>
 				<Country_ISO2>BU</Country_ISO2>
 				<Country_ISO3>BUR</Country_ISO3>
@@ -2224,6 +2313,7 @@
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>Yes</Forced_Labor>
 				<Forced_Child_Labor>No</Forced_Child_Labor>
+			</Country>
 			</Countries>
 	</Good>
 	<Good>
@@ -2254,6 +2344,7 @@
 		<Good_Name>Leather Goods/Accessories</Good_Name>
 		<Good_Sector>Manufacturing</Good_Sector>
 		<Countries>
+			<Country>
 				<Country_Name>India</Country_Name>
 				<Country_ISO2>IN</Country_ISO2>
 				<Country_ISO3>IND</Country_ISO3>
@@ -2261,12 +2352,14 @@
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 				<Forced_Child_Labor>No</Forced_Child_Labor>
+			</Country>
 			</Countries>
 	</Good>
 	<Good>
 		<Good_Name>Lobsters</Good_Name>
 		<Good_Sector>Agriculture</Good_Sector>
 		<Countries>
+			<Country>
 				<Country_Name>Honduras</Country_Name>
 				<Country_ISO2>HN</Country_ISO2>
 				<Country_ISO3>HND</Country_ISO3>
@@ -2274,12 +2367,14 @@
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 				<Forced_Child_Labor>No</Forced_Child_Labor>
+			</Country>
 			</Countries>
 	</Good>
 	<Good>
 		<Good_Name>Locks</Good_Name>
 		<Good_Sector>Manufacturing</Good_Sector>
 		<Countries>
+			<Country>
 				<Country_Name>India</Country_Name>
 				<Country_ISO2>IN</Country_ISO2>
 				<Country_ISO3>IND</Country_ISO3>
@@ -2287,6 +2382,7 @@
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 				<Forced_Child_Labor>No</Forced_Child_Labor>
+			</Country>
 			</Countries>
 	</Good>
 	<Good>
@@ -2350,6 +2446,7 @@
 		<Good_Name>Meat</Good_Name>
 		<Good_Sector>Manufacturing</Good_Sector>
 		<Countries>
+			<Country>
 				<Country_Name>Cambodia</Country_Name>
 				<Country_ISO2>KH</Country_ISO2>
 				<Country_ISO3>KHM</Country_ISO3>
@@ -2357,6 +2454,7 @@
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 				<Forced_Child_Labor>No</Forced_Child_Labor>
+			</Country>
 			</Countries>
 	</Good>
 	<Good>
@@ -2396,6 +2494,7 @@
 		<Good_Name>Miraa (stimulant plant)</Good_Name>
 		<Good_Sector>Agriculture</Good_Sector>
 		<Countries>
+			<Country>
 				<Country_Name>Kenya</Country_Name>
 				<Country_ISO2>KE</Country_ISO2>
 				<Country_ISO3>KEN</Country_ISO3>
@@ -2403,12 +2502,14 @@
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 				<Forced_Child_Labor>No</Forced_Child_Labor>
+			</Country>
 			</Countries>
 	</Good>
 	<Good>
 		<Good_Name>Nails</Good_Name>
 		<Good_Sector>Manufacturing</Good_Sector>
 		<Countries>
+			<Country>
 				<Country_Name>China</Country_Name>
 				<Country_ISO2>CN</Country_ISO2>
 				<Country_ISO3>CHN</Country_ISO3>
@@ -2416,12 +2517,14 @@
 				<Child_Labor>No</Child_Labor>
 				<Forced_Labor>Yes</Forced_Labor>
 				<Forced_Child_Labor>No</Forced_Child_Labor>
+			</Country>
 			</Countries>
 	</Good>
 	<Good>
 		<Good_Name>Nile Perch (fish)</Good_Name>
 		<Good_Sector>Agriculture</Good_Sector>
 		<Countries>
+			<Country>
 				<Country_Name>Tanzania</Country_Name>
 				<Country_ISO2>TZ</Country_ISO2>
 				<Country_ISO3>TZA</Country_ISO3>
@@ -2429,6 +2532,7 @@
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 				<Forced_Child_Labor>No</Forced_Child_Labor>
+			</Country>
 			</Countries>
 	</Good>
 	<Good>
@@ -2468,6 +2572,7 @@
 		<Good_Name>Olives</Good_Name>
 		<Good_Sector>Agriculture</Good_Sector>
 		<Countries>
+			<Country>
 				<Country_Name>Argentina</Country_Name>
 				<Country_ISO2>AR</Country_ISO2>
 				<Country_ISO3>ARG</Country_ISO3>
@@ -2475,12 +2580,14 @@
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 				<Forced_Child_Labor>No</Forced_Child_Labor>
+			</Country>
 			</Countries>
 	</Good>
 	<Good>
 		<Good_Name>Onions</Good_Name>
 		<Good_Sector>Agriculture</Good_Sector>
 		<Countries>
+			<Country>
 				<Country_Name>Mexico</Country_Name>
 				<Country_ISO2>MX</Country_ISO2>
 				<Country_ISO3>MEX</Country_ISO3>
@@ -2488,12 +2595,14 @@
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 				<Forced_Child_Labor>No</Forced_Child_Labor>
+			</Country>
 			</Countries>
 	</Good>
 	<Good>
 		<Good_Name>Palm Thatch</Good_Name>
 		<Good_Sector>Agriculture</Good_Sector>
 		<Countries>
+			<Country>
 				<Country_Name>Burma</Country_Name>
 				<Country_ISO2>BU</Country_ISO2>
 				<Country_ISO3>BUR</Country_ISO3>
@@ -2501,6 +2610,7 @@
 				<Child_Labor>No</Child_Labor>
 				<Forced_Labor>Yes</Forced_Labor>
 				<Forced_Child_Labor>No</Forced_Child_Labor>
+			</Country>
 			</Countries>
 	</Good>
 	<Good>
@@ -2531,6 +2641,7 @@
 		<Good_Name>Physic Nuts/Castor Beans</Good_Name>
 		<Good_Sector>Agriculture</Good_Sector>
 		<Countries>
+			<Country>
 				<Country_Name>Burma</Country_Name>
 				<Country_ISO2>BU</Country_ISO2>
 				<Country_ISO3>BUR</Country_ISO3>
@@ -2538,12 +2649,14 @@
 				<Child_Labor>No</Child_Labor>
 				<Forced_Labor>Yes</Forced_Labor>
 				<Forced_Child_Labor>No</Forced_Child_Labor>
+			</Country>
 			</Countries>
 	</Good>
 	<Good>
 		<Good_Name>Pineapples</Good_Name>
 		<Good_Sector>Agriculture</Good_Sector>
 		<Countries>
+			<Country>
 				<Country_Name>Brazil</Country_Name>
 				<Country_ISO2>BR</Country_ISO2>
 				<Country_ISO3>BRA</Country_ISO3>
@@ -2551,6 +2664,7 @@
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 				<Forced_Child_Labor>No</Forced_Child_Labor>
+			</Country>
 			</Countries>
 	</Good>
 	<Good>
@@ -2626,6 +2740,7 @@
 		<Good_Name>Poultry</Good_Name>
 		<Good_Sector>Agriculture</Good_Sector>
 		<Countries>
+			<Country>
 				<Country_Name>Bangladesh</Country_Name>
 				<Country_ISO2>BD</Country_ISO2>
 				<Country_ISO3>BGD</Country_ISO3>
@@ -2633,12 +2748,14 @@
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 				<Forced_Child_Labor>No</Forced_Child_Labor>
+			</Country>
 			</Countries>
 	</Good>
 	<Good>
 		<Good_Name>Pulses (legumes)</Good_Name>
 		<Good_Sector>Agriculture</Good_Sector>
 		<Countries>
+			<Country>
 				<Country_Name>Turkey</Country_Name>
 				<Country_ISO2>TR</Country_ISO2>
 				<Country_ISO3>TUR</Country_ISO3>
@@ -2646,12 +2763,14 @@
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 				<Forced_Child_Labor>No</Forced_Child_Labor>
+			</Country>
 			</Countries>
 	</Good>
 	<Good>
 		<Good_Name>Pyrotechnics</Good_Name>
 		<Good_Sector>Manufacturing</Good_Sector>
 		<Countries>
+			<Country>
 				<Country_Name>Philippines</Country_Name>
 				<Country_ISO2>PH</Country_ISO2>
 				<Country_ISO3>PHL</Country_ISO3>
@@ -2659,6 +2778,7 @@
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 				<Forced_Child_Labor>No</Forced_Child_Labor>
+			</Country>
 			</Countries>
 	</Good>
 	<Good>
@@ -2794,6 +2914,7 @@
 		<Good_Name>Rubies</Good_Name>
 		<Good_Sector>Mining</Good_Sector>
 		<Countries>
+			<Country>
 				<Country_Name>Burma</Country_Name>
 				<Country_ISO2>BU</Country_ISO2>
 				<Country_ISO3>BUR</Country_ISO3>
@@ -2801,6 +2922,7 @@
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>Yes</Forced_Labor>
 				<Forced_Child_Labor>No</Forced_Child_Labor>
+			</Country>
 			</Countries>
 	</Good>
 	<Good>
@@ -2840,6 +2962,7 @@
 		<Good_Name>Sand</Good_Name>
 		<Good_Sector>Mining</Good_Sector>
 		<Countries>
+			<Country>
 				<Country_Name>Nigeria</Country_Name>
 				<Country_ISO2>NG</Country_ISO2>
 				<Country_ISO3>NGA</Country_ISO3>
@@ -2847,12 +2970,14 @@
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 				<Forced_Child_Labor>No</Forced_Child_Labor>
+			</Country>
 			</Countries>
 	</Good>
 	<Good>
 		<Good_Name>Sapphires</Good_Name>
 		<Good_Sector>Mining</Good_Sector>
 		<Countries>
+			<Country>
 				<Country_Name>Madagascar</Country_Name>
 				<Country_ISO2>MG</Country_ISO2>
 				<Country_ISO3>MDG</Country_ISO3>
@@ -2860,12 +2985,14 @@
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 				<Forced_Child_Labor>No</Forced_Child_Labor>
+			</Country>
 			</Countries>
 	</Good>
 	<Good>
 		<Good_Name>Sesame</Good_Name>
 		<Good_Sector>Agriculture</Good_Sector>
 		<Countries>
+			<Country>
 				<Country_Name>Burma</Country_Name>
 				<Country_ISO2>BU</Country_ISO2>
 				<Country_ISO3>BUR</Country_ISO3>
@@ -2873,6 +3000,7 @@
 				<Child_Labor>No</Child_Labor>
 				<Forced_Labor>Yes</Forced_Labor>
 				<Forced_Child_Labor>No</Forced_Child_Labor>
+			</Country>
 			</Countries>
 	</Good>
 	<Good>
@@ -2945,6 +3073,7 @@
 		<Good_Name>Silk Fabric</Good_Name>
 		<Good_Sector>Manufacturing</Good_Sector>
 		<Countries>
+			<Country>
 				<Country_Name>India</Country_Name>
 				<Country_ISO2>IN</Country_ISO2>
 				<Country_ISO3>IND</Country_ISO3>
@@ -2952,12 +3081,14 @@
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 				<Forced_Child_Labor>No</Forced_Child_Labor>
+			</Country>
 			</Countries>
 	</Good>
 	<Good>
 		<Good_Name>Silk Thread</Good_Name>
 		<Good_Sector>Manufacturing</Good_Sector>
 		<Countries>
+			<Country>
 				<Country_Name>India</Country_Name>
 				<Country_ISO2>IN</Country_ISO2>
 				<Country_ISO3>IND</Country_ISO3>
@@ -2965,12 +3096,14 @@
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 				<Forced_Child_Labor>No</Forced_Child_Labor>
+			</Country>
 			</Countries>
 	</Good>
 	<Good>
 		<Good_Name>Silver</Good_Name>
 		<Good_Sector>Mining</Good_Sector>
 		<Countries>
+			<Country>
 				<Country_Name>Bolivia</Country_Name>
 				<Country_ISO2>BO</Country_ISO2>
 				<Country_ISO3>BOL</Country_ISO3>
@@ -2978,6 +3111,7 @@
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 				<Forced_Child_Labor>No</Forced_Child_Labor>
+			</Country>
 			</Countries>
 	</Good>
 	<Good>
@@ -3017,6 +3151,7 @@
 		<Good_Name>Soap</Good_Name>
 		<Good_Sector>Manufacturing</Good_Sector>
 		<Countries>
+			<Country>
 				<Country_Name>Bangladesh</Country_Name>
 				<Country_ISO2>BD</Country_ISO2>
 				<Country_ISO3>BGD</Country_ISO3>
@@ -3024,12 +3159,14 @@
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 				<Forced_Child_Labor>No</Forced_Child_Labor>
+			</Country>
 			</Countries>
 	</Good>
 	<Good>
 		<Good_Name>Soccer Balls</Good_Name>
 		<Good_Sector>Manufacturing</Good_Sector>
 		<Countries>
+			<Country>
 				<Country_Name>India</Country_Name>
 				<Country_ISO2>IN</Country_ISO2>
 				<Country_ISO3>IND</Country_ISO3>
@@ -3037,6 +3174,7 @@
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 				<Forced_Child_Labor>No</Forced_Child_Labor>
+			</Country>
 			</Countries>
 	</Good>
 	<Good>
@@ -3109,6 +3247,7 @@
 		<Good_Name>Stones (pumice)</Good_Name>
 		<Good_Sector>Mining</Good_Sector>
 		<Countries>
+			<Country>
 				<Country_Name>Nicaragua</Country_Name>
 				<Country_ISO2>NI</Country_ISO2>
 				<Country_ISO3>NIC</Country_ISO3>
@@ -3116,12 +3255,14 @@
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 				<Forced_Child_Labor>No</Forced_Child_Labor>
+			</Country>
 			</Countries>
 	</Good>
 	<Good>
 		<Good_Name>Strawberries</Good_Name>
 		<Good_Sector>Agriculture</Good_Sector>
 		<Countries>
+			<Country>
 				<Country_Name>Argentina</Country_Name>
 				<Country_ISO2>AR</Country_ISO2>
 				<Country_ISO3>ARG</Country_ISO3>
@@ -3129,12 +3270,14 @@
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 				<Forced_Child_Labor>No</Forced_Child_Labor>
+			</Country>
 			</Countries>
 	</Good>
 	<Good>
 		<Good_Name>Sugar Beets</Good_Name>
 		<Good_Sector>Agriculture</Good_Sector>
 		<Countries>
+			<Country>
 				<Country_Name>Turkey</Country_Name>
 				<Country_ISO2>TR</Country_ISO2>
 				<Country_ISO3>TUR</Country_ISO3>
@@ -3142,6 +3285,7 @@
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 				<Forced_Child_Labor>No</Forced_Child_Labor>
+			</Country>
 			</Countries>
 	</Good>
 	<Good>
@@ -3307,6 +3451,7 @@
 		<Good_Name>Sunflowers</Good_Name>
 		<Good_Sector>Agriculture</Good_Sector>
 		<Countries>
+			<Country>
 				<Country_Name>Burma</Country_Name>
 				<Country_ISO2>BU</Country_ISO2>
 				<Country_ISO3>BUR</Country_ISO3>
@@ -3314,12 +3459,14 @@
 				<Child_Labor>No</Child_Labor>
 				<Forced_Labor>Yes</Forced_Labor>
 				<Forced_Child_Labor>No</Forced_Child_Labor>
+			</Country>
 			</Countries>
 	</Good>
 	<Good>
 		<Good_Name>Surgical Instruments</Good_Name>
 		<Good_Sector>Manufacturing</Good_Sector>
 		<Countries>
+			<Country>
 				<Country_Name>Pakistan</Country_Name>
 				<Country_ISO2>PK</Country_ISO2>
 				<Country_ISO3>PAK</Country_ISO3>
@@ -3327,12 +3474,14 @@
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 				<Forced_Child_Labor>No</Forced_Child_Labor>
+			</Country>
 			</Countries>
 	</Good>
 	<Good>
 		<Good_Name>Tanzanite (gems)</Good_Name>
 		<Good_Sector>Mining</Good_Sector>
 		<Countries>
+			<Country>
 				<Country_Name>Tanzania</Country_Name>
 				<Country_ISO2>TZ</Country_ISO2>
 				<Country_ISO3>TZA</Country_ISO3>
@@ -3340,6 +3489,7 @@
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 				<Forced_Child_Labor>No</Forced_Child_Labor>
+			</Country>
 			</Countries>
 	</Good>
 	<Good>
@@ -3397,6 +3547,7 @@
 		<Good_Name>Teak</Good_Name>
 		<Good_Sector>Agriculture</Good_Sector>
 		<Countries>
+			<Country>
 				<Country_Name>Burma</Country_Name>
 				<Country_ISO2>BU</Country_ISO2>
 				<Country_ISO3>BUR</Country_ISO3>
@@ -3404,6 +3555,7 @@
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>Yes</Forced_Labor>
 				<Forced_Child_Labor>Yes</Forced_Child_Labor>
+			</Country>
 			</Countries>
 	</Good>
 	<Good>
@@ -3452,6 +3604,7 @@
 		<Good_Name>Textiles (hand-woven)</Good_Name>
 		<Good_Sector>Manufacturing</Good_Sector>
 		<Countries>
+			<Country>
 				<Country_Name>Ethiopia</Country_Name>
 				<Country_ISO2>ET</Country_ISO2>
 				<Country_ISO3>ETH</Country_ISO3>
@@ -3459,12 +3612,14 @@
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>Yes</Forced_Labor>
 				<Forced_Child_Labor>Yes</Forced_Child_Labor>
+			</Country>
 			</Countries>
 	</Good>
 	<Good>
 		<Good_Name>Textiles (jute)</Good_Name>
 		<Good_Sector>Manufacturing</Good_Sector>
 		<Countries>
+			<Country>
 				<Country_Name>Bangladesh</Country_Name>
 				<Country_ISO2>BD</Country_ISO2>
 				<Country_ISO3>BGD</Country_ISO3>
@@ -3472,12 +3627,14 @@
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 				<Forced_Child_Labor>No</Forced_Child_Labor>
+			</Country>
 			</Countries>
 	</Good>
 	<Good>
 		<Good_Name>Thread/Yarn</Good_Name>
 		<Good_Sector>Manufacturing</Good_Sector>
 		<Countries>
+			<Country>
 				<Country_Name>India</Country_Name>
 				<Country_ISO2>IN</Country_ISO2>
 				<Country_ISO3>IND</Country_ISO3>
@@ -3485,12 +3642,14 @@
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 				<Forced_Child_Labor>No</Forced_Child_Labor>
+			</Country>
 			</Countries>
 	</Good>
 	<Good>
 		<Good_Name>Tilapia (fish)</Good_Name>
 		<Good_Sector>Agriculture</Good_Sector>
 		<Countries>
+			<Country>
 				<Country_Name>Ghana</Country_Name>
 				<Country_ISO2>GH</Country_ISO2>
 				<Country_ISO3>GHA</Country_ISO3>
@@ -3498,6 +3657,7 @@
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>Yes</Forced_Labor>
 				<Forced_Child_Labor>Yes</Forced_Child_Labor>
+			</Country>
 			</Countries>
 	</Good>
 	<Good>
@@ -3546,6 +3706,7 @@
 		<Good_Name>Tin</Good_Name>
 		<Good_Sector>Mining</Good_Sector>
 		<Countries>
+			<Country>
 				<Country_Name>Bolivia</Country_Name>
 				<Country_ISO2>BO</Country_ISO2>
 				<Country_ISO3>BOL</Country_ISO3>
@@ -3553,6 +3714,7 @@
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 				<Forced_Child_Labor>No</Forced_Child_Labor>
+			</Country>
 			</Countries>
 	</Good>
 	<Good>
@@ -3733,6 +3895,7 @@
 		<Good_Name>Toys</Good_Name>
 		<Good_Sector>Manufacturing</Good_Sector>
 		<Countries>
+			<Country>
 				<Country_Name>China</Country_Name>
 				<Country_ISO2>CN</Country_ISO2>
 				<Country_ISO3>CHN</Country_ISO3>
@@ -3740,12 +3903,14 @@
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>Yes</Forced_Labor>
 				<Forced_Child_Labor>Yes</Forced_Child_Labor>
+			</Country>
 			</Countries>
 	</Good>
 	<Good>
 		<Good_Name>Trona (mineral)</Good_Name>
 		<Good_Sector>Mining</Good_Sector>
 		<Countries>
+			<Country>
 				<Country_Name>Niger</Country_Name>
 				<Country_ISO2>NE</Country_ISO2>
 				<Country_ISO3>NER</Country_ISO3>
@@ -3753,6 +3918,7 @@
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 				<Forced_Child_Labor>No</Forced_Child_Labor>
+			</Country>
 			</Countries>
 	</Good>
 	<Good>
@@ -3783,6 +3949,7 @@
 		<Good_Name>Wheat</Good_Name>
 		<Good_Sector>Agriculture</Good_Sector>
 		<Countries>
+			<Country>
 				<Country_Name>Pakistan</Country_Name>
 				<Country_ISO2>PK</Country_ISO2>
 				<Country_ISO3>PAK</Country_ISO3>
@@ -3790,12 +3957,14 @@
 				<Child_Labor>No</Child_Labor>
 				<Forced_Labor>Yes</Forced_Labor>
 				<Forced_Child_Labor>No</Forced_Child_Labor>
+			</Country>
 			</Countries>
 	</Good>
 	<Good>
 		<Good_Name>Wolframite (tungsten ore)</Good_Name>
 		<Good_Sector>Mining</Good_Sector>
 		<Countries>
+			<Country>
 				<Country_Name>Congo, Democratic Republic of the</Country_Name>
 				<Country_ISO2>CD</Country_ISO2>
 				<Country_ISO3>COD</Country_ISO3>
@@ -3803,12 +3972,14 @@
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>Yes</Forced_Labor>
 				<Forced_Child_Labor>Yes</Forced_Child_Labor>
+			</Country>
 			</Countries>
 	</Good>
 	<Good>
 		<Good_Name>Yerba Mate (stimulant plant)</Good_Name>
 		<Good_Sector>Agriculture</Good_Sector>
 		<Countries>
+			<Country>
 				<Country_Name>Argentina</Country_Name>
 				<Country_ISO2>AR</Country_ISO2>
 				<Country_ISO3>ARG</Country_ISO3>
@@ -3816,12 +3987,14 @@
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 				<Forced_Child_Labor>No</Forced_Child_Labor>
+			</Country>
 			</Countries>
 	</Good>
 	<Good>
 		<Good_Name>Zinc</Good_Name>
 		<Good_Sector>Mining</Good_Sector>
 		<Countries>
+			<Country>
 				<Country_Name>Bolivia</Country_Name>
 				<Country_ISO2>BO</Country_ISO2>
 				<Country_ISO3>BOL</Country_ISO3>
@@ -3829,6 +4002,7 @@
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 				<Forced_Child_Labor>No</Forced_Child_Labor>
+			</Country>
 			</Countries>
 	</Good>
 </Goods>
