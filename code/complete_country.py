@@ -124,10 +124,10 @@ if __name__ == '__main__':
 
 	#print cost
 
-	#to_json(json_target, cost)
-	#to_xml(xml_target, cost)
+	to_json(json_target, cost)
+	to_xml(xml_target, cost)
 
 
-	to_csv(csv_target, cost)
+	#to_csv(csv_target, cost)
 
 
