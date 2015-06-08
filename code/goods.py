@@ -6,11 +6,11 @@ import sectors
 import regions 
 from collections import OrderedDict
 
-csv_target = '../output/goods_from_XL_2013.csv' 
-xml_target_by_country = '../output/goods_from_XL_by_country_2013.xml' 
-xml_target_by_good = '../output/goods_from_XL_by_good_2013.xml' 
-json_target_by_country = '../output/goods_from_XL_by_country_2013.json' 
-json_target_by_good = '../output/goods_from_XL_by_good_2013.json'
+csv_target = '../output/extra/goods_from_XL_2013.csv' 
+xml_target_by_country = '../output/extra/goods_from_XL_by_country_2013.xml' 
+xml_target_by_good = '../output/extra/goods_from_XL_by_good_2013.xml' 
+json_target_by_country = '../output/extra/goods_from_XL_by_country_2013.json' 
+json_target_by_good = '../output/extra/goods_from_XL_by_good_2013.json'
 
 present = "X"
 
@@ -38,9 +38,9 @@ def include_extra(goods_list):
 		g['Country_ISO3'] = ISO_countries.ISO3_from_name(g['Country_Name'], csl)
 		
 		if (g['Country_ISO2'] == utility.get_default_error()):
-			print " No ISO2 was forund for ", g['Country_Name']
+			print " No ISO2 was found for ", g['Country_Name']
 		if (g['Country_ISO3'] == utility.get_default_error()):
-			print " No ISO3 was forund for ", g['Country_Name']
+			print " No ISO3 was found for ", g['Country_Name']
 
 		g['Country_Region'] = regions.find_region_from_ISO3(g['Country_ISO3'], regs)
 		g['Good_Name'] = good['Good_Name']
@@ -51,9 +51,9 @@ def include_extra(goods_list):
 		result.append(g)
 	return result
 
-def get_good_tuples_for_country(country, goods_list):
+def get_good_tuples_for_country(goods_list, cty):
 	good_tuples = []
-	country = country.strip()
+	country = cty.strip()
 	for num in range(0, len(goods_list)):
 		good_tuple = OrderedDict()
 		c = goods_list[num]['Country_Name'].strip()
@@ -66,7 +66,7 @@ def get_good_tuples_for_country(country, goods_list):
 			good_tuples.append(good_tuple)
 	return good_tuples	
 
-def get_country_tuples_for_good(goods_list,good):
+def get_country_tuples_for_good(goods_list, good):
 	countries = []
 	good = good.strip()
 	for num in range(0, len(goods_list)):
@@ -107,7 +107,7 @@ def to_xml_by_country(filename, goods_list):
 			target.write("\t\t<Country_ISO2>"+iso2+"</Country_ISO2>"+"\n")
 			target.write("\t\t<Country_ISO3>"+iso3+"</Country_ISO3>"+"\n")
 			target.write("\t\t<Country_Region>"+region+"</Country_Region>"+"\n")
-			good_tuples = get_good_tuples_for_country(country, goods_list)
+			good_tuples = get_good_tuples_for_country(goods_list, country)
 			target.write("\t\t<Goods>\n")
 			#print ("Year: " + str(year)+ ": "+country+": "+str(good_tuples))
 			for c in range(0, len(good_tuples)):
@@ -147,7 +147,7 @@ def to_xml_by_good(filename, goods_list):
 		if 	(good not in products):
 			target.write("\t<Good>\n"+"\t\t<Good_Name>"+good+"</Good_Name>"+"\n")
 			target.write("\t\t<Good_Sector>"+good_sector+"</Good_Sector>"+"\n")			
-			countryset = get_country_tuples_for_good(goods_list,good)
+			countryset = get_country_tuples_for_good(goods_list, good)
 			#print (good+": "+str(countryset))
 			target.write("\t\t<Countries>\n")
 			for count in range(0, len(countryset)):
@@ -194,6 +194,7 @@ def group_by_country(goods_list):
 			country['Country_ISO2'] = str(row['Country_ISO2'])
 			country['Country_ISO3'] = str(row['Country_ISO3'])
 			country['Country_Region'] = str(row['Country_Region'])
+			print " Country Name is ", cname
 			country['Goods'] = get_good_tuples_for_country(goods_list, cname)
 			countries.append(country)
 			seen.append(cname)

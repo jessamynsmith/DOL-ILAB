@@ -985,7 +985,7 @@
 		</Goods>
 	</Country>
 	<Country>
-		<Country_Name>Cote d'Ivoire</Country_Name>
+		<Country_Name>Côte d'Ivoire</Country_Name>
 		<Country_ISO2>CI</Country_ISO2>
 		<Country_ISO3>CIV</Country_ISO3>
 		<Country_Region>Sub-Saharan Africa</Country_Region>
@@ -1661,8 +1661,8 @@
 	<Country>
 		<Country_Name>Kyrgyz Republic</Country_Name>
 		<Country_ISO2>KV</Country_ISO2>
-		<Country_ISO3></Country_ISO3>
-		<Country_Region>Europe & Eurasia</Country_Region>
+		<Country_ISO3>KVR</Country_ISO3>
+		<Country_Region>Asia & Pacific</Country_Region>
 		<Goods>
 			<Good>
 					<Good_Name>Cotton</Good_Name>

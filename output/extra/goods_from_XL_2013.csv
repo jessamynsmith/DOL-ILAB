@@ -119,8 +119,8 @@ Colombia,CO,COL,Latin America & Caribbean,Sugarcane,Agriculture,Yes,No,No
 "Congo, Democratic Republic of the",CD,COD,Sub-Saharan Africa,Heterogenite (cobalt ore),Mining,Yes,No,No
 "Congo, Democratic Republic of the",CD,COD,Sub-Saharan Africa,Gold,Mining,Yes,Yes,Yes
 "Congo, Democratic Republic of the",CD,COD,Sub-Saharan Africa,Wolframite (tungsten ore),Mining,Yes,Yes,Yes
-Cote d'Ivoire,CI,CIV,Sub-Saharan Africa,Cocoa,Agriculture,Yes,Yes,Yes
-Cote d'Ivoire,CI,CIV,Sub-Saharan Africa,Coffee,Agriculture,Yes,Yes,Yes
+Côte d'Ivoire,CI,CIV,Sub-Saharan Africa,Cocoa,Agriculture,Yes,Yes,Yes
+Côte d'Ivoire,CI,CIV,Sub-Saharan Africa,Coffee,Agriculture,Yes,Yes,Yes
 Dominican Republic,DO,DOM,Latin America & Caribbean,Baked Goods,Manufacturing,Yes,No,No
 Dominican Republic,DO,DOM,Latin America & Caribbean,Coffee,Agriculture,Yes,No,No
 Dominican Republic,DO,DOM,Latin America & Caribbean,Rice,Agriculture,Yes,No,No
@@ -197,8 +197,8 @@ Kenya,KE,KEN,Sub-Saharan Africa,Sisal,Agriculture,Yes,No,No
 Kenya,KE,KEN,Sub-Saharan Africa,Sugarcane,Agriculture,Yes,No,No
 Kenya,KE,KEN,Sub-Saharan Africa,Tea,Agriculture,Yes,No,No
 Kenya,KE,KEN,Sub-Saharan Africa,Tobacco,Agriculture,Yes,No,No
-Kyrgyz Republic,KV,,Europe & Eurasia,Cotton,Agriculture,Yes,No,No
-Kyrgyz Republic,KV,,Europe & Eurasia,Tobacco,Agriculture,Yes,No,No
+Kyrgyz Republic,KV,KVR,Asia & Pacific,Cotton,Agriculture,Yes,No,No
+Kyrgyz Republic,KV,KVR,Asia & Pacific,Tobacco,Agriculture,Yes,No,No
 Lebanon,LB,LBN,Middle East & North Africa,Tobacco,Agriculture,Yes,No,No
 Lesotho,LS,LSO,Sub-Saharan Africa,Cattle,Agriculture,Yes,No,No
 Liberia,LR,LBR,Sub-Saharan Africa,Diamonds,Mining,Yes,No,No
