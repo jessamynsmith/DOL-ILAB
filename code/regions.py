@@ -2,9 +2,9 @@ import utility
 import ISO_countries
 from collections import OrderedDict
 
-json_target = '../output/country_region_mappings.json' 
-csv_target = '../output/country_region_mappings.csv' 
-xml_target = '../output/country_region_mappings.xml' 
+json_target = '../output/extra/country_region_mappings.json' 
+csv_target = '../output/extra/country_region_mappings.csv' 
+xml_target = '../output/extra/country_region_mappings.xml' 
 
 mappings = ["Country_Name", "Country_Region"]    # Info to be extracted from spreadsheet
 
@@ -122,4 +122,6 @@ if __name__ == '__main__':
 	to_json(json_target, regions)
 	to_csv(csv_target, regions)
 	to_xml(xml_target, regions)
+
+
 
