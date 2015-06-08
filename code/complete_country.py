@@ -59,7 +59,7 @@ def combine(c, gds, country_profiles, mds, sts, stats_attribs, md_attribs):
 	this_cp = utility.get_tuple_by_X(iso3, "Country_ISO3", country_profiles)
 	this_md = utility.get_tuple_by_X(iso3, "Country_ISO3", mds)
 	this_sts = utility.get_tuple_by_X(iso3, "Country_ISO3", sts)
-	this_goods = goods.get_good_tuples_for_country(country_name, gds)
+	this_goods = goods.get_good_tuples_for_country(gds, country_name)
 	cpkeys = this_cp.keys()
 	skeys = this_sts.keys()
 	mkeys = this_md.keys()	

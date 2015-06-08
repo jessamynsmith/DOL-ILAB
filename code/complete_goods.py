@@ -44,7 +44,7 @@ def to_xml(filename, data):
 if __name__ == '__main__':
 	cgoods = build()
 
-	print cgoods
+	#print cgoods
 
 	to_json(json_target, cgoods)
 	to_xml(xml_target, cgoods)
