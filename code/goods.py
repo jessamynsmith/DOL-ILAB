@@ -194,7 +194,6 @@ def group_by_country(goods_list):
 			country['Country_ISO2'] = str(row['Country_ISO2'])
 			country['Country_ISO3'] = str(row['Country_ISO3'])
 			country['Country_Region'] = str(row['Country_Region'])
-			print " Country Name is ", cname
 			country['Goods'] = get_good_tuples_for_country(goods_list, cname)
 			countries.append(country)
 			seen.append(cname)

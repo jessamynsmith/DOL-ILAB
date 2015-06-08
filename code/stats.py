@@ -5,9 +5,9 @@ import ISO_countries
 import regions
 from collections import OrderedDict
 
-csv_target = '../output/country_stats_from_XL_2013.csv' 
-xml_target = '../output/country_stats_from_XL_2013.xml' 
-json_target = '../output/country_stats_from_XL_2013.json' 
+csv_target = '../output/extra/country_stats_from_XL_2013.csv' 
+xml_target = '../output/extra/country_stats_from_XL_2013.xml' 
+json_target = '../output/extra/country_stats_from_XL_2013.json' 
 
 CWS = "Children Work Statistics"
 ESAS = "Education Statistics: Attendance Statistics"
@@ -18,10 +18,10 @@ regs = regions.build()
 csl = ISO_countries.build()
 
 mappings = [ 'Country_Name', 'Survey_Name', 
-              CWS+' : Year', CWS+' : Survey Source', CWS+' : Age Range', 
-              CWS+' : Total %', CWS+' : Total Working Population', 
+              CWS+' : Year', CWS+' : Survey Source', CWS+' : Age Range', CWS +' : Total Child Population',
+              CWS+' : Total % of Working Children', CWS+' : Total Working Population', 
               CWS+' : Agriculture', CWS+' : Service', CWS+' : Industry', 
-              ESAS+' : Year', ESAS+' : Age Range', ESAS+' : %', 
+              ESAS+' : Year', ESAS+' : Age Range', ESAS+' : Percentage', 
               CWAS+' : Year', CWAS+' : Age Range', CWAS+' : Total', 
               UPCR+' : Year', UPCR+' : Rate' 
               ]
@@ -56,14 +56,15 @@ def include_extra(masterdata):
 	    md[CWS+' : Year'] = mdrec[CWS+' : Year']
 	    md[CWS+' : Survey Source'] = mdrec[CWS+' : Survey Source']
 	    md[CWS+' : Age Range'] = mdrec[CWS+' : Age Range']
-	    md[CWS+' : Total %'] = mdrec[CWS+' : Total %']
+	    md[CWS +' : Total Child Population'] = mdrec[CWS +' : Total Child Population']
+	    md[CWS+' : Total % of Working Children'] = mdrec[CWS+' : Total % of Working Children']
 	    md[CWS+' : Total Working Population'] = mdrec[CWS+' : Total Working Population']
 	    md[CWS+' : Agriculture'] = mdrec[CWS+' : Agriculture']
 	    md[CWS+' : Service'] = mdrec[CWS+' : Service']
 	    md[CWS+' : Industry'] = mdrec[CWS+' : Industry']
 	    md[ESAS+' : Year'] = mdrec[ESAS+' : Year']
 	    md[ESAS+' : Age Range'] = mdrec[ESAS+' : Age Range']
-	    md[ESAS+' : %'] = mdrec[ESAS+' : %']
+	    md[ESAS+' : Percentage'] = mdrec[ESAS+' : Percentage']
 	    md[CWAS+' : Year'] = mdrec[CWAS+' : Year']
 	    md[CWAS+' : Age Range'] = mdrec[CWAS+' : Age Range']
 	    md[CWAS+' : Total'] = mdrec[CWAS+' : Total']
@@ -109,8 +110,11 @@ def write_record(target, md):
 	target.write("\t\t\t<Age_Range>")
 	target.write(md[CWS+' : Age Range'])
 	target.write("</Age_Range>\n")
+	target.write("\t\t\t<Total_Child_Population'>")
+	target.write(md[CWS +' : Total Child Population'])
+	target.write("\t\t\t</Total_Child_Population'>\n")
 	target.write("\t\t\t<Total_Percentage_of_Working_Children>")
-	target.write(str(md[CWS+' : Total %']))
+	target.write(str(md[CWS+' : Total % of Working Children']))
 	target.write("</Total_Percentage_of_Working_Children>\n")
 	target.write("\t\t\t<Total_Working_Population>")
 	target.write(str(md[CWS+' : Total Working Population']))
@@ -134,7 +138,7 @@ def write_record(target, md):
 	target.write(md[ESAS+' : Age Range'])
 	target.write("</Age_Range>\n")
 	target.write("\t\t\t<Percentage>")
-	target.write(md[ESAS+' : %'])
+	target.write(md[ESAS+' : Percentage'])
 	target.write("</Percentage>\n")
 	target.write("\t\t</Education_Statistics_Attendance_Statistics>\n")
 
@@ -200,7 +204,8 @@ def order_by_country(mdlist):
 		newcws['Year'] = mdrec[CWS+' : Year']
 		newcws['Survey Source'] = mdrec[CWS+' : Survey Source']
 		newcws['Age Range'] = mdrec[CWS+' : Age Range']
-		newcws['Total %'] = mdrec[CWS+' : Total %']
+	    newcws['Total Child Population'] = mdrec[CWS +' : Total Child Population']
+		newcws['Total % of Working Children'] = mdrec[CWS+' : Total % of Working Children']
 		newcws['Total Working Population'] = mdrec[CWS+' : Total Working Population']
 		newcws['Agriculture'] = mdrec[CWS+' : Agriculture']
 		newcws['Service'] = mdrec[CWS+' : Service']
@@ -211,7 +216,7 @@ def order_by_country(mdlist):
 		newesas = OrderedDict()
 		newesas['Year'] = mdrec[ESAS+' : Year']
 		newesas['Age Range'] = mdrec[ESAS+' : Age Range']
-		newesas['%'] = mdrec[ESAS+' : %']
+		newesas['Percentage'] = mdrec[ESAS+' : Percentage']
 		md[ESAS].append(newesas)
 
 		md[CWAS] = []
@@ -237,3 +242,5 @@ if __name__ == '__main__':
 	to_xml(xml_target, mdlist)
 	to_json(json_target, mdlist)
 	to_csv(csv_target, mdlist)
+
+	print mdlist
