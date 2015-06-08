@@ -4,9 +4,9 @@ import utility
 import regions
 from collections import OrderedDict
 
-csv_target = '../output/master_data_from_XL_2013.csv' 
-xml_target = '../output/master_data_from_XL_2013.xml' 
-json_target = '../output/master_data_from_XL_2013.json' 
+csv_target = '../output/extra/master_data_from_XL_2013.csv' 
+xml_target = '../output/extra/master_data_from_XL_2013.xml' 
+json_target = '../output/extra/master_data_from_XL_2013.json' 
 
 regs = regions.build()
 
