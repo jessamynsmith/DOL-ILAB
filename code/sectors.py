@@ -1,9 +1,9 @@
 
 import utility
 
-json_target = '../output/good_sector_mappings.json' 
-csv_target = '../output/good_sector_mappings.csv' 
-xml_target = '../output/good_sector_mappings.xml' 
+json_target = '../output/extra/good_sector_mappings.json' 
+csv_target = '../output/extra/good_sector_mappings.csv' 
+xml_target = '../output/extra/good_sector_mappings.xml' 
 
 
 mappings = ["Good_Sector", "Good_Name"]   #The attributes to be extracted from the spreadsheet
@@ -63,10 +63,11 @@ def to_xml(filename, data):
 
 
 if __name__ == '__main__':
-	sectors = utility.from_excelsheet(utility.get_source_filename(), 1, 1, mappings)
+	sectors = build()
 	to_json(json_target, sectors)
 	to_csv(csv_target, sectors)
 	to_xml(xml_target, sectors)
+
 
 
 
