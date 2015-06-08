@@ -1,0 +1,285 @@
+Name,ISO2,ISO3,Code,Status
+Afghanistan,AF,AFG,4.0,Officially assigned
+Åland Islands,AX,ALA,248.0,Officially assigned
+Albania,AL,ALB,8.0,Officially assigned
+Algeria,DZ,DZA,12.0,Officially assigned
+American Samoa,AS,ASM,16.0,Officially assigned
+Andorra,AD,AND,20.0,Officially assigned
+Angola,AO,AGO,24.0,Officially assigned
+Anguilla,AI,AIA,660.0,Officially assigned
+Antarctica,AQ,ATA,10.0,Officially assigned
+Antigua and Barbuda,AG,ATG,28.0,Officially assigned
+Argentina,AR,ARG,32.0,Officially assigned
+Armenia,AM,ARM,51.0,Officially assigned
+Aruba,AW,ABW,533.0,Officially assigned
+Australia,AU,AUS,36.0,Officially assigned
+Austria,AT,AUT,40.0,Officially assigned
+Azerbaijan,AZ,AZE,31.0,Officially assigned
+Bahamas (the),BS,BHS,44.0,Officially assigned
+Bahrain,BH,BHR,48.0,Officially assigned
+Bangladesh,BD,BGD,50.0,Officially assigned
+Barbados,BB,BRB,52.0,Officially assigned
+Belarus,BY,BLR,112.0,Officially assigned
+Belgium,BE,BEL,56.0,Officially assigned
+Belize,BZ,BLZ,84.0,Officially assigned
+Benin,BJ,BEN,204.0,Officially assigned
+Bermuda,BM,BMU,60.0,Officially assigned
+Bhutan,BT,BTN,64.0,Officially assigned
+Bolivia (Plurinational State of),BO,BOL,68.0,Officially assigned
+"Bonaire, Sint Eustatius and Saba",BQ,BES,535.0,Officially assigned
+Bosnia and Herzegovina,BA,BIH,70.0,Officially assigned
+Botswana,BW,BWA,72.0,Officially assigned
+Bouvet Island,BV,BVT,74.0,Officially assigned
+Brazil,BR,BRA,76.0,Officially assigned
+British Antarctic Territory,BQ,ATB,,Formerly used
+British Indian Ocean Territory (the),IO,IOT,86.0,Officially assigned
+Brunei Darussalam,BN,BRN,96.0,Officially assigned
+Bulgaria,BG,BGR,100.0,Officially assigned
+Burkina Faso,BF,BFA,854.0,Officially assigned
+Burma,BU,BUR,104.0,Transitionally reserved
+Burundi,BI,BDI,108.0,Officially assigned
+Byelorussian SSR,BY,BYS,112.0,Formerly used
+Cabo Verde,CV,CPV,132.0,Officially assigned
+Cambodia,KH,KHM,116.0,Officially assigned
+Cameroon,CM,CMR,120.0,Officially assigned
+Canada,CA,CAN,124.0,Officially assigned
+Canton and Enderbury Islands,CT,CTE,128.0,Formerly Used
+Cayman Islands (the),KY,CYM,136.0,Officially assigned
+Central African Republic (the),CF,CAF,140.0,Officially assigned
+Chad,TD,TCD,148.0,Officially assigned
+Chile,CL,CHL,152.0,Officially assigned
+China,CN,CHN,156.0,Officially assigned
+Christmas Island,CX,CXR,162.0,Officially assigned
+Czechoslovakia,CS,CSK,200.0,Formerly used
+Cocos (Keeling) Islands (the),CC,CCK,166.0,Officially assigned
+Colombia,CO,COL,170.0,Officially assigned
+Comoros (the),KM,COM,174.0,Officially assigned
+Congo (the Democratic Republic of the),CD,COD,180.0,Officially assigned
+Congo (the),CG,COG,178.0,Officially assigned
+Cook Islands (the),CK,COK,184.0,Officially assigned
+Costa Rica,CR,CRI,188.0,Officially assigned
+Côte d'Ivoire,CI,CIV,384.0,Officially assigned
+Croatia,HR,HRV,191.0,Officially assigned
+Cuba,CU,CUB,192.0,Officially assigned
+Curaçao,CW,CUW,531.0,Officially assigned
+Cyprus,CY,CYP,196.0,Officially assigned
+Czech Republic (the),CZ,CZE,203.0,Officially assigned
+Dahomey,DY,DHY,,Formerly used
+Denmark,DK,DNK,208.0,Officially assigned
+Djibouti,DJ,DJI,262.0,Officially assigned
+Dominica,DM,DMA,212.0,Officially assigned
+Dominican Republic (the),DO,DOM,214.0,Officially assigned
+Dronning Maud Land,NQ,ATN,216.0,Formerly used
+East Timor,TP,TMP,626.0,Transitionally reserved
+Ecuador,EC,ECU,218.0,Officially assigned
+Egypt,EG,EGY,818.0,Officially assigned
+El Salvador,SV,SLV,222.0,Officially assigned
+Equatorial Guinea,GQ,GNQ,226.0,Officially assigned
+Eritrea,ER,ERI,232.0,Officially assigned
+Estonia,EE,EST,233.0,Officially assigned
+Ethiopia,ET,ETH,231.0,Officially assigned
+Falkland Islands (Islas Malvinas),FK,FLK,238.0,Officially assigned
+Faroe Islands (the),FO,FRO,234.0,Officially assigned
+Fiji,FJ,FJI,242.0,Officially assigned
+Finland,FI,FIN,246.0,Officially assigned
+France,FR,FRA,250.0,Officially assigned
+"France, Metropolitan",FX,FXX,,Exceptionally reserved
+French Afars and Issas,AI,AFI,,Formerly used
+French Guiana,GF,GUF,254.0,Officially assigned
+French Polynesia,PF,PYF,258.0,Officially assigned
+French Southern Territories (the),TF,ATF,260.0,Officially assigned
+French Southern and Antarctic Territories,FQ,ATF,,Formerly used
+Gabon,GA,GAB,266.0,Officially assigned
+Gambia (the),GM,GMB,270.0,Officially assigned
+Georgia,GE,GEO,268.0,Officially assigned
+Germany,DE,DEU,276.0,Officially assigned
+German Democratic Republic,DD,DDR,278.0,Formerly used
+Ghana,GH,GHA,288.0,Officially assigned
+Gibraltar,GI,GIB,292.0,Officially assigned
+Gilbert and Ellice Islands,GE,GEL,,Formerly used
+Greece,GR,GRC,300.0,Officially assigned
+Greenland,GL,GRL,304.0,Officially assigned
+Grenada,GD,GRD,308.0,Officially assigned
+Guadeloupe,GP,GLP,312.0,Officially assigned
+Guam,GU,GUM,316.0,Officially assigned
+Guatemala,GT,GTM,320.0,Officially assigned
+Guernsey,GG,GGY,831.0,Officially assigned
+Guinea,GN,GIN,324.0,Officially assigned
+Guinea-Bissau,GW,GNB,624.0,Officially assigned
+Guyana,GY,GUY,328.0,Officially assigned
+Haiti,HT,HTI,332.0,Officially assigned
+Heard Island and McDonald Islands,HM,HMD,334.0,Officially assigned
+Holy See (the),VA,VAT,336.0,Officially assigned
+Honduras,HN,HND,340.0,Officially assigned
+Hong Kong,HK,HKG,344.0,Officially assigned
+Hungary,HU,HUN,348.0,Officially assigned
+Iceland,IS,ISL,352.0,Officially assigned
+India,IN,IND,356.0,Officially assigned
+Indonesia,ID,IDN,360.0,Officially assigned
+Iran (Islamic Republic of),IR,IRN,364.0,Officially assigned
+Iraq,IQ,IRQ,368.0,Officially assigned
+Ireland,IE,IRL,372.0,Officially assigned
+Isle of Man,IM,IMN,833.0,Officially assigned
+Israel,IL,ISR,376.0,Officially assigned
+Italy,IT,ITA,380.0,Officially assigned
+Jamaica,JM,JAM,388.0,Officially assigned
+Japan,JP,JPN,392.0,Officially assigned
+Jersey,JE,JEY,832.0,Officially assigned
+Johnston Island,JT,JTN,396.0,Formerly used
+Jordan,JO,JOR,400.0,Officially assigned
+Kazakhstan,KZ,KAZ,398.0,Officially assigned
+Kenya,KE,KEN,404.0,Officially assigned
+Kiribati,KI,KIR,296.0,Officially assigned
+Korea (the Democratic People's Republic of),KP,PRK,408.0,Officially assigned
+Korea (the Republic of),KR,KOR,410.0,Officially assigned
+Kosovo,KS,,,Temporary - Ty
+Kuwait,KW,KWT,414.0,Officially assigned
+Kyrgyzstan,KG,KGZ,417.0,Officially assigned
+Kyrgyz Republic,KV,,,Temporary - Ty
+Lao People's Democratic Republic (the),LA,LAO,418.0,Officially assigned
+Latvia,LV,LVA,428.0,Officially assigned
+Lebanon,LB,LBN,422.0,Officially assigned
+Lesotho,LS,LSO,426.0,Officially assigned
+Liberia,LR,LBR,430.0,Officially assigned
+Libya,LY,LBY,434.0,Officially assigned
+Liechtenstein,LI,LIE,438.0,Officially assigned
+Lithuania,LT,LTU,440.0,Officially assigned
+Luxembourg,LU,LUX,442.0,Officially assigned
+Macao,MO,MAC,446.0,Officially assigned
+Macedonia (the former Yugoslav Republic of),MK,MKD,807.0,Officially assigned
+Madagascar,MG,MDG,450.0,Officially assigned
+Malawi,MW,MWI,454.0,Officially assigned
+Malaysia,MY,MYS,458.0,Officially assigned
+Maldives,MV,MDV,462.0,Officially assigned
+Mali,ML,MLI,466.0,Officially assigned
+Malta,MT,MLT,470.0,Officially assigned
+Marshall Islands (the),MH,MHL,584.0,Officially assigned
+Martinique,MQ,MTQ,474.0,Officially assigned
+Mauritania,MR,MRT,478.0,Officially assigned
+Mauritius,MU,MUS,480.0,Officially assigned
+Mayotte,YT,MYT,175.0,Officially assigned
+Mexico,MX,MEX,484.0,Officially assigned
+Micronesia (Federated States of),FM,FSM,583.0,Officially assigned
+Midway Islands,MI,MID,488.0,Formerly used
+Moldova (the Republic of),MD,MDA,498.0,Officially assigned
+Monaco,MC,MCO,492.0,Officially assigned
+Mongolia,MN,MNG,496.0,Officially assigned
+Montenegro,ME,MNE,499.0,Officially assigned
+Montserrat,MS,MSR,500.0,Officially assigned
+Morocco,MA,MAR,504.0,Officially assigned
+Mozambique,MZ,MOZ,508.0,Officially assigned
+Myanmar,MM,MMR,104.0,Officially assigned
+Namibia,NA,NAM,516.0,Officially assigned
+Nauru,NR,NRU,520.0,Officially assigned
+Nepal,NP,NPL,524.0,Officially assigned
+Netherlands (the),NL,NLD,528.0,Officially assigned
+Netherlands Antilles,ANT,ANHH,530.0,Transitionally reserved
+Neutral Zone,NT,NTZ,536.0,Transitionally reserved
+New Caledonia,NC,NCL,540.0,Officially assigned
+New Hebrides,NH,NHB,,Formerly used
+New Zealand,NZ,NZL,554.0,Officially assigned
+Nicaragua,NI,NIC,558.0,Officially assigned
+Niger (the),NE,NER,562.0,Officially assigned
+Nigeria,NG,NGA,566.0,Officially assigned
+Niue,NU,NIU,570.0,Officially assigned
+Norfolk Island,NF,NFK,574.0,Officially assigned
+Northern Mariana Islands (the),MP,MNP,580.0,Officially assigned
+Norway,NO,NOR,578.0,Officially assigned
+Oman,OM,OMN,512.0,Officially assigned
+Pacific Islands (Trust Territory),PC,PCI,582.0,Formerly used
+Pakistan,PK,PAK,586.0,Officially assigned
+Palau,PW,PLW,585.0,Officially assigned
+"Palestine, State of",PS,PSE,275.0,Officially assigned
+Panama,PA,PAN,591.0,Officially assigned
+Panama Canal Zone,PZ,PCZ,,Formerly used
+Papua New Guinea,PG,PNG,598.0,Officially assigned
+Paraguay,PY,PRY,600.0,Officially assigned
+Peru,PE,PER,604.0,Officially assigned
+Philippines (the),PH,PHL,608.0,Officially assigned
+Pitcairn,PN,PCN,612.0,Officially assigned
+Poland,PL,POL,616.0,Officially assigned
+Portugal,PT,PRT,620.0,Officially assigned
+Puerto Rico,PR,PRI,630.0,Officially assigned
+Qatar,QA,QAT,634.0,Officially assigned
+Réunion,RE,REU,638.0,Officially assigned
+Romania,RO,ROU,642.0,Officially assigned
+Russian Federation (the),RU,RUS,643.0,Officially assigned
+Rwanda,RW,RWA,646.0,Officially assigned
+Saint Barthélemy,BL,BLM,652.0,Officially assigned
+"Saint Helena, Ascension and Tristan da Cunha",SH,SHN,654.0,Officially assigned
+Saint Kitts and Nevis,KN,KNA,659.0,Officially assigned
+Saint Lucia,LC,LCA,662.0,Officially assigned
+Saint Martin (French part),MF,MAF,663.0,Officially assigned
+Saint Pierre and Miquelon,PM,SPM,666.0,Officially assigned
+Saint Vincent and the Grenadines,VC,VCT,670.0,Officially assigned
+Samoa,WS,WSM,882.0,Officially assigned
+San Marino,SM,SMR,674.0,Officially assigned
+Sao Tome and Principe,ST,STP,678.0,Officially assigned
+Saudi Arabia,SA,SAU,682.0,Officially assigned
+Senegal,SN,SEN,686.0,Officially assigned
+Serbia,RS,SRB,688.0,Officially assigned
+Serbia and Montenegro,CS,SCG,891.0,Transitionally reserved
+Seychelles,SC,SYC,690.0,Officially assigned
+Sierra Leone,SL,SLE,694.0,Officially assigned
+Sikkim,SK,SKM,,Formerly used
+Singapore,SG,SGP,702.0,Officially assigned
+Sint Maarten (Dutch part),SX,SXM,534.0,Officially assigned
+Slovakia,SK,SVK,703.0,Officially assigned
+Slovenia,SI,SVN,705.0,Officially assigned
+Solomon Islands,SB,SLB,90.0,Officially assigned
+Somalia,SO,SOM,706.0,Officially assigned
+Southern Rhodesia,RH,RHO,,Formerly used
+South Africa,ZA,ZAF,710.0,Officially assigned
+South Georgia and the South Sandwich Islands,GS,SGS,239.0,Officially assigned
+South Sudan,SS,SSD,728.0,Officially assigned
+Spain,ES,ESP,724.0,Officially assigned
+Sri Lanka,LK,LKA,144.0,Officially assigned
+Sudan (the),SD,SDN,729.0,Officially assigned
+Suriname,SR,SUR,740.0,Officially assigned
+Svalbard and Jan Mayen,SJ,SJM,744.0,Officially assigned
+Swaziland,SZ,SWZ,748.0,Officially assigned
+Sweden,SE,SWE,752.0,Officially assigned
+Switzerland,CH,CHE,756.0,Officially assigned
+Syrian Arab Republic,SY,SYR,760.0,Officially assigned
+Taiwan (Province of China),TW,TWN,158.0,Officially assigned
+Tajikistan,TJ,TJK,762.0,Officially assigned
+"Tanzania, United Republic of",TZ,TZA,834.0,Officially assigned
+Tanzania   ,TZ,TZA,834.0,Officially assigned
+Thailand,TH,THA,764.0,Officially assigned
+Timor-Leste,TL,TLS,626.0,Officially assigned
+Togo,TG,TGO,768.0,Officially assigned
+Tokelau,TK,TKL,772.0,Officially assigned
+Tonga,TO,TON,776.0,Officially assigned
+Trinidad and Tobago,TT,TTO,780.0,Officially assigned
+Tunisia,TN,TUN,788.0,Officially assigned
+Turkey,TR,TUR,792.0,Officially assigned
+Turkmenistan,TM,TKM,795.0,Officially assigned
+Turks and Caicos Islands (the),TC,TCA,796.0,Officially assigned
+Tuvalu,TV,TUV,798.0,Officially assigned
+Uganda,UG,UGA,800.0,Officially assigned
+Ukraine,UA,UKR,804.0,Officially assigned
+United Arab Emirates (the),AE,ARE,784.0,Officially assigned
+United Kingdom of Great Britain and Northern Ireland (the),GB,GBR,826.0,Officially assigned
+United States Minor Outlying Islands (the),UM,UMI,581.0,Officially assigned
+United States Miscellaneous Pacific Islands,PU,PUS,849.0,Formerly used
+United States of America (the),US,USA,840.0,Officially assigned
+Upper Volta,HV,HVO,854.0,Formerly used
+Uruguay,UY,URY,858.0,Officially assigned
+USSR,SU,SUN,810.0,Exceptionally reserved
+Uzbekistan,UZ,UZB,860.0,Officially assigned
+Vanuatu,VU,VUT,548.0,Officially assigned
+Venezuela (Bolivarian Republic of),VE,VEN,862.0,Officially assigned
+Viet Nam,VN,VNM,704.0,Officially assigned
+"Viet-Nam, Democratic Republic of",VD,VDR,,Formerly used
+Virgin Islands (British),VG,VGB,92.0,Officially assigned
+Virgin Islands (U.S.),VI,VIR,850.0,Officially assigned
+Wake Island,WK,WAK,872.0,Formerly used
+Wallis and Futuna,WF,WLF,876.0,Officially assigned
+West Bank and the Gaza Strip,WB,,,Temporary - Ty
+Western Sahara,EH,ESH,732.0,Officially assigned
+Yemen,YE,YEM,887.0,Officially assigned
+"Yemen, Democratic",YD,YMD,720.0,Formerly used
+Yugoslavia,YU,YUG,891.0,Transitionally reserved
+Zaire,ZR,ZAR,180.0,Transitionally reserved
+Zambia,ZM,ZMB,894.0,Officially assigned
+Zimbabwe,ZW,ZWE,716.0,Officially assigned
