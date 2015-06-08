@@ -15,21 +15,25 @@ comma = ","
 semicolon = ";"
 default_error = -1
 tab = "\t"
+newline = "\n"
 encoding_standard = "utf-8"
 
 
 # Function that returns XML Header
 def get_xml_header():
-	return xml_header;
+	return xml_header
 
 def get_default_error():
-	return default_error;
+	return default_error
 
 def get_source_filename():
-	return source_filename;
+	return source_filename
 
 def get_encoding_standard():
-	return encoding_standard;
+	return encoding_standard
+
+def get_newline():
+	return newline
 
 def from_excelsheet(filename, sheetno, startrow, tags):
 	wb = xlrd.open_workbook(filename)
@@ -182,16 +186,39 @@ def get_tuple_by_X(cname, tag, list):
 
 def create_starting_xml_tag(keyn):
 	result = ""
-	retk = utility.to_str(keyn)
+	retk = to_str(keyn)
 	result = "<" +keyn +">"
 	return result
 
 def create_closing_xml_tag(keyn):
 	result = ""
-	retk = utility.to_str(keyn)
+	retk = to_str(keyn)
 	result = "</" +keyn +">"
 	return result
 
 def tabs(no):
 	return (tab * no)
 
+def write_record(target, cr, count):
+	ckeys = cr.keys()
+	for n in range(0, len(cr)): 
+		kv = cr[ckeys[n]]
+		if (type(kv) == list):
+			target.write( tabs(count) + create_starting_xml_tag(ckeys[n]) + newline)
+			count += 1
+			for l in kv:
+				this_key_group = (ckeys[n])[:(len(ckeys[n])-1)]
+				if len(kv) > 1:
+					target.write( tabs(count) + create_starting_xml_tag(this_key_group) + newline)
+				write_record(target, l, count+1)
+				if len(kv) > 1:
+					target.write( tabs(count) + create_closing_xml_tag(this_key_group) + newline)
+			end = create_closing_xml_tag(ckeys[n]) + newline
+			target.write( tabs(count) + end )
+		else:
+			keyname = to_str(ckeys[n])
+			start = create_starting_xml_tag(keyname)
+			val = to_str(cr[keyname])
+			end = create_closing_xml_tag(keyname)
+			target.write( tabs(count) + start + val + end + newline )
+	return

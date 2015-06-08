@@ -12,7 +12,6 @@ json_target = "../output/countries.json"
 csv_target = "../output/countries.csv"
 xml_target = "../output/countries.xml"
 
-newline = "\n"
 
 mds = master_data.build()
 sts = stats.build_ordered()
@@ -107,43 +106,16 @@ def to_csv(filename, data):
 
 def to_xml(filename, data):
 	target = open(filename, 'w+')
-	target.write(utility.get_xml_header()+"\n")
-	target.write("<Countries>\n")
+	target.write(utility.get_xml_header() + utility.get_newline())
+	target.write("<Countries>" + utility.get_newline())
 	for country_record in data:
-		target.write( utility.tabs(1) + utility.create_starting_xml_tag("Country") + newline)
-		write_record(target, country_record, 2)
-		target.write( utility.tabs(1) + utility.create_closing_xml_tag("Country") + newline )
-	target.write("</Countries>\n")
+		target.write( utility.tabs(1) + utility.create_starting_xml_tag("Country") + utility.get_newline())
+		utility.write_record(target, country_record, 2)
+		target.write( utility.tabs(1) + utility.create_closing_xml_tag("Country") + utility.get_newline() )
+	target.write("</Countries>" + utility.get_newline())
 	target.close()
 	return
 
-
-
-def write_record(target, cr, count):
-	ckeys = cr.keys()
-	for n in range(0, len(cr)): 
-		kv = cr[ckeys[n]]
-		if (type(kv) == list):
-			target.write( tabs(count) + utility.create_starting_xml_tag(ckeys[n]) + newline)
-			count += 1
-			for l in kv:
-				this_key_group = (ckeys[n])[:(len(ckeys[n])-1)]
-				if len(kv) > 1:
-					target.write( utility.tabs(count) + utility.create_starting_xml_tag(this_key_group) + newline)
-				#count += 1
-				write_record(target, l, count+1)
-				if len(kv) > 1:
-					target.write( utility.tabs(count) + utility.create_closing_xml_tag(this_key_group) + newline)
-			end = utility.create_closing_xml_tag(ckeys[n]) + newline
-			target.write( utility.tabs(count) + end )
-		else:
-			keyname = utility.to_str(ckeys[n])
-			start = utility.create_starting_xml_tag(keyname)
-			val = utility.to_str(cr[keyname])
-			end = utility.create_closing_xml_tag(keyname)
-			target.write( utility.tabs(count) + start + val + end + newline )
-			#count -= 1
-	return
 
 
 if __name__ == '__main__':
