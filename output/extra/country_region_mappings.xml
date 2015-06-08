@@ -283,7 +283,7 @@
 		<Country_Region>Sub-Saharan Africa</Country_Region>
 	</Country>
 	<Country>
-		<Country_Name>Falkland Islands</Country_Name>
+		<Country_Name>Falkland Islands (Islas Malvinas)</Country_Name>
 		<Country_ISO2>FK</Country_ISO2>
 		<Country_ISO3>FLK</Country_ISO3>
 		<Country_Region>Europe & Eurasia</Country_Region>
@@ -429,13 +429,13 @@
 	<Country>
 		<Country_Name>Kosovo</Country_Name>
 		<Country_ISO2>KS</Country_ISO2>
-		<Country_ISO3></Country_ISO3>
+		<Country_ISO3>KSO</Country_ISO3>
 		<Country_Region>Europe & Eurasia</Country_Region>
 	</Country>
 	<Country>
 		<Country_Name>Kyrgyz Republic</Country_Name>
 		<Country_ISO2>KV</Country_ISO2>
-		<Country_ISO3></Country_ISO3>
+		<Country_ISO3>KVR</Country_ISO3>
 		<Country_Region>Asia & Pacific</Country_Region>
 	</Country>
 	<Country>
@@ -655,7 +655,7 @@
 		<Country_Region>Sub-Saharan Africa</Country_Region>
 	</Country>
 	<Country>
-		<Country_Name>Saint Helena</Country_Name>
+		<Country_Name>Saint Helena, Ascension and Tristan da Cunha (formerly called Saint Helena)</Country_Name>
 		<Country_ISO2>SH</Country_ISO2>
 		<Country_ISO3>SHN</Country_ISO3>
 		<Country_Region>Europe & Eurasia</Country_Region>
@@ -799,7 +799,7 @@
 		<Country_Region>Asia & Pacific</Country_Region>
 	</Country>
 	<Country>
-		<Country_Name>Trinidad & Tobago</Country_Name>
+		<Country_Name>Trinidad and Tobago</Country_Name>
 		<Country_ISO2>TT</Country_ISO2>
 		<Country_ISO3>TTO</Country_ISO3>
 		<Country_Region>Latin America & Caribbean</Country_Region>

@@ -46,7 +46,7 @@ Egypt,EG,EGY,Middle East & North Africa
 El Salvador,SV,SLV,Latin America & Caribbean
 Eritrea,ER,ERI,Sub-Saharan Africa
 Ethiopia,ET,ETH,Sub-Saharan Africa
-Falkland Islands,FK,FLK,Europe & Eurasia
+Falkland Islands (Islas Malvinas),FK,FLK,Europe & Eurasia
 Fiji,FJ,FJI,Asia & Pacific
 Gabon,GA,GAB,Sub-Saharan Africa
 Gambia,GM,GMB,Sub-Saharan Africa
@@ -70,8 +70,8 @@ Jordan,JO,JOR,Middle East & North Africa
 Kazakhstan,KZ,KAZ,Asia & Pacific
 Kenya,KE,KEN,Sub-Saharan Africa
 Kiribati,KI,KIR,Asia & Pacific
-Kosovo,KS,,Europe & Eurasia
-Kyrgyz Republic,KV,,Asia & Pacific
+Kosovo,KS,KSO,Europe & Eurasia
+Kyrgyz Republic,KV,KVR,Asia & Pacific
 Lebanon,LB,LBN,Middle East & North Africa
 Lesotho,LS,LSO,Sub-Saharan Africa
 Liberia,LR,LBR,Sub-Saharan Africa
@@ -108,7 +108,7 @@ Philippines,PH,PHL,Asia & Pacific
 Pitcairn Islands,PN,PCN,Europe & Eurasia
 Russia,RU,RUS,Europe & Eurasia
 Rwanda,RW,RWA,Sub-Saharan Africa
-Saint Helena,SH,SHN,Europe & Eurasia
+"Saint Helena, Ascension and Tristan da Cunha (formerly called Saint Helena)",SH,SHN,Europe & Eurasia
 Saint Kitts and Nevis,KN,KNA,Latin America & Caribbean
 Saint Lucia,LC,LCA,Latin America & Caribbean
 Saint Vincent and the Grenadines,VC,VCT,Latin America & Caribbean
@@ -132,7 +132,7 @@ Timor-Leste,TL,TLS,Asia & Pacific
 Togo,TG,TGO,Sub-Saharan Africa
 Tokelau,TK,TKL,Asia & Pacific
 Tonga,TO,TON,Asia & Pacific
-Trinidad & Tobago,TT,TTO,Latin America & Caribbean
+Trinidad and Tobago,TT,TTO,Latin America & Caribbean
 Tunisia,TN,TUN,Middle East & North Africa
 Turkey,TR,TUR,Europe & Eurasia
 Turkmenistan,TM,TKM,Asia & Pacific
