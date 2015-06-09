@@ -8,9 +8,9 @@ from collections import OrderedDict
 
 source_json_file = "../source_data/country_profile.json"
 
-json_target = "../output/countries.json"
-csv_target = "../output/countries.csv"
-xml_target = "../output/countries.xml"
+json_target = "../output/countries_2013.json"
+csv_target = "../output/countries_2013.csv"
+xml_target = "../output/countries_2013.xml"
 
 
 mds = master_data.build()
