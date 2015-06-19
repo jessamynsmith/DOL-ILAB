@@ -204,17 +204,18 @@ def write_record(target, cr, count):
 	for n in range(0, len(cr)): 
 		kv = cr[ckeys[n]]
 		if (type(kv) == list):
-			target.write( tabs(count) + create_starting_xml_tag(ckeys[n].capitalize()) + newline)
+			target.write( tabs(count) + create_starting_xml_tag(ckeys[n]) + newline )
 			count += 1
 			for l in kv:
-				this_key_group = (ckeys[n])[:(len(ckeys[n])-1)].capitalize()
+				this_key_group = (ckeys[n])[:(len(ckeys[n])-1)]
 				if len(kv) > 0:
 					this_key_group = this_key_group.replace("ies", "y")
-					target.write( tabs(count) + create_starting_xml_tag(this_key_group).capitalize() + newline)
+					print this_key_group
+					target.write( tabs(count) + create_starting_xml_tag(this_key_group) + newline)
 				write_record(target, l, count+1)
 				if len(kv) > 0:
-					target.write( tabs(count) + create_closing_xml_tag(this_key_group).capitalize() + newline)
-			target.write( tabs(count) + create_closing_xml_tag(ckeys[n]).capitalize() + newline )
+					target.write( tabs(count) + create_closing_xml_tag(this_key_group) + newline)
+			target.write( tabs(count) + create_closing_xml_tag(ckeys[n]) + newline )
 		else:
 			keyname = to_str(ckeys[n])
 			start = create_starting_xml_tag(keyname)
