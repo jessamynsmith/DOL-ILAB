@@ -390,16 +390,16 @@ class Parser:
       following_elems.insert(0, elem)
     return []
 
-  def preceding_elems(self, elems, the_elems):
-    '''Returns all elements in elems that follow the_elem.'''
-    the_elem_index = self.all_elems.index(the_elems)
+  def preceding_elems(self, elems, the_elem):
+    '''Returns all elements in elems that precede the_elem.'''
+    the_elem_index = self.all_elems.index(the_elem)
     preceding_elems = []
     for elem in elems:
       elem_index = self.all_elems.index(elem)
       if elem_index >= the_elem_index:
         return preceding_elems
       preceding_elems.insert(0, elem)
-    return []
+    return preceding_elems
 
   def parse(self, filename):
     '''Parses a Department of Labor file into structured format.'''
