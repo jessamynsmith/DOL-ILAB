@@ -97,16 +97,27 @@ def main(argv):
     sys.exit(2)
 
   # TODO: Check valid input path and output file.
+  if not (output_file.endswith('.json'):
+    print 'Output file must be .json'
+    print_usage()
+    sys.exit(2)
 
   parser = Parser()
   country_details = []
   # Run on all HTML files within the source_data/countries directory.
-  # TODO: Handle both directories, files, and file patterns.
-  for root, dirnames, filenames in os.walk(input_path):
-    for filename in fnmatch.filter(filenames, '*.html'):
-      filename = os.path.join(root, filename)
-      with open(filename, 'r') as f:
-        country_details.append(parser.parse(filename))
+  # TODO: Handle file patterns.
+  filenames = []
+  if os.path.isdir(input_path):
+    for root, dirnames, filenames in os.walk(input_path):
+      for filename in fnmatch.filter(filenames, '*.html'):
+        filenames.append(os.path.join(root, filename))
+  else:
+    assert(os.path.isfile(input_path))
+    filenames.append(input_path)
+
+  for filename in filenames:
+    with open(filename, 'r') as f:
+      country_details.append(parser.parse(filename))
 
   with open(output_file, 'w') as f:
     json.dump(country_details, f, indent=2, sort_keys=True)
