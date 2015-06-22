@@ -25,8 +25,8 @@ TABLE_TITLE_RE = re.compile('Table (\d+)\. (.*)')
 TEXT_SOURCE_RE = re.compile('(.+) ?\(([^)]+)\)$')
 
 # Footnotes below a table, e.g. "* Evidence of this activity is limited and/or the
-# extent of the problem is unknown." There are only three known footnote symbols,
-# *, †, and ‡.
+# extent of the problem is unknown." There are only three known footnote
+# symbols, *, †, and ‡.
 NOTE_RE = re.compile(u'([*\u2020\u2021]+) (.*)')
 
 # The source definition, e.g. "152.     ILO. Principais Resultados da PNAD 2009:
@@ -76,8 +76,8 @@ class Parser:
 
   def work_and_education(self, table_title, table_elem):
     '''Table 1. Statistics on Children’s Work and Education'''
-    # TODO: This table is already available in an Excel spreadsheet, so it is not
-    # parsed here.
+    # TODO: This table is already available in an Excel spreadsheet, so it is
+    # not parsed here.
     pass
 
   def sector_and_activity(self, table_title, table_elem):
@@ -106,12 +106,12 @@ class Parser:
     for row_elem in row_elems[1:]:
       cell_elems = row_elem.findall('./td')
       # A row with two cells contains both the sector name and a group of
-      # activities. A row with one cell contains only a group of activities which
-      # is part of the previously listed sector.
+      # activities. A row with one cell contains only a group of activities
+      # which is part of the previously listed sector.
       if len(cell_elems) == 2:
         # When there are two cells, the first contains the sector and the second
-        # a list of activities. Create a new sector item and add the activities to
-        # that item.
+        # a list of activities. Create a new sector item and add the activities
+        # to that item.
         sector_elem, activity_elem = cell_elems
         sector_item = {} # dol.items.SectorItem()
         sector_item['sector'] = self.get_text(sector_elem)
@@ -135,16 +135,16 @@ class Parser:
     row_elems = table_elem.findall('./tr')
     for row_elem in row_elems[1:]:
       # All rows contain two cells, the first containing the name of the
-      # convention and the second stating whether it's been ratified or not, e.g.
-      #     "ILO C. 138, Minimum Age" | "[checkmark]".
+      # convention and the second stating whether it's been ratified or not,
+      # e.g. "ILO C. 138, Minimum Age" | "[checkmark]".
       cell_elems = row_elem.findall('./td')
       assert(len(cell_elems) == 2)
       convention_cell, ratification_cell = cell_elems
       convention = {} # dol.items.Convention()
       convention['title'] = self.get_text(convention_cell)
       ratification = self.get_text(ratification_cell)
-      # A checkmark is used to denote that the convention has been ratified; check
-      # only that the cell is non-empty.
+      # A checkmark is used to denote that the convention has been ratified;
+      # check only that the cell is non-empty.
       convention['ratification'] = (ratification != '')
       table['conventions'].append(convention)
 
@@ -203,9 +203,10 @@ class Parser:
     area_item = None
     row_elems = table_elem.findall('.//tr')
     for row_elem in row_elems[1:]:
-      # Rows contain two or three cells. A three-columned cell has Area, Suggested
-      # Action, and Year(s) Suggested. A two-columned cell has only Suggested
-      # Action and Year(s) Suggested, and should use the previously listed Area.
+      # Rows contain two or three cells. A three-columned cell has Area,
+      # Suggested Action, and Year(s) Suggested. A two-columned cell has only
+      # Suggested Action and Year(s) Suggested, and should use the previously
+      # listed Area.
       cell_elems = row_elem.findall('./td')
       # If there are three cells, create a new Area item and add the suggested
       # action to it.
@@ -240,8 +241,8 @@ class Parser:
     items = []
     row_elems = table_elem.findall('./tr')
     for row_elem in row_elems[1:]:
-      # All rows should have two cells, where one is an item and the other is its
-      # description.
+      # All rows should have two cells, where one is an item and the other is
+      # its description.
       cell_elems = row_elem.findall('./td')
       if len(cell_elems) > 2:
         # There may be three cells. See Burundi.
@@ -254,13 +255,13 @@ class Parser:
       # There may be multiple descriptions, each separated by a separate set of
       # sources, which are wrapped in parentheses, e.g. "Combats extreme
       # poverty ... million people.(129, 130) The budget rose ... billion
-      # in 2013.(19)" Split the text into parts separated by the sources and then
-      # pair a description with the subsequent source indices.
+      # in 2013.(19)" Split the text into parts separated by the sources and
+      # the pair a description with the subsequent source indices.
       descriptions = re.split('(\.\([\d,\- ]+\))', self.get_text(desc_cell))
       i = 0
       while i < len(descriptions) - 1:
         desc = (descriptions[i] + descriptions[i + 1]).strip()
-        i += 2  # Skip ahead two, to account for the description and the sources.
+        i += 2  # Skip ahead two, to account for the description and sources.
         desc_text, source_text = TEXT_SOURCE_RE.match(desc).groups()
         desc_item = {} # dol.items.Text()
         desc_item['text'] = desc_text.strip()
@@ -272,8 +273,8 @@ class Parser:
   def get_notes(self, table_elem):
     '''Returns the notes that follow a table.'''
     notes = []
-    # The notes are stored in paragraphs immediately following a table. They will
-    # start with a symbol, followed by text, and possibly sources.
+    # The notes are stored in paragraphs immediately following a table. They
+    # will start with a symbol, followed by text, and possibly sources.
     # Mimic table_elem.findall('./following-sibling::p').
     note_elems = self.following_elems(table_elem.findall('./../p'), table_elem)
     for note_elem in note_elems:
@@ -311,8 +312,8 @@ class Parser:
         number, source_text = m.groups()
         if int(number) == len(source_list) + 1:
           # If the number does not match the source list, then there was likely
-          # an error in converting from DOC to HTML, leaving something that looks
-          # like a source on a line by itself. Treat this as if it were an
+          # an error in converting from DOC to HTML, leaving something that
+          # looks like a source on a line by itself. Treat this as if it were an
           # unmatched source.
           source_item = {} # dol.items.SourceItem()
           source_item['number'] = number
@@ -340,7 +341,8 @@ class Parser:
     if elem is None:
       return ''
     # TODO: Handle embedded lists.
-    string = ''.join([t for t in elem.itertext() if t.find('[if ') != 0]).strip()
+    string = ''.join(
+        [t for t in elem.itertext() if t.find('[if ') != 0]).strip()
     string = string.replace(unichr(160), ' ')
     string = re.sub('\s+', ' ', string)
     return unicode(string)
@@ -401,7 +403,8 @@ class Parser:
     # Though the country and assessment levels are ususally in <h1> tags, Saint
     # Helena's is in a <p>. All are nested inside spans, so those are used
     # instead of the <h1>.
-    country_span, unused = self.first_elem_with_text(self.root.findall('.//span'))
+    country_span, unused = self.first_elem_with_text(
+        self.root.findall('.//span'))
     country_elem = country_span.getparent()
     country_details['country'] = self.get_text(country_elem)
 
@@ -428,7 +431,8 @@ class Parser:
       # The table title is the previous paragraph or h1 that is a sibling to the
       # table element.
       # Mimic table_elem.xpath('./preceding-sibling::p[1]')
-      preceding_p = self.preceding_elems(table_elem.findall('./../p'), table_elem)
+      preceding_p = self.preceding_elems(
+          table_elem.findall('./../p'), table_elem)
       table_title_elem = preceding_p[0] if len(preceding_p) else None
       table_title_text = self.get_text(table_title_elem)
       if not table_title_text:
@@ -449,8 +453,8 @@ class Parser:
           TABLE_TITLE_RE, table_title_text).groups()
       table_number_index = int(table_number) - 1
 
-      # Convert the table title into the ID that can be found in the dictionary of
-      # table parsers.
+      # Convert the table title into the ID that can be found in the dictionary
+      # of table parsers.
       table_id = re.sub('[^\w ]+', '',
           ' '.join(table_title.lower().split(' ')[0:3]))
       if table_id in self.table_parsers:
