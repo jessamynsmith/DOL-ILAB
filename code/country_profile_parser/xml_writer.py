@@ -35,7 +35,7 @@ def convert_value_to_xml(tag, value):
   if isinstance(value, str) or isinstance(value, unicode):
     return add_element(tag, value)
   elif isinstance(value, bool):
-    return add_element(tag, '1' if True else '0')
+    return add_element(tag, '1' if value else '0')
   elif isinstance(value, dict):
     return convert_dict_to_xml(tag, value)
   elif isinstance(value, list):
