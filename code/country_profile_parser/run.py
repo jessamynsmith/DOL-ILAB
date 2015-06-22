@@ -107,16 +107,16 @@ def main(argv):
   country_details = []
   # Run on all HTML files within the source_data/countries directory.
   # TODO: Handle file patterns.
-  filenames = []
+  filepaths = []
   if os.path.isdir(input_path):
     for root, dirnames, filenames in os.walk(input_path):
       for filename in fnmatch.filter(filenames, '*.html'):
-        filenames.append(os.path.join(root, filename))
+        filepaths.append(os.path.join(root, filename))
   else:
     assert(os.path.isfile(input_path))
-    filenames.append(input_path)
+    filepaths.append(input_path)
 
-  for filename in filenames:
+  for filename in filepaths:
     with open(filename, 'r') as f:
       country_details.append(parser.parse(filename))
 
