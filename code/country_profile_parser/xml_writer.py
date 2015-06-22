@@ -1,5 +1,5 @@
 import re
-from lxml import etree as ET
+from lxml import etree
 
 def add_element(tag, text=None, attrs={}):
   '''Creates an XML element with the optional text and attributes.
@@ -12,7 +12,7 @@ def add_element(tag, text=None, attrs={}):
   Returns:
     The newly created XML element.
   '''
-  elem = ET.Element(tag)
+  elem = etree.Element(tag)
   if text:
     elem.text = text
   for key, value in attrs.items():
@@ -96,5 +96,5 @@ def write_to_file(country_details, f):
     f: A file, opened for writing.
   '''
   root = build_tree('country_profiles', 'country', country_details)
-  tree = ET.ElementTree(root)
+  tree = etree.ElementTree(root)
   tree.write(f, pretty_print=True)
