@@ -71,6 +71,7 @@ import os
 import sys
 
 from parser import Parser
+import xml_writer
 
 def print_usage():
   print 'Usage: main.py -i <input_path> -o <output_file>'
@@ -97,8 +98,8 @@ def main(argv):
     sys.exit(2)
 
   # TODO: Check valid input path and output file.
-  if not (output_file.endswith('.json'):
-    print 'Output file must be .json'
+  if not (output_file.endswith('.json') or output_file.endswith('.xml')):
+    print 'Output file must be .json or .xml'
     print_usage()
     sys.exit(2)
 
@@ -120,7 +121,10 @@ def main(argv):
       country_details.append(parser.parse(filename))
 
   with open(output_file, 'w') as f:
-    json.dump(country_details, f, indent=2, sort_keys=True)
+    if output_file.endswith('.json'):
+      json.dump(country_details, f, indent=2, sort_keys=True)
+    elif output_file.endswith('.xml'):
+      xml_writer.write_to_file(country_details, f)
 
 if __name__ == '__main__':
   main(sys.argv[1:])
