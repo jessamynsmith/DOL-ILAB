@@ -11,7 +11,7 @@ This parser relies on lxml. The library will need to be installed using
 See complete documentation here: http://lxml.de/installation.html
 '''
 
-
+from collections import OrderedDict
 from lxml import etree
 import re
 
@@ -82,14 +82,16 @@ class Parser:
 
   def sector_and_activity(self, table_title, table_elem):
     '''Table 2. Overview of Children’s Work by Sector and Activity'''
-    table = {} # dol.items.SectorTable()
+    table = OrderedDict()
     table['title'] = table_title
+    # Add a placeholder summary so that it is ordered second, and not last.
+    table['summary'] = ''
     table['footnotes'] = self.get_notes(table_elem)
     table['sectors'] = []
 
     def AddActivityItem(sector_item, activity_elem):
       # Activity items may have sources attached to them.
-      activity_item = {} # dol.items.ActivityItem()
+      activity_item = OrderedDict()
       activity_text = self.get_text(activity_elem)
       m = TEXT_SOURCE_RE.match(activity_text)
       if m:
@@ -113,7 +115,7 @@ class Parser:
         # a list of activities. Create a new sector item and add the activities
         # to that item.
         sector_elem, activity_elem = cell_elems
-        sector_item = {} # dol.items.SectorItem()
+        sector_item = OrderedDict()
         sector_item['sector'] = self.get_text(sector_elem)
         sector_item['activities'] = []
         table['sectors'].append(sector_item)
@@ -127,8 +129,10 @@ class Parser:
 
   def international_conventions(self, table_title, table_elem):
     '''Table 3. Ratification of International Conventions on Child Labor'''
-    table = {} # dol.items.InternationalConventionsTable()
+    table = OrderedDict()
     table['title'] = table_title
+    # Add a placeholder summary so that it is ordered second, and not last.
+    table['summary'] = ''
     table['footnotes'] = self.get_notes(table_elem)
     table['conventions'] = []
 
@@ -140,7 +144,7 @@ class Parser:
       cell_elems = row_elem.findall('./td')
       assert(len(cell_elems) == 2)
       convention_cell, ratification_cell = cell_elems
-      convention = {} # dol.items.Convention()
+      convention = OrderedDict()
       convention['title'] = self.get_text(convention_cell)
       ratification = self.get_text(ratification_cell)
       # A checkmark is used to denote that the convention has been ratified;
@@ -152,8 +156,10 @@ class Parser:
 
   def laws_and_regulations(self, table_title, table_elem):
     '''Table 4. Laws and Regulations Related to Child Labor'''
-    table = {} # dol.items.LawsAndRegulationsTable()
+    table = OrderedDict()
     table['title'] = table_title
+    # Add a placeholder summary so that it is ordered second, and not last.
+    table['summary'] = ''
     table['footnotes'] = self.get_notes(table_elem)
     table['standards'] = []
 
@@ -166,7 +172,7 @@ class Parser:
         # TODO: Handle other cases. See Anguilla, British Virgin Islands.
         continue
       assert(len(cell_elems) == 4), ('Number of cells', len(cell_elems))
-      standard = {} # dol.items.Standard()
+      standard = OrderedDict()
       standard_cell, enacted_cell, age_cell, related_cell = cell_elems
       standard['title'] = self.get_text(standard_cell)
       standard['enacted'] = self.get_text(enacted_cell)
@@ -179,7 +185,7 @@ class Parser:
       m = re.match(TEXT_SOURCE_RE, self.get_text(related_cell))
       if m:
         legislation, sources = m.groups()
-        standard['related_legislation'] = {} # dol.items.RelatedLegislation()
+        standard['related_legislation'] = OrderedDict()
         standard['related_legislation']['legislation'] = legislation
         standard['related_legislation']['sources'] = sources
       table['standards'].append(standard)
@@ -189,13 +195,15 @@ class Parser:
   def suggested_government_actions(self, table_title, table_elem):
     '''Table 9. Suggested Government Actions to Eliminate Child Labor, Including
     its Worst Forms'''
-    table = {} # dol.items.SuggestedActionsTable()
+    table = OrderedDict()
     table['title'] = table_title
+    # Add a placeholder summary so that it is ordered second, and not last.
+    table['summary'] = ''
     table['footnotes'] = self.get_notes(table_elem)
     table['areas'] = []
 
     def AddSuggestedAction(area_item, action_elem, year_elem):
-      action_item = {} # dol.items.SuggestedAction()
+      action_item = OrderedDict()
       action_item['action'] = self.get_text(action_elem)
       action_item['years'] = self.get_text(year_elem)
       area_item['actions'].append(action_item)
@@ -214,7 +222,7 @@ class Parser:
         area_elem, action_elem, year_elem = cell_elems
         area_text = self.get_text(area_elem)
         if area_text:
-          area_item = {} # dol.items.Area()
+          area_item = OrderedDict()
           area_item['area'] = area_text
           area_item['actions'] = []
           table['areas'].append(area_item)
@@ -230,8 +238,10 @@ class Parser:
 
   def item_with_description_table(self, table_title, table_elem):
     '''Builds a table with items with descriptions.'''
-    table = {} # dol.items.Table()
+    table = OrderedDict()
     table['title'] = table_title
+    # Add a placeholder summary so that it is ordered second, and not last.
+    table['summary'] = ''
     table['footnotes'] = self.get_notes(table_elem)
     table['items'] = self.get_items_with_description(table_elem)
     return table
@@ -248,7 +258,7 @@ class Parser:
         # There may be three cells. See Burundi.
         continue
       assert(len(cell_elems) == 2), ('num elems', len(cell_elems))
-      item = {} # dol.items.ItemWithDescription()
+      item = OrderedDict()
       item_cell, desc_cell = cell_elems
       item['name'] = self.get_text(item_cell)
       item['descriptions'] = []
@@ -263,7 +273,7 @@ class Parser:
         desc = (descriptions[i] + descriptions[i + 1]).strip()
         i += 2  # Skip ahead two, to account for the description and sources.
         desc_text, source_text = TEXT_SOURCE_RE.match(desc).groups()
-        desc_item = {} # dol.items.Text()
+        desc_item = OrderedDict()
         desc_item['text'] = desc_text.strip()
         desc_item['sources'] = source_text
         item['descriptions'].append(desc_item)
@@ -282,7 +292,7 @@ class Parser:
       if m:
         symbol, note_text = m.groups()
         source_match = TEXT_SOURCE_RE.match(note_text)
-        note_item = {} # dol.items.NoteItem()
+        note_item = OrderedDict()
         note_item['symbol'] = symbol
         # The sources following a note are optional.
         if source_match:
@@ -315,7 +325,7 @@ class Parser:
           # an error in converting from DOC to HTML, leaving something that
           # looks like a source on a line by itself. Treat this as if it were an
           # unmatched source.
-          source_item = {} # dol.items.SourceItem()
+          source_item = OrderedDict()
           source_item['number'] = number
           source_item['text'] = source_text
           source_list.append(source_item)
@@ -355,13 +365,12 @@ class Parser:
         country_details['advancement_level'])
     assert(country_details['description']), country_details
     assert(country_details['sources']), country_details
-    assert(country_details['tables']), country_details
     for table in country_details['tables']:
       assert(table['title']), table
       assert(table['summary']), table
 
   def first_elem_with_text(self, elems):
-    '''Returns the first element with non-empty text from the list of elements.'''
+    '''Returns the first element with non-empty text from elems.'''
     for elem in elems:
       text = self.get_text(elem)
       if text:
@@ -398,8 +407,7 @@ class Parser:
     self.root = tree.getroot()
     self.all_elems = self.root.findall('.//*')
 
-    country_details = {} # dol.items.CountryDetails()
-    country_details['country'] = ''
+    country_details = OrderedDict()
     # Though the country and assessment levels are ususally in <h1> tags, Saint
     # Helena's is in a <p>. All are nested inside spans, so those are used
     # instead of the <h1>.
@@ -424,10 +432,10 @@ class Parser:
     country_details['description'] = description
 
     country_details['tables'] = []
-
     # Find and parse each of the tale elements.
     table_elems = self.root.findall('.//table')
     for table_elem in table_elems:
+
       # The table title is the previous paragraph or h1 that is a sibling to the
       # table element.
       # Mimic table_elem.xpath('./preceding-sibling::p[1]')
@@ -464,6 +472,7 @@ class Parser:
           country_details['tables'].append(table)
       else:
         print '  Table not found', table_title, table_id
+
 
     # Parse the source list which follows the last table element.
     if table_elem is not None:

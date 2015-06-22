@@ -122,7 +122,7 @@ def main(argv):
 
   with open(output_file, 'w') as f:
     if output_file.endswith('.json'):
-      json.dump(country_details, f, indent=2, sort_keys=True)
+      json.dump(country_details, f, indent=2)
     elif output_file.endswith('.xml'):
       xml_writer.write_to_file(country_details, f)
 
