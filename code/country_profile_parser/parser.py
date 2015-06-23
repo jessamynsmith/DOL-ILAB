@@ -95,7 +95,7 @@ class Parser:
 
     def AddActivityItem(sector_item, activity_elem):
       # Activity items may have sources attached to them.
-      activity_item = OrderedDict()
+      activity_item = OrderedDict([('name', ''), ('sources', '')])
       activity_text = self.get_text(activity_elem)
       m = TEXT_SOURCE_RE.match(activity_text)
       if m:
