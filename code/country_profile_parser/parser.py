@@ -24,10 +24,14 @@ TABLE_TITLE_RE = re.compile('Table (\d+)\. (.*)')
 # 18 and 34 are the sources.
 TEXT_SOURCE_RE = re.compile('(.+) ?\(([^)]+)\)$')
 
+# A section heading, e.g. "III.      Enforcement of Laws on the Worst Forms of
+# Child Labor".
+SECTION_RE = re.compile('([IV]+)\. +(.*)')
+
 # Footnotes below a table, e.g. "* Evidence of this activity is limited and/or the
 # extent of the problem is unknown." There are only three known footnote
 # symbols, *, †, and ‡.
-NOTE_RE = re.compile(u'([*\u2020\u2021]+) (.*)')
+NOTE_RE = re.compile(u'([*\u2020\u2021]+) ?(.*)')
 
 # The source definition, e.g. "152.     ILO. Principais Resultados da PNAD 2009:
 # Tendências e Desafios. Geneva; October 27, 2010. http://bit.ly/12bzkzX." The
@@ -305,6 +309,34 @@ class Parser:
         break
     return notes
 
+  def get_section_content(self, section_number):
+    '''Returns the notes for the given section number.'''
+    elem = self.last_table_title_elem_by_section[section_number]
+    content = []
+    # The notes are stored in paragraphs immediately following a table. They
+    # will start with a symbol, followed by text, and possibly sources.
+    # Mimic table_elem.findall('./following-sibling::p').
+    p_elems = self.following_elems(elem.findall('./../p'), elem)
+    for p_elem in p_elems:
+      text = self.get_text(p_elem).strip()
+      # If this is a footnote, then continue, as the paragraphs are found after
+      # the footnotes. Also skip empty text.
+      if not text or NOTE_RE.match(text):
+        continue
+      # If this is a table title or a source, then this is not a paragraph, and
+      # there are no more in this section.
+      if SOURCE_RE.match(text) or TABLE_TITLE_RE.match(text):
+        break
+      p_section = self.get_section_for_elem(p_elem)
+      if p_section != section_number:
+        break
+      # Bold-italic text indicates that the text is a header.
+      if p_elem.find('./b/i') is not None:
+        content.append({'header': text})
+      else:
+        content.append({'paragraph': text})
+    return content
+
   def source_list(self, last_elem):
     '''Extracts the list of sources from the end of the document.'''
     source_list = []
@@ -365,9 +397,19 @@ class Parser:
         country_details['advancement_level'])
     assert(country_details['description']), country_details
     assert(country_details['sources']), country_details
-    for table in country_details['tables']:
-      assert(table['title']), table
-      assert(table['summary']), table
+    assert(country_details['sections']), country_details
+    # Wallis and Futuna is missing the seventh section.
+    if country_details['country'] in ['Wallis and Futuna']:
+      assert(len(country_details['sections']) == 6), country_details
+    else:
+      assert(len(country_details['sections']) == 7), country_details
+    num_tables = 0
+    for section in country_details['sections']:
+      num_tables += len(section['tables'])
+      for table in section['tables']:
+        assert(table['title']), table
+        assert(table['summary']), table
+    assert(num_tables >= 1), num_tables
 
   def first_elem_with_text(self, elems):
     '''Returns the first element with non-empty text from elems.'''
@@ -401,11 +443,39 @@ class Parser:
       preceding_elems.insert(0, elem)
     return preceding_elems
 
+  def get_section_for_elem(self, elem):
+    '''Returns the section number to which the elem belongs.'''
+    # The section element will always precede the element.
+    elem_text = self.get_text(elem)
+    section_elems = self.preceding_elems(self.get_section_elems(), elem)
+    assert(section_elems), ('No section found for', elem_text)
+    return re.match(SECTION_RE, self.get_text(section_elems[0])).group(1)
+
+  def is_section_elem(self, elem):
+    '''Returns true if the element is a section header.'''
+    return re.match(SECTION_RE, self.get_text(elem)) is not None
+
+  def get_section_elems(self):
+    '''Returns a list of all of the section header elements, in order.'''
+    def by_index(a, b):
+      return self.all_elems.index(a) - self.all_elems.index(b)
+    # For most files, the section headers are all in h1 elements. There are a
+    # few files, however, that have them in p elements. We expect there to be
+    # 7 sections in all files (except Wallis and Futuna, which is missing VII).
+    section_elems = [elem for elem in self.root.findall('.//h1') if
+        self.is_section_elem(elem)]
+    if len(section_elems) != 7:
+      section_elems += [elem for elem in self.root.findall('.//p') if
+          self.is_section_elem(elem)]
+    section_elems.sort(by_index)
+    return section_elems
+
   def parse(self, filename):
     '''Parses a Department of Labor file into structured format.'''
     tree = etree.parse(filename, self.parser)
     self.root = tree.getroot()
     self.all_elems = self.root.findall('.//*')
+    self.last_table_title_elem_by_section = {}
 
     country_details = OrderedDict()
     # Though the country and assessment levels are ususally in <h1> tags, Saint
@@ -431,11 +501,23 @@ class Parser:
         self.following_elems(self.root.findall('.//p'), advancement_elem))
     country_details['description'] = description
 
-    country_details['tables'] = []
+    sections_by_number = OrderedDict()
+    for section_elem in self.get_section_elems():
+      m = re.match(SECTION_RE, self.get_text(section_elem))
+      if m:
+        number, title = m.groups()
+        section = OrderedDict(
+            [('number', number), ('title', title), ('content', []),
+              ('tables', [])])
+        sections_by_number[number] = section
+        # In the case that a section has no tables, then the last "table title"
+        # is the section header itself.
+        self.last_table_title_elem_by_section[number] = section_elem
+    country_details['sections'] = sections_by_number.values()
+
     # Find and parse each of the tale elements.
     table_elems = self.root.findall('.//table')
     for table_elem in table_elems:
-
       # The table title is the previous paragraph or h1 that is a sibling to the
       # table element.
       # Mimic table_elem.xpath('./preceding-sibling::p[1]')
@@ -453,8 +535,13 @@ class Parser:
       if not table_title_text:
         # There may be a table nested within another table, but that should
         # already have been parsed as part of the previous table. See Thailand.
-        print '  Skipping table without title'
+        print ('  Skipping table without title "%s". This is likely a table '
+            'within a table and not a problem.' % self.get_text(table_elem))
         continue
+
+      section_number = self.get_section_for_elem(table_title_elem)
+      section = sections_by_number[section_number]
+      self.last_table_title_elem_by_section[section_number] = table_title_elem
 
       # Match the table number and title.
       table_number, table_title = re.match(
@@ -469,10 +556,14 @@ class Parser:
         table = self.table_parsers[table_id](table_title, table_elem)
         if table:
           table['summary'] = self.get_table_summary(table_title_elem)
-          country_details['tables'].append(table)
+          section['tables'].append(table)
       else:
         print '  Table not found', table_title, table_id
 
+    for section_number, section in sections_by_number.items():
+      # Find all the paragraphs that follow this table elem, that do not match
+      # the source regex, and that have the same section.
+      section['content'].extend(self.get_section_content(section_number))
 
     # Parse the source list which follows the last table element.
     if table_elem is not None:

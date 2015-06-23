@@ -11,56 +11,65 @@ be opened in Word and saved as a Web Page.
 
 The JSON output will have this form:
 [{
-  advancement_level: string,
   country: string,
+  advancement_level: string,
   description: string (A paragraph about the country),
+  sections: [{
+    number: string (The roman numeral number of the section),
+    title: string,
+    content: [{
+      /* There will be one of the following content types. */
+      header: string (Present if this content is a header),
+      paragraph: string (Present if this content is a regular paragraph),
+    }],
+    tables: [{
+      footnotes: [
+        symbol: string (The symbol of the footnote),
+        text: string
+      ],
+      summary: string (A summary sentence about the table),
+      title: string,
+      /* There will be one of the following lists. */
+      items: [{
+        descriptions: [{
+          sources: string, (The source of the information in text)
+          text: string (A description of the item)
+        }],
+        name: string (The name of the item in the list)
+      }],
+      areas: [{
+        actions: [{
+          action: string (A description of the action),
+          years: string (Year(s), which may be separated by commas or an m-dash)
+        }],
+        area: string (The area corresponding to these actions)
+      }],
+      conventions: [{
+        ratification: bool (True if the convention has been ratified),
+        title: string (The title of the convetion)
+      }],
+      sectors: [{
+        activities: [{
+          name: string (The activities; may be a comma separated list),
+          sources: string (The sources of the activity text)
+        }],
+        sector: string (A sector in which the activities fall)
+      }],
+      standards: [{
+        age: string (The age corresponding to the standard; may be a range),
+        enacted: string (Yes, No, or N/A),
+        related_legislation: [{
+          legislation: string (Related legislation to the standard),
+          sources: string (Sources for the related legislation)
+        }],
+        title: string
+      }],
+    }]
+  }],
   sources: [{
     number: string (The index of the source),
     text: string
   }],
-  tables: [{
-    footnotes: [
-      symbol: string (The symbol of the footnote),
-      text: string
-    ],
-    summary: string (A summary sentence about the table),
-    title: string,
-    /* There will be one of the following lists. */
-    items: [{
-      descriptions: [{
-        sources: string, (The source of the information in text)
-        text: string (A description of the item)
-      }],
-      name: string (The name of the item in the list)
-    }],
-    areas: [{
-      actions: [{
-        action: string (A description of the action),
-        years: string (Year(s), which may be separated by commas or an m-dash)
-      }],
-      area: string (The area corresponding to these actions)
-    }],
-    conventions: [{
-      ratification: bool (True if the convention has been ratified),
-      title: string (The title of the convetion)
-    }],
-    sectors: [{
-      activities: [{
-        name: string (The name of the activities; may be a comma separated list),
-        sources: string (The sources of the activity text)
-      }],
-      sector: string (A sector in which the activities fall)
-    }],
-    standards: [{
-      age: string (The age corresponding to the standard; may be a range),
-      enacted: string (Yes, No, or N/A),
-      related_legislation: [{
-        legislation: string (Related legislation to the standard),
-        sources: string (Sources for the related legislation)
-      }],
-      title: string
-    }],
-  }]
 }]
 """
 
