@@ -153,7 +153,7 @@ class Parser:
       ratification = self.get_text(ratification_cell)
       # A checkmark is used to denote that the convention has been ratified;
       # check only that the cell is non-empty.
-      convention['ratification'] = (ratification != '')
+      convention['ratified'] = (ratification != '')
       table['conventions'].append(convention)
 
     return table
@@ -331,10 +331,10 @@ class Parser:
       if p_section != section_number:
         break
       # Bold-italic text indicates that the text is a header.
-      if p_elem.find('./b/i') is not None:
-        content.append({'header': text})
-      else:
-        content.append({'paragraph': text})
+      content.append({
+        'paragraph': text,
+        'header': p_elem.find('./b/i') is not None,
+      })
     return content
 
   def source_list(self, last_elem):

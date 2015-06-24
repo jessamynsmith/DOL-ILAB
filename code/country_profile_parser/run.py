@@ -18,9 +18,8 @@ The JSON output will have this form:
     number: string (The roman numeral number of the section),
     title: string,
     content: [{
-      /* There will be one of the following content types. */
-      header: string (Present if this content is a header),
-      paragraph: string (Present if this content is a regular paragraph),
+      paragraph: string,
+      header: bool (True if this content is a header),
     }],
     tables: [{
       footnotes: [
@@ -45,7 +44,7 @@ The JSON output will have this form:
         area: string (The area corresponding to these actions)
       }],
       conventions: [{
-        ratification: bool (True if the convention has been ratified),
+        ratified: bool (True if the convention has been ratified),
         title: string (The title of the convetion)
       }],
       sectors: [{
