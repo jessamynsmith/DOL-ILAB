@@ -20,56 +20,46 @@ def add_element(tag, text=None, attrs={}):
       elem.set(key, value)
   return elem
 
-def convert_value_to_xml(tag, value):
-  '''Converts a value to an XML element, or elements.
+def convert_value_to_xml(elem, tag, value):
+  '''Converts a value to an XML attribute, element, or elements.
 
   Args:
-    tag: The name of the element to create.
+    elem: The element to modify.
+    tag: The name of the element or attribute to create.
     text: The value for the element. May be a string, boolean, dictionary, or
        list.
-
-  Returns:
-    An element with the given tag, or if the value was a list, a list of
-    elements each with the specified tag name.
   '''
   if isinstance(value, str) or isinstance(value, unicode):
-    return add_element(tag, value)
+    elem.append(add_element(tag, value))
   elif isinstance(value, bool):
-    return add_element(tag, '1' if value else '0')
+    elem.set(tag, '1' if value else '0')
   elif isinstance(value, dict):
-    return convert_dict_to_xml(tag, value)
+    convert_dict_to_xml(elem, tag, value)
   elif isinstance(value, list):
     # Changes pluralized tag names to the singular, per XML convention.
     if tag.endswith('ies'):
       tag = re.sub(r'ies$', 'y', tag)
     elif tag.endswith('s'):
       tag = re.sub('s$', '', tag)
-    return [convert_value_to_xml(tag, item) for item in value]
+    for item in value:
+      convert_value_to_xml(elem, tag, item)
   else:
     assert(False), ('Unknown element type', type(value))
 
-def convert_dict_to_xml(tag, dictionary):
-  '''Converts a dictionary to an XML element.
+def convert_dict_to_xml(parent, tag, dictionary):
+  '''Converts a dictionary to an XML element, appending it to the parent.
   
-  Each key in the dictionary is made a child element of the root.
+  Each key in the dictionary is made a child element of the root element.
 
   Args:
+    parent: The parent element to which to append the new element.
     tag: The name of the root element.
     dictionary: Key-value pairs to convert to children elements.
-
-  Returns:
-    The element created.
   '''
   elem = add_element(tag)
   for key, value in dictionary.items():
-    children = convert_value_to_xml(key, value)
-    # If the result of convert_value_to_xml is a list, then append each child.
-    if isinstance(children, list):
-      for child in children:
-        elem.append(child)
-    else:
-      elem.append(children)
-  return elem
+    children = convert_value_to_xml(elem, key, value)
+  parent.append(elem)
 
 def build_tree(root_tag, item_tag, items):
   '''Builds a tree out of a list of dictionaries.
@@ -84,7 +74,7 @@ def build_tree(root_tag, item_tag, items):
   '''
   root = add_element(root_tag)
   for item in items:
-    root.append(convert_dict_to_xml(item_tag, item))
+    convert_dict_to_xml(root, item_tag, item)
   return root
 
 def write_to_file(country_details, f):
