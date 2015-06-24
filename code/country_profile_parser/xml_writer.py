@@ -86,5 +86,33 @@ def write_to_file(country_details, f):
     f: A file, opened for writing.
   '''
   root = build_tree('country_profiles', 'country', country_details)
+  # Now special-case the content/paragraph element. Change these from being
+  # structured as
+  # <content header="1"><paragraph>TEXT 1</paragraph></content>
+  # <content header="0"><paragraph>TEXT 2</paragraph></content>
+  # to
+  # <content>
+  #  <paragraph header="1">TEXT 1</paragraph>
+  #  <paragraph header="0">TEXT 2</paragraph>
+  # </content>
+  section_elems = root.findall('.//section')
+  for section_elem in section_elems:
+    content_elems = section_elem.findall('./content')
+    if len(content_elems):
+      # Insert a single, new content element to be the parent of all paragraph
+      # elements.
+      new_content_elem = add_element('content')
+      content_elems[-1].addnext(new_content_elem)
+      for content_elem in content_elems:
+        # Remove the old content element from the section as it is replaced by
+        # the new content element above.
+        section_elem.remove(content_elem)
+        paragraph_elem = content_elem.find('./paragraph')
+        # Move the header attribute from the old content element to the
+        # paragraph element.
+        paragraph_elem.set('header', content_elem.get('header'))
+        # Move each paragraph element to be children of the single, new
+        # content element.
+        new_content_elem.append(paragraph_elem)
   tree = etree.ElementTree(root)
   tree.write(f, pretty_print=True)
