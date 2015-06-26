@@ -8,7 +8,7 @@
 				<Country_Name>Afghanistan</Country_Name>
 				<Country_ISO2>AF</Country_ISO2>
 				<Country_ISO3>AFG</Country_ISO3>
-				<Country_Region>Asia & Pacific</Country_Region>
+				<Country_Region>Asia &#38; Pacific</Country_Region>
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>Yes</Forced_Labor>
 			</Country>
@@ -16,7 +16,7 @@
 				<Country_Name>Argentina</Country_Name>
 				<Country_ISO2>AR</Country_ISO2>
 				<Country_ISO3>ARG</Country_ISO3>
-				<Country_Region>Latin America & Caribbean</Country_Region>
+				<Country_Region>Latin America &#38; Caribbean</Country_Region>
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 			</Country>
@@ -24,7 +24,7 @@
 				<Country_Name>Bangladesh</Country_Name>
 				<Country_ISO2>BD</Country_ISO2>
 				<Country_ISO3>BGD</Country_ISO3>
-				<Country_Region>Asia & Pacific</Country_Region>
+				<Country_Region>Asia &#38; Pacific</Country_Region>
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 			</Country>
@@ -32,7 +32,7 @@
 				<Country_Name>Bolivia</Country_Name>
 				<Country_ISO2>BO</Country_ISO2>
 				<Country_ISO3>BOL</Country_ISO3>
-				<Country_Region>Latin America & Caribbean</Country_Region>
+				<Country_Region>Latin America &#38; Caribbean</Country_Region>
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 			</Country>
@@ -40,7 +40,7 @@
 				<Country_Name>Brazil</Country_Name>
 				<Country_ISO2>BR</Country_ISO2>
 				<Country_ISO3>BRA</Country_ISO3>
-				<Country_Region>Latin America & Caribbean</Country_Region>
+				<Country_Region>Latin America &#38; Caribbean</Country_Region>
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 			</Country>
@@ -48,7 +48,7 @@
 				<Country_Name>Burma</Country_Name>
 				<Country_ISO2>BU</Country_ISO2>
 				<Country_ISO3>BUR</Country_ISO3>
-				<Country_Region>Asia & Pacific</Country_Region>
+				<Country_Region>Asia &#38; Pacific</Country_Region>
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>Yes</Forced_Labor>
 			</Country>
@@ -56,7 +56,7 @@
 				<Country_Name>Cambodia</Country_Name>
 				<Country_ISO2>KH</Country_ISO2>
 				<Country_ISO3>KHM</Country_ISO3>
-				<Country_Region>Asia & Pacific</Country_Region>
+				<Country_Region>Asia &#38; Pacific</Country_Region>
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 			</Country>
@@ -64,7 +64,7 @@
 				<Country_Name>China</Country_Name>
 				<Country_ISO2>CN</Country_ISO2>
 				<Country_ISO3>CHN</Country_ISO3>
-				<Country_Region>Asia & Pacific</Country_Region>
+				<Country_Region>Asia &#38; Pacific</Country_Region>
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>Yes</Forced_Labor>
 			</Country>
@@ -72,7 +72,7 @@
 				<Country_Name>Ecuador</Country_Name>
 				<Country_ISO2>EC</Country_ISO2>
 				<Country_ISO3>ECU</Country_ISO3>
-				<Country_Region>Latin America & Caribbean</Country_Region>
+				<Country_Region>Latin America &#38; Caribbean</Country_Region>
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 			</Country>
@@ -80,7 +80,7 @@
 				<Country_Name>India</Country_Name>
 				<Country_ISO2>IN</Country_ISO2>
 				<Country_ISO3>IND</Country_ISO3>
-				<Country_Region>Asia & Pacific</Country_Region>
+				<Country_Region>Asia &#38; Pacific</Country_Region>
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>Yes</Forced_Labor>
 			</Country>
@@ -88,7 +88,7 @@
 				<Country_Name>Nepal</Country_Name>
 				<Country_ISO2>NP</Country_ISO2>
 				<Country_ISO3>NPL</Country_ISO3>
-				<Country_Region>Asia & Pacific</Country_Region>
+				<Country_Region>Asia &#38; Pacific</Country_Region>
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>Yes</Forced_Labor>
 			</Country>
@@ -96,7 +96,7 @@
 				<Country_Name>North Korea</Country_Name>
 				<Country_ISO2>KP</Country_ISO2>
 				<Country_ISO3>PRK</Country_ISO3>
-				<Country_Region>Asia & Pacific</Country_Region>
+				<Country_Region>Asia &#38; Pacific</Country_Region>
 				<Child_Labor>No</Child_Labor>
 				<Forced_Labor>Yes</Forced_Labor>
 			</Country>
@@ -104,7 +104,7 @@
 				<Country_Name>Pakistan</Country_Name>
 				<Country_ISO2>PK</Country_ISO2>
 				<Country_ISO3>PAK</Country_ISO3>
-				<Country_Region>Asia & Pacific</Country_Region>
+				<Country_Region>Asia &#38; Pacific</Country_Region>
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>Yes</Forced_Labor>
 			</Country>
@@ -112,7 +112,7 @@
 				<Country_Name>Paraguay</Country_Name>
 				<Country_ISO2>PY</Country_ISO2>
 				<Country_ISO3>PRY</Country_ISO3>
-				<Country_Region>Latin America & Caribbean</Country_Region>
+				<Country_Region>Latin America &#38; Caribbean</Country_Region>
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 			</Country>
@@ -120,7 +120,7 @@
 				<Country_Name>Peru</Country_Name>
 				<Country_ISO2>PE</Country_ISO2>
 				<Country_ISO3>PER</Country_ISO3>
-				<Country_Region>Latin America & Caribbean</Country_Region>
+				<Country_Region>Latin America &#38; Caribbean</Country_Region>
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 			</Country>
@@ -136,7 +136,7 @@
 				<Country_Name>Vietnam</Country_Name>
 				<Country_ISO2>VN</Country_ISO2>
 				<Country_ISO3>VNM</Country_ISO3>
-				<Country_Region>Asia & Pacific</Country_Region>
+				<Country_Region>Asia &#38; Pacific</Country_Region>
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 			</Country>
@@ -150,7 +150,7 @@
 				<Country_Name>Afghanistan</Country_Name>
 				<Country_ISO2>AF</Country_ISO2>
 				<Country_ISO3>AFG</Country_ISO3>
-				<Country_Region>Asia & Pacific</Country_Region>
+				<Country_Region>Asia &#38; Pacific</Country_Region>
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 			</Country>
@@ -158,7 +158,7 @@
 				<Country_Name>India</Country_Name>
 				<Country_ISO2>IN</Country_ISO2>
 				<Country_ISO3>IND</Country_ISO3>
-				<Country_Region>Asia & Pacific</Country_Region>
+				<Country_Region>Asia &#38; Pacific</Country_Region>
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>Yes</Forced_Labor>
 			</Country>
@@ -166,7 +166,7 @@
 				<Country_Name>Iran</Country_Name>
 				<Country_ISO2>IR</Country_ISO2>
 				<Country_ISO3>IRN</Country_ISO3>
-				<Country_Region>Middle East & North Africa</Country_Region>
+				<Country_Region>Middle East &#38; North Africa</Country_Region>
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 			</Country>
@@ -174,7 +174,7 @@
 				<Country_Name>Nepal</Country_Name>
 				<Country_ISO2>NP</Country_ISO2>
 				<Country_ISO3>NPL</Country_ISO3>
-				<Country_Region>Asia & Pacific</Country_Region>
+				<Country_Region>Asia &#38; Pacific</Country_Region>
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>Yes</Forced_Labor>
 			</Country>
@@ -182,7 +182,7 @@
 				<Country_Name>Pakistan</Country_Name>
 				<Country_ISO2>PK</Country_ISO2>
 				<Country_ISO3>PAK</Country_ISO3>
-				<Country_Region>Asia & Pacific</Country_Region>
+				<Country_Region>Asia &#38; Pacific</Country_Region>
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>Yes</Forced_Labor>
 			</Country>
@@ -196,7 +196,7 @@
 				<Country_Name>Afghanistan</Country_Name>
 				<Country_ISO2>AF</Country_ISO2>
 				<Country_ISO3>AFG</Country_ISO3>
-				<Country_Region>Asia & Pacific</Country_Region>
+				<Country_Region>Asia &#38; Pacific</Country_Region>
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 			</Country>
@@ -204,7 +204,7 @@
 				<Country_Name>China</Country_Name>
 				<Country_ISO2>CN</Country_ISO2>
 				<Country_ISO3>CHN</Country_ISO3>
-				<Country_Region>Asia & Pacific</Country_Region>
+				<Country_Region>Asia &#38; Pacific</Country_Region>
 				<Child_Labor>No</Child_Labor>
 				<Forced_Labor>Yes</Forced_Labor>
 			</Country>
@@ -212,7 +212,7 @@
 				<Country_Name>Colombia</Country_Name>
 				<Country_ISO2>CO</Country_ISO2>
 				<Country_ISO3>COL</Country_ISO3>
-				<Country_Region>Latin America & Caribbean</Country_Region>
+				<Country_Region>Latin America &#38; Caribbean</Country_Region>
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 			</Country>
@@ -220,7 +220,7 @@
 				<Country_Name>Mongolia</Country_Name>
 				<Country_ISO2>MN</Country_ISO2>
 				<Country_ISO3>MNG</Country_ISO3>
-				<Country_Region>Asia & Pacific</Country_Region>
+				<Country_Region>Asia &#38; Pacific</Country_Region>
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 			</Country>
@@ -228,7 +228,7 @@
 				<Country_Name>North Korea</Country_Name>
 				<Country_ISO2>KP</Country_ISO2>
 				<Country_ISO3>PRK</Country_ISO3>
-				<Country_Region>Asia & Pacific</Country_Region>
+				<Country_Region>Asia &#38; Pacific</Country_Region>
 				<Child_Labor>No</Child_Labor>
 				<Forced_Labor>Yes</Forced_Labor>
 			</Country>
@@ -236,7 +236,7 @@
 				<Country_Name>Pakistan</Country_Name>
 				<Country_ISO2>PK</Country_ISO2>
 				<Country_ISO3>PAK</Country_ISO3>
-				<Country_Region>Asia & Pacific</Country_Region>
+				<Country_Region>Asia &#38; Pacific</Country_Region>
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>Yes</Forced_Labor>
 			</Country>
@@ -244,7 +244,7 @@
 				<Country_Name>Ukraine</Country_Name>
 				<Country_ISO2>UA</Country_ISO2>
 				<Country_ISO3>UKR</Country_ISO3>
-				<Country_Region>Europe & Eurasia</Country_Region>
+				<Country_Region>Europe &#38; Eurasia</Country_Region>
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 			</Country>
@@ -258,7 +258,7 @@
 				<Country_Name>Afghanistan</Country_Name>
 				<Country_ISO2>AF</Country_ISO2>
 				<Country_ISO3>AFG</Country_ISO3>
-				<Country_Region>Asia & Pacific</Country_Region>
+				<Country_Region>Asia &#38; Pacific</Country_Region>
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 			</Country>
@@ -326,7 +326,7 @@
 				<Country_Name>Argentina</Country_Name>
 				<Country_ISO2>AR</Country_ISO2>
 				<Country_ISO3>ARG</Country_ISO3>
-				<Country_Region>Latin America & Caribbean</Country_Region>
+				<Country_Region>Latin America &#38; Caribbean</Country_Region>
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 			</Country>
@@ -340,7 +340,7 @@
 				<Country_Name>Argentina</Country_Name>
 				<Country_ISO2>AR</Country_ISO2>
 				<Country_ISO3>ARG</Country_ISO3>
-				<Country_Region>Latin America & Caribbean</Country_Region>
+				<Country_Region>Latin America &#38; Caribbean</Country_Region>
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 			</Country>
@@ -348,7 +348,7 @@
 				<Country_Name>Azerbaijan</Country_Name>
 				<Country_ISO2>AZ</Country_ISO2>
 				<Country_ISO3>AZE</Country_ISO3>
-				<Country_Region>Europe & Eurasia</Country_Region>
+				<Country_Region>Europe &#38; Eurasia</Country_Region>
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 			</Country>
@@ -364,7 +364,7 @@
 				<Country_Name>Brazil</Country_Name>
 				<Country_ISO2>BR</Country_ISO2>
 				<Country_ISO3>BRA</Country_ISO3>
-				<Country_Region>Latin America & Caribbean</Country_Region>
+				<Country_Region>Latin America &#38; Caribbean</Country_Region>
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 			</Country>
@@ -380,7 +380,7 @@
 				<Country_Name>China</Country_Name>
 				<Country_ISO2>CN</Country_ISO2>
 				<Country_ISO3>CHN</Country_ISO3>
-				<Country_Region>Asia & Pacific</Country_Region>
+				<Country_Region>Asia &#38; Pacific</Country_Region>
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>Yes</Forced_Labor>
 			</Country>
@@ -388,7 +388,7 @@
 				<Country_Name>Egypt</Country_Name>
 				<Country_ISO2>EG</Country_ISO2>
 				<Country_ISO3>EGY</Country_ISO3>
-				<Country_Region>Middle East & North Africa</Country_Region>
+				<Country_Region>Middle East &#38; North Africa</Country_Region>
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 			</Country>
@@ -396,7 +396,7 @@
 				<Country_Name>India</Country_Name>
 				<Country_ISO2>IN</Country_ISO2>
 				<Country_ISO3>IND</Country_ISO3>
-				<Country_Region>Asia & Pacific</Country_Region>
+				<Country_Region>Asia &#38; Pacific</Country_Region>
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 			</Country>
@@ -404,7 +404,7 @@
 				<Country_Name>Kazakhstan</Country_Name>
 				<Country_ISO2>KZ</Country_ISO2>
 				<Country_ISO3>KAZ</Country_ISO3>
-				<Country_Region>Asia & Pacific</Country_Region>
+				<Country_Region>Asia &#38; Pacific</Country_Region>
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>Yes</Forced_Labor>
 			</Country>
@@ -412,7 +412,7 @@
 				<Country_Name>Kyrgyz Republic</Country_Name>
 				<Country_ISO2>KV</Country_ISO2>
 				<Country_ISO3>KVR</Country_ISO3>
-				<Country_Region>Asia & Pacific</Country_Region>
+				<Country_Region>Asia &#38; Pacific</Country_Region>
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 			</Country>
@@ -428,7 +428,7 @@
 				<Country_Name>Pakistan</Country_Name>
 				<Country_ISO2>PK</Country_ISO2>
 				<Country_ISO3>PAK</Country_ISO3>
-				<Country_Region>Asia & Pacific</Country_Region>
+				<Country_Region>Asia &#38; Pacific</Country_Region>
 				<Child_Labor>No</Child_Labor>
 				<Forced_Labor>Yes</Forced_Labor>
 			</Country>
@@ -436,7 +436,7 @@
 				<Country_Name>Paraguay</Country_Name>
 				<Country_ISO2>PY</Country_ISO2>
 				<Country_ISO3>PRY</Country_ISO3>
-				<Country_Region>Latin America & Caribbean</Country_Region>
+				<Country_Region>Latin America &#38; Caribbean</Country_Region>
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 			</Country>
@@ -444,7 +444,7 @@
 				<Country_Name>Tajikistan</Country_Name>
 				<Country_ISO2>TJ</Country_ISO2>
 				<Country_ISO3>TJK</Country_ISO3>
-				<Country_Region>Asia & Pacific</Country_Region>
+				<Country_Region>Asia &#38; Pacific</Country_Region>
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>Yes</Forced_Labor>
 			</Country>
@@ -452,7 +452,7 @@
 				<Country_Name>Turkey</Country_Name>
 				<Country_ISO2>TR</Country_ISO2>
 				<Country_ISO3>TUR</Country_ISO3>
-				<Country_Region>Europe & Eurasia</Country_Region>
+				<Country_Region>Europe &#38; Eurasia</Country_Region>
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 			</Country>
@@ -460,7 +460,7 @@
 				<Country_Name>Turkmenistan</Country_Name>
 				<Country_ISO2>TM</Country_ISO2>
 				<Country_ISO3>TKM</Country_ISO3>
-				<Country_Region>Asia & Pacific</Country_Region>
+				<Country_Region>Asia &#38; Pacific</Country_Region>
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>Yes</Forced_Labor>
 			</Country>
@@ -468,7 +468,7 @@
 				<Country_Name>Uzbekistan</Country_Name>
 				<Country_ISO2>UZ</Country_ISO2>
 				<Country_ISO3>UZB</Country_ISO3>
-				<Country_Region>Asia & Pacific</Country_Region>
+				<Country_Region>Asia &#38; Pacific</Country_Region>
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>Yes</Forced_Labor>
 			</Country>
@@ -490,7 +490,7 @@
 				<Country_Name>Argentina</Country_Name>
 				<Country_ISO2>AR</Country_ISO2>
 				<Country_ISO3>ARG</Country_ISO3>
-				<Country_Region>Latin America & Caribbean</Country_Region>
+				<Country_Region>Latin America &#38; Caribbean</Country_Region>
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 			</Country>
@@ -504,7 +504,7 @@
 				<Country_Name>Argentina</Country_Name>
 				<Country_ISO2>AR</Country_ISO2>
 				<Country_ISO3>ARG</Country_ISO3>
-				<Country_Region>Latin America & Caribbean</Country_Region>
+				<Country_Region>Latin America &#38; Caribbean</Country_Region>
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>Yes</Forced_Labor>
 			</Country>
@@ -512,7 +512,7 @@
 				<Country_Name>Bangladesh</Country_Name>
 				<Country_ISO2>BD</Country_ISO2>
 				<Country_ISO3>BGD</Country_ISO3>
-				<Country_Region>Asia & Pacific</Country_Region>
+				<Country_Region>Asia &#38; Pacific</Country_Region>
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 			</Country>
@@ -520,7 +520,7 @@
 				<Country_Name>Brazil</Country_Name>
 				<Country_ISO2>BR</Country_ISO2>
 				<Country_ISO3>BRA</Country_ISO3>
-				<Country_Region>Latin America & Caribbean</Country_Region>
+				<Country_Region>Latin America &#38; Caribbean</Country_Region>
 				<Child_Labor>No</Child_Labor>
 				<Forced_Labor>Yes</Forced_Labor>
 			</Country>
@@ -528,7 +528,7 @@
 				<Country_Name>China</Country_Name>
 				<Country_ISO2>CN</Country_ISO2>
 				<Country_ISO3>CHN</Country_ISO3>
-				<Country_Region>Asia & Pacific</Country_Region>
+				<Country_Region>Asia &#38; Pacific</Country_Region>
 				<Child_Labor>No</Child_Labor>
 				<Forced_Labor>Yes</Forced_Labor>
 			</Country>
@@ -536,7 +536,7 @@
 				<Country_Name>India</Country_Name>
 				<Country_ISO2>IN</Country_ISO2>
 				<Country_ISO3>IND</Country_ISO3>
-				<Country_Region>Asia & Pacific</Country_Region>
+				<Country_Region>Asia &#38; Pacific</Country_Region>
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>Yes</Forced_Labor>
 			</Country>
@@ -544,7 +544,7 @@
 				<Country_Name>Jordan</Country_Name>
 				<Country_ISO2>JO</Country_ISO2>
 				<Country_ISO3>JOR</Country_ISO3>
-				<Country_Region>Middle East & North Africa</Country_Region>
+				<Country_Region>Middle East &#38; North Africa</Country_Region>
 				<Child_Labor>No</Child_Labor>
 				<Forced_Labor>Yes</Forced_Labor>
 			</Country>
@@ -552,7 +552,7 @@
 				<Country_Name>Malaysia</Country_Name>
 				<Country_ISO2>MY</Country_ISO2>
 				<Country_ISO3>MYS</Country_ISO3>
-				<Country_Region>Asia & Pacific</Country_Region>
+				<Country_Region>Asia &#38; Pacific</Country_Region>
 				<Child_Labor>No</Child_Labor>
 				<Forced_Labor>Yes</Forced_Labor>
 			</Country>
@@ -560,7 +560,7 @@
 				<Country_Name>Thailand</Country_Name>
 				<Country_ISO2>TH</Country_ISO2>
 				<Country_ISO3>THA</Country_ISO3>
-				<Country_Region>Asia & Pacific</Country_Region>
+				<Country_Region>Asia &#38; Pacific</Country_Region>
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>Yes</Forced_Labor>
 			</Country>
@@ -568,7 +568,7 @@
 				<Country_Name>Vietnam</Country_Name>
 				<Country_ISO2>VN</Country_ISO2>
 				<Country_ISO3>VNM</Country_ISO3>
-				<Country_Region>Asia & Pacific</Country_Region>
+				<Country_Region>Asia &#38; Pacific</Country_Region>
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>Yes</Forced_Labor>
 			</Country>
@@ -582,7 +582,7 @@
 				<Country_Name>Argentina</Country_Name>
 				<Country_ISO2>AR</Country_ISO2>
 				<Country_ISO3>ARG</Country_ISO3>
-				<Country_Region>Latin America & Caribbean</Country_Region>
+				<Country_Region>Latin America &#38; Caribbean</Country_Region>
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 			</Country>
@@ -596,7 +596,7 @@
 				<Country_Name>Argentina</Country_Name>
 				<Country_ISO2>AR</Country_ISO2>
 				<Country_ISO3>ARG</Country_ISO3>
-				<Country_Region>Latin America & Caribbean</Country_Region>
+				<Country_Region>Latin America &#38; Caribbean</Country_Region>
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 			</Country>
@@ -610,7 +610,7 @@
 				<Country_Name>Argentina</Country_Name>
 				<Country_ISO2>AR</Country_ISO2>
 				<Country_ISO3>ARG</Country_ISO3>
-				<Country_Region>Latin America & Caribbean</Country_Region>
+				<Country_Region>Latin America &#38; Caribbean</Country_Region>
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 			</Country>
@@ -624,7 +624,7 @@
 				<Country_Name>Argentina</Country_Name>
 				<Country_ISO2>AR</Country_ISO2>
 				<Country_ISO3>ARG</Country_ISO3>
-				<Country_Region>Latin America & Caribbean</Country_Region>
+				<Country_Region>Latin America &#38; Caribbean</Country_Region>
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 			</Country>
@@ -632,7 +632,7 @@
 				<Country_Name>Brazil</Country_Name>
 				<Country_ISO2>BR</Country_ISO2>
 				<Country_ISO3>BRA</Country_ISO3>
-				<Country_Region>Latin America & Caribbean</Country_Region>
+				<Country_Region>Latin America &#38; Caribbean</Country_Region>
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 			</Country>
@@ -640,7 +640,7 @@
 				<Country_Name>Cambodia</Country_Name>
 				<Country_ISO2>KH</Country_ISO2>
 				<Country_ISO3>KHM</Country_ISO3>
-				<Country_Region>Asia & Pacific</Country_Region>
+				<Country_Region>Asia &#38; Pacific</Country_Region>
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 			</Country>
@@ -648,7 +648,7 @@
 				<Country_Name>Indonesia</Country_Name>
 				<Country_ISO2>ID</Country_ISO2>
 				<Country_ISO3>IDN</Country_ISO3>
-				<Country_Region>Asia & Pacific</Country_Region>
+				<Country_Region>Asia &#38; Pacific</Country_Region>
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 			</Country>
@@ -664,7 +664,7 @@
 				<Country_Name>Kyrgyz Republic</Country_Name>
 				<Country_ISO2>KV</Country_ISO2>
 				<Country_ISO3>KVR</Country_ISO3>
-				<Country_Region>Asia & Pacific</Country_Region>
+				<Country_Region>Asia &#38; Pacific</Country_Region>
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 			</Country>
@@ -672,7 +672,7 @@
 				<Country_Name>Lebanon</Country_Name>
 				<Country_ISO2>LB</Country_ISO2>
 				<Country_ISO3>LBN</Country_ISO3>
-				<Country_Region>Middle East & North Africa</Country_Region>
+				<Country_Region>Middle East &#38; North Africa</Country_Region>
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 			</Country>
@@ -688,7 +688,7 @@
 				<Country_Name>Mexico</Country_Name>
 				<Country_ISO2>MX</Country_ISO2>
 				<Country_ISO3>MEX</Country_ISO3>
-				<Country_Region>Latin America & Caribbean</Country_Region>
+				<Country_Region>Latin America &#38; Caribbean</Country_Region>
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 			</Country>
@@ -704,7 +704,7 @@
 				<Country_Name>Nicaragua</Country_Name>
 				<Country_ISO2>NI</Country_ISO2>
 				<Country_ISO3>NIC</Country_ISO3>
-				<Country_Region>Latin America & Caribbean</Country_Region>
+				<Country_Region>Latin America &#38; Caribbean</Country_Region>
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 			</Country>
@@ -712,7 +712,7 @@
 				<Country_Name>Philippines</Country_Name>
 				<Country_ISO2>PH</Country_ISO2>
 				<Country_ISO3>PHL</Country_ISO3>
-				<Country_Region>Asia & Pacific</Country_Region>
+				<Country_Region>Asia &#38; Pacific</Country_Region>
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 			</Country>
@@ -750,7 +750,7 @@
 				<Country_Name>Argentina</Country_Name>
 				<Country_ISO2>AR</Country_ISO2>
 				<Country_ISO3>ARG</Country_ISO3>
-				<Country_Region>Latin America & Caribbean</Country_Region>
+				<Country_Region>Latin America &#38; Caribbean</Country_Region>
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 			</Country>
@@ -758,7 +758,7 @@
 				<Country_Name>Dominican Republic</Country_Name>
 				<Country_ISO2>DO</Country_ISO2>
 				<Country_ISO3>DOM</Country_ISO3>
-				<Country_Region>Latin America & Caribbean</Country_Region>
+				<Country_Region>Latin America &#38; Caribbean</Country_Region>
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 			</Country>
@@ -766,7 +766,7 @@
 				<Country_Name>Mexico</Country_Name>
 				<Country_ISO2>MX</Country_ISO2>
 				<Country_ISO3>MEX</Country_ISO3>
-				<Country_Region>Latin America & Caribbean</Country_Region>
+				<Country_Region>Latin America &#38; Caribbean</Country_Region>
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 			</Country>
@@ -780,7 +780,7 @@
 				<Country_Name>Argentina</Country_Name>
 				<Country_ISO2>AR</Country_ISO2>
 				<Country_ISO3>ARG</Country_ISO3>
-				<Country_Region>Latin America & Caribbean</Country_Region>
+				<Country_Region>Latin America &#38; Caribbean</Country_Region>
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 			</Country>
@@ -794,7 +794,7 @@
 				<Country_Name>Bangladesh</Country_Name>
 				<Country_ISO2>BD</Country_ISO2>
 				<Country_ISO3>BGD</Country_ISO3>
-				<Country_Region>Asia & Pacific</Country_Region>
+				<Country_Region>Asia &#38; Pacific</Country_Region>
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 			</Country>
@@ -802,7 +802,7 @@
 				<Country_Name>India</Country_Name>
 				<Country_ISO2>IN</Country_ISO2>
 				<Country_ISO3>IND</Country_ISO3>
-				<Country_Region>Asia & Pacific</Country_Region>
+				<Country_Region>Asia &#38; Pacific</Country_Region>
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 			</Country>
@@ -816,7 +816,7 @@
 				<Country_Name>Bangladesh</Country_Name>
 				<Country_ISO2>BD</Country_ISO2>
 				<Country_ISO3>BGD</Country_ISO3>
-				<Country_Region>Asia & Pacific</Country_Region>
+				<Country_Region>Asia &#38; Pacific</Country_Region>
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>Yes</Forced_Labor>
 			</Country>
@@ -830,7 +830,7 @@
 				<Country_Name>Bangladesh</Country_Name>
 				<Country_ISO2>BD</Country_ISO2>
 				<Country_ISO3>BGD</Country_ISO3>
-				<Country_Region>Asia & Pacific</Country_Region>
+				<Country_Region>Asia &#38; Pacific</Country_Region>
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 			</Country>
@@ -838,7 +838,7 @@
 				<Country_Name>Brazil</Country_Name>
 				<Country_ISO2>BR</Country_ISO2>
 				<Country_ISO3>BRA</Country_ISO3>
-				<Country_Region>Latin America & Caribbean</Country_Region>
+				<Country_Region>Latin America &#38; Caribbean</Country_Region>
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 			</Country>
@@ -846,7 +846,7 @@
 				<Country_Name>China</Country_Name>
 				<Country_ISO2>CN</Country_ISO2>
 				<Country_ISO3>CHN</Country_ISO3>
-				<Country_Region>Asia & Pacific</Country_Region>
+				<Country_Region>Asia &#38; Pacific</Country_Region>
 				<Child_Labor>No</Child_Labor>
 				<Forced_Labor>Yes</Forced_Labor>
 			</Country>
@@ -854,7 +854,7 @@
 				<Country_Name>India</Country_Name>
 				<Country_ISO2>IN</Country_ISO2>
 				<Country_ISO3>IND</Country_ISO3>
-				<Country_Region>Asia & Pacific</Country_Region>
+				<Country_Region>Asia &#38; Pacific</Country_Region>
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 			</Country>
@@ -868,7 +868,7 @@
 				<Country_Name>Bangladesh</Country_Name>
 				<Country_ISO2>BD</Country_ISO2>
 				<Country_ISO3>BGD</Country_ISO3>
-				<Country_Region>Asia & Pacific</Country_Region>
+				<Country_Region>Asia &#38; Pacific</Country_Region>
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 			</Country>
@@ -882,7 +882,7 @@
 				<Country_Name>Bangladesh</Country_Name>
 				<Country_ISO2>BD</Country_ISO2>
 				<Country_ISO3>BGD</Country_ISO3>
-				<Country_Region>Asia & Pacific</Country_Region>
+				<Country_Region>Asia &#38; Pacific</Country_Region>
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 			</Country>
@@ -896,7 +896,7 @@
 				<Country_Name>Bangladesh</Country_Name>
 				<Country_ISO2>BD</Country_ISO2>
 				<Country_ISO3>BGD</Country_ISO3>
-				<Country_Region>Asia & Pacific</Country_Region>
+				<Country_Region>Asia &#38; Pacific</Country_Region>
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 			</Country>
@@ -904,7 +904,7 @@
 				<Country_Name>Pakistan</Country_Name>
 				<Country_ISO2>PK</Country_ISO2>
 				<Country_ISO3>PAK</Country_ISO3>
-				<Country_Region>Asia & Pacific</Country_Region>
+				<Country_Region>Asia &#38; Pacific</Country_Region>
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 			</Country>
@@ -918,7 +918,7 @@
 				<Country_Name>Bangladesh</Country_Name>
 				<Country_ISO2>BD</Country_ISO2>
 				<Country_ISO3>BGD</Country_ISO3>
-				<Country_Region>Asia & Pacific</Country_Region>
+				<Country_Region>Asia &#38; Pacific</Country_Region>
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 			</Country>
@@ -926,7 +926,7 @@
 				<Country_Name>India</Country_Name>
 				<Country_ISO2>IN</Country_ISO2>
 				<Country_ISO3>IND</Country_ISO3>
-				<Country_Region>Asia & Pacific</Country_Region>
+				<Country_Region>Asia &#38; Pacific</Country_Region>
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 			</Country>
@@ -940,7 +940,7 @@
 				<Country_Name>Bangladesh</Country_Name>
 				<Country_ISO2>BD</Country_ISO2>
 				<Country_ISO3>BGD</Country_ISO3>
-				<Country_Region>Asia & Pacific</Country_Region>
+				<Country_Region>Asia &#38; Pacific</Country_Region>
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 			</Country>
@@ -954,7 +954,7 @@
 				<Country_Name>Bangladesh</Country_Name>
 				<Country_ISO2>BD</Country_ISO2>
 				<Country_ISO3>BGD</Country_ISO3>
-				<Country_Region>Asia & Pacific</Country_Region>
+				<Country_Region>Asia &#38; Pacific</Country_Region>
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 			</Country>
@@ -962,7 +962,7 @@
 				<Country_Name>Cambodia</Country_Name>
 				<Country_ISO2>KH</Country_ISO2>
 				<Country_ISO3>KHM</Country_ISO3>
-				<Country_Region>Asia & Pacific</Country_Region>
+				<Country_Region>Asia &#38; Pacific</Country_Region>
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 			</Country>
@@ -984,7 +984,7 @@
 				<Country_Name>Bangladesh</Country_Name>
 				<Country_ISO2>BD</Country_ISO2>
 				<Country_ISO3>BGD</Country_ISO3>
-				<Country_Region>Asia & Pacific</Country_Region>
+				<Country_Region>Asia &#38; Pacific</Country_Region>
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 			</Country>
@@ -992,7 +992,7 @@
 				<Country_Name>Burma</Country_Name>
 				<Country_ISO2>BU</Country_ISO2>
 				<Country_ISO3>BUR</Country_ISO3>
-				<Country_Region>Asia & Pacific</Country_Region>
+				<Country_Region>Asia &#38; Pacific</Country_Region>
 				<Child_Labor>No</Child_Labor>
 				<Forced_Labor>Yes</Forced_Labor>
 			</Country>
@@ -1000,7 +1000,7 @@
 				<Country_Name>Cambodia</Country_Name>
 				<Country_ISO2>KH</Country_ISO2>
 				<Country_ISO3>KHM</Country_ISO3>
-				<Country_Region>Asia & Pacific</Country_Region>
+				<Country_Region>Asia &#38; Pacific</Country_Region>
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 			</Country>
@@ -1008,7 +1008,7 @@
 				<Country_Name>Thailand</Country_Name>
 				<Country_ISO2>TH</Country_ISO2>
 				<Country_ISO3>THA</Country_ISO3>
-				<Country_Region>Asia & Pacific</Country_Region>
+				<Country_Region>Asia &#38; Pacific</Country_Region>
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>Yes</Forced_Labor>
 			</Country>
@@ -1022,7 +1022,7 @@
 				<Country_Name>Bangladesh</Country_Name>
 				<Country_ISO2>BD</Country_ISO2>
 				<Country_ISO3>BGD</Country_ISO3>
-				<Country_Region>Asia & Pacific</Country_Region>
+				<Country_Region>Asia &#38; Pacific</Country_Region>
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 			</Country>
@@ -1036,7 +1036,7 @@
 				<Country_Name>Bangladesh</Country_Name>
 				<Country_ISO2>BD</Country_ISO2>
 				<Country_ISO3>BGD</Country_ISO3>
-				<Country_Region>Asia & Pacific</Country_Region>
+				<Country_Region>Asia &#38; Pacific</Country_Region>
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 			</Country>
@@ -1044,7 +1044,7 @@
 				<Country_Name>Cambodia</Country_Name>
 				<Country_ISO2>KH</Country_ISO2>
 				<Country_ISO3>KHM</Country_ISO3>
-				<Country_Region>Asia & Pacific</Country_Region>
+				<Country_Region>Asia &#38; Pacific</Country_Region>
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 			</Country>
@@ -1052,7 +1052,7 @@
 				<Country_Name>China</Country_Name>
 				<Country_ISO2>CN</Country_ISO2>
 				<Country_ISO3>CHN</Country_ISO3>
-				<Country_Region>Asia & Pacific</Country_Region>
+				<Country_Region>Asia &#38; Pacific</Country_Region>
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 			</Country>
@@ -1060,7 +1060,7 @@
 				<Country_Name>North Korea</Country_Name>
 				<Country_ISO2>KP</Country_ISO2>
 				<Country_ISO3>PRK</Country_ISO3>
-				<Country_Region>Asia & Pacific</Country_Region>
+				<Country_Region>Asia &#38; Pacific</Country_Region>
 				<Child_Labor>No</Child_Labor>
 				<Forced_Labor>Yes</Forced_Labor>
 			</Country>
@@ -1074,7 +1074,7 @@
 				<Country_Name>Bangladesh</Country_Name>
 				<Country_ISO2>BD</Country_ISO2>
 				<Country_ISO3>BGD</Country_ISO3>
-				<Country_Region>Asia & Pacific</Country_Region>
+				<Country_Region>Asia &#38; Pacific</Country_Region>
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 			</Country>
@@ -1088,7 +1088,7 @@
 				<Country_Name>Belize</Country_Name>
 				<Country_ISO2>BZ</Country_ISO2>
 				<Country_ISO3>BLZ</Country_ISO3>
-				<Country_Region>Latin America & Caribbean</Country_Region>
+				<Country_Region>Latin America &#38; Caribbean</Country_Region>
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 			</Country>
@@ -1096,7 +1096,7 @@
 				<Country_Name>Ecuador</Country_Name>
 				<Country_ISO2>EC</Country_ISO2>
 				<Country_ISO3>ECU</Country_ISO3>
-				<Country_Region>Latin America & Caribbean</Country_Region>
+				<Country_Region>Latin America &#38; Caribbean</Country_Region>
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 			</Country>
@@ -1104,7 +1104,7 @@
 				<Country_Name>Nicaragua</Country_Name>
 				<Country_ISO2>NI</Country_ISO2>
 				<Country_ISO3>NIC</Country_ISO3>
-				<Country_Region>Latin America & Caribbean</Country_Region>
+				<Country_Region>Latin America &#38; Caribbean</Country_Region>
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 			</Country>
@@ -1112,7 +1112,7 @@
 				<Country_Name>Philippines</Country_Name>
 				<Country_ISO2>PH</Country_ISO2>
 				<Country_ISO3>PHL</Country_ISO3>
-				<Country_Region>Asia & Pacific</Country_Region>
+				<Country_Region>Asia &#38; Pacific</Country_Region>
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 			</Country>
@@ -1126,7 +1126,7 @@
 				<Country_Name>Belize</Country_Name>
 				<Country_ISO2>BZ</Country_ISO2>
 				<Country_ISO3>BLZ</Country_ISO3>
-				<Country_Region>Latin America & Caribbean</Country_Region>
+				<Country_Region>Latin America &#38; Caribbean</Country_Region>
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 			</Country>
@@ -1134,7 +1134,7 @@
 				<Country_Name>Turkey</Country_Name>
 				<Country_ISO2>TR</Country_ISO2>
 				<Country_ISO3>TUR</Country_ISO3>
-				<Country_Region>Europe & Eurasia</Country_Region>
+				<Country_Region>Europe &#38; Eurasia</Country_Region>
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 			</Country>
@@ -1148,7 +1148,7 @@
 				<Country_Name>Belize</Country_Name>
 				<Country_ISO2>BZ</Country_ISO2>
 				<Country_ISO3>BLZ</Country_ISO3>
-				<Country_Region>Latin America & Caribbean</Country_Region>
+				<Country_Region>Latin America &#38; Caribbean</Country_Region>
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 			</Country>
@@ -1156,7 +1156,7 @@
 				<Country_Name>Bolivia</Country_Name>
 				<Country_ISO2>BO</Country_ISO2>
 				<Country_ISO3>BOL</Country_ISO3>
-				<Country_Region>Latin America & Caribbean</Country_Region>
+				<Country_Region>Latin America &#38; Caribbean</Country_Region>
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>Yes</Forced_Labor>
 			</Country>
@@ -1164,7 +1164,7 @@
 				<Country_Name>Brazil</Country_Name>
 				<Country_ISO2>BR</Country_ISO2>
 				<Country_ISO3>BRA</Country_ISO3>
-				<Country_Region>Latin America & Caribbean</Country_Region>
+				<Country_Region>Latin America &#38; Caribbean</Country_Region>
 				<Child_Labor>No</Child_Labor>
 				<Forced_Labor>Yes</Forced_Labor>
 			</Country>
@@ -1172,7 +1172,7 @@
 				<Country_Name>Burma</Country_Name>
 				<Country_ISO2>BU</Country_ISO2>
 				<Country_ISO3>BUR</Country_ISO3>
-				<Country_Region>Asia & Pacific</Country_Region>
+				<Country_Region>Asia &#38; Pacific</Country_Region>
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>Yes</Forced_Labor>
 			</Country>
@@ -1180,7 +1180,7 @@
 				<Country_Name>Colombia</Country_Name>
 				<Country_ISO2>CO</Country_ISO2>
 				<Country_ISO3>COL</Country_ISO3>
-				<Country_Region>Latin America & Caribbean</Country_Region>
+				<Country_Region>Latin America &#38; Caribbean</Country_Region>
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 			</Country>
@@ -1188,7 +1188,7 @@
 				<Country_Name>Dominican Republic</Country_Name>
 				<Country_ISO2>DO</Country_ISO2>
 				<Country_ISO3>DOM</Country_ISO3>
-				<Country_Region>Latin America & Caribbean</Country_Region>
+				<Country_Region>Latin America &#38; Caribbean</Country_Region>
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>Yes</Forced_Labor>
 			</Country>
@@ -1196,7 +1196,7 @@
 				<Country_Name>El Salvador</Country_Name>
 				<Country_ISO2>SV</Country_ISO2>
 				<Country_ISO3>SLV</Country_ISO3>
-				<Country_Region>Latin America & Caribbean</Country_Region>
+				<Country_Region>Latin America &#38; Caribbean</Country_Region>
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 			</Country>
@@ -1204,7 +1204,7 @@
 				<Country_Name>Guatemala</Country_Name>
 				<Country_ISO2>GT</Country_ISO2>
 				<Country_ISO3>GTM</Country_ISO3>
-				<Country_Region>Latin America & Caribbean</Country_Region>
+				<Country_Region>Latin America &#38; Caribbean</Country_Region>
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 			</Country>
@@ -1212,7 +1212,7 @@
 				<Country_Name>India</Country_Name>
 				<Country_ISO2>IN</Country_ISO2>
 				<Country_ISO3>IND</Country_ISO3>
-				<Country_Region>Asia & Pacific</Country_Region>
+				<Country_Region>Asia &#38; Pacific</Country_Region>
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 			</Country>
@@ -1228,7 +1228,7 @@
 				<Country_Name>Mexico</Country_Name>
 				<Country_ISO2>MX</Country_ISO2>
 				<Country_ISO3>MEX</Country_ISO3>
-				<Country_Region>Latin America & Caribbean</Country_Region>
+				<Country_Region>Latin America &#38; Caribbean</Country_Region>
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 			</Country>
@@ -1236,7 +1236,7 @@
 				<Country_Name>Pakistan</Country_Name>
 				<Country_ISO2>PK</Country_ISO2>
 				<Country_ISO3>PAK</Country_ISO3>
-				<Country_Region>Asia & Pacific</Country_Region>
+				<Country_Region>Asia &#38; Pacific</Country_Region>
 				<Child_Labor>No</Child_Labor>
 				<Forced_Labor>Yes</Forced_Labor>
 			</Country>
@@ -1244,7 +1244,7 @@
 				<Country_Name>Panama</Country_Name>
 				<Country_ISO2>PA</Country_ISO2>
 				<Country_ISO3>PAN</Country_ISO3>
-				<Country_Region>Latin America & Caribbean</Country_Region>
+				<Country_Region>Latin America &#38; Caribbean</Country_Region>
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 			</Country>
@@ -1252,7 +1252,7 @@
 				<Country_Name>Paraguay</Country_Name>
 				<Country_ISO2>PY</Country_ISO2>
 				<Country_ISO3>PRY</Country_ISO3>
-				<Country_Region>Latin America & Caribbean</Country_Region>
+				<Country_Region>Latin America &#38; Caribbean</Country_Region>
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 			</Country>
@@ -1260,7 +1260,7 @@
 				<Country_Name>Philippines</Country_Name>
 				<Country_ISO2>PH</Country_ISO2>
 				<Country_ISO3>PHL</Country_ISO3>
-				<Country_Region>Asia & Pacific</Country_Region>
+				<Country_Region>Asia &#38; Pacific</Country_Region>
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 			</Country>
@@ -1268,7 +1268,7 @@
 				<Country_Name>Thailand</Country_Name>
 				<Country_ISO2>TH</Country_ISO2>
 				<Country_ISO3>THA</Country_ISO3>
-				<Country_Region>Asia & Pacific</Country_Region>
+				<Country_Region>Asia &#38; Pacific</Country_Region>
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 			</Country>
@@ -1304,7 +1304,7 @@
 				<Country_Name>Bolivia</Country_Name>
 				<Country_ISO2>BO</Country_ISO2>
 				<Country_ISO3>BOL</Country_ISO3>
-				<Country_Region>Latin America & Caribbean</Country_Region>
+				<Country_Region>Latin America &#38; Caribbean</Country_Region>
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>Yes</Forced_Labor>
 			</Country>
@@ -1312,7 +1312,7 @@
 				<Country_Name>Peru</Country_Name>
 				<Country_ISO2>PE</Country_ISO2>
 				<Country_ISO3>PER</Country_ISO3>
-				<Country_Region>Latin America & Caribbean</Country_Region>
+				<Country_Region>Latin America &#38; Caribbean</Country_Region>
 				<Child_Labor>No</Child_Labor>
 				<Forced_Labor>Yes</Forced_Labor>
 			</Country>
@@ -1326,7 +1326,7 @@
 				<Country_Name>Bolivia</Country_Name>
 				<Country_ISO2>BO</Country_ISO2>
 				<Country_ISO3>BOL</Country_ISO3>
-				<Country_Region>Latin America & Caribbean</Country_Region>
+				<Country_Region>Latin America &#38; Caribbean</Country_Region>
 				<Child_Labor>No</Child_Labor>
 				<Forced_Labor>Yes</Forced_Labor>
 			</Country>
@@ -1334,7 +1334,7 @@
 				<Country_Name>Brazil</Country_Name>
 				<Country_ISO2>BR</Country_ISO2>
 				<Country_ISO3>BRA</Country_ISO3>
-				<Country_Region>Latin America & Caribbean</Country_Region>
+				<Country_Region>Latin America &#38; Caribbean</Country_Region>
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>Yes</Forced_Labor>
 			</Country>
@@ -1390,7 +1390,7 @@
 				<Country_Name>Paraguay</Country_Name>
 				<Country_ISO2>PY</Country_ISO2>
 				<Country_ISO3>PRY</Country_ISO3>
-				<Country_Region>Latin America & Caribbean</Country_Region>
+				<Country_Region>Latin America &#38; Caribbean</Country_Region>
 				<Child_Labor>No</Child_Labor>
 				<Forced_Labor>Yes</Forced_Labor>
 			</Country>
@@ -1428,7 +1428,7 @@
 				<Country_Name>Bolivia</Country_Name>
 				<Country_ISO2>BO</Country_ISO2>
 				<Country_ISO3>BOL</Country_ISO3>
-				<Country_Region>Latin America & Caribbean</Country_Region>
+				<Country_Region>Latin America &#38; Caribbean</Country_Region>
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>Yes</Forced_Labor>
 			</Country>
@@ -1436,7 +1436,7 @@
 				<Country_Name>Guatemala</Country_Name>
 				<Country_ISO2>GT</Country_ISO2>
 				<Country_ISO3>GTM</Country_ISO3>
-				<Country_Region>Latin America & Caribbean</Country_Region>
+				<Country_Region>Latin America &#38; Caribbean</Country_Region>
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 			</Country>
@@ -1444,7 +1444,7 @@
 				<Country_Name>Philippines</Country_Name>
 				<Country_ISO2>PH</Country_ISO2>
 				<Country_ISO3>PHL</Country_ISO3>
-				<Country_Region>Asia & Pacific</Country_Region>
+				<Country_Region>Asia &#38; Pacific</Country_Region>
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 			</Country>
@@ -1458,7 +1458,7 @@
 				<Country_Name>Bolivia</Country_Name>
 				<Country_ISO2>BO</Country_ISO2>
 				<Country_ISO3>BOL</Country_ISO3>
-				<Country_Region>Latin America & Caribbean</Country_Region>
+				<Country_Region>Latin America &#38; Caribbean</Country_Region>
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 			</Country>
@@ -1474,7 +1474,7 @@
 				<Country_Name>Colombia</Country_Name>
 				<Country_ISO2>CO</Country_ISO2>
 				<Country_ISO3>COL</Country_ISO3>
-				<Country_Region>Latin America & Caribbean</Country_Region>
+				<Country_Region>Latin America &#38; Caribbean</Country_Region>
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 			</Country>
@@ -1490,7 +1490,7 @@
 				<Country_Name>Ecuador</Country_Name>
 				<Country_ISO2>EC</Country_ISO2>
 				<Country_ISO3>ECU</Country_ISO3>
-				<Country_Region>Latin America & Caribbean</Country_Region>
+				<Country_Region>Latin America &#38; Caribbean</Country_Region>
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 			</Country>
@@ -1522,7 +1522,7 @@
 				<Country_Name>Indonesia</Country_Name>
 				<Country_ISO2>ID</Country_ISO2>
 				<Country_ISO3>IDN</Country_ISO3>
-				<Country_Region>Asia & Pacific</Country_Region>
+				<Country_Region>Asia &#38; Pacific</Country_Region>
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 			</Country>
@@ -1538,7 +1538,7 @@
 				<Country_Name>Mongolia</Country_Name>
 				<Country_ISO2>MN</Country_ISO2>
 				<Country_ISO3>MNG</Country_ISO3>
-				<Country_Region>Asia & Pacific</Country_Region>
+				<Country_Region>Asia &#38; Pacific</Country_Region>
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 			</Country>
@@ -1546,7 +1546,7 @@
 				<Country_Name>Nicaragua</Country_Name>
 				<Country_ISO2>NI</Country_ISO2>
 				<Country_ISO3>NIC</Country_ISO3>
-				<Country_Region>Latin America & Caribbean</Country_Region>
+				<Country_Region>Latin America &#38; Caribbean</Country_Region>
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 			</Country>
@@ -1562,7 +1562,7 @@
 				<Country_Name>North Korea</Country_Name>
 				<Country_ISO2>KP</Country_ISO2>
 				<Country_ISO3>PRK</Country_ISO3>
-				<Country_Region>Asia & Pacific</Country_Region>
+				<Country_Region>Asia &#38; Pacific</Country_Region>
 				<Child_Labor>No</Child_Labor>
 				<Forced_Labor>Yes</Forced_Labor>
 			</Country>
@@ -1570,7 +1570,7 @@
 				<Country_Name>Peru</Country_Name>
 				<Country_ISO2>PE</Country_ISO2>
 				<Country_ISO3>PER</Country_ISO3>
-				<Country_Region>Latin America & Caribbean</Country_Region>
+				<Country_Region>Latin America &#38; Caribbean</Country_Region>
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>Yes</Forced_Labor>
 			</Country>
@@ -1578,7 +1578,7 @@
 				<Country_Name>Philippines</Country_Name>
 				<Country_ISO2>PH</Country_ISO2>
 				<Country_ISO3>PHL</Country_ISO3>
-				<Country_Region>Asia & Pacific</Country_Region>
+				<Country_Region>Asia &#38; Pacific</Country_Region>
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 			</Country>
@@ -1594,7 +1594,7 @@
 				<Country_Name>Suriname</Country_Name>
 				<Country_ISO2>SR</Country_ISO2>
 				<Country_ISO3>SUR</Country_ISO3>
-				<Country_Region>Latin America & Caribbean</Country_Region>
+				<Country_Region>Latin America &#38; Caribbean</Country_Region>
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 			</Country>
@@ -1616,7 +1616,7 @@
 				<Country_Name>Bolivia</Country_Name>
 				<Country_ISO2>BO</Country_ISO2>
 				<Country_ISO3>BOL</Country_ISO3>
-				<Country_Region>Latin America & Caribbean</Country_Region>
+				<Country_Region>Latin America &#38; Caribbean</Country_Region>
 				<Child_Labor>No</Child_Labor>
 				<Forced_Labor>Yes</Forced_Labor>
 			</Country>
@@ -1624,7 +1624,7 @@
 				<Country_Name>Turkey</Country_Name>
 				<Country_ISO2>TR</Country_ISO2>
 				<Country_ISO3>TUR</Country_ISO3>
-				<Country_Region>Europe & Eurasia</Country_Region>
+				<Country_Region>Europe &#38; Eurasia</Country_Region>
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 			</Country>
@@ -1638,7 +1638,7 @@
 				<Country_Name>Bolivia</Country_Name>
 				<Country_ISO2>BO</Country_ISO2>
 				<Country_ISO3>BOL</Country_ISO3>
-				<Country_Region>Latin America & Caribbean</Country_Region>
+				<Country_Region>Latin America &#38; Caribbean</Country_Region>
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 			</Country>
@@ -1652,7 +1652,7 @@
 				<Country_Name>Bolivia</Country_Name>
 				<Country_ISO2>BO</Country_ISO2>
 				<Country_ISO3>BOL</Country_ISO3>
-				<Country_Region>Latin America & Caribbean</Country_Region>
+				<Country_Region>Latin America &#38; Caribbean</Country_Region>
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 			</Country>
@@ -1666,7 +1666,7 @@
 				<Country_Name>Bolivia</Country_Name>
 				<Country_ISO2>BO</Country_ISO2>
 				<Country_ISO3>BOL</Country_ISO3>
-				<Country_Region>Latin America & Caribbean</Country_Region>
+				<Country_Region>Latin America &#38; Caribbean</Country_Region>
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 			</Country>
@@ -1680,7 +1680,7 @@
 				<Country_Name>Brazil</Country_Name>
 				<Country_ISO2>BR</Country_ISO2>
 				<Country_ISO3>BRA</Country_ISO3>
-				<Country_Region>Latin America & Caribbean</Country_Region>
+				<Country_Region>Latin America &#38; Caribbean</Country_Region>
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 			</Country>
@@ -1694,7 +1694,7 @@
 				<Country_Name>Brazil</Country_Name>
 				<Country_ISO2>BR</Country_ISO2>
 				<Country_ISO3>BRA</Country_ISO3>
-				<Country_Region>Latin America & Caribbean</Country_Region>
+				<Country_Region>Latin America &#38; Caribbean</Country_Region>
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 			</Country>
@@ -1716,7 +1716,7 @@
 				<Country_Name>Brazil</Country_Name>
 				<Country_ISO2>BR</Country_ISO2>
 				<Country_ISO3>BRA</Country_ISO3>
-				<Country_Region>Latin America & Caribbean</Country_Region>
+				<Country_Region>Latin America &#38; Caribbean</Country_Region>
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 			</Country>
@@ -1730,7 +1730,7 @@
 				<Country_Name>Brazil</Country_Name>
 				<Country_ISO2>BR</Country_ISO2>
 				<Country_ISO3>BRA</Country_ISO3>
-				<Country_Region>Latin America & Caribbean</Country_Region>
+				<Country_Region>Latin America &#38; Caribbean</Country_Region>
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>Yes</Forced_Labor>
 			</Country>
@@ -1752,7 +1752,7 @@
 				<Country_Name>Brazil</Country_Name>
 				<Country_ISO2>BR</Country_ISO2>
 				<Country_ISO3>BRA</Country_ISO3>
-				<Country_Region>Latin America & Caribbean</Country_Region>
+				<Country_Region>Latin America &#38; Caribbean</Country_Region>
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 			</Country>
@@ -1760,7 +1760,7 @@
 				<Country_Name>Cambodia</Country_Name>
 				<Country_ISO2>KH</Country_ISO2>
 				<Country_ISO3>KHM</Country_ISO3>
-				<Country_Region>Asia & Pacific</Country_Region>
+				<Country_Region>Asia &#38; Pacific</Country_Region>
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 			</Country>
@@ -1782,7 +1782,7 @@
 				<Country_Name>Brazil</Country_Name>
 				<Country_ISO2>BR</Country_ISO2>
 				<Country_ISO3>BRA</Country_ISO3>
-				<Country_Region>Latin America & Caribbean</Country_Region>
+				<Country_Region>Latin America &#38; Caribbean</Country_Region>
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 			</Country>
@@ -1796,7 +1796,7 @@
 				<Country_Name>Brazil</Country_Name>
 				<Country_ISO2>BR</Country_ISO2>
 				<Country_ISO3>BRA</Country_ISO3>
-				<Country_Region>Latin America & Caribbean</Country_Region>
+				<Country_Region>Latin America &#38; Caribbean</Country_Region>
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 			</Country>
@@ -1804,7 +1804,7 @@
 				<Country_Name>Burma</Country_Name>
 				<Country_ISO2>BU</Country_ISO2>
 				<Country_ISO3>BUR</Country_ISO3>
-				<Country_Region>Asia & Pacific</Country_Region>
+				<Country_Region>Asia &#38; Pacific</Country_Region>
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>Yes</Forced_Labor>
 			</Country>
@@ -1812,7 +1812,7 @@
 				<Country_Name>Dominican Republic</Country_Name>
 				<Country_ISO2>DO</Country_ISO2>
 				<Country_ISO3>DOM</Country_ISO3>
-				<Country_Region>Latin America & Caribbean</Country_Region>
+				<Country_Region>Latin America &#38; Caribbean</Country_Region>
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 			</Country>
@@ -1820,7 +1820,7 @@
 				<Country_Name>India</Country_Name>
 				<Country_ISO2>IN</Country_ISO2>
 				<Country_ISO3>IND</Country_ISO3>
-				<Country_Region>Asia & Pacific</Country_Region>
+				<Country_Region>Asia &#38; Pacific</Country_Region>
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>Yes</Forced_Labor>
 			</Country>
@@ -1844,7 +1844,7 @@
 				<Country_Name>Philippines</Country_Name>
 				<Country_ISO2>PH</Country_ISO2>
 				<Country_ISO3>PHL</Country_ISO3>
-				<Country_Region>Asia & Pacific</Country_Region>
+				<Country_Region>Asia &#38; Pacific</Country_Region>
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 			</Country>
@@ -1866,7 +1866,7 @@
 				<Country_Name>Brazil</Country_Name>
 				<Country_ISO2>BR</Country_ISO2>
 				<Country_ISO3>BRA</Country_ISO3>
-				<Country_Region>Latin America & Caribbean</Country_Region>
+				<Country_Region>Latin America &#38; Caribbean</Country_Region>
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 			</Country>
@@ -1896,7 +1896,7 @@
 				<Country_Name>Brazil</Country_Name>
 				<Country_ISO2>BR</Country_ISO2>
 				<Country_ISO3>BRA</Country_ISO3>
-				<Country_Region>Latin America & Caribbean</Country_Region>
+				<Country_Region>Latin America &#38; Caribbean</Country_Region>
 				<Child_Labor>No</Child_Labor>
 				<Forced_Labor>Yes</Forced_Labor>
 			</Country>
@@ -1904,7 +1904,7 @@
 				<Country_Name>Cambodia</Country_Name>
 				<Country_ISO2>KH</Country_ISO2>
 				<Country_ISO3>KHM</Country_ISO3>
-				<Country_Region>Asia & Pacific</Country_Region>
+				<Country_Region>Asia &#38; Pacific</Country_Region>
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 			</Country>
@@ -1912,7 +1912,7 @@
 				<Country_Name>North Korea</Country_Name>
 				<Country_ISO2>KP</Country_ISO2>
 				<Country_ISO3>PRK</Country_ISO3>
-				<Country_Region>Asia & Pacific</Country_Region>
+				<Country_Region>Asia &#38; Pacific</Country_Region>
 				<Child_Labor>No</Child_Labor>
 				<Forced_Labor>Yes</Forced_Labor>
 			</Country>
@@ -1920,7 +1920,7 @@
 				<Country_Name>Peru</Country_Name>
 				<Country_ISO2>PE</Country_ISO2>
 				<Country_ISO3>PER</Country_ISO3>
-				<Country_Region>Latin America & Caribbean</Country_Region>
+				<Country_Region>Latin America &#38; Caribbean</Country_Region>
 				<Child_Labor>No</Child_Labor>
 				<Forced_Labor>Yes</Forced_Labor>
 			</Country>
@@ -1934,7 +1934,7 @@
 				<Country_Name>Burma</Country_Name>
 				<Country_ISO2>BU</Country_ISO2>
 				<Country_ISO3>BUR</Country_ISO3>
-				<Country_Region>Asia & Pacific</Country_Region>
+				<Country_Region>Asia &#38; Pacific</Country_Region>
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>Yes</Forced_Labor>
 			</Country>
@@ -1948,7 +1948,7 @@
 				<Country_Name>Burma</Country_Name>
 				<Country_ISO2>BU</Country_ISO2>
 				<Country_ISO3>BUR</Country_ISO3>
-				<Country_Region>Asia & Pacific</Country_Region>
+				<Country_Region>Asia &#38; Pacific</Country_Region>
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>Yes</Forced_Labor>
 			</Country>
@@ -1962,7 +1962,7 @@
 				<Country_Name>Burma</Country_Name>
 				<Country_ISO2>BU</Country_ISO2>
 				<Country_ISO3>BUR</Country_ISO3>
-				<Country_Region>Asia & Pacific</Country_Region>
+				<Country_Region>Asia &#38; Pacific</Country_Region>
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>Yes</Forced_Labor>
 			</Country>
@@ -1976,7 +1976,7 @@
 				<Country_Name>Burma</Country_Name>
 				<Country_ISO2>BU</Country_ISO2>
 				<Country_ISO3>BUR</Country_ISO3>
-				<Country_Region>Asia & Pacific</Country_Region>
+				<Country_Region>Asia &#38; Pacific</Country_Region>
 				<Child_Labor>No</Child_Labor>
 				<Forced_Labor>Yes</Forced_Labor>
 			</Country>
@@ -1990,7 +1990,7 @@
 				<Country_Name>Burma</Country_Name>
 				<Country_ISO2>BU</Country_ISO2>
 				<Country_ISO3>BUR</Country_ISO3>
-				<Country_Region>Asia & Pacific</Country_Region>
+				<Country_Region>Asia &#38; Pacific</Country_Region>
 				<Child_Labor>No</Child_Labor>
 				<Forced_Labor>Yes</Forced_Labor>
 			</Country>
@@ -2004,7 +2004,7 @@
 				<Country_Name>Burma</Country_Name>
 				<Country_ISO2>BU</Country_ISO2>
 				<Country_ISO3>BUR</Country_ISO3>
-				<Country_Region>Asia & Pacific</Country_Region>
+				<Country_Region>Asia &#38; Pacific</Country_Region>
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>Yes</Forced_Labor>
 			</Country>
@@ -2012,7 +2012,7 @@
 				<Country_Name>Cambodia</Country_Name>
 				<Country_ISO2>KH</Country_ISO2>
 				<Country_ISO3>KHM</Country_ISO3>
-				<Country_Region>Asia & Pacific</Country_Region>
+				<Country_Region>Asia &#38; Pacific</Country_Region>
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 			</Country>
@@ -2020,7 +2020,7 @@
 				<Country_Name>Indonesia</Country_Name>
 				<Country_ISO2>ID</Country_ISO2>
 				<Country_ISO3>IDN</Country_ISO3>
-				<Country_Region>Asia & Pacific</Country_Region>
+				<Country_Region>Asia &#38; Pacific</Country_Region>
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 			</Country>
@@ -2036,7 +2036,7 @@
 				<Country_Name>Philippines</Country_Name>
 				<Country_ISO2>PH</Country_ISO2>
 				<Country_ISO3>PHL</Country_ISO3>
-				<Country_Region>Asia & Pacific</Country_Region>
+				<Country_Region>Asia &#38; Pacific</Country_Region>
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 			</Country>
@@ -2050,7 +2050,7 @@
 				<Country_Name>Burma</Country_Name>
 				<Country_ISO2>BU</Country_ISO2>
 				<Country_ISO3>BUR</Country_ISO3>
-				<Country_Region>Asia & Pacific</Country_Region>
+				<Country_Region>Asia &#38; Pacific</Country_Region>
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>Yes</Forced_Labor>
 			</Country>
@@ -2064,7 +2064,7 @@
 				<Country_Name>Burma</Country_Name>
 				<Country_ISO2>BU</Country_ISO2>
 				<Country_ISO3>BUR</Country_ISO3>
-				<Country_Region>Asia & Pacific</Country_Region>
+				<Country_Region>Asia &#38; Pacific</Country_Region>
 				<Child_Labor>No</Child_Labor>
 				<Forced_Labor>Yes</Forced_Labor>
 			</Country>
@@ -2078,7 +2078,7 @@
 				<Country_Name>Burma</Country_Name>
 				<Country_ISO2>BU</Country_ISO2>
 				<Country_ISO3>BUR</Country_ISO3>
-				<Country_Region>Asia & Pacific</Country_Region>
+				<Country_Region>Asia &#38; Pacific</Country_Region>
 				<Child_Labor>No</Child_Labor>
 				<Forced_Labor>Yes</Forced_Labor>
 			</Country>
@@ -2092,7 +2092,7 @@
 				<Country_Name>Burma</Country_Name>
 				<Country_ISO2>BU</Country_ISO2>
 				<Country_ISO3>BUR</Country_ISO3>
-				<Country_Region>Asia & Pacific</Country_Region>
+				<Country_Region>Asia &#38; Pacific</Country_Region>
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>Yes</Forced_Labor>
 			</Country>
@@ -2106,7 +2106,7 @@
 				<Country_Name>Cambodia</Country_Name>
 				<Country_ISO2>KH</Country_ISO2>
 				<Country_ISO3>KHM</Country_ISO3>
-				<Country_Region>Asia & Pacific</Country_Region>
+				<Country_Region>Asia &#38; Pacific</Country_Region>
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 			</Country>
@@ -2120,7 +2120,7 @@
 				<Country_Name>Cambodia</Country_Name>
 				<Country_ISO2>KH</Country_ISO2>
 				<Country_ISO3>KHM</Country_ISO3>
-				<Country_Region>Asia & Pacific</Country_Region>
+				<Country_Region>Asia &#38; Pacific</Country_Region>
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 			</Country>
@@ -2136,7 +2136,7 @@
 				<Country_Name>Indonesia</Country_Name>
 				<Country_ISO2>ID</Country_ISO2>
 				<Country_ISO3>IDN</Country_ISO3>
-				<Country_Region>Asia & Pacific</Country_Region>
+				<Country_Region>Asia &#38; Pacific</Country_Region>
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 			</Country>
@@ -2152,7 +2152,7 @@
 				<Country_Name>Peru</Country_Name>
 				<Country_ISO2>PE</Country_ISO2>
 				<Country_ISO3>PER</Country_ISO3>
-				<Country_Region>Latin America & Caribbean</Country_Region>
+				<Country_Region>Latin America &#38; Caribbean</Country_Region>
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 			</Country>
@@ -2160,7 +2160,7 @@
 				<Country_Name>Philippines</Country_Name>
 				<Country_ISO2>PH</Country_ISO2>
 				<Country_ISO3>PHL</Country_ISO3>
-				<Country_Region>Asia & Pacific</Country_Region>
+				<Country_Region>Asia &#38; Pacific</Country_Region>
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 			</Country>
@@ -2168,7 +2168,7 @@
 				<Country_Name>Thailand</Country_Name>
 				<Country_ISO2>TH</Country_ISO2>
 				<Country_ISO3>THA</Country_ISO3>
-				<Country_Region>Asia & Pacific</Country_Region>
+				<Country_Region>Asia &#38; Pacific</Country_Region>
 				<Child_Labor>No</Child_Labor>
 				<Forced_Labor>Yes</Forced_Labor>
 			</Country>
@@ -2184,7 +2184,7 @@
 				<Country_Name>Yemen</Country_Name>
 				<Country_ISO2>YE</Country_ISO2>
 				<Country_ISO3>YEM</Country_ISO3>
-				<Country_Region>Middle East & North Africa</Country_Region>
+				<Country_Region>Middle East &#38; North Africa</Country_Region>
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 			</Country>
@@ -2198,7 +2198,7 @@
 				<Country_Name>Cambodia</Country_Name>
 				<Country_ISO2>KH</Country_ISO2>
 				<Country_ISO3>KHM</Country_ISO3>
-				<Country_Region>Asia & Pacific</Country_Region>
+				<Country_Region>Asia &#38; Pacific</Country_Region>
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 			</Country>
@@ -2266,7 +2266,7 @@
 				<Country_Name>China</Country_Name>
 				<Country_ISO2>CN</Country_ISO2>
 				<Country_ISO3>CHN</Country_ISO3>
-				<Country_Region>Asia & Pacific</Country_Region>
+				<Country_Region>Asia &#38; Pacific</Country_Region>
 				<Child_Labor>No</Child_Labor>
 				<Forced_Labor>Yes</Forced_Labor>
 			</Country>
@@ -2280,7 +2280,7 @@
 				<Country_Name>China</Country_Name>
 				<Country_ISO2>CN</Country_ISO2>
 				<Country_ISO3>CHN</Country_ISO3>
-				<Country_Region>Asia & Pacific</Country_Region>
+				<Country_Region>Asia &#38; Pacific</Country_Region>
 				<Child_Labor>No</Child_Labor>
 				<Forced_Labor>Yes</Forced_Labor>
 			</Country>
@@ -2294,7 +2294,7 @@
 				<Country_Name>China</Country_Name>
 				<Country_ISO2>CN</Country_ISO2>
 				<Country_ISO3>CHN</Country_ISO3>
-				<Country_Region>Asia & Pacific</Country_Region>
+				<Country_Region>Asia &#38; Pacific</Country_Region>
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>Yes</Forced_Labor>
 			</Country>
@@ -2302,7 +2302,7 @@
 				<Country_Name>Malaysia</Country_Name>
 				<Country_ISO2>MY</Country_ISO2>
 				<Country_ISO3>MYS</Country_ISO3>
-				<Country_Region>Asia & Pacific</Country_Region>
+				<Country_Region>Asia &#38; Pacific</Country_Region>
 				<Child_Labor>No</Child_Labor>
 				<Forced_Labor>Yes</Forced_Labor>
 			</Country>
@@ -2316,7 +2316,7 @@
 				<Country_Name>China</Country_Name>
 				<Country_ISO2>CN</Country_ISO2>
 				<Country_ISO3>CHN</Country_ISO3>
-				<Country_Region>Asia & Pacific</Country_Region>
+				<Country_Region>Asia &#38; Pacific</Country_Region>
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>Yes</Forced_Labor>
 			</Country>
@@ -2324,7 +2324,7 @@
 				<Country_Name>El Salvador</Country_Name>
 				<Country_ISO2>SV</Country_ISO2>
 				<Country_ISO3>SLV</Country_ISO3>
-				<Country_Region>Latin America & Caribbean</Country_Region>
+				<Country_Region>Latin America &#38; Caribbean</Country_Region>
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 			</Country>
@@ -2332,7 +2332,7 @@
 				<Country_Name>Guatemala</Country_Name>
 				<Country_ISO2>GT</Country_ISO2>
 				<Country_ISO3>GTM</Country_ISO3>
-				<Country_Region>Latin America & Caribbean</Country_Region>
+				<Country_Region>Latin America &#38; Caribbean</Country_Region>
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 			</Country>
@@ -2340,7 +2340,7 @@
 				<Country_Name>India</Country_Name>
 				<Country_ISO2>IN</Country_ISO2>
 				<Country_ISO3>IND</Country_ISO3>
-				<Country_Region>Asia & Pacific</Country_Region>
+				<Country_Region>Asia &#38; Pacific</Country_Region>
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 			</Country>
@@ -2348,7 +2348,7 @@
 				<Country_Name>Peru</Country_Name>
 				<Country_ISO2>PE</Country_ISO2>
 				<Country_ISO3>PER</Country_ISO3>
-				<Country_Region>Latin America & Caribbean</Country_Region>
+				<Country_Region>Latin America &#38; Caribbean</Country_Region>
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 			</Country>
@@ -2362,7 +2362,7 @@
 				<Country_Name>China</Country_Name>
 				<Country_ISO2>CN</Country_ISO2>
 				<Country_ISO3>CHN</Country_ISO3>
-				<Country_Region>Asia & Pacific</Country_Region>
+				<Country_Region>Asia &#38; Pacific</Country_Region>
 				<Child_Labor>No</Child_Labor>
 				<Forced_Labor>Yes</Forced_Labor>
 			</Country>
@@ -2376,7 +2376,7 @@
 				<Country_Name>China</Country_Name>
 				<Country_ISO2>CN</Country_ISO2>
 				<Country_ISO3>CHN</Country_ISO3>
-				<Country_Region>Asia & Pacific</Country_Region>
+				<Country_Region>Asia &#38; Pacific</Country_Region>
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>Yes</Forced_Labor>
 			</Country>
@@ -2390,7 +2390,7 @@
 				<Country_Name>Colombia</Country_Name>
 				<Country_ISO2>CO</Country_ISO2>
 				<Country_ISO3>COL</Country_ISO3>
-				<Country_Region>Latin America & Caribbean</Country_Region>
+				<Country_Region>Latin America &#38; Caribbean</Country_Region>
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 			</Country>
@@ -2404,7 +2404,7 @@
 				<Country_Name>Colombia</Country_Name>
 				<Country_ISO2>CO</Country_ISO2>
 				<Country_ISO3>COL</Country_ISO3>
-				<Country_Region>Latin America & Caribbean</Country_Region>
+				<Country_Region>Latin America &#38; Caribbean</Country_Region>
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>Yes</Forced_Labor>
 			</Country>
@@ -2412,7 +2412,7 @@
 				<Country_Name>Peru</Country_Name>
 				<Country_ISO2>PE</Country_ISO2>
 				<Country_ISO3>PER</Country_ISO3>
-				<Country_Region>Latin America & Caribbean</Country_Region>
+				<Country_Region>Latin America &#38; Caribbean</Country_Region>
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 			</Country>
@@ -2426,7 +2426,7 @@
 				<Country_Name>Colombia</Country_Name>
 				<Country_ISO2>CO</Country_ISO2>
 				<Country_ISO3>COL</Country_ISO3>
-				<Country_Region>Latin America & Caribbean</Country_Region>
+				<Country_Region>Latin America &#38; Caribbean</Country_Region>
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 			</Country>
@@ -2442,7 +2442,7 @@
 				<Country_Name>Dominican Republic</Country_Name>
 				<Country_ISO2>DO</Country_ISO2>
 				<Country_ISO3>DOM</Country_ISO3>
-				<Country_Region>Latin America & Caribbean</Country_Region>
+				<Country_Region>Latin America &#38; Caribbean</Country_Region>
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 			</Country>
@@ -2450,7 +2450,7 @@
 				<Country_Name>El Salvador</Country_Name>
 				<Country_ISO2>SV</Country_ISO2>
 				<Country_ISO3>SLV</Country_ISO3>
-				<Country_Region>Latin America & Caribbean</Country_Region>
+				<Country_Region>Latin America &#38; Caribbean</Country_Region>
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 			</Country>
@@ -2458,7 +2458,7 @@
 				<Country_Name>Guatemala</Country_Name>
 				<Country_ISO2>GT</Country_ISO2>
 				<Country_ISO3>GTM</Country_ISO3>
-				<Country_Region>Latin America & Caribbean</Country_Region>
+				<Country_Region>Latin America &#38; Caribbean</Country_Region>
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 			</Country>
@@ -2474,7 +2474,7 @@
 				<Country_Name>Honduras</Country_Name>
 				<Country_ISO2>HN</Country_ISO2>
 				<Country_ISO3>HND</Country_ISO3>
-				<Country_Region>Latin America & Caribbean</Country_Region>
+				<Country_Region>Latin America &#38; Caribbean</Country_Region>
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 			</Country>
@@ -2490,7 +2490,7 @@
 				<Country_Name>Mexico</Country_Name>
 				<Country_ISO2>MX</Country_ISO2>
 				<Country_ISO3>MEX</Country_ISO3>
-				<Country_Region>Latin America & Caribbean</Country_Region>
+				<Country_Region>Latin America &#38; Caribbean</Country_Region>
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 			</Country>
@@ -2498,7 +2498,7 @@
 				<Country_Name>Nicaragua</Country_Name>
 				<Country_ISO2>NI</Country_ISO2>
 				<Country_ISO3>NIC</Country_ISO3>
-				<Country_Region>Latin America & Caribbean</Country_Region>
+				<Country_Region>Latin America &#38; Caribbean</Country_Region>
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 			</Country>
@@ -2506,7 +2506,7 @@
 				<Country_Name>Panama</Country_Name>
 				<Country_ISO2>PA</Country_ISO2>
 				<Country_ISO3>PAN</Country_ISO3>
-				<Country_Region>Latin America & Caribbean</Country_Region>
+				<Country_Region>Latin America &#38; Caribbean</Country_Region>
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 			</Country>
@@ -2544,7 +2544,7 @@
 				<Country_Name>Colombia</Country_Name>
 				<Country_ISO2>CO</Country_ISO2>
 				<Country_ISO3>COL</Country_ISO3>
-				<Country_Region>Latin America & Caribbean</Country_Region>
+				<Country_Region>Latin America &#38; Caribbean</Country_Region>
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 			</Country>
@@ -2558,7 +2558,7 @@
 				<Country_Name>Colombia</Country_Name>
 				<Country_ISO2>CO</Country_ISO2>
 				<Country_ISO3>COL</Country_ISO3>
-				<Country_Region>Latin America & Caribbean</Country_Region>
+				<Country_Region>Latin America &#38; Caribbean</Country_Region>
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 			</Country>
@@ -2566,7 +2566,7 @@
 				<Country_Name>Mexico</Country_Name>
 				<Country_ISO2>MX</Country_ISO2>
 				<Country_ISO3>MEX</Country_ISO3>
-				<Country_Region>Latin America & Caribbean</Country_Region>
+				<Country_Region>Latin America &#38; Caribbean</Country_Region>
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 			</Country>
@@ -2574,7 +2574,7 @@
 				<Country_Name>Paraguay</Country_Name>
 				<Country_ISO2>PY</Country_ISO2>
 				<Country_ISO3>PRY</Country_ISO3>
-				<Country_Region>Latin America & Caribbean</Country_Region>
+				<Country_Region>Latin America &#38; Caribbean</Country_Region>
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 			</Country>
@@ -2582,7 +2582,7 @@
 				<Country_Name>Philippines</Country_Name>
 				<Country_ISO2>PH</Country_ISO2>
 				<Country_ISO3>PHL</Country_ISO3>
-				<Country_Region>Asia & Pacific</Country_Region>
+				<Country_Region>Asia &#38; Pacific</Country_Region>
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 			</Country>
@@ -2590,7 +2590,7 @@
 				<Country_Name>Russia</Country_Name>
 				<Country_ISO2>RU</Country_ISO2>
 				<Country_ISO3>RUS</Country_ISO3>
-				<Country_Region>Europe & Eurasia</Country_Region>
+				<Country_Region>Europe &#38; Eurasia</Country_Region>
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>Yes</Forced_Labor>
 			</Country>
@@ -2598,7 +2598,7 @@
 				<Country_Name>Thailand</Country_Name>
 				<Country_ISO2>TH</Country_ISO2>
 				<Country_ISO3>THA</Country_ISO3>
-				<Country_Region>Asia & Pacific</Country_Region>
+				<Country_Region>Asia &#38; Pacific</Country_Region>
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 			</Country>
@@ -2606,7 +2606,7 @@
 				<Country_Name>Ukraine</Country_Name>
 				<Country_ISO2>UA</Country_ISO2>
 				<Country_ISO3>UKR</Country_ISO3>
-				<Country_Region>Europe & Eurasia</Country_Region>
+				<Country_Region>Europe &#38; Eurasia</Country_Region>
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 			</Country>
@@ -2690,7 +2690,7 @@
 				<Country_Name>Dominican Republic</Country_Name>
 				<Country_ISO2>DO</Country_ISO2>
 				<Country_ISO3>DOM</Country_ISO3>
-				<Country_Region>Latin America & Caribbean</Country_Region>
+				<Country_Region>Latin America &#38; Caribbean</Country_Region>
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 			</Country>
@@ -2704,7 +2704,7 @@
 				<Country_Name>Ecuador</Country_Name>
 				<Country_ISO2>EC</Country_ISO2>
 				<Country_ISO3>ECU</Country_ISO3>
-				<Country_Region>Latin America & Caribbean</Country_Region>
+				<Country_Region>Latin America &#38; Caribbean</Country_Region>
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 			</Country>
@@ -2718,7 +2718,7 @@
 				<Country_Name>Egypt</Country_Name>
 				<Country_ISO2>EG</Country_ISO2>
 				<Country_ISO3>EGY</Country_ISO3>
-				<Country_Region>Middle East & North Africa</Country_Region>
+				<Country_Region>Middle East &#38; North Africa</Country_Region>
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 			</Country>
@@ -2726,7 +2726,7 @@
 				<Country_Name>Paraguay</Country_Name>
 				<Country_ISO2>PY</Country_ISO2>
 				<Country_ISO3>PRY</Country_ISO3>
-				<Country_Region>Latin America & Caribbean</Country_Region>
+				<Country_Region>Latin America &#38; Caribbean</Country_Region>
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 			</Country>
@@ -2740,7 +2740,7 @@
 				<Country_Name>El Salvador</Country_Name>
 				<Country_ISO2>SV</Country_ISO2>
 				<Country_ISO3>SLV</Country_ISO3>
-				<Country_Region>Latin America & Caribbean</Country_Region>
+				<Country_Region>Latin America &#38; Caribbean</Country_Region>
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 			</Country>
@@ -2748,7 +2748,7 @@
 				<Country_Name>Nicaragua</Country_Name>
 				<Country_ISO2>NI</Country_ISO2>
 				<Country_ISO3>NIC</Country_ISO3>
-				<Country_Region>Latin America & Caribbean</Country_Region>
+				<Country_Region>Latin America &#38; Caribbean</Country_Region>
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 			</Country>
@@ -2790,7 +2790,7 @@
 				<Country_Name>Guatemala</Country_Name>
 				<Country_ISO2>GT</Country_ISO2>
 				<Country_ISO3>GTM</Country_ISO3>
-				<Country_Region>Latin America & Caribbean</Country_Region>
+				<Country_Region>Latin America &#38; Caribbean</Country_Region>
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 			</Country>
@@ -2804,7 +2804,7 @@
 				<Country_Name>Guatemala</Country_Name>
 				<Country_ISO2>GT</Country_ISO2>
 				<Country_ISO3>GTM</Country_ISO3>
-				<Country_Region>Latin America & Caribbean</Country_Region>
+				<Country_Region>Latin America &#38; Caribbean</Country_Region>
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 			</Country>
@@ -2812,7 +2812,7 @@
 				<Country_Name>Nicaragua</Country_Name>
 				<Country_ISO2>NI</Country_ISO2>
 				<Country_ISO3>NIC</Country_ISO3>
-				<Country_Region>Latin America & Caribbean</Country_Region>
+				<Country_Region>Latin America &#38; Caribbean</Country_Region>
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 			</Country>
@@ -2834,7 +2834,7 @@
 				<Country_Name>Honduras</Country_Name>
 				<Country_ISO2>HN</Country_ISO2>
 				<Country_ISO3>HND</Country_ISO3>
-				<Country_Region>Latin America & Caribbean</Country_Region>
+				<Country_Region>Latin America &#38; Caribbean</Country_Region>
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 			</Country>
@@ -2848,7 +2848,7 @@
 				<Country_Name>Honduras</Country_Name>
 				<Country_ISO2>HN</Country_ISO2>
 				<Country_ISO3>HND</Country_ISO3>
-				<Country_Region>Latin America & Caribbean</Country_Region>
+				<Country_Region>Latin America &#38; Caribbean</Country_Region>
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 			</Country>
@@ -2856,7 +2856,7 @@
 				<Country_Name>Mexico</Country_Name>
 				<Country_ISO2>MX</Country_ISO2>
 				<Country_ISO3>MEX</Country_ISO3>
-				<Country_Region>Latin America & Caribbean</Country_Region>
+				<Country_Region>Latin America &#38; Caribbean</Country_Region>
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 			</Country>
@@ -2864,7 +2864,7 @@
 				<Country_Name>Panama</Country_Name>
 				<Country_ISO2>PA</Country_ISO2>
 				<Country_ISO3>PAN</Country_ISO3>
-				<Country_Region>Latin America & Caribbean</Country_Region>
+				<Country_Region>Latin America &#38; Caribbean</Country_Region>
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 			</Country>
@@ -2878,7 +2878,7 @@
 				<Country_Name>India</Country_Name>
 				<Country_ISO2>IN</Country_ISO2>
 				<Country_ISO3>IND</Country_ISO3>
-				<Country_Region>Asia & Pacific</Country_Region>
+				<Country_Region>Asia &#38; Pacific</Country_Region>
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 			</Country>
@@ -2892,7 +2892,7 @@
 				<Country_Name>India</Country_Name>
 				<Country_ISO2>IN</Country_ISO2>
 				<Country_ISO3>IND</Country_ISO3>
-				<Country_Region>Asia & Pacific</Country_Region>
+				<Country_Region>Asia &#38; Pacific</Country_Region>
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>Yes</Forced_Labor>
 			</Country>
@@ -2906,7 +2906,7 @@
 				<Country_Name>India</Country_Name>
 				<Country_ISO2>IN</Country_ISO2>
 				<Country_ISO3>IND</Country_ISO3>
-				<Country_Region>Asia & Pacific</Country_Region>
+				<Country_Region>Asia &#38; Pacific</Country_Region>
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>Yes</Forced_Labor>
 			</Country>
@@ -2914,7 +2914,7 @@
 				<Country_Name>Nepal</Country_Name>
 				<Country_ISO2>NP</Country_ISO2>
 				<Country_ISO3>NPL</Country_ISO3>
-				<Country_Region>Asia & Pacific</Country_Region>
+				<Country_Region>Asia &#38; Pacific</Country_Region>
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>Yes</Forced_Labor>
 			</Country>
@@ -2928,7 +2928,7 @@
 				<Country_Name>India</Country_Name>
 				<Country_ISO2>IN</Country_ISO2>
 				<Country_ISO3>IND</Country_ISO3>
-				<Country_Region>Asia & Pacific</Country_Region>
+				<Country_Region>Asia &#38; Pacific</Country_Region>
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 			</Country>
@@ -2950,7 +2950,7 @@
 				<Country_Name>India</Country_Name>
 				<Country_ISO2>IN</Country_ISO2>
 				<Country_ISO3>IND</Country_ISO3>
-				<Country_Region>Asia & Pacific</Country_Region>
+				<Country_Region>Asia &#38; Pacific</Country_Region>
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 			</Country>
@@ -2958,7 +2958,7 @@
 				<Country_Name>Pakistan</Country_Name>
 				<Country_ISO2>PK</Country_ISO2>
 				<Country_ISO3>PAK</Country_ISO3>
-				<Country_Region>Asia & Pacific</Country_Region>
+				<Country_Region>Asia &#38; Pacific</Country_Region>
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 			</Country>
@@ -2972,7 +2972,7 @@
 				<Country_Name>India</Country_Name>
 				<Country_ISO2>IN</Country_ISO2>
 				<Country_ISO3>IND</Country_ISO3>
-				<Country_Region>Asia & Pacific</Country_Region>
+				<Country_Region>Asia &#38; Pacific</Country_Region>
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 			</Country>
@@ -2986,7 +2986,7 @@
 				<Country_Name>India</Country_Name>
 				<Country_ISO2>IN</Country_ISO2>
 				<Country_ISO3>IND</Country_ISO3>
-				<Country_Region>Asia & Pacific</Country_Region>
+				<Country_Region>Asia &#38; Pacific</Country_Region>
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 			</Country>
@@ -3000,7 +3000,7 @@
 				<Country_Name>India</Country_Name>
 				<Country_ISO2>IN</Country_ISO2>
 				<Country_ISO3>IND</Country_ISO3>
-				<Country_Region>Asia & Pacific</Country_Region>
+				<Country_Region>Asia &#38; Pacific</Country_Region>
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 			</Country>
@@ -3014,7 +3014,7 @@
 				<Country_Name>India</Country_Name>
 				<Country_ISO2>IN</Country_ISO2>
 				<Country_ISO3>IND</Country_ISO3>
-				<Country_Region>Asia & Pacific</Country_Region>
+				<Country_Region>Asia &#38; Pacific</Country_Region>
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 			</Country>
@@ -3028,7 +3028,7 @@
 				<Country_Name>India</Country_Name>
 				<Country_ISO2>IN</Country_ISO2>
 				<Country_ISO3>IND</Country_ISO3>
-				<Country_Region>Asia & Pacific</Country_Region>
+				<Country_Region>Asia &#38; Pacific</Country_Region>
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 			</Country>
@@ -3042,7 +3042,7 @@
 				<Country_Name>India</Country_Name>
 				<Country_ISO2>IN</Country_ISO2>
 				<Country_ISO3>IND</Country_ISO3>
-				<Country_Region>Asia & Pacific</Country_Region>
+				<Country_Region>Asia &#38; Pacific</Country_Region>
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 			</Country>
@@ -3056,7 +3056,7 @@
 				<Country_Name>India</Country_Name>
 				<Country_ISO2>IN</Country_ISO2>
 				<Country_ISO3>IND</Country_ISO3>
-				<Country_Region>Asia & Pacific</Country_Region>
+				<Country_Region>Asia &#38; Pacific</Country_Region>
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>Yes</Forced_Labor>
 			</Country>
@@ -3072,7 +3072,7 @@
 				<Country_Name>Nepal</Country_Name>
 				<Country_ISO2>NP</Country_ISO2>
 				<Country_ISO3>NPL</Country_ISO3>
-				<Country_Region>Asia & Pacific</Country_Region>
+				<Country_Region>Asia &#38; Pacific</Country_Region>
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>Yes</Forced_Labor>
 			</Country>
@@ -3094,7 +3094,7 @@
 				<Country_Name>India</Country_Name>
 				<Country_ISO2>IN</Country_ISO2>
 				<Country_ISO3>IND</Country_ISO3>
-				<Country_Region>Asia & Pacific</Country_Region>
+				<Country_Region>Asia &#38; Pacific</Country_Region>
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 			</Country>
@@ -3108,7 +3108,7 @@
 				<Country_Name>Indonesia</Country_Name>
 				<Country_ISO2>ID</Country_ISO2>
 				<Country_ISO3>IDN</Country_ISO3>
-				<Country_Region>Asia & Pacific</Country_Region>
+				<Country_Region>Asia &#38; Pacific</Country_Region>
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 			</Country>
@@ -3122,7 +3122,7 @@
 				<Country_Name>Indonesia</Country_Name>
 				<Country_ISO2>ID</Country_ISO2>
 				<Country_ISO3>IDN</Country_ISO3>
-				<Country_Region>Asia & Pacific</Country_Region>
+				<Country_Region>Asia &#38; Pacific</Country_Region>
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 			</Country>
@@ -3130,7 +3130,7 @@
 				<Country_Name>Malaysia</Country_Name>
 				<Country_ISO2>MY</Country_ISO2>
 				<Country_ISO3>MYS</Country_ISO3>
-				<Country_Region>Asia & Pacific</Country_Region>
+				<Country_Region>Asia &#38; Pacific</Country_Region>
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>Yes</Forced_Labor>
 			</Country>
@@ -3262,7 +3262,7 @@
 				<Country_Name>Mexico</Country_Name>
 				<Country_ISO2>MX</Country_ISO2>
 				<Country_ISO3>MEX</Country_ISO3>
-				<Country_Region>Latin America & Caribbean</Country_Region>
+				<Country_Region>Latin America &#38; Caribbean</Country_Region>
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 			</Country>
@@ -3276,7 +3276,7 @@
 				<Country_Name>Mexico</Country_Name>
 				<Country_ISO2>MX</Country_ISO2>
 				<Country_ISO3>MEX</Country_ISO3>
-				<Country_Region>Latin America & Caribbean</Country_Region>
+				<Country_Region>Latin America &#38; Caribbean</Country_Region>
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 			</Country>
@@ -3290,7 +3290,7 @@
 				<Country_Name>Mexico</Country_Name>
 				<Country_ISO2>MX</Country_ISO2>
 				<Country_ISO3>MEX</Country_ISO3>
-				<Country_Region>Latin America & Caribbean</Country_Region>
+				<Country_Region>Latin America &#38; Caribbean</Country_Region>
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 			</Country>
@@ -3304,7 +3304,7 @@
 				<Country_Name>Mexico</Country_Name>
 				<Country_ISO2>MX</Country_ISO2>
 				<Country_ISO3>MEX</Country_ISO3>
-				<Country_Region>Latin America & Caribbean</Country_Region>
+				<Country_Region>Latin America &#38; Caribbean</Country_Region>
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 			</Country>
@@ -3318,7 +3318,7 @@
 				<Country_Name>Mexico</Country_Name>
 				<Country_ISO2>MX</Country_ISO2>
 				<Country_ISO3>MEX</Country_ISO3>
-				<Country_Region>Latin America & Caribbean</Country_Region>
+				<Country_Region>Latin America &#38; Caribbean</Country_Region>
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 			</Country>
@@ -3332,7 +3332,7 @@
 				<Country_Name>Mongolia</Country_Name>
 				<Country_ISO2>MN</Country_ISO2>
 				<Country_ISO3>MNG</Country_ISO3>
-				<Country_Region>Asia & Pacific</Country_Region>
+				<Country_Region>Asia &#38; Pacific</Country_Region>
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 			</Country>
@@ -3346,7 +3346,7 @@
 				<Country_Name>Nicaragua</Country_Name>
 				<Country_ISO2>NI</Country_ISO2>
 				<Country_ISO3>NIC</Country_ISO3>
-				<Country_Region>Latin America & Caribbean</Country_Region>
+				<Country_Region>Latin America &#38; Caribbean</Country_Region>
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 			</Country>
@@ -3424,7 +3424,7 @@
 				<Country_Name>North Korea</Country_Name>
 				<Country_ISO2>KP</Country_ISO2>
 				<Country_ISO3>PRK</Country_ISO3>
-				<Country_Region>Asia & Pacific</Country_Region>
+				<Country_Region>Asia &#38; Pacific</Country_Region>
 				<Child_Labor>No</Child_Labor>
 				<Forced_Labor>Yes</Forced_Labor>
 			</Country>
@@ -3438,7 +3438,7 @@
 				<Country_Name>North Korea</Country_Name>
 				<Country_ISO2>KP</Country_ISO2>
 				<Country_ISO3>PRK</Country_ISO3>
-				<Country_Region>Asia & Pacific</Country_Region>
+				<Country_Region>Asia &#38; Pacific</Country_Region>
 				<Child_Labor>No</Child_Labor>
 				<Forced_Labor>Yes</Forced_Labor>
 			</Country>
@@ -3452,7 +3452,7 @@
 				<Country_Name>Pakistan</Country_Name>
 				<Country_ISO2>PK</Country_ISO2>
 				<Country_ISO3>PAK</Country_ISO3>
-				<Country_Region>Asia & Pacific</Country_Region>
+				<Country_Region>Asia &#38; Pacific</Country_Region>
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 			</Country>
@@ -3466,7 +3466,7 @@
 				<Country_Name>Pakistan</Country_Name>
 				<Country_ISO2>PK</Country_ISO2>
 				<Country_ISO3>PAK</Country_ISO3>
-				<Country_Region>Asia & Pacific</Country_Region>
+				<Country_Region>Asia &#38; Pacific</Country_Region>
 				<Child_Labor>No</Child_Labor>
 				<Forced_Labor>Yes</Forced_Labor>
 			</Country>
@@ -3480,7 +3480,7 @@
 				<Country_Name>Philippines</Country_Name>
 				<Country_ISO2>PH</Country_ISO2>
 				<Country_ISO3>PHL</Country_ISO3>
-				<Country_Region>Asia & Pacific</Country_Region>
+				<Country_Region>Asia &#38; Pacific</Country_Region>
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 			</Country>
@@ -3494,7 +3494,7 @@
 				<Country_Name>Philippines</Country_Name>
 				<Country_ISO2>PH</Country_ISO2>
 				<Country_ISO3>PHL</Country_ISO3>
-				<Country_Region>Asia & Pacific</Country_Region>
+				<Country_Region>Asia &#38; Pacific</Country_Region>
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 			</Country>
@@ -3508,7 +3508,7 @@
 				<Country_Name>Philippines</Country_Name>
 				<Country_ISO2>PH</Country_ISO2>
 				<Country_ISO3>PHL</Country_ISO3>
-				<Country_Region>Asia & Pacific</Country_Region>
+				<Country_Region>Asia &#38; Pacific</Country_Region>
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 			</Country>
@@ -3522,7 +3522,7 @@
 				<Country_Name>Philippines</Country_Name>
 				<Country_ISO2>PH</Country_ISO2>
 				<Country_ISO3>PHL</Country_ISO3>
-				<Country_Region>Asia & Pacific</Country_Region>
+				<Country_Region>Asia &#38; Pacific</Country_Region>
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 			</Country>
@@ -3536,7 +3536,7 @@
 				<Country_Name>Indonesia</Country_Name>
 				<Country_ISO2>ID</Country_ISO2>
 				<Country_ISO3>IDN</Country_ISO3>
-				<Country_Region>Asia & Pacific</Country_Region>
+				<Country_Region>Asia &#38; Pacific</Country_Region>
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 			</Country>
@@ -3544,7 +3544,7 @@
 				<Country_Name>Malaysia</Country_Name>
 				<Country_ISO2>MY</Country_ISO2>
 				<Country_ISO3>MYS</Country_ISO3>
-				<Country_Region>Asia & Pacific</Country_Region>
+				<Country_Region>Asia &#38; Pacific</Country_Region>
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>Yes</Forced_Labor>
 			</Country>
@@ -3608,7 +3608,7 @@
 				<Country_Name>Turkey</Country_Name>
 				<Country_ISO2>TR</Country_ISO2>
 				<Country_ISO3>TUR</Country_ISO3>
-				<Country_Region>Europe & Eurasia</Country_Region>
+				<Country_Region>Europe &#38; Eurasia</Country_Region>
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 			</Country>
@@ -3622,7 +3622,7 @@
 				<Country_Name>Turkey</Country_Name>
 				<Country_ISO2>TR</Country_ISO2>
 				<Country_ISO3>TUR</Country_ISO3>
-				<Country_Region>Europe & Eurasia</Country_Region>
+				<Country_Region>Europe &#38; Eurasia</Country_Region>
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 			</Country>
@@ -3636,7 +3636,7 @@
 				<Country_Name>Turkey</Country_Name>
 				<Country_ISO2>TR</Country_ISO2>
 				<Country_ISO3>TUR</Country_ISO3>
-				<Country_Region>Europe & Eurasia</Country_Region>
+				<Country_Region>Europe &#38; Eurasia</Country_Region>
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 			</Country>
@@ -3650,7 +3650,7 @@
 				<Country_Name>Turkey</Country_Name>
 				<Country_ISO2>TR</Country_ISO2>
 				<Country_ISO3>TUR</Country_ISO3>
-				<Country_Region>Europe & Eurasia</Country_Region>
+				<Country_Region>Europe &#38; Eurasia</Country_Region>
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 			</Country>
@@ -3664,7 +3664,7 @@
 				<Country_Name>Turkey</Country_Name>
 				<Country_ISO2>TR</Country_ISO2>
 				<Country_ISO3>TUR</Country_ISO3>
-				<Country_Region>Europe & Eurasia</Country_Region>
+				<Country_Region>Europe &#38; Eurasia</Country_Region>
 				<Child_Labor>Yes</Child_Labor>
 				<Forced_Labor>No</Forced_Labor>
 			</Country>

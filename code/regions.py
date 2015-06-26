@@ -1,5 +1,6 @@
 import utility 
 import ISO_countries
+import special_chars
 from collections import OrderedDict
 
 json_target = '../output/extra/country_region_mappings.json' 
@@ -9,6 +10,7 @@ xml_target = '../output/extra/country_region_mappings.xml'
 mappings = ["Country_Name", "Country_Region"]    # Info to be extracted from spreadsheet
 
 isocountries = ISO_countries.build()
+sp_chars = special_chars.build()
 
 def include_ISO(rlist):
 	result = []
@@ -110,7 +112,7 @@ def to_xml(filename, data):
 		target.write("\t\t<Country_Name>"+country['Country_Name']+"</Country_Name>\n")
 		target.write("\t\t<Country_ISO2>"+str(country['Country_ISO2'])+"</Country_ISO2>\n")
 		target.write("\t\t<Country_ISO3>"+str(country['Country_ISO3'])+"</Country_ISO3>\n")
-		target.write("\t\t<Country_Region>"+country['Country_Region']+"</Country_Region>\n")						
+		target.write("\t\t<Country_Region>"+special_chars.xml_safe(country['Country_Region'],sp_chars)+"</Country_Region>\n")						
 		target.write("\t</Country>\n")
 	target.write("</Countries>\n")
 	target.close()

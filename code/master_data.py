@@ -2,6 +2,7 @@
 
 import utility
 import regions
+import special_chars
 from collections import OrderedDict
 
 csv_target = '../output/extra/master_data_from_XL_2013.csv' 
@@ -9,39 +10,34 @@ xml_target = '../output/extra/master_data_from_XL_2013.xml'
 json_target = '../output/extra/master_data_from_XL_2013.json' 
 
 regs = regions.build()
+sp_chars = special_chars.build()
 
 mappings = [ "Country_Name", "Country_Region", "Assessment",
-             "C. 138 Ratified" ,"C. 138 Ratified during Reporting Period",
-             "C. 182 Ratified","C. 182 Ratified during Reporting Period",
-             "Convention on the Rights of the Child (CRC) Ratified",
-             "Convention on the Rights of the Child (CRC) Ratified during Reporting Period",
-             "CRC - Commercial Sexual Exploitation of Children (CSEC) Ratified",
-             "CRC-CSEC Ratified during Reporting Period",
-             "CRC - Armed Conflict (AC)  Ratified",
-             "CRC - AC Ratified during Reporting Period",
-             "Palermo Ratified","Palermo Ratified during reporting period",
-             "Minimum Age for Work Established",
-             "Minimum Age for Work Established or Amended during Reporting Period",
-             "Minimum Age Conforms to International Standards",
-             "Minimum Age for Work","Minimum Age for Hazardous Work Established",
-             "Minimum Age for Hazardous Work Established or Amended during Reporting Period",
-             "Minimum Age for Hazardous Work Conforms to International Standards","Minimum Age for Hazardous Work",
-             "Compulsory Education Age Established",
-             "Compulsory Education Age Established or Amended during Reporting Period",
-             "Minimum Age for Compulsory Education Conforms to International Standards",
-             "Minimum Age for Compulsory Education",
-             "Free Public Education Established",
-             "Free Public Education Established or Amended during Reporting Period",
-             "Country has Mechanism to Coordinate its Efforts in Combatting the WFCL",
-             "Country Established or Amended Mechanism to Coordinate during Reporting Period",
-             "National Policy on WFCL Established",
-             "National Policy of WFCL Established or Amended during Reporting Period",
-             "Country Made at least one Effort to Advance the Elimination of the Worst Forms of Child Labor",
-             "Country made at least one Effort to Change Laws and Regulations",
-             "Country Made at least one Enforcement Effort",
-             "Country made at least one Coordination Effort",
-             "Country made at least one Policy Effort",
-             "Country made at least one Social Program Effort"
+             "C_138_Ratified" ,"C_138_Ratified_during_Reporting_Period",
+             "C_182_Ratified","C_182_Ratified_during_Reporting_Period",
+             "Convention_on_the_Rights_of_the_Child_Ratified",
+             "Convention_on_the_Rights_of_the_Child_Ratified_during_Reporting_Period",
+             "CRC_Commercial_Sexual_Exploitation_of_Children_Ratified",
+             "CRC_CSEC_Ratified_during_Reporting_Period",
+             "CRC_Armed_Conflict_Ratified",
+             "CRC_AC_Ratified_during_Reporting_Period",
+             "Palermo_Ratified","Palermo_Ratified_during_reporting_period",
+             "Minimum_Age_for_Work_Established",
+             "Minimum_Age_for_Work_Established_or_Amended_during_Reporting_Period",
+             "Minimum_Age_Conforms_to_International_Standards",
+             "Minimum_Age_for_Work","Minimum_Age_for_Hazardous_Work_Established",
+             "Minimum_Age_for_Hazardous_Work_Established_or_Amended_during_Reporting_Period",
+             "Minimum_Age_for_Hazardous_Work_Conforms_to_International_Standards","Minimum_Age_for_Hazardous_Work",
+             "Compulsory_Education_Age_Established",
+             "Compulsory_Education_Age_Established_or_Amended_during_Reporting_Period",
+             "Minimum_Age_for_Compulsory_Education_Conforms_to_International_Standards",
+             "Minimum_Age_for_Compulsory_Education",
+             "Free_Public_Education_Established",
+             "Free_Public_Education_Established_or_Amended_during_Reporting_Period",
+             "Country_has_Mechanism_to_Coordinate_its_Efforts_in_Combatting_the_WFCL",
+             "Country_Established_or_Amended_Mechanism_to_Coordinate_during_Reporting_Period",
+             "National_Policy_on_WFCL_Established",
+             "National_Policy_on_WFCL_Established_or_Amended_during_Reporting_Period"
              ]
 
 
@@ -76,7 +72,7 @@ def to_xml(filename, mlist):
 		for n in range(0, len(mkeys)):
 			currentkey = mkeys[n]
 			opentext = "\t\t<"+ currentkey +">"
-			valuetext = str(country_record[currentkey])
+			valuetext = special_chars.xml_safe(str(country_record[currentkey]),sp_chars)
 			closetext = "</" + currentkey +">\n"
 			target.write(opentext+valuetext+closetext)
 		target.write("\t</Country>\n")

@@ -4,7 +4,7 @@
 		<Country_Name>Afghanistan</Country_Name>
 		<Country_ISO2>AF</Country_ISO2>
 		<Country_ISO3>AFG</Country_ISO3>
-		<Country_Region>Asia & Pacific</Country_Region>
+		<Country_Region>Asia &#38; Pacific</Country_Region>
 		<Survey_Name></Survey_Name>
 		<Childrens_Work_Statistics>
 			<Year></Year>
@@ -36,7 +36,7 @@
 		<Country_Name>Albania</Country_Name>
 		<Country_ISO2>AL</Country_ISO2>
 		<Country_ISO3>ALB</Country_ISO3>
-		<Country_Region>Europe & Eurasia</Country_Region>
+		<Country_Region>Europe &#38; Eurasia</Country_Region>
 		<Survey_Name>National Child Labour Survey (NCLS)</Survey_Name>
 		<Childrens_Work_Statistics>
 			<Year>2010.0</Year>
@@ -68,7 +68,7 @@
 		<Country_Name>Algeria</Country_Name>
 		<Country_ISO2>DZ</Country_ISO2>
 		<Country_ISO3>DZA</Country_ISO3>
-		<Country_Region>Middle East & North Africa</Country_Region>
+		<Country_Region>Middle East &#38; North Africa</Country_Region>
 		<Survey_Name></Survey_Name>
 		<Childrens_Work_Statistics>
 			<Year></Year>
@@ -132,7 +132,7 @@
 		<Country_Name>Anguilla</Country_Name>
 		<Country_ISO2>AI</Country_ISO2>
 		<Country_ISO3>AIA</Country_ISO3>
-		<Country_Region>Europe & Eurasia</Country_Region>
+		<Country_Region>Europe &#38; Eurasia</Country_Region>
 		<Survey_Name></Survey_Name>
 		<Childrens_Work_Statistics>
 			<Year></Year>
@@ -164,7 +164,7 @@
 		<Country_Name>Argentina</Country_Name>
 		<Country_ISO2>AR</Country_ISO2>
 		<Country_ISO3>ARG</Country_ISO3>
-		<Country_Region>Latin America & Caribbean</Country_Region>
+		<Country_Region>Latin America &#38; Caribbean</Country_Region>
 		<Survey_Name>Encuesta sobre Actividades de Niños, Niñas y Adolescentes</Survey_Name>
 		<Childrens_Work_Statistics>
 			<Year>2004.0</Year>
@@ -196,7 +196,7 @@
 		<Country_Name>Armenia</Country_Name>
 		<Country_ISO2>AM</Country_ISO2>
 		<Country_ISO3>ARM</Country_ISO3>
-		<Country_Region>Europe & Eurasia</Country_Region>
+		<Country_Region>Europe &#38; Eurasia</Country_Region>
 		<Survey_Name>Demographic and Health Survey</Survey_Name>
 		<Childrens_Work_Statistics>
 			<Year>2010.0</Year>
@@ -228,7 +228,7 @@
 		<Country_Name>Azerbaijan</Country_Name>
 		<Country_ISO2>AZ</Country_ISO2>
 		<Country_ISO3>AZE</Country_ISO3>
-		<Country_Region>Europe & Eurasia</Country_Region>
+		<Country_Region>Europe &#38; Eurasia</Country_Region>
 		<Survey_Name>Child Labor Survey</Survey_Name>
 		<Childrens_Work_Statistics>
 			<Year>2005.0</Year>
@@ -260,7 +260,7 @@
 		<Country_Name>Bahrain</Country_Name>
 		<Country_ISO2>BH</Country_ISO2>
 		<Country_ISO3>BHR</Country_ISO3>
-		<Country_Region>Middle East & North Africa</Country_Region>
+		<Country_Region>Middle East &#38; North Africa</Country_Region>
 		<Survey_Name></Survey_Name>
 		<Childrens_Work_Statistics>
 			<Year></Year>
@@ -292,7 +292,7 @@
 		<Country_Name>Bangladesh</Country_Name>
 		<Country_ISO2>BD</Country_ISO2>
 		<Country_ISO3>BGD</Country_ISO3>
-		<Country_Region>Asia & Pacific</Country_Region>
+		<Country_Region>Asia &#38; Pacific</Country_Region>
 		<Survey_Name>Labour Force Survey</Survey_Name>
 		<Childrens_Work_Statistics>
 			<Year>2005-2006</Year>
@@ -324,7 +324,7 @@
 		<Country_Name>Barbados</Country_Name>
 		<Country_ISO2>BB</Country_ISO2>
 		<Country_ISO3>BRB</Country_ISO3>
-		<Country_Region>Latin America & Caribbean</Country_Region>
+		<Country_Region>Latin America &#38; Caribbean</Country_Region>
 		<Survey_Name></Survey_Name>
 		<Childrens_Work_Statistics>
 			<Year></Year>
@@ -356,7 +356,7 @@
 		<Country_Name>Belize</Country_Name>
 		<Country_ISO2>BZ</Country_ISO2>
 		<Country_ISO3>BLZ</Country_ISO3>
-		<Country_Region>Latin America & Caribbean</Country_Region>
+		<Country_Region>Latin America &#38; Caribbean</Country_Region>
 		<Survey_Name>Multiple Indicator Cluster Survey 4</Survey_Name>
 		<Childrens_Work_Statistics>
 			<Year>2011.0</Year>
@@ -420,7 +420,7 @@
 		<Country_Name>Bhutan</Country_Name>
 		<Country_ISO2>BT</Country_ISO2>
 		<Country_ISO3>BTN</Country_ISO3>
-		<Country_Region>Asia & Pacific</Country_Region>
+		<Country_Region>Asia &#38; Pacific</Country_Region>
 		<Survey_Name>Multiple Indicator Cluster Survey 4</Survey_Name>
 		<Childrens_Work_Statistics>
 			<Year>2010.0</Year>
@@ -452,7 +452,7 @@
 		<Country_Name>Bolivia</Country_Name>
 		<Country_ISO2>BO</Country_ISO2>
 		<Country_ISO3>BOL</Country_ISO3>
-		<Country_Region>Latin America & Caribbean</Country_Region>
+		<Country_Region>Latin America &#38; Caribbean</Country_Region>
 		<Survey_Name>Encuesta Continua de Hogares</Survey_Name>
 		<Childrens_Work_Statistics>
 			<Year>2009.0</Year>
@@ -484,7 +484,7 @@
 		<Country_Name>Bosnia and Herzegovina</Country_Name>
 		<Country_ISO2>BA</Country_ISO2>
 		<Country_ISO3>BIH</Country_ISO3>
-		<Country_Region>Europe & Eurasia</Country_Region>
+		<Country_Region>Europe &#38; Eurasia</Country_Region>
 		<Survey_Name>Multiple Indicator Cluster Survey 3</Survey_Name>
 		<Childrens_Work_Statistics>
 			<Year>2006.0</Year>
@@ -548,7 +548,7 @@
 		<Country_Name>Brazil</Country_Name>
 		<Country_ISO2>BR</Country_ISO2>
 		<Country_ISO3>BRA</Country_ISO3>
-		<Country_Region>Latin America & Caribbean</Country_Region>
+		<Country_Region>Latin America &#38; Caribbean</Country_Region>
 		<Survey_Name>Pesquisa Nacional por Amostra de Domicílios</Survey_Name>
 		<Childrens_Work_Statistics>
 			<Year>2011.0</Year>
@@ -580,7 +580,7 @@
 		<Country_Name>British Indian Ocean Territories</Country_Name>
 		<Country_ISO2>IO</Country_ISO2>
 		<Country_ISO3>IOT</Country_ISO3>
-		<Country_Region>Europe & Eurasia</Country_Region>
+		<Country_Region>Europe &#38; Eurasia</Country_Region>
 		<Survey_Name></Survey_Name>
 		<Childrens_Work_Statistics>
 			<Year></Year>
@@ -612,7 +612,7 @@
 		<Country_Name>British Virgin Islands</Country_Name>
 		<Country_ISO2>VG</Country_ISO2>
 		<Country_ISO3>VGB</Country_ISO3>
-		<Country_Region>Europe & Eurasia</Country_Region>
+		<Country_Region>Europe &#38; Eurasia</Country_Region>
 		<Survey_Name></Survey_Name>
 		<Childrens_Work_Statistics>
 			<Year></Year>
@@ -740,7 +740,7 @@
 		<Country_Name>Cambodia</Country_Name>
 		<Country_ISO2>KH</Country_ISO2>
 		<Country_ISO3>KHM</Country_ISO3>
-		<Country_Region>Asia & Pacific</Country_Region>
+		<Country_Region>Asia &#38; Pacific</Country_Region>
 		<Survey_Name>Socio-Economic Survey</Survey_Name>
 		<Childrens_Work_Statistics>
 			<Year>2009.0</Year>
@@ -868,7 +868,7 @@
 		<Country_Name>Chile</Country_Name>
 		<Country_ISO2>CL</Country_ISO2>
 		<Country_ISO3>CHL</Country_ISO3>
-		<Country_Region>Latin America & Caribbean</Country_Region>
+		<Country_Region>Latin America &#38; Caribbean</Country_Region>
 		<Survey_Name>Encuesta Nacional sobre las Actividades de Ninos y Adolescentes</Survey_Name>
 		<Childrens_Work_Statistics>
 			<Year>2003.0</Year>
@@ -900,7 +900,7 @@
 		<Country_Name>Christmas Island</Country_Name>
 		<Country_ISO2>CX</Country_ISO2>
 		<Country_ISO3>CXR</Country_ISO3>
-		<Country_Region>Asia & Pacific</Country_Region>
+		<Country_Region>Asia &#38; Pacific</Country_Region>
 		<Survey_Name></Survey_Name>
 		<Childrens_Work_Statistics>
 			<Year></Year>
@@ -932,7 +932,7 @@
 		<Country_Name>Cocos (Keeling) Islands</Country_Name>
 		<Country_ISO2>CC</Country_ISO2>
 		<Country_ISO3>CCK</Country_ISO3>
-		<Country_Region>Asia & Pacific</Country_Region>
+		<Country_Region>Asia &#38; Pacific</Country_Region>
 		<Survey_Name></Survey_Name>
 		<Childrens_Work_Statistics>
 			<Year></Year>
@@ -964,7 +964,7 @@
 		<Country_Name>Colombia</Country_Name>
 		<Country_ISO2>CO</Country_ISO2>
 		<Country_ISO3>COL</Country_ISO3>
-		<Country_Region>Latin America & Caribbean</Country_Region>
+		<Country_Region>Latin America &#38; Caribbean</Country_Region>
 		<Survey_Name>Gran Encuesta Integrada de Hogares, Módulo de Trabajo Infantil</Survey_Name>
 		<Childrens_Work_Statistics>
 			<Year>2012.0</Year>
@@ -1092,7 +1092,7 @@
 		<Country_Name>Cook Islands</Country_Name>
 		<Country_ISO2>CK</Country_ISO2>
 		<Country_ISO3>COK</Country_ISO3>
-		<Country_Region>Asia & Pacific</Country_Region>
+		<Country_Region>Asia &#38; Pacific</Country_Region>
 		<Survey_Name></Survey_Name>
 		<Childrens_Work_Statistics>
 			<Year></Year>
@@ -1124,7 +1124,7 @@
 		<Country_Name>Costa Rica</Country_Name>
 		<Country_ISO2>CR</Country_ISO2>
 		<Country_ISO3>CRI</Country_ISO3>
-		<Country_Region>Latin America & Caribbean</Country_Region>
+		<Country_Region>Latin America &#38; Caribbean</Country_Region>
 		<Survey_Name>Encuesta Nacional de Hogares</Survey_Name>
 		<Childrens_Work_Statistics>
 			<Year>2011.0</Year>
@@ -1220,7 +1220,7 @@
 		<Country_Name>Dominica</Country_Name>
 		<Country_ISO2>DM</Country_ISO2>
 		<Country_ISO3>DMA</Country_ISO3>
-		<Country_Region>Latin America & Caribbean</Country_Region>
+		<Country_Region>Latin America &#38; Caribbean</Country_Region>
 		<Survey_Name></Survey_Name>
 		<Childrens_Work_Statistics>
 			<Year></Year>
@@ -1252,7 +1252,7 @@
 		<Country_Name>Dominican Republic</Country_Name>
 		<Country_ISO2>DO</Country_ISO2>
 		<Country_ISO3>DOM</Country_ISO3>
-		<Country_Region>Latin America & Caribbean</Country_Region>
+		<Country_Region>Latin America &#38; Caribbean</Country_Region>
 		<Survey_Name>Encuesta Nacional de Hogares de Propósitos Múltiples</Survey_Name>
 		<Childrens_Work_Statistics>
 			<Year>2011.0</Year>
@@ -1284,7 +1284,7 @@
 		<Country_Name>Ecuador</Country_Name>
 		<Country_ISO2>EC</Country_ISO2>
 		<Country_ISO3>ECU</Country_ISO3>
-		<Country_Region>Latin America & Caribbean</Country_Region>
+		<Country_Region>Latin America &#38; Caribbean</Country_Region>
 		<Survey_Name>Encuesta Nacional de Empleo, Desempleo y Subempleo</Survey_Name>
 		<Childrens_Work_Statistics>
 			<Year>2011.0</Year>
@@ -1316,7 +1316,7 @@
 		<Country_Name>Egypt</Country_Name>
 		<Country_ISO2>EG</Country_ISO2>
 		<Country_ISO3>EGY</Country_ISO3>
-		<Country_Region>Middle East & North Africa</Country_Region>
+		<Country_Region>Middle East &#38; North Africa</Country_Region>
 		<Survey_Name>Demographic and Health Survey</Survey_Name>
 		<Childrens_Work_Statistics>
 			<Year>2005.0</Year>
@@ -1348,7 +1348,7 @@
 		<Country_Name>El Salvador</Country_Name>
 		<Country_ISO2>SV</Country_ISO2>
 		<Country_ISO3>SLV</Country_ISO3>
-		<Country_Region>Latin America & Caribbean</Country_Region>
+		<Country_Region>Latin America &#38; Caribbean</Country_Region>
 		<Survey_Name>Encuesta de Hogares de Propósitos Múltiples</Survey_Name>
 		<Childrens_Work_Statistics>
 			<Year>2011.0</Year>
@@ -1444,7 +1444,7 @@
 		<Country_Name>Falkland Islands (Islas Malvinas)</Country_Name>
 		<Country_ISO2>FK</Country_ISO2>
 		<Country_ISO3>FLK</Country_ISO3>
-		<Country_Region>Europe & Eurasia</Country_Region>
+		<Country_Region>Europe &#38; Eurasia</Country_Region>
 		<Survey_Name></Survey_Name>
 		<Childrens_Work_Statistics>
 			<Year></Year>
@@ -1476,7 +1476,7 @@
 		<Country_Name>Fiji</Country_Name>
 		<Country_ISO2>FJ</Country_ISO2>
 		<Country_ISO3>FJI</Country_ISO3>
-		<Country_Region>Asia & Pacific</Country_Region>
+		<Country_Region>Asia &#38; Pacific</Country_Region>
 		<Survey_Name></Survey_Name>
 		<Childrens_Work_Statistics>
 			<Year></Year>
@@ -1572,7 +1572,7 @@
 		<Country_Name>Georgia</Country_Name>
 		<Country_ISO2>GE</Country_ISO2>
 		<Country_ISO3>GEO</Country_ISO3>
-		<Country_Region>Europe & Eurasia</Country_Region>
+		<Country_Region>Europe &#38; Eurasia</Country_Region>
 		<Survey_Name>Multiple Indicator Cluster Survey 3</Survey_Name>
 		<Childrens_Work_Statistics>
 			<Year>2005.0</Year>
@@ -1636,7 +1636,7 @@
 		<Country_Name>Gibraltar</Country_Name>
 		<Country_ISO2>GI</Country_ISO2>
 		<Country_ISO3>GIB</Country_ISO3>
-		<Country_Region>Europe & Eurasia</Country_Region>
+		<Country_Region>Europe &#38; Eurasia</Country_Region>
 		<Survey_Name></Survey_Name>
 		<Childrens_Work_Statistics>
 			<Year></Year>
@@ -1668,7 +1668,7 @@
 		<Country_Name>Grenada</Country_Name>
 		<Country_ISO2>GD</Country_ISO2>
 		<Country_ISO3>GRD</Country_ISO3>
-		<Country_Region>Latin America & Caribbean</Country_Region>
+		<Country_Region>Latin America &#38; Caribbean</Country_Region>
 		<Survey_Name></Survey_Name>
 		<Childrens_Work_Statistics>
 			<Year></Year>
@@ -1700,7 +1700,7 @@
 		<Country_Name>Guatemala</Country_Name>
 		<Country_ISO2>GT</Country_ISO2>
 		<Country_ISO3>GTM</Country_ISO3>
-		<Country_Region>Latin America & Caribbean</Country_Region>
+		<Country_Region>Latin America &#38; Caribbean</Country_Region>
 		<Survey_Name>Encuesta Nacional de Condiciones de Vida</Survey_Name>
 		<Childrens_Work_Statistics>
 			<Year>2011.0</Year>
@@ -1796,7 +1796,7 @@
 		<Country_Name>Guyana</Country_Name>
 		<Country_ISO2>GY</Country_ISO2>
 		<Country_ISO3>GUY</Country_ISO3>
-		<Country_Region>Latin America & Caribbean</Country_Region>
+		<Country_Region>Latin America &#38; Caribbean</Country_Region>
 		<Survey_Name>Multiple Indicator Cluster Survey 3</Survey_Name>
 		<Childrens_Work_Statistics>
 			<Year>2006-07</Year>
@@ -1828,7 +1828,7 @@
 		<Country_Name>Haiti</Country_Name>
 		<Country_ISO2>HT</Country_ISO2>
 		<Country_ISO3>HTI</Country_ISO3>
-		<Country_Region>Latin America & Caribbean</Country_Region>
+		<Country_Region>Latin America &#38; Caribbean</Country_Region>
 		<Survey_Name>Demographic and Health Survey</Survey_Name>
 		<Childrens_Work_Statistics>
 			<Year>2005.0</Year>
@@ -1860,7 +1860,7 @@
 		<Country_Name>Heard and McDonald Islands</Country_Name>
 		<Country_ISO2>HM</Country_ISO2>
 		<Country_ISO3>HMD</Country_ISO3>
-		<Country_Region>Asia & Pacific</Country_Region>
+		<Country_Region>Asia &#38; Pacific</Country_Region>
 		<Survey_Name></Survey_Name>
 		<Childrens_Work_Statistics>
 			<Year></Year>
@@ -1892,7 +1892,7 @@
 		<Country_Name>Honduras</Country_Name>
 		<Country_ISO2>HN</Country_ISO2>
 		<Country_ISO3>HND</Country_ISO3>
-		<Country_Region>Latin America & Caribbean</Country_Region>
+		<Country_Region>Latin America &#38; Caribbean</Country_Region>
 		<Survey_Name>Encuesta Permanente de Hogares de Propositos Multiples</Survey_Name>
 		<Childrens_Work_Statistics>
 			<Year>2007.0</Year>
@@ -1924,7 +1924,7 @@
 		<Country_Name>India</Country_Name>
 		<Country_ISO2>IN</Country_ISO2>
 		<Country_ISO3>IND</Country_ISO3>
-		<Country_Region>Asia & Pacific</Country_Region>
+		<Country_Region>Asia &#38; Pacific</Country_Region>
 		<Survey_Name>National Sample Survey Round 66</Survey_Name>
 		<Childrens_Work_Statistics>
 			<Year>2009-2010</Year>
@@ -1956,7 +1956,7 @@
 		<Country_Name>Indonesia</Country_Name>
 		<Country_ISO2>ID</Country_ISO2>
 		<Country_ISO3>IDN</Country_ISO3>
-		<Country_Region>Asia & Pacific</Country_Region>
+		<Country_Region>Asia &#38; Pacific</Country_Region>
 		<Survey_Name>National Labor Force Survey (Sakernas)</Survey_Name>
 		<Childrens_Work_Statistics>
 			<Year>2010 (Aug)</Year>
@@ -1988,7 +1988,7 @@
 		<Country_Name>Iraq</Country_Name>
 		<Country_ISO2>IQ</Country_ISO2>
 		<Country_ISO3>IRQ</Country_ISO3>
-		<Country_Region>Middle East & North Africa</Country_Region>
+		<Country_Region>Middle East &#38; North Africa</Country_Region>
 		<Survey_Name>Multiple Indicator Cluster Survey 4</Survey_Name>
 		<Childrens_Work_Statistics>
 			<Year>2011.0</Year>
@@ -2020,7 +2020,7 @@
 		<Country_Name>Jamaica</Country_Name>
 		<Country_ISO2>JM</Country_ISO2>
 		<Country_ISO3>JAM</Country_ISO3>
-		<Country_Region>Latin America & Caribbean</Country_Region>
+		<Country_Region>Latin America &#38; Caribbean</Country_Region>
 		<Survey_Name>Multiple Indicator Cluster Survey 3</Survey_Name>
 		<Childrens_Work_Statistics>
 			<Year>2006.0</Year>
@@ -2052,7 +2052,7 @@
 		<Country_Name>Jordan</Country_Name>
 		<Country_ISO2>JO</Country_ISO2>
 		<Country_ISO3>JOR</Country_ISO3>
-		<Country_Region>Middle East & North Africa</Country_Region>
+		<Country_Region>Middle East &#38; North Africa</Country_Region>
 		<Survey_Name>National Child Labour Survey</Survey_Name>
 		<Childrens_Work_Statistics>
 			<Year>2007.0</Year>
@@ -2084,7 +2084,7 @@
 		<Country_Name>Kazakhstan</Country_Name>
 		<Country_ISO2>KZ</Country_ISO2>
 		<Country_ISO3>KAZ</Country_ISO3>
-		<Country_Region>Asia & Pacific</Country_Region>
+		<Country_Region>Asia &#38; Pacific</Country_Region>
 		<Survey_Name>Multiple Indicator Cluster Survey 3</Survey_Name>
 		<Childrens_Work_Statistics>
 			<Year>2006.0</Year>
@@ -2148,7 +2148,7 @@
 		<Country_Name>Kiribati</Country_Name>
 		<Country_ISO2>KI</Country_ISO2>
 		<Country_ISO3>KIR</Country_ISO3>
-		<Country_Region>Asia & Pacific</Country_Region>
+		<Country_Region>Asia &#38; Pacific</Country_Region>
 		<Survey_Name></Survey_Name>
 		<Childrens_Work_Statistics>
 			<Year></Year>
@@ -2180,7 +2180,7 @@
 		<Country_Name>Kosovo</Country_Name>
 		<Country_ISO2>KS</Country_ISO2>
 		<Country_ISO3>KSO</Country_ISO3>
-		<Country_Region>Europe & Eurasia</Country_Region>
+		<Country_Region>Europe &#38; Eurasia</Country_Region>
 		<Survey_Name></Survey_Name>
 		<Childrens_Work_Statistics>
 			<Year></Year>
@@ -2212,7 +2212,7 @@
 		<Country_Name>Kyrgyz Republic</Country_Name>
 		<Country_ISO2>KV</Country_ISO2>
 		<Country_ISO3>KVR</Country_ISO3>
-		<Country_Region>Asia & Pacific</Country_Region>
+		<Country_Region>Asia &#38; Pacific</Country_Region>
 		<Survey_Name>Multiple Indicator Cluster Survey 3</Survey_Name>
 		<Childrens_Work_Statistics>
 			<Year>2006.0</Year>
@@ -2244,7 +2244,7 @@
 		<Country_Name>Lebanon</Country_Name>
 		<Country_ISO2>LB</Country_ISO2>
 		<Country_ISO3>LBN</Country_ISO3>
-		<Country_Region>Middle East & North Africa</Country_Region>
+		<Country_Region>Middle East &#38; North Africa</Country_Region>
 		<Survey_Name></Survey_Name>
 		<Childrens_Work_Statistics>
 			<Year></Year>
@@ -2340,7 +2340,7 @@
 		<Country_Name>Macedonia</Country_Name>
 		<Country_ISO2>MK</Country_ISO2>
 		<Country_ISO3>MKD</Country_ISO3>
-		<Country_Region>Europe & Eurasia</Country_Region>
+		<Country_Region>Europe &#38; Eurasia</Country_Region>
 		<Survey_Name>Multiple Indicator Cluster Survey 3</Survey_Name>
 		<Childrens_Work_Statistics>
 			<Year>2005.0</Year>
@@ -2436,7 +2436,7 @@
 		<Country_Name>Maldives</Country_Name>
 		<Country_ISO2>MV</Country_ISO2>
 		<Country_ISO3>MDV</Country_ISO3>
-		<Country_Region>Asia & Pacific</Country_Region>
+		<Country_Region>Asia &#38; Pacific</Country_Region>
 		<Survey_Name>Demographic and Health Survey</Survey_Name>
 		<Childrens_Work_Statistics>
 			<Year>2009.0</Year>
@@ -2564,7 +2564,7 @@
 		<Country_Name>Moldova</Country_Name>
 		<Country_ISO2>MD</Country_ISO2>
 		<Country_ISO3>MDA</Country_ISO3>
-		<Country_Region>Europe & Eurasia</Country_Region>
+		<Country_Region>Europe &#38; Eurasia</Country_Region>
 		<Survey_Name>Labour Force Survey-Child Labour Survey</Survey_Name>
 		<Childrens_Work_Statistics>
 			<Year>2009.0</Year>
@@ -2596,7 +2596,7 @@
 		<Country_Name>Mongolia</Country_Name>
 		<Country_ISO2>MN</Country_ISO2>
 		<Country_ISO3>MNG</Country_ISO3>
-		<Country_Region>Asia & Pacific</Country_Region>
+		<Country_Region>Asia &#38; Pacific</Country_Region>
 		<Survey_Name>Labour Force Survey-National Child Labour Survey</Survey_Name>
 		<Childrens_Work_Statistics>
 			<Year>2011-12</Year>
@@ -2628,7 +2628,7 @@
 		<Country_Name>Montenegro</Country_Name>
 		<Country_ISO2>ME</Country_ISO2>
 		<Country_ISO3>MNE</Country_ISO3>
-		<Country_Region>Europe & Eurasia</Country_Region>
+		<Country_Region>Europe &#38; Eurasia</Country_Region>
 		<Survey_Name>Multiple Indicator Cluster Survey 3</Survey_Name>
 		<Childrens_Work_Statistics>
 			<Year>2005.0</Year>
@@ -2660,7 +2660,7 @@
 		<Country_Name>Montserrat</Country_Name>
 		<Country_ISO2>MS</Country_ISO2>
 		<Country_ISO3>MSR</Country_ISO3>
-		<Country_Region>Europe & Eurasia</Country_Region>
+		<Country_Region>Europe &#38; Eurasia</Country_Region>
 		<Survey_Name></Survey_Name>
 		<Childrens_Work_Statistics>
 			<Year></Year>
@@ -2692,7 +2692,7 @@
 		<Country_Name>Morocco</Country_Name>
 		<Country_ISO2>MA</Country_ISO2>
 		<Country_ISO3>MAR</Country_ISO3>
-		<Country_Region>Middle East & North Africa</Country_Region>
+		<Country_Region>Middle East &#38; North Africa</Country_Region>
 		<Survey_Name>Enquête sur la Population et la Santé Familiale</Survey_Name>
 		<Childrens_Work_Statistics>
 			<Year>2003-04</Year>
@@ -2788,7 +2788,7 @@
 		<Country_Name>Nepal</Country_Name>
 		<Country_ISO2>NP</Country_ISO2>
 		<Country_ISO3>NPL</Country_ISO3>
-		<Country_Region>Asia & Pacific</Country_Region>
+		<Country_Region>Asia &#38; Pacific</Country_Region>
 		<Survey_Name>Labour Force Survey</Survey_Name>
 		<Childrens_Work_Statistics>
 			<Year>2008.0</Year>
@@ -2820,7 +2820,7 @@
 		<Country_Name>Nicaragua</Country_Name>
 		<Country_ISO2>NI</Country_ISO2>
 		<Country_ISO3>NIC</Country_ISO3>
-		<Country_Region>Latin America & Caribbean</Country_Region>
+		<Country_Region>Latin America &#38; Caribbean</Country_Region>
 		<Survey_Name>Encuesta Nacional de Hogares sobre Medicion de Nivel de Vida</Survey_Name>
 		<Childrens_Work_Statistics>
 			<Year>2005.0</Year>
@@ -2916,7 +2916,7 @@
 		<Country_Name>Niue</Country_Name>
 		<Country_ISO2>NU</Country_ISO2>
 		<Country_ISO3>NIU</Country_ISO3>
-		<Country_Region>Asia & Pacific</Country_Region>
+		<Country_Region>Asia &#38; Pacific</Country_Region>
 		<Survey_Name></Survey_Name>
 		<Childrens_Work_Statistics>
 			<Year></Year>
@@ -2948,7 +2948,7 @@
 		<Country_Name>Norfolk Island</Country_Name>
 		<Country_ISO2>NF</Country_ISO2>
 		<Country_ISO3>NFK</Country_ISO3>
-		<Country_Region>Asia & Pacific</Country_Region>
+		<Country_Region>Asia &#38; Pacific</Country_Region>
 		<Survey_Name></Survey_Name>
 		<Childrens_Work_Statistics>
 			<Year></Year>
@@ -2980,7 +2980,7 @@
 		<Country_Name>Oman</Country_Name>
 		<Country_ISO2>OM</Country_ISO2>
 		<Country_ISO3>OMN</Country_ISO3>
-		<Country_Region>Middle East & North Africa</Country_Region>
+		<Country_Region>Middle East &#38; North Africa</Country_Region>
 		<Survey_Name></Survey_Name>
 		<Childrens_Work_Statistics>
 			<Year></Year>
@@ -3012,7 +3012,7 @@
 		<Country_Name>Pakistan</Country_Name>
 		<Country_ISO2>PK</Country_ISO2>
 		<Country_ISO3>PAK</Country_ISO3>
-		<Country_Region>Asia & Pacific</Country_Region>
+		<Country_Region>Asia &#38; Pacific</Country_Region>
 		<Survey_Name>Labour Force Survey</Survey_Name>
 		<Childrens_Work_Statistics>
 			<Year>2010-2011</Year>
@@ -3044,7 +3044,7 @@
 		<Country_Name>Panama</Country_Name>
 		<Country_ISO2>PA</Country_ISO2>
 		<Country_ISO3>PAN</Country_ISO3>
-		<Country_Region>Latin America & Caribbean</Country_Region>
+		<Country_Region>Latin America &#38; Caribbean</Country_Region>
 		<Survey_Name>Encuesta de Trabajo Infantil</Survey_Name>
 		<Childrens_Work_Statistics>
 			<Year>2010.0</Year>
@@ -3076,7 +3076,7 @@
 		<Country_Name>Papua New Guinea</Country_Name>
 		<Country_ISO2>PG</Country_ISO2>
 		<Country_ISO3>PNG</Country_ISO3>
-		<Country_Region>Asia & Pacific</Country_Region>
+		<Country_Region>Asia &#38; Pacific</Country_Region>
 		<Survey_Name></Survey_Name>
 		<Childrens_Work_Statistics>
 			<Year></Year>
@@ -3108,7 +3108,7 @@
 		<Country_Name>Paraguay</Country_Name>
 		<Country_ISO2>PY</Country_ISO2>
 		<Country_ISO3>PRY</Country_ISO3>
-		<Country_Region>Latin America & Caribbean</Country_Region>
+		<Country_Region>Latin America &#38; Caribbean</Country_Region>
 		<Survey_Name>Encuesta Permanente de Hogares</Survey_Name>
 		<Childrens_Work_Statistics>
 			<Year>2005.0</Year>
@@ -3140,7 +3140,7 @@
 		<Country_Name>Peru</Country_Name>
 		<Country_ISO2>PE</Country_ISO2>
 		<Country_ISO3>PER</Country_ISO3>
-		<Country_Region>Latin America & Caribbean</Country_Region>
+		<Country_Region>Latin America &#38; Caribbean</Country_Region>
 		<Survey_Name>Encuesta Nacional de  Hogares</Survey_Name>
 		<Childrens_Work_Statistics>
 			<Year>2011.0</Year>
@@ -3172,7 +3172,7 @@
 		<Country_Name>Philippines</Country_Name>
 		<Country_ISO2>PH</Country_ISO2>
 		<Country_ISO3>PHL</Country_ISO3>
-		<Country_Region>Asia & Pacific</Country_Region>
+		<Country_Region>Asia &#38; Pacific</Country_Region>
 		<Survey_Name>Labour Force Survey-Child Labour Survey</Survey_Name>
 		<Childrens_Work_Statistics>
 			<Year>2001.0</Year>
@@ -3204,7 +3204,7 @@
 		<Country_Name>Pitcairn Islands</Country_Name>
 		<Country_ISO2>PN</Country_ISO2>
 		<Country_ISO3>PCN</Country_ISO3>
-		<Country_Region>Europe & Eurasia</Country_Region>
+		<Country_Region>Europe &#38; Eurasia</Country_Region>
 		<Survey_Name></Survey_Name>
 		<Childrens_Work_Statistics>
 			<Year></Year>
@@ -3236,7 +3236,7 @@
 		<Country_Name>Russia</Country_Name>
 		<Country_ISO2>RU</Country_ISO2>
 		<Country_ISO3>RUS</Country_ISO3>
-		<Country_Region>Europe & Eurasia</Country_Region>
+		<Country_Region>Europe &#38; Eurasia</Country_Region>
 		<Survey_Name></Survey_Name>
 		<Childrens_Work_Statistics>
 			<Year></Year>
@@ -3300,7 +3300,7 @@
 		<Country_Name>Saint Helena, Ascension and Tristan da Cunha (formerly called Saint Helena)</Country_Name>
 		<Country_ISO2>SH</Country_ISO2>
 		<Country_ISO3>SHN</Country_ISO3>
-		<Country_Region>Europe & Eurasia</Country_Region>
+		<Country_Region>Europe &#38; Eurasia</Country_Region>
 		<Survey_Name></Survey_Name>
 		<Childrens_Work_Statistics>
 			<Year></Year>
@@ -3332,7 +3332,7 @@
 		<Country_Name>Saint Kitts and Nevis</Country_Name>
 		<Country_ISO2>KN</Country_ISO2>
 		<Country_ISO3>KNA</Country_ISO3>
-		<Country_Region>Latin America & Caribbean</Country_Region>
+		<Country_Region>Latin America &#38; Caribbean</Country_Region>
 		<Survey_Name></Survey_Name>
 		<Childrens_Work_Statistics>
 			<Year></Year>
@@ -3364,7 +3364,7 @@
 		<Country_Name>Saint Lucia</Country_Name>
 		<Country_ISO2>LC</Country_ISO2>
 		<Country_ISO3>LCA</Country_ISO3>
-		<Country_Region>Latin America & Caribbean</Country_Region>
+		<Country_Region>Latin America &#38; Caribbean</Country_Region>
 		<Survey_Name></Survey_Name>
 		<Childrens_Work_Statistics>
 			<Year></Year>
@@ -3396,7 +3396,7 @@
 		<Country_Name>Saint Vincent and the Grenadines</Country_Name>
 		<Country_ISO2>VC</Country_ISO2>
 		<Country_ISO3>VCT</Country_ISO3>
-		<Country_Region>Latin America & Caribbean</Country_Region>
+		<Country_Region>Latin America &#38; Caribbean</Country_Region>
 		<Survey_Name></Survey_Name>
 		<Childrens_Work_Statistics>
 			<Year></Year>
@@ -3428,7 +3428,7 @@
 		<Country_Name>Samoa</Country_Name>
 		<Country_ISO2>WS</Country_ISO2>
 		<Country_ISO3>WSM</Country_ISO3>
-		<Country_Region>Asia & Pacific</Country_Region>
+		<Country_Region>Asia &#38; Pacific</Country_Region>
 		<Survey_Name></Survey_Name>
 		<Childrens_Work_Statistics>
 			<Year></Year>
@@ -3524,7 +3524,7 @@
 		<Country_Name>Serbia</Country_Name>
 		<Country_ISO2>RS</Country_ISO2>
 		<Country_ISO3>SRB</Country_ISO3>
-		<Country_Region>Europe & Eurasia</Country_Region>
+		<Country_Region>Europe &#38; Eurasia</Country_Region>
 		<Survey_Name>Multiple Indicator Cluster Survey 3</Survey_Name>
 		<Childrens_Work_Statistics>
 			<Year>2005.0</Year>
@@ -3620,7 +3620,7 @@
 		<Country_Name>Solomon Islands</Country_Name>
 		<Country_ISO2>SB</Country_ISO2>
 		<Country_ISO3>SLB</Country_ISO3>
-		<Country_Region>Asia & Pacific</Country_Region>
+		<Country_Region>Asia &#38; Pacific</Country_Region>
 		<Survey_Name></Survey_Name>
 		<Childrens_Work_Statistics>
 			<Year></Year>
@@ -3748,7 +3748,7 @@
 		<Country_Name>Sri Lanka</Country_Name>
 		<Country_ISO2>LK</Country_ISO2>
 		<Country_ISO3>LKA</Country_ISO3>
-		<Country_Region>Asia & Pacific</Country_Region>
+		<Country_Region>Asia &#38; Pacific</Country_Region>
 		<Survey_Name>Child Activity Survey</Survey_Name>
 		<Childrens_Work_Statistics>
 			<Year>2008-2009</Year>
@@ -3780,7 +3780,7 @@
 		<Country_Name>Suriname</Country_Name>
 		<Country_ISO2>SR</Country_ISO2>
 		<Country_ISO3>SUR</Country_ISO3>
-		<Country_Region>Latin America & Caribbean</Country_Region>
+		<Country_Region>Latin America &#38; Caribbean</Country_Region>
 		<Survey_Name>Multiple Indicator Cluster Survey 4</Survey_Name>
 		<Childrens_Work_Statistics>
 			<Year>2010.0</Year>
@@ -3876,7 +3876,7 @@
 		<Country_Name>Thailand</Country_Name>
 		<Country_ISO2>TH</Country_ISO2>
 		<Country_ISO3>THA</Country_ISO3>
-		<Country_Region>Asia & Pacific</Country_Region>
+		<Country_Region>Asia &#38; Pacific</Country_Region>
 		<Survey_Name>Multiple Indicator Cluster Survey 3</Survey_Name>
 		<Childrens_Work_Statistics>
 			<Year>2005-06</Year>
@@ -3908,7 +3908,7 @@
 		<Country_Name>Timor-Leste</Country_Name>
 		<Country_ISO2>TL</Country_ISO2>
 		<Country_ISO3>TLS</Country_ISO3>
-		<Country_Region>Asia & Pacific</Country_Region>
+		<Country_Region>Asia &#38; Pacific</Country_Region>
 		<Survey_Name>Timor-Leste Survey of Living Standards</Survey_Name>
 		<Childrens_Work_Statistics>
 			<Year>2007.0</Year>
@@ -3972,7 +3972,7 @@
 		<Country_Name>Tokelau</Country_Name>
 		<Country_ISO2>TK</Country_ISO2>
 		<Country_ISO3>TKL</Country_ISO3>
-		<Country_Region>Asia & Pacific</Country_Region>
+		<Country_Region>Asia &#38; Pacific</Country_Region>
 		<Survey_Name></Survey_Name>
 		<Childrens_Work_Statistics>
 			<Year></Year>
@@ -4004,7 +4004,7 @@
 		<Country_Name>Tonga</Country_Name>
 		<Country_ISO2>TO</Country_ISO2>
 		<Country_ISO3>TON</Country_ISO3>
-		<Country_Region>Asia & Pacific</Country_Region>
+		<Country_Region>Asia &#38; Pacific</Country_Region>
 		<Survey_Name></Survey_Name>
 		<Childrens_Work_Statistics>
 			<Year></Year>
@@ -4036,7 +4036,7 @@
 		<Country_Name>Trinidad and Tobago</Country_Name>
 		<Country_ISO2>TT</Country_ISO2>
 		<Country_ISO3>TTO</Country_ISO3>
-		<Country_Region>Latin America & Caribbean</Country_Region>
+		<Country_Region>Latin America &#38; Caribbean</Country_Region>
 		<Survey_Name>Multiple Indicator Cluster Survey 3</Survey_Name>
 		<Childrens_Work_Statistics>
 			<Year>2006.0</Year>
@@ -4068,7 +4068,7 @@
 		<Country_Name>Tunisia</Country_Name>
 		<Country_ISO2>TN</Country_ISO2>
 		<Country_ISO3>TUN</Country_ISO3>
-		<Country_Region>Middle East & North Africa</Country_Region>
+		<Country_Region>Middle East &#38; North Africa</Country_Region>
 		<Survey_Name></Survey_Name>
 		<Childrens_Work_Statistics>
 			<Year></Year>
@@ -4100,7 +4100,7 @@
 		<Country_Name>Turkey</Country_Name>
 		<Country_ISO2>TR</Country_ISO2>
 		<Country_ISO3>TUR</Country_ISO3>
-		<Country_Region>Europe & Eurasia</Country_Region>
+		<Country_Region>Europe &#38; Eurasia</Country_Region>
 		<Survey_Name>Child Labour Survey</Survey_Name>
 		<Childrens_Work_Statistics>
 			<Year>2006.0</Year>
@@ -4132,7 +4132,7 @@
 		<Country_Name>Turks and Caicos Islands</Country_Name>
 		<Country_ISO2>TC</Country_ISO2>
 		<Country_ISO3>TCA</Country_ISO3>
-		<Country_Region>Europe & Eurasia</Country_Region>
+		<Country_Region>Europe &#38; Eurasia</Country_Region>
 		<Survey_Name></Survey_Name>
 		<Childrens_Work_Statistics>
 			<Year></Year>
@@ -4164,7 +4164,7 @@
 		<Country_Name>Tuvalu</Country_Name>
 		<Country_ISO2>TV</Country_ISO2>
 		<Country_ISO3>TUV</Country_ISO3>
-		<Country_Region>Asia & Pacific</Country_Region>
+		<Country_Region>Asia &#38; Pacific</Country_Region>
 		<Survey_Name></Survey_Name>
 		<Childrens_Work_Statistics>
 			<Year></Year>
@@ -4228,7 +4228,7 @@
 		<Country_Name>Ukraine</Country_Name>
 		<Country_ISO2>UA</Country_ISO2>
 		<Country_ISO3>UKR</Country_ISO3>
-		<Country_Region>Europe & Eurasia</Country_Region>
+		<Country_Region>Europe &#38; Eurasia</Country_Region>
 		<Survey_Name>Multiple Indicator Cluster Survey 3</Survey_Name>
 		<Childrens_Work_Statistics>
 			<Year>2005.0</Year>
@@ -4260,7 +4260,7 @@
 		<Country_Name>Uruguay</Country_Name>
 		<Country_ISO2>UY</Country_ISO2>
 		<Country_ISO3>URY</Country_ISO3>
-		<Country_Region>Latin America & Caribbean</Country_Region>
+		<Country_Region>Latin America &#38; Caribbean</Country_Region>
 		<Survey_Name>Encuesta Nacional de Trabajo Infantil</Survey_Name>
 		<Childrens_Work_Statistics>
 			<Year>2009.0</Year>
@@ -4292,7 +4292,7 @@
 		<Country_Name>Uzbekistan</Country_Name>
 		<Country_ISO2>UZ</Country_ISO2>
 		<Country_ISO3>UZB</Country_ISO3>
-		<Country_Region>Asia & Pacific</Country_Region>
+		<Country_Region>Asia &#38; Pacific</Country_Region>
 		<Survey_Name>Multiple Indicator Cluster Survey 3</Survey_Name>
 		<Childrens_Work_Statistics>
 			<Year>2006.0</Year>
@@ -4324,7 +4324,7 @@
 		<Country_Name>Vanuatu</Country_Name>
 		<Country_ISO2>VU</Country_ISO2>
 		<Country_ISO3>VUT</Country_ISO3>
-		<Country_Region>Asia & Pacific</Country_Region>
+		<Country_Region>Asia &#38; Pacific</Country_Region>
 		<Survey_Name></Survey_Name>
 		<Childrens_Work_Statistics>
 			<Year></Year>
@@ -4356,7 +4356,7 @@
 		<Country_Name>Venezuela</Country_Name>
 		<Country_ISO2>VE</Country_ISO2>
 		<Country_ISO3>VEN</Country_ISO3>
-		<Country_Region>Latin America & Caribbean</Country_Region>
+		<Country_Region>Latin America &#38; Caribbean</Country_Region>
 		<Survey_Name>Encuesta de Hogares por Muestreo</Survey_Name>
 		<Childrens_Work_Statistics>
 			<Year>2006.0</Year>
@@ -4388,7 +4388,7 @@
 		<Country_Name>Wallis and Futuna</Country_Name>
 		<Country_ISO2>WF</Country_ISO2>
 		<Country_ISO3>WLF</Country_ISO3>
-		<Country_Region>Europe & Eurasia</Country_Region>
+		<Country_Region>Europe &#38; Eurasia</Country_Region>
 		<Survey_Name></Survey_Name>
 		<Childrens_Work_Statistics>
 			<Year></Year>
@@ -4420,7 +4420,7 @@
 		<Country_Name>West Bank and the Gaza Strip</Country_Name>
 		<Country_ISO2>WB</Country_ISO2>
 		<Country_ISO3>WBG</Country_ISO3>
-		<Country_Region>Middle East & North Africa</Country_Region>
+		<Country_Region>Middle East &#38; North Africa</Country_Region>
 		<Survey_Name></Survey_Name>
 		<Childrens_Work_Statistics>
 			<Year></Year>
@@ -4452,7 +4452,7 @@
 		<Country_Name>Western Sahara</Country_Name>
 		<Country_ISO2>EH</Country_ISO2>
 		<Country_ISO3>ESH</Country_ISO3>
-		<Country_Region>Middle East & North Africa</Country_Region>
+		<Country_Region>Middle East &#38; North Africa</Country_Region>
 		<Survey_Name></Survey_Name>
 		<Childrens_Work_Statistics>
 			<Year></Year>
@@ -4484,7 +4484,7 @@
 		<Country_Name>Yemen</Country_Name>
 		<Country_ISO2>YE</Country_ISO2>
 		<Country_ISO3>YEM</Country_ISO3>
-		<Country_Region>Middle East & North Africa</Country_Region>
+		<Country_Region>Middle East &#38; North Africa</Country_Region>
 		<Survey_Name>National Child Labour Survey</Survey_Name>
 		<Childrens_Work_Statistics>
 			<Year>2010.0</Year>

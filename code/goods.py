@@ -4,6 +4,7 @@ import utility
 import ISO_countries 
 import sectors 
 import regions 
+import special_chars
 from collections import OrderedDict
 
 csv_target = '../output/extra/goods_from_XL_2013.csv' 
@@ -13,6 +14,7 @@ json_target_by_country = '../output/extra/goods_from_XL_by_country_2013.json'
 json_target_by_good = '../output/extra/goods_from_XL_by_good_2013.json'
 
 present = "X"
+sp_chars = special_chars.build()
 
 mappings = ["Country_Name", 
             "Good_Name", 
@@ -100,7 +102,7 @@ def to_xml_by_country(filename, goods_list):
 		country = str(row['Country_Name']).strip()
 		iso2 = str(row['Country_ISO2'])
 		iso3 = str(row['Country_ISO3'])
-		region = str(row['Country_Region'])
+		region = special_chars.xml_safe(str(row['Country_Region']), sp_chars)
 		good = str(row['Good_Name']).strip()
 		if 	(country not in countries):
 			target.write("\t<Country>\n"+"\t\t<Country_Name>"+country+"</Country_Name>"+"\n")
@@ -155,7 +157,7 @@ def to_xml_by_good(filename, goods_list):
 				target.write("\t\t\t\t"+"<Country_Name>"+str(countryset[count]['Country_Name'])+"</Country_Name>\n")
 				target.write("\t\t\t\t"+"<Country_ISO2>"+str(countryset[count]['Country_ISO2'])+"</Country_ISO2>\n")
 				target.write("\t\t\t\t"+"<Country_ISO3>"+str(countryset[count]['Country_ISO3'])+"</Country_ISO3>\n")
-				target.write("\t\t\t\t"+"<Country_Region>"+str(countryset[count]['Country_Region'])+"</Country_Region>\n")
+				target.write("\t\t\t\t"+"<Country_Region>"+special_chars.xml_safe(str(countryset[count]['Country_Region']),sp_chars)+"</Country_Region>\n")
 				target.write("\t\t\t\t"+"<Child_Labor>"+str(countryset[count]['Child_Labor'])+"</Child_Labor>\n")
 				target.write("\t\t\t\t"+"<Forced_Labor>"+str(countryset[count]['Forced_Labor'])+"</Forced_Labor>\n")
 				target.write("\t\t\t</Country>\n")
