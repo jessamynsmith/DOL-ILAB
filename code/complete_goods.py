@@ -54,7 +54,7 @@ def write_record(target, cr, count):
 				this_key_group = (ckeys[n])[:(len(ckeys[n])-1)]
 				if len(kv) > 0:
 					this_key_group = this_key_group.replace("ie", "y")
-					print this_key_group
+					#print this_key_group
 					target.write( utility.tabs(count) + utility.create_starting_xml_tag(this_key_group) + utility.get_newline())
 				write_record(target, l, count+1)
 				if len(kv) > 0:
