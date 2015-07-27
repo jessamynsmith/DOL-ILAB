@@ -1,144 +1,144 @@
-Country_Name,Country_ISO2,Country_ISO3,Country_Region,Survey_Name,Children_Work_Statistics_Year,Children_Work_Statistics_Survey_Source,Children_Work_Statistics_Age_Range,Children_Work_Statistics_Total_Child_Population,Children_Work_Statistics_Total_Percentage_of_Working_Children,Children_Work_Statistics_Total_Working_Population,Children_Work_Statistics_Agriculture,Children_Work_Statistics_Service,Children_Work_Statistics_Industry,Education_Statistics_Attendance_Statistics_Year,Education_Statistics_Attendance_Statistics_Age_Range,Education_Statistics_Attendance_Statistics_Percentage,Children_Working_and_Studying_7-14_yrs_old_Year,Children_Working_and_Studying_7-14_yrs_old_Age_Range,Children_Working_and_Studying_7-14_yrs_old_Total,UNESCO_Primary_Completion_Rate_Year,UNESCO_Primary_Completion_Rate_Rate
-Afghanistan,AF,AFG,Asia & Pacific,,,,,673949.0,,,,,,,,,,,,,
-Albania,AL,ALB,Europe & Eurasia,National Child Labour Survey (NCLS),2010.0,SIMPOC,5-14,23665.0,4.56862047172,23665.0,87.4708222625,9.64455242893,2.88462530855,2010.0,5-14,92.5098415007,2010.0,7-14,5.24318430679,,
-Algeria,DZ,DZA,Middle East & North Africa,,,,,,,,,,,,,,,,,2012.0,100.2
-Angola,AO,AGO,Sub-Saharan Africa,Multiple Indicator Cluster Survey 2,2001.0,MICS 2,5-14,,25.7,694458.0,,,,2001.0,5-14,65.4,2001.0,7-14,22.1,2011.0,54.3
-Anguilla,AI,AIA,Europe & Eurasia,,,,,,,,,,,,,,,,,,
-Argentina,AR,ARG,Latin America & Caribbean,"Encuesta sobre Actividades de Niños, Niñas y Adolescentes",2004.0,EANNA,5-14,,11.0,366235.0,12.9,78.4,8.7,2004.0,5-14,97.2,2004.0,7-14,12.3,2011.0,109.3
-Armenia,AM,ARM,Europe & Eurasia,Demographic and Health Survey,2010.0,DHS,5-14,,8.1,30493.8745,,,,2010.0,5-14,89.83,2010.0,7-14,9.9,2008.0,100.1
-Azerbaijan,AZ,AZE,Europe & Eurasia,Child Labor Survey,2005.0,SIMPOC,5-14,,4.5,70033.5,91.9,7.2,0.8,2005.0,6-14,94.3,2005.0,7-14,4.85,2012.0,92.0
-Bahrain,BH,BHR,Middle East & North Africa,,,,,,,,,,,,,,,,,,
-Bangladesh,BD,BGD,Asia & Pacific,Labour Force Survey,2005-2006,LFS,5-14,,10.1,3717540.0,45.5479389643,36.0,18.5,2005-2006,5-14,81.1944552173,2005-2006,7-14,6.82,2011.0,74.6
-Barbados,BB,BRB,Latin America & Caribbean,,,,,,,,,,,,,,,,,2011.0,104.0
-Belize,BZ,BLZ,Latin America & Caribbean,Multiple Indicator Cluster Survey 4,2011.0,MICS 4,5-14,,8.3,6933.95,,,,2011.0,5-14,93.5,2011.0,7-14,8.90355229266,2012.0,116.1
-Benin,BJ,BEN,Sub-Saharan Africa,Demographic and Health Survey,2006.0,DHS,5-14,,31.5,850785.0,,,,2006.0,5-14,58.2,2006.0,7-14,20.0,2012.0,70.5
-Bhutan,BT,BTN,Asia & Pacific,Multiple Indicator Cluster Survey 4,2010.0,MICS 4,5-14,,3.8,6338.11,,,,2010.0,5-14,84.7021664184,2010.0,7-14,3.3,2012.0,101.3
-Bolivia,BO,BOL,Latin America & Caribbean,Encuesta Continua de Hogares,2009.0,ECH,7-14,,20.2,388541.0,70.9402611307,21.2,7.9,2009.0,7-14,96.2,2009.0,7-14,18.7,2011.0,92.3
-Bosnia and Herzegovina,BA,BIH,Europe & Eurasia,Multiple Indicator Cluster Survey 3,2006.0,MICS 3,5-14,,8.9,44017.0,,,,2006.0,5-14,83.7,2006.0,7-14,10.6,,
-Botswana,BW,BWA,Sub-Saharan Africa,,,,,,,,,,,,,,,,,2009.0,94.7
-Brazil,BR,BRA,Latin America & Caribbean,Pesquisa Nacional por Amostra de Domicílios,2011.0,PNAD,5-14,,3.47511688028,1116499.0,56.43,33.71,9.86,2011.0,5-14,97.1642304981,2011.0,7-14,4.04501978913,,
-British Indian Ocean Territories,IO,IOT,Europe & Eurasia,,,,,,,,,,,,,,,,,,
-British Virgin Islands,VG,VGB,Europe & Eurasia,,,,,,,,,,,,,,,,,2011.0,92.9
-Burkina Faso,BF,BFA,Sub-Saharan Africa,Enquête Démographique et de Santé et à Indicateurs Multiples,2010.0,DHS,5-14,,42.1,2116751.8,,,,2010.0,5-14,41.9064043039,2010.0,7-14,21.7152346096,2012.0,57.6
-Burundi,BI,BDI,Sub-Saharan Africa,Demographic and Health Survey,2010-2011,DHS,5-14,,27.17,633126.11,,,,2010-2011,5-14,60.87,2010-2011,7-14,26.03,2012.0,62.2
-Cabo Verde,CV,CPV,Sub-Saharan Africa,Inquérito as Despesas e Receitas Familiares,2001-02,HHS,10-14,,3.2,2392.0,79.2,13.7,7.2,2001-02,5-14,90.1,2001-02,10-14,1.73,2012.0,99.0
-Cambodia,KH,KHM,Asia & Pacific,Socio-Economic Survey,2009.0,SES,5-14,,28.65,888370.43,84.83,7.69,7.48,2009.0,5-14,79.2,2009.0,7-14,28.3,2012.0,98.1
-Cameroon,CM,CMR,Sub-Saharan Africa,Enquête Démographique et de Santé et à Indicateurs Multiples,2011.0,DHS,5-14,,56.2,,,,,2011.0,5-14,79.7,2011.0,7-14,52.7173788427,2012.0,72.9
-Central African Republic,CF,CAF,Sub-Saharan Africa,Multiple Indicator Cluster Survey 3,2006.0,MICS 3,5-14,,51.1,602932.0,,,,2006.0,5-14,53.9,2006.0,7-14,33.4,2012.0,45.4
-Chad,TD,TCD,Sub-Saharan Africa,Demographic and Health Survey,2004.0,DHS,5-14,,53.0,1535025.0,,,,2004.0,5-14,39.6,2004.0,7-14,30.7,2012.0,35.3
-Chile,CL,CHL,Latin America & Caribbean,Encuesta Nacional sobre las Actividades de Ninos y Adolescentes,2003.0,SIMPOC,5-14,,3.5,97928.0,24.7,66.6,8.6,2003.0,5-14,97.2,2003.0,7-14,4.0,2012.0,97.3
-Christmas Island,CX,CXR,Asia & Pacific,,,,,,,,,,,,,,,,,,
-Cocos (Keeling) Islands,CC,CCK,Asia & Pacific,,,,,,,,,,,,,,,,,,
-Colombia,CO,COL,Latin America & Caribbean,"Gran Encuesta Integrada de Hogares, Módulo de Trabajo Infantil",2012.0,GEIH-MTI,5-14,,5.92842564157,514092.5,39.1722311036,40.6505264337,20.1772424627,2012.0,5-14,93.2180173722,2012.0,7-14,5.9261483365,2012.0,105.0
-Comoros,KM,COM,Sub-Saharan Africa,Multiple Indicator Cluster Survey 2,2000.0,MICS 2,5-14,,35.6,56840.0,,,,2000.0,5-14,44.2,2000.0,7-14,23.9,2008.0,79.8
-"Congo, Democratic Republic of the",CD,COD,Sub-Saharan Africa,Multiple Indicator Cluster Survey 4,2010.0,MICS 4,5-14,,16.9337388725,3327805.9,,,,2010.0,5-14,67.1055306822,2010.0,7-14,16.2378166993,2012.0,72.8
-"Congo, Republic of the",CG,COG,Sub-Saharan Africa,Demographic and Health Survey,2005.0,DHS,5-14,,27.0,256993.0,,,,2005.0,5-14,87.8,2005.0,7-14,27.1,2012.0,73.0
-Cook Islands,CK,COK,Asia & Pacific,,,,,,,,,,,,,,,,,2011.0,109.9
-Costa Rica,CR,CRI,Latin America & Caribbean,Encuesta Nacional de Hogares,2011.0,ENAHO,5-14,,2.16972746827,16160.0,45.0742574257,45.0371287129,9.88861386139,2011.0,5-14,95.3521376381,2011.0,7-14,1.99896460234,2012.0,95.2
-Côte d'Ivoire,CI,CIV,Sub-Saharan Africa,Multiple Indicator Cluster Survey 3,2006.0,MICS 3,5-14,,39.8,2181894.0,,,,2006.0,5-14,53.6,2006.0,7-14,24.3,2012.0,61.2
-Djibouti,DJ,DJI,Sub-Saharan Africa,Multiple Indicator Cluster Survey 3,2006.0,MICS 3,5-14,,12.3,23693.0,,,,2006.0,5-14,67.4,2006.0,7-14,10.2,2013.0,52.0
-Dominica,DM,DMA,Latin America & Caribbean,,,,,,,,,,,,,,,,,2012.0,104.0
-Dominican Republic,DO,DOM,Latin America & Caribbean,Encuesta Nacional de Hogares de Propósitos Múltiples,2011.0,ENHOGAR,10-14,,5.3,54850.0,29.1066545123,62.4393801276,8.5,2011.0,5-14,96.1216066602,2011.0,10-14,4.8285330117,2012.0,90.3
-Ecuador,EC,ECU,Latin America & Caribbean,"Encuesta Nacional de Empleo, Desempleo y Subempleo",2011.0,ENEMDU,5-14,,2.72293983416,75688.66,70.985168504,20.9629168207,8.0519146753,2011.0,5-14,96.8592640773,2011.0,7-14,2.43015360449,2012.0,110.9
-Egypt,EG,EGY,Middle East & North Africa,Demographic and Health Survey,2005.0,DHS,5-14,,6.7,993417.0,,,,2005.0,6-14,88.1,2005.0,7-14,6.3,2012.0,107.0
-El Salvador,SV,SLV,Latin America & Caribbean,Encuesta de Hogares de Propósitos Múltiples,2011.0,EHPM,5-14,,6.3,84927.0,55.97,33.62,10.41,2011.0,5-14,92.2,2011.0,7-14,6.15416019745,2012.0,101.0
-Eritrea,ER,ERI,Sub-Saharan Africa,,,,,,,,,,,,,,,,,2012.0,31.2
-Ethiopia,ET,ETH,Sub-Saharan Africa,Demographic and Health Survey,2011.0,DHS,5-14,,22.0,5545319.0,,,,2011.0,5-14,54.0,2011.0,7-14,16.95,2005.0,43.4
-Falkland Islands (Islas Malvinas),FK,FLK,Europe & Eurasia,,,,,,,,,,,,,,,,,,
-Fiji,FJ,FJI,Asia & Pacific,,,,,,,,,,,,,,,,,2011.0,103.3
-Gabon,GA,GAB,Sub-Saharan Africa,,,,,,,,,,,,,,,,,,
-Gambia,GM,GMB,Sub-Saharan Africa,Multiple Indicator Cluster Survey 3,2005-06,MICS 3,5-14,,36.4,180954.0,,,,2005-06,5-14,65.7,2005-06,7-14,29.6,2012.0,70.3
-Georgia,GE,GEO,Europe & Eurasia,Multiple Indicator Cluster Survey 3,2005.0,MICS 3,5-14,,29.1,172378.0,,,,2005.0,5-14,92.1,2005.0,7-14,31.5,2012.0,108.1
-Ghana,GH,GHA,Sub-Saharan Africa,Multiple Indicator Cluster Survey 3,2006.0,MICS 3,5-14,,43.5,2731596.0,,,,2006.0,5-14,83.1,2006.0,7-14,39.8,2013.0,98.5
-Gibraltar,GI,GIB,Europe & Eurasia,,,,,,,,,,,,,,,,,,
-Grenada,GD,GRD,Latin America & Caribbean,,,,,,,,,,,,,,,,,2010.0,111.5
-Guatemala,GT,GTM,Latin America & Caribbean,Encuesta Nacional de Condiciones de Vida,2011.0,ENCOVI,7-14,,13.4,414250.0,68.3,18.28,13.42,2011.0,5-14,83.66,2011.0,7-14,9.57,2011.0,87.7
-Guinea,GN,GIN,Sub-Saharan Africa,Enquete Nationale sur le Travail des Enfants,2010.0,SIMPOC,5-14,,38.7970516823,1118519.0,76.2025147125,18.5469766416,5.25050864585,2010.0,5-14,60.1,2010.0,7-14,24.4842657646,2012.0,61.5
-Guinea Bissau,GW,GNB,Sub-Saharan Africa,Multiple Indicator Cluster Survey 3,2006.0,MICS 3,5-14,,47.3,219734.0,,,,2006.0,5-14,56.9,2006.0,7-14,34.6,2010.0,64.0
-Guyana,GY,GUY,Latin America & Caribbean,Multiple Indicator Cluster Survey 3,2006-07,MICS 3,5-14,,23.0,44787.0,,,,2006-07,5-14,94.5,2006-07,7-14,23.2,2012.0,85.3
-Haiti,HT,HTI,Latin America & Caribbean,Demographic and Health Survey,2005.0,DHS,5-14,,29.0,659864.0,,,,2005.0,5-14,81.2,2005.0,7-14,27.5,,
-Heard and McDonald Islands,HM,HMD,Asia & Pacific,,,,,,,,,,,,,,,,,,
-Honduras,HN,HND,Latin America & Caribbean,Encuesta Permanente de Hogares de Propositos Multiples,2007.0,HHS,5-14,,7.2,151468.0,61.5,25.2,13.4,2007.0,5-14,83.7279910694,2007.0,7-14,4.8,2012.0,100.1
-India,IN,IND,Asia & Pacific,National Sample Survey Round 66,2009-2010,NSS-R66,5-14,,1.97,4371604.0,69.5,12.97,17.53,2009-2010,5-14,88.78,2009-2010,7-14,0.81,2011.0,96.5
-Indonesia,ID,IDN,Asia & Pacific,National Labor Force Survey (Sakernas),2010 (Aug),LFS,10-14,,3.7,816363.0,61.59,26.46,11.95,2010.0,10-14,92.4,2010.0,10-14,2.1,2011.0,99.7
-Iraq,IQ,IRQ,Middle East & North Africa,Multiple Indicator Cluster Survey 4,2011.0,MICS 4,5-14,,5.31740207696,454330.0,,,,2011.0,5-14,75.0089709874,2011.0,7-14,4.23733947851,2007.0,66.3
-Jamaica,JM,JAM,Latin America & Caribbean,Multiple Indicator Cluster Survey 3,2006.0,MICS 3,5-14,,8.4,48336.0,,,,2006.0,5-14,98.6,2006.0,7-14,9.5,2004.0,88.0
-Jordan,JO,JOR,Middle East & North Africa,National Child Labour Survey,2007.0,SIMPOC,5-14,,0.8,11255.0,40.5,48.4,11.2,2007.0,5-14,94.9,2007.0,7-14,0.7,2011.0,92.8
-Kazakhstan,KZ,KAZ,Asia & Pacific,Multiple Indicator Cluster Survey 3,2006.0,MICS 3,5-14,,3.2,79690.0,,,,2006.0,5-14,90.7,2006.0,7-14,3.6,2013.0,102.3
-Kenya,KE,KEN,Sub-Saharan Africa,Multiple Indicator Cluster Survey 2,2000.0,MICS 2,5-14,,32.5,2943310.0,,,,2000.0,5-14,74.9,2000.0,7-14,32.33,2005.0,90.7
-Kiribati,KI,KIR,Asia & Pacific,,,,,,,,,,,,,,,,,2008.0,115.2
-Kosovo,KS,KSO,Europe & Eurasia,,,,,,,,,,,,,,,,,,
-Kyrgyz Republic,KV,KVR,Asia & Pacific,Multiple Indicator Cluster Survey 3,2006.0,MICS3,5-14,,4.5,48305.0,,,,2006.0,5-14,84.0,2006.0,7-14,4.8,2012.0,97.7
-Lebanon,LB,LBN,Middle East & North Africa,,,,,,,,,,,,,,,,,2012.0,86.2
-Lesotho,LS,LSO,Sub-Saharan Africa,Multiple Indicator Cluster Survey 2,2000.0,MICS 2,5-14,,28.1,124632.3,,,,2000.0,5-14,80.7,2000.0,7-14,25.3,2012.0,72.5
-Liberia,LR,LBR,Sub-Saharan Africa,Labour Force Survey,2010.0,LFS,5-14,,16.5611787728,136340.1,78.4194695947,17.3959637132,4.22520300496,2010.0,5-14,75.9316310341,2010.0,7-14,14.0048326946,2011.0,65.2
-Macedonia,MK,MKD,Europe & Eurasia,Multiple Indicator Cluster Survey 3,2005.0,MICS3,5-14,,9.9,30052.0,,,,2005.0,5-14,84.7,2005.0,7-14,11.5,2009.0,94.0
-Madagascar,MG,MDG,Sub-Saharan Africa,Enquete Nationale sur le Travail des Enfants,2007.0,SIMPOC,5-14,,22.1,1206992.0,87.4,8.4,4.2,2007.0,5-14,69.1,2007.0,7-14,15.4,2012.0,69.5
-Malawi,MW,MWI,Sub-Saharan Africa,Integrated Household Survey 3,2010-2011,HIS,5-14,,20.6,885332.8,,,,2010-2011,5-14,81.3,2010-2011,7-14,22.2436351479,2012.0,74.2
-Maldives,MV,MDV,Asia & Pacific,Demographic and Health Survey,2009.0,DHS,5-14,,3.9,2364.2094,,,,2009.0,5-14,79.45,2009.0,7-14,3.97,2009.0,109.9
-Mali,ML,MLI,Sub-Saharan Africa,Enquete National sur le Travail des Enfants,2005.0,SIMPOC,5-14,,46.4,1700782.06,82.5959748876,14.1226051599,3.28142277846,2005.0,5-14,42.0,2005.0,7-14,20.5,2012.0,58.7
-Mauritania,MR,MRT,Sub-Saharan Africa,Multiple Indicator Cluster Survey 3,2007.0,MICS 3,5-14,,18.2,172936.0,,,,2007.0,5-14,48.6,2007.0,7-14,10.8,2012.0,68.7
-Mauritius,MU,MUS,Sub-Saharan Africa,,,,,,,,,,,,,,,,,2012.0,99.3
-Moldova,MD,MDA,Europe & Eurasia,Labour Force Survey-Child Labour Survey,2009.0,LFS-SIMPOC,5-14,,24.277330891,102104.7,97.2649128052,2.1725662701,0.562520924704,2009.0,5-14,92.0988534066,2009.0,7-14,28.9636122313,2012.0,89.6
-Mongolia,MN,MNG,Asia & Pacific,Labour Force Survey-National Child Labour Survey,2011-12,LFS-NCLS,5-14,,13.7591566632,60245.67,85.8116688853,11.6987529842,2.4895781305,2011-2012,5-14,87.6262947269,2011-2012,7-14,15.0998062366,2012.0,130.2
-Montenegro,ME,MNE,Europe & Eurasia,Multiple Indicator Cluster Survey 3,2005.0,MICS3,5-14,,12.9,,,,,2005.0,5-14,87.7,2005.0,7-14,14.4,2012.0,101.0
-Montserrat,MS,MSR,Europe & Eurasia,,,,,,,,,,,,,,,,,2007.0,68.9
-Morocco,MA,MAR,Middle East & North Africa,Enquête sur la Population et la Santé Familiale,2003-04,DHS,10-14,,4.5,150178.0,,,,2003-04,6-14,82.9,2003-04,10-14,0.7,2013.0,98.9
-Mozambique,MZ,MOZ,Sub-Saharan Africa,Multiple Indicator Cluster Survey 3,2008.0,MICS3,5-14,,22.5,1526559.77,,,,2008.0,5-14,69.5,2008.0,7-14,22.4,2012.0,52.2
-Namibia,NA,NAM,Sub-Saharan Africa,,,,,,,,,,,,,,,,,2012.0,85.4
-Nepal,NP,NPL,Asia & Pacific,Labour Force Survey,2008.0,LFS,5-14,,33.6694310276,2097162.8,88.8284309107,3.09721736003,8.07435172927,2008.0,5-14,89.547986453,2008.0,7-14,35.1627337485,2013.0,99.8
-Nicaragua,NI,NIC,Latin America & Caribbean,Encuesta Nacional de Hogares sobre Medicion de Nivel de Vida,2005.0,HHS,5-14,,8.4,109380.0,70.7,19.2,10.1,2005.0,5-14,84.9,2005.0,7-14,7.0,2010.0,80.4
-Niger,NE,NER,Sub-Saharan Africa,Enquete Nationale sur le Travail des Enfants,2009.0,SIMPOC,5-14,,47.77,1561570.0,13.55,82.2,4.25,2009.0,5-14,51.7,2009.0,7-14,26.3,2012.0,49.3
-Nigeria,NG,NGA,Sub-Saharan Africa,Multiple Indicator Cluster Survey 4,2011.0,MICS 4,5-14,,31.1,13924739.0,,,,2011.0,5-14,76.2321013509,2011.0,7-14,26.8408729843,2010.0,76.0
-Niue,NU,NIU,Asia & Pacific,,,,,,,,,,,,,,,,,2004.0,115.4
-Norfolk Island,NF,NFK,Asia & Pacific,,,,,,,,,,,,,,,,,,
-Oman,OM,OMN,Middle East & North Africa,,,,,,,,,,,,,,,,,2012.0,103.7
-Pakistan,PK,PAK,Asia & Pacific,Labour Force Survey,2010-2011,LFS,10-14,,12.9981497318,2449480.0,76.0490798047,14.5888106863,9.32481506279,2010-2011,5-14,72.2786848429,2010-2011,10-14,1.63173614246,2012.0,71.9
-Panama,PA,PAN,Latin America & Caribbean,Encuesta de Trabajo Infantil,2010.0,ETI,5-14,,4.46809619149,30016.0,73.5407782516,21.0187899787,5.44043176972,2010.0,5-14,94.3100843276,2010.0,7-14,4.49026496133,2012.0,97.7
-Papua New Guinea,PG,PNG,Asia & Pacific,,,,,,,,,,,,,,,,,,
-Paraguay,PY,PRY,Latin America & Caribbean,Encuesta Permanente de Hogares,2005.0,HHS,10-14,,15.3,113072.0,60.8,32.1,7.1,2005.0,5-14,90.3,2005.0,10-14,12.1,2011.0,86.0
-Peru,PE,PER,Latin America & Caribbean,Encuesta Nacional de  Hogares,2011.0,ENAHO,6-14,,19.3833363229,1014688.0,,,,2011.0,6-14,79.4,2011.0,7-14,14.4332189678,2012.0,91.0
-Philippines,PH,PHL,Asia & Pacific,Labour Force Survey-Child Labour Survey,2001.0,SIMPOC,5-14,,11.0,2180565.0,65.3558014027,29.3527711266,5.29142747076,2001.0,5-14,87.6,2001.0,7-14,11.3,2009.0,91.3
-Pitcairn Islands,PN,PCN,Europe & Eurasia,,,,,,,,,,,,,,,,,,
-Russia,RU,RUS,Europe & Eurasia,,,,,,,,,,,,,,,,,2009.0,97.9
-Rwanda,RW,RWA,Sub-Saharan Africa,Demographic and Health Survey,2010.0,DHS,5-14,,16.1,482180.3,,,,2010.0,5-14,79.1,2010.0,7-14,17.5694591339,2012.0,57.7
-"Saint Helena, Ascension and Tristan da Cunha (formerly called Saint Helena)",SH,SHN,Europe & Eurasia,,,,,,,,,,,,,,,,,,
-Saint Kitts and Nevis,KN,KNA,Latin America & Caribbean,,,,,,,,,,,,,,,,,2012.0,92.6
-Saint Lucia,LC,LCA,Latin America & Caribbean,,,,,,,,,,,,,,,,,2012.0,91.6
-Saint Vincent and the Grenadines,VC,VCT,Latin America & Caribbean,,,,,,,,,,,,,,,,,2012.0,98.9
-Samoa,WS,WSM,Asia & Pacific,,,,,,,,,,,,,,,,,2012.0,102.4
-Sao Tome and Principe,ST,STP,Sub-Saharan Africa,Multiple Indicator Cluster Survey 2,2000.0,MICS 2,5-14,,15.4,6218.0,,,,2000.0,5-14,68.8,2000.0,7-14,13.7,2013.0,104.0
-Senegal,SN,SEN,Sub-Saharan Africa,Demographic and Health Survey,2010-2011,DHS,5-14,,14.9,510419.74,,,,2010-2011,5-14,53.57,2010-2011,7-14,8.3,2012.0,60.5
-Serbia,RS,SRB,Europe & Eurasia,Multiple Indicator Cluster Survey 3,2005.0,MICS 3,5-14,,6.0,,,,,2005.0,5-14,92.5,2005.0,7-14,6.7,2012.0,93.2
-Seychelles,SC,SYC,Sub-Saharan Africa,,,,,,,,,,,,,,,,,2011.0,104.5
-Sierra Leone,SL,SLE,Sub-Saharan Africa,Multiple Indicator Cluster Survey 4,2010.0,MICS 4,5-14,,34.7,579851.3,,,,2010.0,5-14,73.8,2010.0,7-14,31.6011972411,2012.0,72.4
-Solomon Islands,SB,SLB,Asia & Pacific,,,,,,,,,,,,,,,,,2012.0,85.4
-Somalia,SO,SOM,Sub-Saharan Africa,Multiple Indicator Cluster Survey 3,2006.0,MICS 3,5-14,,39.8,1012863.0,,,,2006.0,5-14,48.9,2006.0,7-14,20.2,,
-South Africa,ZA,ZAF,Sub-Saharan Africa,,,,,,,,,,,,,,,,,2004.0,98.5
-South Sudan,SS,SSD,Sub-Saharan Africa,Fifth Housing and Population Census,2008.0,CENSUS,10-14,,45.6,463624.0,60.2,38.2,1.6,2008.0,6-14,31.5,2008.0,10-14,10.9,,
-Sri Lanka,LK,LKA,Asia & Pacific,Child Activity Survey,2008-2009,SIMPOC,5-14,,9.17,302864.63,66.97,17.05,15.98,2008-2009,5-14,97.8,2008-2009,7-14,10.4,2012.0,96.9
-Suriname,SR,SUR,Latin America & Caribbean,Multiple Indicator Cluster Survey 4,2010.0,MICS 4,5-14,,6.44539253137,6671.261,,,,2010.0,5-14,95.7880790313,2010.0,7-14,6.6016950356,2011.0,87.8
-Swaziland,SZ,SWZ,Sub-Saharan Africa,Multiple Indicator Cluster Survey 4,2010.0,MICS 4,5-14,,11.729758576,35368.022,,,,2010.0,5-14,92.5402987166,2010.0,7-14,12.9909598268,2011.0,76.8
-Tanzania,TZ,TZA,Sub-Saharan Africa,National Panel Survey,2010-2011,NPS,5-14,,25.1,3157442.4,,,,2010-2011,5-14,74.1,2010-2011,7-14,21.6372926504,2012.0,80.8
-Thailand,TH,THA,Asia & Pacific,Multiple Indicator Cluster Survey 3,2005-06,MICS 3,5-14,,13.0,1302267.0,,,,2005-06,5-14,96.3,2005-06,7-14,14.4,,
-Timor-Leste,TL,TLS,Asia & Pacific,Timor-Leste Survey of Living Standards,2007.0,TLSLS,10-14,,19.9,26268.0,97.6,1.0,1.4,2007.0,7-14,69.7,2007.0,10-14,12.6,2011.0,71.0
-Togo,TG,TGO,Sub-Saharan Africa,Multiple Indicator Cluster Survey 4,2010.0,MICS 4,5-14,,35.7,616132.3,,,,2010.0,5-14,85.3,2010.0,7-14,35.4907412481,2011.0,73.5
-Tokelau,TK,TKL,Asia & Pacific,,,,,,,,,,,,,,,,,,
-Tonga,TO,TON,Asia & Pacific,,,,,,,,,,,,,,,,,2012.0,100.3
-Trinidad and Tobago,TT,TTO,Latin America & Caribbean,Multiple Indicator Cluster Survey 3,2006.0,MICS  3,5-14,,3.0,5975.0,,,,2006.0,5-14,97.8,2006.0,7-14,3.3,2010.0,94.8
-Tunisia,TN,TUN,Middle East & North Africa,,,,,,,,,,,,,,,,,2010.0,101.7
-Turkey,TR,TUR,Europe & Eurasia,Child Labour Survey,2006.0,SIMPOC,6-14,,2.6,320254.4,57.1,27.1,15.8,2006.0,6-14,92.4,2006.0,6-14,1.6,2011.0,102.5
-Turks and Caicos Islands,TC,TCA,Europe & Eurasia,,,,,,,,,,,,,,,,,2005.0,91.8
-Tuvalu,TV,TUV,Asia & Pacific,,,,,,,,,,,,,,,,,2006.0,99.2
-Uganda,UG,UGA,Sub-Saharan Africa,Labour Force Survey,2010.0,LFS,5-14,,30.9,3034126.2,95.4014793009,3.05440109485,1.54411960428,2011-2012,5-14,88.7,2011-2012,7-14,34.3622918886,2011.0,53.1
-Ukraine,UA,UKR,Europe & Eurasia,Multiple Indicator Cluster Survey 3,2005.0,MICS 3,5-14,,15.1,904210.0,,,,2005.0,5-14,95.8,2005.0,7-14,17.3,2012.0,102.8
-Uruguay,UY,URY,Latin America & Caribbean,Encuesta Nacional de Trabajo Infantil,2009.0,SIMPOC,5-14,,6.1,31954.65,28.4,59.1,12.5,2009.0,5-14,97.8,2009.0,7-14,6.5,2010.0,104.3
-Uzbekistan,UZ,UZB,Asia & Pacific,Multiple Indicator Cluster Survey 3,2006.0,MICS 3,5-14,,4.3,244095.0,,,,2006.0,5-14,84.1,2006.0,7-14,5.0,2011.0,91.8
-Vanuatu,VU,VUT,Asia & Pacific,,,,,,,,,,,,,,,,,2010.0,83.6
-Venezuela,VE,VEN,Latin America & Caribbean,Encuesta de Hogares por Muestreo,2006.0,HHS,10-14,,5.1,138641.0,32.3419557541,55.659564214,12.0,2006.0,5-14,96.0,2006.0,10-14,4.1,2012.0,96.0
-Wallis and Futuna,WF,WLF,Europe & Eurasia,,,,,,,,,,,,,,,,,,
-West Bank and the Gaza Strip,WB,WBG,Middle East & North Africa,,,,,,,,,,,,,,,,,2012.0,90.2
-Western Sahara,EH,ESH,Middle East & North Africa,,,,,,,,,,,,,,,,,,
-Yemen,YE,YEM,Middle East & North Africa,National Child Labour Survey,2010.0,SIMPOC,5-14,,13.5694493656,834865.8,69.9946630949,27.7908830099,2.21445389528,2010.0,5-14,67.9614435664,2010.0,7-14,10.301314492,2012.0,69.8
-Zambia,ZM,ZMB,Sub-Saharan Africa,Labour Force Survey,2008.0,LFS,5-14,,28.1,992721.681,91.8,7.0,1.2,2008.0,5-14,65.2,2008.0,7-14,27.6,2012.0,91.3
-Zimbabwe,ZW,ZWE,Sub-Saharan Africa,,,,,,,,,,,,,,,,,,
+Country_Name,Country_ISO2,Country_ISO3,Country_Region,Children_Work_Statistics_Age_Range,Children_Work_Statistics_Total_Percentage_of_Working_Children,Children_Work_Statistics_Total_Working_Population,Children_Work_Statistics_Agriculture,Children_Work_Statistics_Services,Children_Work_Statistics_Industry,Education_Statistics_Attendance_Statistics_Year,Education_Statistics_Attendance_Statistics_Age_Range,Education_Statistics_Attendance_Statistics_Percentage,Children_Working_and_Studying_7-14_yrs_old_Year,Children_Working_and_Studying_7-14_yrs_old_Age_Range,Children_Working_and_Studying_7-14_yrs_old_Total,UNESCO_Primary_Completion_Rate_Year,UNESCO_Primary_Completion_Rate_Rate
+Afghanistan,AF,AFG,Asia & Pacific,,,,,,,,,,,,,,
+Albania,AL,ALB,Europe & Eurasia,5-14,4.56862047172,23665.0,87.4708222625,9.64455242893,2.88462530855,2010.0,5-14,92.5098415007,2010.0,7-14,5.24318430679,,
+Algeria,DZ,DZA,Middle East & North Africa,,,,,,,,,,,,,2012.0,100.2
+Angola,AO,AGO,Sub-Saharan Africa,5-14,25.7,694458.0,,,,2001.0,5-14,65.4,2001.0,7-14,22.1,2011.0,54.3
+Anguilla,AI,AIA,Europe & Eurasia,,,,,,,,,,,,,,
+Argentina,AR,ARG,Latin America & Caribbean,5-14,11.0,366235.0,12.9,78.4,8.7,2004.0,5-14,97.2,2004.0,7-14,12.3,2011.0,109.3
+Armenia,AM,ARM,Europe & Eurasia,5-14,8.1,30493.8745,,,,2010.0,5-14,89.83,2010.0,7-14,9.9,2008.0,100.1
+Azerbaijan,AZ,AZE,Europe & Eurasia,5-14,4.5,70033.5,91.9,7.2,0.8,2005.0,6-14,94.3,2005.0,7-14,4.85,2012.0,92.0
+Bahrain,BH,BHR,Middle East & North Africa,,,,,,,,,,,,,,
+Bangladesh,BD,BGD,Asia & Pacific,5-14,10.1,3717540.0,45.5479389643,36.0,18.5,2005-2006,5-14,81.1944552173,2005-2006,7-14,6.82,2011.0,74.6
+Barbados,BB,BRB,Latin America & Caribbean,,,,,,,,,,,,,2011.0,104.0
+Belize,BZ,BLZ,Latin America & Caribbean,5-14,8.3,6933.95,,,,2011.0,5-14,93.5,2011.0,7-14,8.90355229266,2012.0,116.1
+Benin,BJ,BEN,Sub-Saharan Africa,5-14,31.5,850785.0,,,,2006.0,5-14,58.2,2006.0,7-14,20.0,2012.0,70.5
+Bhutan,BT,BTN,Asia & Pacific,5-14,3.8,6338.11,,,,2010.0,5-14,84.7021664184,2010.0,7-14,3.3,2012.0,101.3
+Bolivia,BO,BOL,Latin America & Caribbean,7-14,20.2,388541.0,70.9402611307,21.2,7.9,2009.0,7-14,96.2,2009.0,7-14,18.7,2011.0,92.3
+Bosnia and Herzegovina,BA,BIH,Europe & Eurasia,5-14,8.9,44017.0,,,,2006.0,5-14,83.7,2006.0,7-14,10.6,,
+Botswana,BW,BWA,Sub-Saharan Africa,,,,,,,,,,,,,2009.0,94.7
+Brazil,BR,BRA,Latin America & Caribbean,5-14,3.47511688028,1116499.0,56.43,33.71,9.86,2011.0,5-14,97.1642304981,2011.0,7-14,4.04501978913,,
+British Indian Ocean Territories,IO,IOT,Europe & Eurasia,,,,,,,,,,,,,,
+British Virgin Islands,VG,VGB,Europe & Eurasia,,,,,,,,,,,,,2011.0,92.9
+Burkina Faso,BF,BFA,Sub-Saharan Africa,5-14,42.1,2116751.8,,,,2010.0,5-14,41.9064043039,2010.0,7-14,21.7152346096,2012.0,57.6
+Burundi,BI,BDI,Sub-Saharan Africa,5-14,27.17,633126.11,,,,2010-2011,5-14,60.87,2010-2011,7-14,26.03,2012.0,62.2
+Cabo Verde,CV,CPV,Sub-Saharan Africa,10-14,3.2,2392.0,79.2,13.7,7.2,2001-02,5-14,90.1,2001-02,10-14,1.73,2012.0,99.0
+Cambodia,KH,KHM,Asia & Pacific,5-14,28.65,888370.43,84.83,7.69,7.48,2009.0,5-14,79.2,2009.0,7-14,28.3,2012.0,98.1
+Cameroon,CM,CMR,Sub-Saharan Africa,5-14,56.2,,,,,2011.0,5-14,79.7,2011.0,7-14,52.7173788427,2012.0,72.9
+Central African Republic,CF,CAF,Sub-Saharan Africa,5-14,51.1,602932.0,,,,2006.0,5-14,53.9,2006.0,7-14,33.4,2012.0,45.4
+Chad,TD,TCD,Sub-Saharan Africa,5-14,53.0,1535025.0,,,,2004.0,5-14,39.6,2004.0,7-14,30.7,2012.0,35.3
+Chile,CL,CHL,Latin America & Caribbean,5-14,3.5,97928.0,24.7,66.6,8.6,2003.0,5-14,97.2,2003.0,7-14,4.0,2012.0,97.3
+Christmas Island,CX,CXR,Asia & Pacific,,,,,,,,,,,,,,
+Cocos (Keeling) Islands,CC,CCK,Asia & Pacific,,,,,,,,,,,,,,
+Colombia,CO,COL,Latin America & Caribbean,5-14,5.92842564157,514092.5,39.1722311036,40.6505264337,20.1772424627,2012.0,5-14,93.2180173722,2012.0,7-14,5.9261483365,2012.0,105.0
+Comoros,KM,COM,Sub-Saharan Africa,5-14,35.6,56840.0,,,,2000.0,5-14,44.2,2000.0,7-14,23.9,2008.0,79.8
+"Congo, Democratic Republic of the",CD,COD,Sub-Saharan Africa,5-14,16.9337388725,3327805.9,,,,2010.0,5-14,67.1055306822,2010.0,7-14,16.2378166993,2012.0,72.8
+"Congo, Republic of the",CG,COG,Sub-Saharan Africa,5-14,27.0,256993.0,,,,2005.0,5-14,87.8,2005.0,7-14,27.1,2012.0,73.0
+Cook Islands,CK,COK,Asia & Pacific,,,,,,,,,,,,,2011.0,109.9
+Costa Rica,CR,CRI,Latin America & Caribbean,5-14,2.16972746827,16160.0,45.0742574257,45.0371287129,9.88861386139,2011.0,5-14,95.3521376381,2011.0,7-14,1.99896460234,2012.0,95.2
+Côte d'Ivoire,CI,CIV,Sub-Saharan Africa,5-14,39.8,2181894.0,,,,2006.0,5-14,53.6,2006.0,7-14,24.3,2012.0,61.2
+Djibouti,DJ,DJI,Sub-Saharan Africa,5-14,12.3,23693.0,,,,2006.0,5-14,67.4,2006.0,7-14,10.2,2013.0,52.0
+Dominica,DM,DMA,Latin America & Caribbean,,,,,,,,,,,,,2012.0,104.0
+Dominican Republic,DO,DOM,Latin America & Caribbean,10-14,5.3,54850.0,29.1066545123,62.4393801276,8.5,2011.0,5-14,96.1216066602,2011.0,10-14,4.8285330117,2012.0,90.3
+Ecuador,EC,ECU,Latin America & Caribbean,5-14,2.72293983416,75688.66,70.985168504,20.9629168207,8.0519146753,2011.0,5-14,96.8592640773,2011.0,7-14,2.43015360449,2012.0,110.9
+Egypt,EG,EGY,Middle East & North Africa,5-14,6.7,993417.0,,,,2005.0,6-14,88.1,2005.0,7-14,6.3,2012.0,107.0
+El Salvador,SV,SLV,Latin America & Caribbean,5-14,6.3,84927.0,55.97,33.62,10.41,2011.0,5-14,92.2,2011.0,7-14,6.15416019745,2012.0,101.0
+Eritrea,ER,ERI,Sub-Saharan Africa,,,,,,,,,,,,,2012.0,31.2
+Ethiopia,ET,ETH,Sub-Saharan Africa,5-14,22.0,5545319.0,,,,2011.0,5-14,54.0,2011.0,7-14,16.95,2005.0,43.4
+Falkland Islands (Islas Malvinas),FK,FLK,Europe & Eurasia,,,,,,,,,,,,,,
+Fiji,FJ,FJI,Asia & Pacific,,,,,,,,,,,,,2011.0,103.3
+Gabon,GA,GAB,Sub-Saharan Africa,,,,,,,,,,,,,,
+Gambia,GM,GMB,Sub-Saharan Africa,5-14,36.4,180954.0,,,,2005-06,5-14,65.7,2005-06,7-14,29.6,2012.0,70.3
+Georgia,GE,GEO,Europe & Eurasia,5-14,29.1,172378.0,,,,2005.0,5-14,92.1,2005.0,7-14,31.5,2012.0,108.1
+Ghana,GH,GHA,Sub-Saharan Africa,5-14,43.5,2731596.0,,,,2006.0,5-14,83.1,2006.0,7-14,39.8,2013.0,98.5
+Gibraltar,GI,GIB,Europe & Eurasia,,,,,,,,,,,,,,
+Grenada,GD,GRD,Latin America & Caribbean,,,,,,,,,,,,,2010.0,111.5
+Guatemala,GT,GTM,Latin America & Caribbean,7-14,13.4,414250.0,68.3,18.28,13.42,2011.0,5-14,83.66,2011.0,7-14,9.57,2011.0,87.7
+Guinea,GN,GIN,Sub-Saharan Africa,5-14,38.7970516823,1118519.0,76.2025147125,18.5469766416,5.25050864585,2010.0,5-14,60.1,2010.0,7-14,24.4842657646,2012.0,61.5
+Guinea Bissau,GW,GNB,Sub-Saharan Africa,5-14,47.3,219734.0,,,,2006.0,5-14,56.9,2006.0,7-14,34.6,2010.0,64.0
+Guyana,GY,GUY,Latin America & Caribbean,5-14,23.0,44787.0,,,,2006-07,5-14,94.5,2006-07,7-14,23.2,2012.0,85.3
+Haiti,HT,HTI,Latin America & Caribbean,5-14,29.0,659864.0,,,,2005.0,5-14,81.2,2005.0,7-14,27.5,,
+Heard and McDonald Islands,HM,HMD,Asia & Pacific,,,,,,,,,,,,,,
+Honduras,HN,HND,Latin America & Caribbean,5-14,7.2,151468.0,61.5,25.2,13.4,2007.0,5-14,83.7279910694,2007.0,7-14,4.8,2012.0,100.1
+India,IN,IND,Asia & Pacific,5-14,1.97,4371604.0,69.5,12.97,17.53,2009-2010,5-14,88.78,2009-2010,7-14,0.81,2011.0,96.5
+Indonesia,ID,IDN,Asia & Pacific,10-14,3.7,816363.0,61.59,26.46,11.95,2010.0,10-14,92.4,2010.0,10-14,2.1,2011.0,99.7
+Iraq,IQ,IRQ,Middle East & North Africa,5-14,5.31740207696,454330.0,,,,2011.0,5-14,75.0089709874,2011.0,7-14,4.23733947851,2007.0,66.3
+Jamaica,JM,JAM,Latin America & Caribbean,5-14,8.4,48336.0,,,,2006.0,5-14,98.6,2006.0,7-14,9.5,2004.0,88.0
+Jordan,JO,JOR,Middle East & North Africa,5-14,0.8,11255.0,40.5,48.4,11.2,2007.0,5-14,94.9,2007.0,7-14,0.7,2011.0,92.8
+Kazakhstan,KZ,KAZ,Asia & Pacific,5-14,3.2,79690.0,,,,2006.0,5-14,90.7,2006.0,7-14,3.6,2013.0,102.3
+Kenya,KE,KEN,Sub-Saharan Africa,5-14,32.5,2943310.0,,,,2000.0,5-14,74.9,2000.0,7-14,32.33,2005.0,90.7
+Kiribati,KI,KIR,Asia & Pacific,,,,,,,,,,,,,2008.0,115.2
+Kosovo,KS,KSO,Europe & Eurasia,,,,,,,,,,,,,,
+Kyrgyz Republic,KV,KVR,Asia & Pacific,5-14,4.5,48305.0,,,,2006.0,5-14,84.0,2006.0,7-14,4.8,2012.0,97.7
+Lebanon,LB,LBN,Middle East & North Africa,,,,,,,,,,,,,2012.0,86.2
+Lesotho,LS,LSO,Sub-Saharan Africa,5-14,28.1,124632.3,,,,2000.0,5-14,80.7,2000.0,7-14,25.3,2012.0,72.5
+Liberia,LR,LBR,Sub-Saharan Africa,5-14,16.5611787728,136340.1,78.4194695947,17.3959637132,4.22520300496,2010.0,5-14,75.9316310341,2010.0,7-14,14.0048326946,2011.0,65.2
+Macedonia,MK,MKD,Europe & Eurasia,5-14,9.9,30052.0,,,,2005.0,5-14,84.7,2005.0,7-14,11.5,2009.0,94.0
+Madagascar,MG,MDG,Sub-Saharan Africa,5-14,22.1,1206992.0,87.4,8.4,4.2,2007.0,5-14,69.1,2007.0,7-14,15.4,2012.0,69.5
+Malawi,MW,MWI,Sub-Saharan Africa,5-14,20.6,885332.8,,,,2010-2011,5-14,81.3,2010-2011,7-14,22.2436351479,2012.0,74.2
+Maldives,MV,MDV,Asia & Pacific,5-14,3.9,2364.2094,,,,2009.0,5-14,79.45,2009.0,7-14,3.97,2009.0,109.9
+Mali,ML,MLI,Sub-Saharan Africa,5-14,46.4,1700782.06,82.5959748876,14.1226051599,3.28142277846,2005.0,5-14,42.0,2005.0,7-14,20.5,2012.0,58.7
+Mauritania,MR,MRT,Sub-Saharan Africa,5-14,18.2,172936.0,,,,2007.0,5-14,48.6,2007.0,7-14,10.8,2012.0,68.7
+Mauritius,MU,MUS,Sub-Saharan Africa,,,,,,,,,,,,,2012.0,99.3
+Moldova,MD,MDA,Europe & Eurasia,5-14,24.277330891,102104.7,97.2649128052,2.1725662701,0.562520924704,2009.0,5-14,92.0988534066,2009.0,7-14,28.9636122313,2012.0,89.6
+Mongolia,MN,MNG,Asia & Pacific,5-14,13.7591566632,60245.67,85.8116688853,11.6987529842,2.4895781305,2011-2012,5-14,87.6262947269,2011-2012,7-14,15.0998062366,2012.0,130.2
+Montenegro,ME,MNE,Europe & Eurasia,5-14,12.9,,,,,2005.0,5-14,87.7,2005.0,7-14,14.4,2012.0,101.0
+Montserrat,MS,MSR,Europe & Eurasia,,,,,,,,,,,,,2007.0,68.9
+Morocco,MA,MAR,Middle East & North Africa,10-14,4.5,150178.0,,,,2003-04,6-14,82.9,2003-04,10-14,0.7,2013.0,98.9
+Mozambique,MZ,MOZ,Sub-Saharan Africa,5-14,22.5,1526559.77,,,,2008.0,5-14,69.5,2008.0,7-14,22.4,2012.0,52.2
+Namibia,NA,NAM,Sub-Saharan Africa,,,,,,,,,,,,,2012.0,85.4
+Nepal,NP,NPL,Asia & Pacific,5-14,33.6694310276,2097162.8,88.8284309107,3.09721736003,8.07435172927,2008.0,5-14,89.547986453,2008.0,7-14,35.1627337485,2013.0,99.8
+Nicaragua,NI,NIC,Latin America & Caribbean,5-14,8.4,109380.0,70.7,19.2,10.1,2005.0,5-14,84.9,2005.0,7-14,7.0,2010.0,80.4
+Niger,NE,NER,Sub-Saharan Africa,5-14,47.77,1561570.0,13.55,82.2,4.25,2009.0,5-14,51.7,2009.0,7-14,26.3,2012.0,49.3
+Nigeria,NG,NGA,Sub-Saharan Africa,5-14,31.1,13924739.0,,,,2011.0,5-14,76.2321013509,2011.0,7-14,26.8408729843,2010.0,76.0
+Niue,NU,NIU,Asia & Pacific,,,,,,,,,,,,,2004.0,115.4
+Norfolk Island,NF,NFK,Asia & Pacific,,,,,,,,,,,,,,
+Oman,OM,OMN,Middle East & North Africa,,,,,,,,,,,,,2012.0,103.7
+Pakistan,PK,PAK,Asia & Pacific,10-14,12.9981497318,2449480.0,76.0490798047,14.5888106863,9.32481506279,2010-2011,5-14,72.2786848429,2010-2011,10-14,1.63173614246,2012.0,71.9
+Panama,PA,PAN,Latin America & Caribbean,5-14,4.46809619149,30016.0,73.5407782516,21.0187899787,5.44043176972,2010.0,5-14,94.3100843276,2010.0,7-14,4.49026496133,2012.0,97.7
+Papua New Guinea,PG,PNG,Asia & Pacific,,,,,,,,,,,,,,
+Paraguay,PY,PRY,Latin America & Caribbean,10-14,15.3,113072.0,60.8,32.1,7.1,2005.0,5-14,90.3,2005.0,10-14,12.1,2011.0,86.0
+Peru,PE,PER,Latin America & Caribbean,6-14,19.3833363229,1014688.0,,,,2011.0,6-14,79.4,2011.0,7-14,14.4332189678,2012.0,91.0
+Philippines,PH,PHL,Asia & Pacific,5-14,11.0,2180565.0,65.3558014027,29.3527711266,5.29142747076,2001.0,5-14,87.6,2001.0,7-14,11.3,2009.0,91.3
+Pitcairn Islands,PN,PCN,Europe & Eurasia,,,,,,,,,,,,,,
+Russia,RU,RUS,Europe & Eurasia,,,,,,,,,,,,,2009.0,97.9
+Rwanda,RW,RWA,Sub-Saharan Africa,5-14,16.1,482180.3,,,,2010.0,5-14,79.1,2010.0,7-14,17.5694591339,2012.0,57.7
+"Saint Helena, Ascension and Tristan da Cunha (formerly called Saint Helena)",SH,SHN,Europe & Eurasia,,,,,,,,,,,,,,
+Saint Kitts and Nevis,KN,KNA,Latin America & Caribbean,,,,,,,,,,,,,2012.0,92.6
+Saint Lucia,LC,LCA,Latin America & Caribbean,,,,,,,,,,,,,2012.0,91.6
+Saint Vincent and the Grenadines,VC,VCT,Latin America & Caribbean,,,,,,,,,,,,,2012.0,98.9
+Samoa,WS,WSM,Asia & Pacific,,,,,,,,,,,,,2012.0,102.4
+Sao Tome and Principe,ST,STP,Sub-Saharan Africa,5-14,15.4,6218.0,,,,2000.0,5-14,68.8,2000.0,7-14,13.7,2013.0,104.0
+Senegal,SN,SEN,Sub-Saharan Africa,5-14,14.9,510419.74,,,,2010-2011,5-14,53.57,2010-2011,7-14,8.3,2012.0,60.5
+Serbia,RS,SRB,Europe & Eurasia,5-14,6.0,,,,,2005.0,5-14,92.5,2005.0,7-14,6.7,2012.0,93.2
+Seychelles,SC,SYC,Sub-Saharan Africa,,,,,,,,,,,,,2011.0,104.5
+Sierra Leone,SL,SLE,Sub-Saharan Africa,5-14,34.7,579851.3,,,,2010.0,5-14,73.8,2010.0,7-14,31.6011972411,2012.0,72.4
+Solomon Islands,SB,SLB,Asia & Pacific,,,,,,,,,,,,,2012.0,85.4
+Somalia,SO,SOM,Sub-Saharan Africa,5-14,39.8,1012863.0,,,,2006.0,5-14,48.9,2006.0,7-14,20.2,,
+South Africa,ZA,ZAF,Sub-Saharan Africa,,,,,,,,,,,,,2004.0,98.5
+South Sudan,SS,SSD,Sub-Saharan Africa,10-14,45.6,463624.0,60.2,38.2,1.6,2008.0,6-14,31.5,2008.0,10-14,10.9,,
+Sri Lanka,LK,LKA,Asia & Pacific,5-14,9.17,302864.63,66.97,17.05,15.98,2008-2009,5-14,97.8,2008-2009,7-14,10.4,2012.0,96.9
+Suriname,SR,SUR,Latin America & Caribbean,5-14,6.44539253137,6671.261,,,,2010.0,5-14,95.7880790313,2010.0,7-14,6.6016950356,2011.0,87.8
+Swaziland,SZ,SWZ,Sub-Saharan Africa,5-14,11.729758576,35368.022,,,,2010.0,5-14,92.5402987166,2010.0,7-14,12.9909598268,2011.0,76.8
+Tanzania,TZ,TZA,Sub-Saharan Africa,5-14,25.1,3157442.4,,,,2010-2011,5-14,74.1,2010-2011,7-14,21.6372926504,2012.0,80.8
+Thailand,TH,THA,Asia & Pacific,5-14,13.0,1302267.0,,,,2005-06,5-14,96.3,2005-06,7-14,14.4,,
+Timor-Leste,TL,TLS,Asia & Pacific,10-14,19.9,26268.0,97.6,1.0,1.4,2007.0,7-14,69.7,2007.0,10-14,12.6,2011.0,71.0
+Togo,TG,TGO,Sub-Saharan Africa,5-14,35.7,616132.3,,,,2010.0,5-14,85.3,2010.0,7-14,35.4907412481,2011.0,73.5
+Tokelau,TK,TKL,Asia & Pacific,,,,,,,,,,,,,,
+Tonga,TO,TON,Asia & Pacific,,,,,,,,,,,,,2012.0,100.3
+Trinidad and Tobago,TT,TTO,Latin America & Caribbean,5-14,3.0,5975.0,,,,2006.0,5-14,97.8,2006.0,7-14,3.3,2010.0,94.8
+Tunisia,TN,TUN,Middle East & North Africa,,,,,,,,,,,,,2010.0,101.7
+Turkey,TR,TUR,Europe & Eurasia,6-14,2.6,320254.4,57.1,27.1,15.8,2006.0,6-14,92.4,2006.0,6-14,1.6,2011.0,102.5
+Turks and Caicos Islands,TC,TCA,Europe & Eurasia,,,,,,,,,,,,,2005.0,91.8
+Tuvalu,TV,TUV,Asia & Pacific,,,,,,,,,,,,,2006.0,99.2
+Uganda,UG,UGA,Sub-Saharan Africa,5-14,30.9,3034126.2,95.4014793009,3.05440109485,1.54411960428,2011-2012,5-14,88.7,2011-2012,7-14,34.3622918886,2011.0,53.1
+Ukraine,UA,UKR,Europe & Eurasia,5-14,15.1,904210.0,,,,2005.0,5-14,95.8,2005.0,7-14,17.3,2012.0,102.8
+Uruguay,UY,URY,Latin America & Caribbean,5-14,6.1,31954.65,28.4,59.1,12.5,2009.0,5-14,97.8,2009.0,7-14,6.5,2010.0,104.3
+Uzbekistan,UZ,UZB,Asia & Pacific,5-14,4.3,244095.0,,,,2006.0,5-14,84.1,2006.0,7-14,5.0,2011.0,91.8
+Vanuatu,VU,VUT,Asia & Pacific,,,,,,,,,,,,,2010.0,83.6
+Venezuela,VE,VEN,Latin America & Caribbean,10-14,5.1,138641.0,32.3419557541,55.659564214,12.0,2006.0,5-14,96.0,2006.0,10-14,4.1,2012.0,96.0
+Wallis and Futuna,WF,WLF,Europe & Eurasia,,,,,,,,,,,,,,
+West Bank and the Gaza Strip,WB,WBG,Middle East & North Africa,,,,,,,,,,,,,2012.0,90.2
+Western Sahara,EH,ESH,Middle East & North Africa,,,,,,,,,,,,,,
+Yemen,YE,YEM,Middle East & North Africa,5-14,13.5694493656,834865.8,69.9946630949,27.7908830099,2.21445389528,2010.0,5-14,67.9614435664,2010.0,7-14,10.301314492,2012.0,69.8
+Zambia,ZM,ZMB,Sub-Saharan Africa,5-14,28.1,992721.681,91.8,7.0,1.2,2008.0,5-14,65.2,2008.0,7-14,27.6,2012.0,91.3
+Zimbabwe,ZW,ZWE,Sub-Saharan Africa,,,,,,,,,,,,,,

@@ -5,16 +5,12 @@
 		<Country_ISO2>AF</Country_ISO2>
 		<Country_ISO3>AFG</Country_ISO3>
 		<Country_Region>Asia &#38; Pacific</Country_Region>
-		<Survey_Name></Survey_Name>
 		<Childrens_Work_Statistics>
-			<Year></Year>
-			<Survey_Score></Survey_Score>
 			<Age_Range></Age_Range>
-			<Total_Child_Population>673949.0			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children></Total_Percentage_of_Working_Children>
 			<Total_Working_Population></Total_Working_Population>
 			<Agriculture></Agriculture>
-			<Service></Service>
+			<Services></Services>
 			<Industry></Industry>
 		</Childrens_Work_Statistics>
 		<Education_Statistics_Attendance_Statistics>
@@ -37,16 +33,12 @@
 		<Country_ISO2>AL</Country_ISO2>
 		<Country_ISO3>ALB</Country_ISO3>
 		<Country_Region>Europe &#38; Eurasia</Country_Region>
-		<Survey_Name>National Child Labour Survey (NCLS)</Survey_Name>
 		<Childrens_Work_Statistics>
-			<Year>2010.0</Year>
-			<Survey_Score>SIMPOC</Survey_Score>
 			<Age_Range>5-14</Age_Range>
-			<Total_Child_Population>23665.0			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children>4.56862047172</Total_Percentage_of_Working_Children>
 			<Total_Working_Population>23665.0</Total_Working_Population>
 			<Agriculture>87.4708222625</Agriculture>
-			<Service>9.64455242893</Service>
+			<Services>9.64455242893</Services>
 			<Industry>2.88462530855</Industry>
 		</Childrens_Work_Statistics>
 		<Education_Statistics_Attendance_Statistics>
@@ -69,16 +61,12 @@
 		<Country_ISO2>DZ</Country_ISO2>
 		<Country_ISO3>DZA</Country_ISO3>
 		<Country_Region>Middle East &#38; North Africa</Country_Region>
-		<Survey_Name></Survey_Name>
 		<Childrens_Work_Statistics>
-			<Year></Year>
-			<Survey_Score></Survey_Score>
 			<Age_Range></Age_Range>
-			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children></Total_Percentage_of_Working_Children>
 			<Total_Working_Population></Total_Working_Population>
 			<Agriculture></Agriculture>
-			<Service></Service>
+			<Services></Services>
 			<Industry></Industry>
 		</Childrens_Work_Statistics>
 		<Education_Statistics_Attendance_Statistics>
@@ -101,16 +89,12 @@
 		<Country_ISO2>AO</Country_ISO2>
 		<Country_ISO3>AGO</Country_ISO3>
 		<Country_Region>Sub-Saharan Africa</Country_Region>
-		<Survey_Name>Multiple Indicator Cluster Survey 2</Survey_Name>
 		<Childrens_Work_Statistics>
-			<Year>2001.0</Year>
-			<Survey_Score>MICS 2</Survey_Score>
 			<Age_Range>5-14</Age_Range>
-			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children>25.7</Total_Percentage_of_Working_Children>
 			<Total_Working_Population>694458.0</Total_Working_Population>
 			<Agriculture></Agriculture>
-			<Service></Service>
+			<Services></Services>
 			<Industry></Industry>
 		</Childrens_Work_Statistics>
 		<Education_Statistics_Attendance_Statistics>
@@ -133,16 +117,12 @@
 		<Country_ISO2>AI</Country_ISO2>
 		<Country_ISO3>AIA</Country_ISO3>
 		<Country_Region>Europe &#38; Eurasia</Country_Region>
-		<Survey_Name></Survey_Name>
 		<Childrens_Work_Statistics>
-			<Year></Year>
-			<Survey_Score></Survey_Score>
 			<Age_Range></Age_Range>
-			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children></Total_Percentage_of_Working_Children>
 			<Total_Working_Population></Total_Working_Population>
 			<Agriculture></Agriculture>
-			<Service></Service>
+			<Services></Services>
 			<Industry></Industry>
 		</Childrens_Work_Statistics>
 		<Education_Statistics_Attendance_Statistics>
@@ -165,16 +145,12 @@
 		<Country_ISO2>AR</Country_ISO2>
 		<Country_ISO3>ARG</Country_ISO3>
 		<Country_Region>Latin America &#38; Caribbean</Country_Region>
-		<Survey_Name>Encuesta sobre Actividades de Niños, Niñas y Adolescentes</Survey_Name>
 		<Childrens_Work_Statistics>
-			<Year>2004.0</Year>
-			<Survey_Score>EANNA</Survey_Score>
 			<Age_Range>5-14</Age_Range>
-			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children>11.0</Total_Percentage_of_Working_Children>
 			<Total_Working_Population>366235.0</Total_Working_Population>
 			<Agriculture>12.9</Agriculture>
-			<Service>78.4</Service>
+			<Services>78.4</Services>
 			<Industry>8.7</Industry>
 		</Childrens_Work_Statistics>
 		<Education_Statistics_Attendance_Statistics>
@@ -197,16 +173,12 @@
 		<Country_ISO2>AM</Country_ISO2>
 		<Country_ISO3>ARM</Country_ISO3>
 		<Country_Region>Europe &#38; Eurasia</Country_Region>
-		<Survey_Name>Demographic and Health Survey</Survey_Name>
 		<Childrens_Work_Statistics>
-			<Year>2010.0</Year>
-			<Survey_Score>DHS</Survey_Score>
 			<Age_Range>5-14</Age_Range>
-			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children>8.1</Total_Percentage_of_Working_Children>
 			<Total_Working_Population>30493.8745</Total_Working_Population>
 			<Agriculture></Agriculture>
-			<Service></Service>
+			<Services></Services>
 			<Industry></Industry>
 		</Childrens_Work_Statistics>
 		<Education_Statistics_Attendance_Statistics>
@@ -229,16 +201,12 @@
 		<Country_ISO2>AZ</Country_ISO2>
 		<Country_ISO3>AZE</Country_ISO3>
 		<Country_Region>Europe &#38; Eurasia</Country_Region>
-		<Survey_Name>Child Labor Survey</Survey_Name>
 		<Childrens_Work_Statistics>
-			<Year>2005.0</Year>
-			<Survey_Score>SIMPOC</Survey_Score>
 			<Age_Range>5-14</Age_Range>
-			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children>4.5</Total_Percentage_of_Working_Children>
 			<Total_Working_Population>70033.5</Total_Working_Population>
 			<Agriculture>91.9</Agriculture>
-			<Service>7.2</Service>
+			<Services>7.2</Services>
 			<Industry>0.8</Industry>
 		</Childrens_Work_Statistics>
 		<Education_Statistics_Attendance_Statistics>
@@ -261,16 +229,12 @@
 		<Country_ISO2>BH</Country_ISO2>
 		<Country_ISO3>BHR</Country_ISO3>
 		<Country_Region>Middle East &#38; North Africa</Country_Region>
-		<Survey_Name></Survey_Name>
 		<Childrens_Work_Statistics>
-			<Year></Year>
-			<Survey_Score></Survey_Score>
 			<Age_Range></Age_Range>
-			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children></Total_Percentage_of_Working_Children>
 			<Total_Working_Population></Total_Working_Population>
 			<Agriculture></Agriculture>
-			<Service></Service>
+			<Services></Services>
 			<Industry></Industry>
 		</Childrens_Work_Statistics>
 		<Education_Statistics_Attendance_Statistics>
@@ -293,16 +257,12 @@
 		<Country_ISO2>BD</Country_ISO2>
 		<Country_ISO3>BGD</Country_ISO3>
 		<Country_Region>Asia &#38; Pacific</Country_Region>
-		<Survey_Name>Labour Force Survey</Survey_Name>
 		<Childrens_Work_Statistics>
-			<Year>2005-2006</Year>
-			<Survey_Score>LFS</Survey_Score>
 			<Age_Range>5-14</Age_Range>
-			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children>10.1</Total_Percentage_of_Working_Children>
 			<Total_Working_Population>3717540.0</Total_Working_Population>
 			<Agriculture>45.5479389643</Agriculture>
-			<Service>36.0</Service>
+			<Services>36.0</Services>
 			<Industry>18.5</Industry>
 		</Childrens_Work_Statistics>
 		<Education_Statistics_Attendance_Statistics>
@@ -325,16 +285,12 @@
 		<Country_ISO2>BB</Country_ISO2>
 		<Country_ISO3>BRB</Country_ISO3>
 		<Country_Region>Latin America &#38; Caribbean</Country_Region>
-		<Survey_Name></Survey_Name>
 		<Childrens_Work_Statistics>
-			<Year></Year>
-			<Survey_Score></Survey_Score>
 			<Age_Range></Age_Range>
-			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children></Total_Percentage_of_Working_Children>
 			<Total_Working_Population></Total_Working_Population>
 			<Agriculture></Agriculture>
-			<Service></Service>
+			<Services></Services>
 			<Industry></Industry>
 		</Childrens_Work_Statistics>
 		<Education_Statistics_Attendance_Statistics>
@@ -357,16 +313,12 @@
 		<Country_ISO2>BZ</Country_ISO2>
 		<Country_ISO3>BLZ</Country_ISO3>
 		<Country_Region>Latin America &#38; Caribbean</Country_Region>
-		<Survey_Name>Multiple Indicator Cluster Survey 4</Survey_Name>
 		<Childrens_Work_Statistics>
-			<Year>2011.0</Year>
-			<Survey_Score>MICS 4</Survey_Score>
 			<Age_Range>5-14</Age_Range>
-			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children>8.3</Total_Percentage_of_Working_Children>
 			<Total_Working_Population>6933.95</Total_Working_Population>
 			<Agriculture></Agriculture>
-			<Service></Service>
+			<Services></Services>
 			<Industry></Industry>
 		</Childrens_Work_Statistics>
 		<Education_Statistics_Attendance_Statistics>
@@ -389,16 +341,12 @@
 		<Country_ISO2>BJ</Country_ISO2>
 		<Country_ISO3>BEN</Country_ISO3>
 		<Country_Region>Sub-Saharan Africa</Country_Region>
-		<Survey_Name>Demographic and Health Survey</Survey_Name>
 		<Childrens_Work_Statistics>
-			<Year>2006.0</Year>
-			<Survey_Score>DHS</Survey_Score>
 			<Age_Range>5-14</Age_Range>
-			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children>31.5</Total_Percentage_of_Working_Children>
 			<Total_Working_Population>850785.0</Total_Working_Population>
 			<Agriculture></Agriculture>
-			<Service></Service>
+			<Services></Services>
 			<Industry></Industry>
 		</Childrens_Work_Statistics>
 		<Education_Statistics_Attendance_Statistics>
@@ -421,16 +369,12 @@
 		<Country_ISO2>BT</Country_ISO2>
 		<Country_ISO3>BTN</Country_ISO3>
 		<Country_Region>Asia &#38; Pacific</Country_Region>
-		<Survey_Name>Multiple Indicator Cluster Survey 4</Survey_Name>
 		<Childrens_Work_Statistics>
-			<Year>2010.0</Year>
-			<Survey_Score>MICS 4</Survey_Score>
 			<Age_Range>5-14</Age_Range>
-			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children>3.8</Total_Percentage_of_Working_Children>
 			<Total_Working_Population>6338.11</Total_Working_Population>
 			<Agriculture></Agriculture>
-			<Service></Service>
+			<Services></Services>
 			<Industry></Industry>
 		</Childrens_Work_Statistics>
 		<Education_Statistics_Attendance_Statistics>
@@ -453,16 +397,12 @@
 		<Country_ISO2>BO</Country_ISO2>
 		<Country_ISO3>BOL</Country_ISO3>
 		<Country_Region>Latin America &#38; Caribbean</Country_Region>
-		<Survey_Name>Encuesta Continua de Hogares</Survey_Name>
 		<Childrens_Work_Statistics>
-			<Year>2009.0</Year>
-			<Survey_Score>ECH</Survey_Score>
 			<Age_Range>7-14</Age_Range>
-			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children>20.2</Total_Percentage_of_Working_Children>
 			<Total_Working_Population>388541.0</Total_Working_Population>
 			<Agriculture>70.9402611307</Agriculture>
-			<Service>21.2</Service>
+			<Services>21.2</Services>
 			<Industry>7.9</Industry>
 		</Childrens_Work_Statistics>
 		<Education_Statistics_Attendance_Statistics>
@@ -485,16 +425,12 @@
 		<Country_ISO2>BA</Country_ISO2>
 		<Country_ISO3>BIH</Country_ISO3>
 		<Country_Region>Europe &#38; Eurasia</Country_Region>
-		<Survey_Name>Multiple Indicator Cluster Survey 3</Survey_Name>
 		<Childrens_Work_Statistics>
-			<Year>2006.0</Year>
-			<Survey_Score>MICS 3</Survey_Score>
 			<Age_Range>5-14</Age_Range>
-			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children>8.9</Total_Percentage_of_Working_Children>
 			<Total_Working_Population>44017.0</Total_Working_Population>
 			<Agriculture></Agriculture>
-			<Service></Service>
+			<Services></Services>
 			<Industry></Industry>
 		</Childrens_Work_Statistics>
 		<Education_Statistics_Attendance_Statistics>
@@ -517,16 +453,12 @@
 		<Country_ISO2>BW</Country_ISO2>
 		<Country_ISO3>BWA</Country_ISO3>
 		<Country_Region>Sub-Saharan Africa</Country_Region>
-		<Survey_Name></Survey_Name>
 		<Childrens_Work_Statistics>
-			<Year></Year>
-			<Survey_Score></Survey_Score>
 			<Age_Range></Age_Range>
-			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children></Total_Percentage_of_Working_Children>
 			<Total_Working_Population></Total_Working_Population>
 			<Agriculture></Agriculture>
-			<Service></Service>
+			<Services></Services>
 			<Industry></Industry>
 		</Childrens_Work_Statistics>
 		<Education_Statistics_Attendance_Statistics>
@@ -549,16 +481,12 @@
 		<Country_ISO2>BR</Country_ISO2>
 		<Country_ISO3>BRA</Country_ISO3>
 		<Country_Region>Latin America &#38; Caribbean</Country_Region>
-		<Survey_Name>Pesquisa Nacional por Amostra de Domicílios</Survey_Name>
 		<Childrens_Work_Statistics>
-			<Year>2011.0</Year>
-			<Survey_Score>PNAD</Survey_Score>
 			<Age_Range>5-14</Age_Range>
-			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children>3.47511688028</Total_Percentage_of_Working_Children>
 			<Total_Working_Population>1116499.0</Total_Working_Population>
 			<Agriculture>56.43</Agriculture>
-			<Service>33.71</Service>
+			<Services>33.71</Services>
 			<Industry>9.86</Industry>
 		</Childrens_Work_Statistics>
 		<Education_Statistics_Attendance_Statistics>
@@ -581,16 +509,12 @@
 		<Country_ISO2>IO</Country_ISO2>
 		<Country_ISO3>IOT</Country_ISO3>
 		<Country_Region>Europe &#38; Eurasia</Country_Region>
-		<Survey_Name></Survey_Name>
 		<Childrens_Work_Statistics>
-			<Year></Year>
-			<Survey_Score></Survey_Score>
 			<Age_Range></Age_Range>
-			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children></Total_Percentage_of_Working_Children>
 			<Total_Working_Population></Total_Working_Population>
 			<Agriculture></Agriculture>
-			<Service></Service>
+			<Services></Services>
 			<Industry></Industry>
 		</Childrens_Work_Statistics>
 		<Education_Statistics_Attendance_Statistics>
@@ -613,16 +537,12 @@
 		<Country_ISO2>VG</Country_ISO2>
 		<Country_ISO3>VGB</Country_ISO3>
 		<Country_Region>Europe &#38; Eurasia</Country_Region>
-		<Survey_Name></Survey_Name>
 		<Childrens_Work_Statistics>
-			<Year></Year>
-			<Survey_Score></Survey_Score>
 			<Age_Range></Age_Range>
-			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children></Total_Percentage_of_Working_Children>
 			<Total_Working_Population></Total_Working_Population>
 			<Agriculture></Agriculture>
-			<Service></Service>
+			<Services></Services>
 			<Industry></Industry>
 		</Childrens_Work_Statistics>
 		<Education_Statistics_Attendance_Statistics>
@@ -645,16 +565,12 @@
 		<Country_ISO2>BF</Country_ISO2>
 		<Country_ISO3>BFA</Country_ISO3>
 		<Country_Region>Sub-Saharan Africa</Country_Region>
-		<Survey_Name>Enquête Démographique et de Santé et à Indicateurs Multiples</Survey_Name>
 		<Childrens_Work_Statistics>
-			<Year>2010.0</Year>
-			<Survey_Score>DHS</Survey_Score>
 			<Age_Range>5-14</Age_Range>
-			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children>42.1</Total_Percentage_of_Working_Children>
 			<Total_Working_Population>2116751.8</Total_Working_Population>
 			<Agriculture></Agriculture>
-			<Service></Service>
+			<Services></Services>
 			<Industry></Industry>
 		</Childrens_Work_Statistics>
 		<Education_Statistics_Attendance_Statistics>
@@ -677,16 +593,12 @@
 		<Country_ISO2>BI</Country_ISO2>
 		<Country_ISO3>BDI</Country_ISO3>
 		<Country_Region>Sub-Saharan Africa</Country_Region>
-		<Survey_Name>Demographic and Health Survey</Survey_Name>
 		<Childrens_Work_Statistics>
-			<Year>2010-2011</Year>
-			<Survey_Score>DHS</Survey_Score>
 			<Age_Range>5-14</Age_Range>
-			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children>27.17</Total_Percentage_of_Working_Children>
 			<Total_Working_Population>633126.11</Total_Working_Population>
 			<Agriculture></Agriculture>
-			<Service></Service>
+			<Services></Services>
 			<Industry></Industry>
 		</Childrens_Work_Statistics>
 		<Education_Statistics_Attendance_Statistics>
@@ -709,16 +621,12 @@
 		<Country_ISO2>CV</Country_ISO2>
 		<Country_ISO3>CPV</Country_ISO3>
 		<Country_Region>Sub-Saharan Africa</Country_Region>
-		<Survey_Name>Inquérito as Despesas e Receitas Familiares</Survey_Name>
 		<Childrens_Work_Statistics>
-			<Year>2001-02</Year>
-			<Survey_Score>HHS</Survey_Score>
 			<Age_Range>10-14</Age_Range>
-			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children>3.2</Total_Percentage_of_Working_Children>
 			<Total_Working_Population>2392.0</Total_Working_Population>
 			<Agriculture>79.2</Agriculture>
-			<Service>13.7</Service>
+			<Services>13.7</Services>
 			<Industry>7.2</Industry>
 		</Childrens_Work_Statistics>
 		<Education_Statistics_Attendance_Statistics>
@@ -741,16 +649,12 @@
 		<Country_ISO2>KH</Country_ISO2>
 		<Country_ISO3>KHM</Country_ISO3>
 		<Country_Region>Asia &#38; Pacific</Country_Region>
-		<Survey_Name>Socio-Economic Survey</Survey_Name>
 		<Childrens_Work_Statistics>
-			<Year>2009.0</Year>
-			<Survey_Score>SES</Survey_Score>
 			<Age_Range>5-14</Age_Range>
-			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children>28.65</Total_Percentage_of_Working_Children>
 			<Total_Working_Population>888370.43</Total_Working_Population>
 			<Agriculture>84.83</Agriculture>
-			<Service>7.69</Service>
+			<Services>7.69</Services>
 			<Industry>7.48</Industry>
 		</Childrens_Work_Statistics>
 		<Education_Statistics_Attendance_Statistics>
@@ -773,16 +677,12 @@
 		<Country_ISO2>CM</Country_ISO2>
 		<Country_ISO3>CMR</Country_ISO3>
 		<Country_Region>Sub-Saharan Africa</Country_Region>
-		<Survey_Name>Enquête Démographique et de Santé et à Indicateurs Multiples</Survey_Name>
 		<Childrens_Work_Statistics>
-			<Year>2011.0</Year>
-			<Survey_Score>DHS</Survey_Score>
 			<Age_Range>5-14</Age_Range>
-			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children>56.2</Total_Percentage_of_Working_Children>
 			<Total_Working_Population></Total_Working_Population>
 			<Agriculture></Agriculture>
-			<Service></Service>
+			<Services></Services>
 			<Industry></Industry>
 		</Childrens_Work_Statistics>
 		<Education_Statistics_Attendance_Statistics>
@@ -805,16 +705,12 @@
 		<Country_ISO2>CF</Country_ISO2>
 		<Country_ISO3>CAF</Country_ISO3>
 		<Country_Region>Sub-Saharan Africa</Country_Region>
-		<Survey_Name>Multiple Indicator Cluster Survey 3</Survey_Name>
 		<Childrens_Work_Statistics>
-			<Year>2006.0</Year>
-			<Survey_Score>MICS 3</Survey_Score>
 			<Age_Range>5-14</Age_Range>
-			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children>51.1</Total_Percentage_of_Working_Children>
 			<Total_Working_Population>602932.0</Total_Working_Population>
 			<Agriculture></Agriculture>
-			<Service></Service>
+			<Services></Services>
 			<Industry></Industry>
 		</Childrens_Work_Statistics>
 		<Education_Statistics_Attendance_Statistics>
@@ -837,16 +733,12 @@
 		<Country_ISO2>TD</Country_ISO2>
 		<Country_ISO3>TCD</Country_ISO3>
 		<Country_Region>Sub-Saharan Africa</Country_Region>
-		<Survey_Name>Demographic and Health Survey</Survey_Name>
 		<Childrens_Work_Statistics>
-			<Year>2004.0</Year>
-			<Survey_Score>DHS</Survey_Score>
 			<Age_Range>5-14</Age_Range>
-			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children>53.0</Total_Percentage_of_Working_Children>
 			<Total_Working_Population>1535025.0</Total_Working_Population>
 			<Agriculture></Agriculture>
-			<Service></Service>
+			<Services></Services>
 			<Industry></Industry>
 		</Childrens_Work_Statistics>
 		<Education_Statistics_Attendance_Statistics>
@@ -869,16 +761,12 @@
 		<Country_ISO2>CL</Country_ISO2>
 		<Country_ISO3>CHL</Country_ISO3>
 		<Country_Region>Latin America &#38; Caribbean</Country_Region>
-		<Survey_Name>Encuesta Nacional sobre las Actividades de Ninos y Adolescentes</Survey_Name>
 		<Childrens_Work_Statistics>
-			<Year>2003.0</Year>
-			<Survey_Score>SIMPOC</Survey_Score>
 			<Age_Range>5-14</Age_Range>
-			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children>3.5</Total_Percentage_of_Working_Children>
 			<Total_Working_Population>97928.0</Total_Working_Population>
 			<Agriculture>24.7</Agriculture>
-			<Service>66.6</Service>
+			<Services>66.6</Services>
 			<Industry>8.6</Industry>
 		</Childrens_Work_Statistics>
 		<Education_Statistics_Attendance_Statistics>
@@ -901,16 +789,12 @@
 		<Country_ISO2>CX</Country_ISO2>
 		<Country_ISO3>CXR</Country_ISO3>
 		<Country_Region>Asia &#38; Pacific</Country_Region>
-		<Survey_Name></Survey_Name>
 		<Childrens_Work_Statistics>
-			<Year></Year>
-			<Survey_Score></Survey_Score>
 			<Age_Range></Age_Range>
-			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children></Total_Percentage_of_Working_Children>
 			<Total_Working_Population></Total_Working_Population>
 			<Agriculture></Agriculture>
-			<Service></Service>
+			<Services></Services>
 			<Industry></Industry>
 		</Childrens_Work_Statistics>
 		<Education_Statistics_Attendance_Statistics>
@@ -933,16 +817,12 @@
 		<Country_ISO2>CC</Country_ISO2>
 		<Country_ISO3>CCK</Country_ISO3>
 		<Country_Region>Asia &#38; Pacific</Country_Region>
-		<Survey_Name></Survey_Name>
 		<Childrens_Work_Statistics>
-			<Year></Year>
-			<Survey_Score></Survey_Score>
 			<Age_Range></Age_Range>
-			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children></Total_Percentage_of_Working_Children>
 			<Total_Working_Population></Total_Working_Population>
 			<Agriculture></Agriculture>
-			<Service></Service>
+			<Services></Services>
 			<Industry></Industry>
 		</Childrens_Work_Statistics>
 		<Education_Statistics_Attendance_Statistics>
@@ -965,16 +845,12 @@
 		<Country_ISO2>CO</Country_ISO2>
 		<Country_ISO3>COL</Country_ISO3>
 		<Country_Region>Latin America &#38; Caribbean</Country_Region>
-		<Survey_Name>Gran Encuesta Integrada de Hogares, Módulo de Trabajo Infantil</Survey_Name>
 		<Childrens_Work_Statistics>
-			<Year>2012.0</Year>
-			<Survey_Score>GEIH-MTI</Survey_Score>
 			<Age_Range>5-14</Age_Range>
-			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children>5.92842564157</Total_Percentage_of_Working_Children>
 			<Total_Working_Population>514092.5</Total_Working_Population>
 			<Agriculture>39.1722311036</Agriculture>
-			<Service>40.6505264337</Service>
+			<Services>40.6505264337</Services>
 			<Industry>20.1772424627</Industry>
 		</Childrens_Work_Statistics>
 		<Education_Statistics_Attendance_Statistics>
@@ -997,16 +873,12 @@
 		<Country_ISO2>KM</Country_ISO2>
 		<Country_ISO3>COM</Country_ISO3>
 		<Country_Region>Sub-Saharan Africa</Country_Region>
-		<Survey_Name>Multiple Indicator Cluster Survey 2</Survey_Name>
 		<Childrens_Work_Statistics>
-			<Year>2000.0</Year>
-			<Survey_Score>MICS 2</Survey_Score>
 			<Age_Range>5-14</Age_Range>
-			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children>35.6</Total_Percentage_of_Working_Children>
 			<Total_Working_Population>56840.0</Total_Working_Population>
 			<Agriculture></Agriculture>
-			<Service></Service>
+			<Services></Services>
 			<Industry></Industry>
 		</Childrens_Work_Statistics>
 		<Education_Statistics_Attendance_Statistics>
@@ -1029,16 +901,12 @@
 		<Country_ISO2>CD</Country_ISO2>
 		<Country_ISO3>COD</Country_ISO3>
 		<Country_Region>Sub-Saharan Africa</Country_Region>
-		<Survey_Name>Multiple Indicator Cluster Survey 4</Survey_Name>
 		<Childrens_Work_Statistics>
-			<Year>2010.0</Year>
-			<Survey_Score>MICS 4</Survey_Score>
 			<Age_Range>5-14</Age_Range>
-			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children>16.9337388725</Total_Percentage_of_Working_Children>
 			<Total_Working_Population>3327805.9</Total_Working_Population>
 			<Agriculture></Agriculture>
-			<Service></Service>
+			<Services></Services>
 			<Industry></Industry>
 		</Childrens_Work_Statistics>
 		<Education_Statistics_Attendance_Statistics>
@@ -1061,16 +929,12 @@
 		<Country_ISO2>CG</Country_ISO2>
 		<Country_ISO3>COG</Country_ISO3>
 		<Country_Region>Sub-Saharan Africa</Country_Region>
-		<Survey_Name>Demographic and Health Survey</Survey_Name>
 		<Childrens_Work_Statistics>
-			<Year>2005.0</Year>
-			<Survey_Score>DHS</Survey_Score>
 			<Age_Range>5-14</Age_Range>
-			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children>27.0</Total_Percentage_of_Working_Children>
 			<Total_Working_Population>256993.0</Total_Working_Population>
 			<Agriculture></Agriculture>
-			<Service></Service>
+			<Services></Services>
 			<Industry></Industry>
 		</Childrens_Work_Statistics>
 		<Education_Statistics_Attendance_Statistics>
@@ -1093,16 +957,12 @@
 		<Country_ISO2>CK</Country_ISO2>
 		<Country_ISO3>COK</Country_ISO3>
 		<Country_Region>Asia &#38; Pacific</Country_Region>
-		<Survey_Name></Survey_Name>
 		<Childrens_Work_Statistics>
-			<Year></Year>
-			<Survey_Score></Survey_Score>
 			<Age_Range></Age_Range>
-			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children></Total_Percentage_of_Working_Children>
 			<Total_Working_Population></Total_Working_Population>
 			<Agriculture></Agriculture>
-			<Service></Service>
+			<Services></Services>
 			<Industry></Industry>
 		</Childrens_Work_Statistics>
 		<Education_Statistics_Attendance_Statistics>
@@ -1125,16 +985,12 @@
 		<Country_ISO2>CR</Country_ISO2>
 		<Country_ISO3>CRI</Country_ISO3>
 		<Country_Region>Latin America &#38; Caribbean</Country_Region>
-		<Survey_Name>Encuesta Nacional de Hogares</Survey_Name>
 		<Childrens_Work_Statistics>
-			<Year>2011.0</Year>
-			<Survey_Score>ENAHO</Survey_Score>
 			<Age_Range>5-14</Age_Range>
-			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children>2.16972746827</Total_Percentage_of_Working_Children>
 			<Total_Working_Population>16160.0</Total_Working_Population>
 			<Agriculture>45.0742574257</Agriculture>
-			<Service>45.0371287129</Service>
+			<Services>45.0371287129</Services>
 			<Industry>9.88861386139</Industry>
 		</Childrens_Work_Statistics>
 		<Education_Statistics_Attendance_Statistics>
@@ -1157,16 +1013,12 @@
 		<Country_ISO2>CI</Country_ISO2>
 		<Country_ISO3>CIV</Country_ISO3>
 		<Country_Region>Sub-Saharan Africa</Country_Region>
-		<Survey_Name>Multiple Indicator Cluster Survey 3</Survey_Name>
 		<Childrens_Work_Statistics>
-			<Year>2006.0</Year>
-			<Survey_Score>MICS 3</Survey_Score>
 			<Age_Range>5-14</Age_Range>
-			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children>39.8</Total_Percentage_of_Working_Children>
 			<Total_Working_Population>2181894.0</Total_Working_Population>
 			<Agriculture></Agriculture>
-			<Service></Service>
+			<Services></Services>
 			<Industry></Industry>
 		</Childrens_Work_Statistics>
 		<Education_Statistics_Attendance_Statistics>
@@ -1189,16 +1041,12 @@
 		<Country_ISO2>DJ</Country_ISO2>
 		<Country_ISO3>DJI</Country_ISO3>
 		<Country_Region>Sub-Saharan Africa</Country_Region>
-		<Survey_Name>Multiple Indicator Cluster Survey 3</Survey_Name>
 		<Childrens_Work_Statistics>
-			<Year>2006.0</Year>
-			<Survey_Score>MICS 3</Survey_Score>
 			<Age_Range>5-14</Age_Range>
-			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children>12.3</Total_Percentage_of_Working_Children>
 			<Total_Working_Population>23693.0</Total_Working_Population>
 			<Agriculture></Agriculture>
-			<Service></Service>
+			<Services></Services>
 			<Industry></Industry>
 		</Childrens_Work_Statistics>
 		<Education_Statistics_Attendance_Statistics>
@@ -1221,16 +1069,12 @@
 		<Country_ISO2>DM</Country_ISO2>
 		<Country_ISO3>DMA</Country_ISO3>
 		<Country_Region>Latin America &#38; Caribbean</Country_Region>
-		<Survey_Name></Survey_Name>
 		<Childrens_Work_Statistics>
-			<Year></Year>
-			<Survey_Score></Survey_Score>
 			<Age_Range></Age_Range>
-			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children></Total_Percentage_of_Working_Children>
 			<Total_Working_Population></Total_Working_Population>
 			<Agriculture></Agriculture>
-			<Service></Service>
+			<Services></Services>
 			<Industry></Industry>
 		</Childrens_Work_Statistics>
 		<Education_Statistics_Attendance_Statistics>
@@ -1253,16 +1097,12 @@
 		<Country_ISO2>DO</Country_ISO2>
 		<Country_ISO3>DOM</Country_ISO3>
 		<Country_Region>Latin America &#38; Caribbean</Country_Region>
-		<Survey_Name>Encuesta Nacional de Hogares de Propósitos Múltiples</Survey_Name>
 		<Childrens_Work_Statistics>
-			<Year>2011.0</Year>
-			<Survey_Score>ENHOGAR</Survey_Score>
 			<Age_Range>10-14</Age_Range>
-			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children>5.3</Total_Percentage_of_Working_Children>
 			<Total_Working_Population>54850.0</Total_Working_Population>
 			<Agriculture>29.1066545123</Agriculture>
-			<Service>62.4393801276</Service>
+			<Services>62.4393801276</Services>
 			<Industry>8.5</Industry>
 		</Childrens_Work_Statistics>
 		<Education_Statistics_Attendance_Statistics>
@@ -1285,16 +1125,12 @@
 		<Country_ISO2>EC</Country_ISO2>
 		<Country_ISO3>ECU</Country_ISO3>
 		<Country_Region>Latin America &#38; Caribbean</Country_Region>
-		<Survey_Name>Encuesta Nacional de Empleo, Desempleo y Subempleo</Survey_Name>
 		<Childrens_Work_Statistics>
-			<Year>2011.0</Year>
-			<Survey_Score>ENEMDU</Survey_Score>
 			<Age_Range>5-14</Age_Range>
-			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children>2.72293983416</Total_Percentage_of_Working_Children>
 			<Total_Working_Population>75688.66</Total_Working_Population>
 			<Agriculture>70.985168504</Agriculture>
-			<Service>20.9629168207</Service>
+			<Services>20.9629168207</Services>
 			<Industry>8.0519146753</Industry>
 		</Childrens_Work_Statistics>
 		<Education_Statistics_Attendance_Statistics>
@@ -1317,16 +1153,12 @@
 		<Country_ISO2>EG</Country_ISO2>
 		<Country_ISO3>EGY</Country_ISO3>
 		<Country_Region>Middle East &#38; North Africa</Country_Region>
-		<Survey_Name>Demographic and Health Survey</Survey_Name>
 		<Childrens_Work_Statistics>
-			<Year>2005.0</Year>
-			<Survey_Score>DHS</Survey_Score>
 			<Age_Range>5-14</Age_Range>
-			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children>6.7</Total_Percentage_of_Working_Children>
 			<Total_Working_Population>993417.0</Total_Working_Population>
 			<Agriculture></Agriculture>
-			<Service></Service>
+			<Services></Services>
 			<Industry></Industry>
 		</Childrens_Work_Statistics>
 		<Education_Statistics_Attendance_Statistics>
@@ -1349,16 +1181,12 @@
 		<Country_ISO2>SV</Country_ISO2>
 		<Country_ISO3>SLV</Country_ISO3>
 		<Country_Region>Latin America &#38; Caribbean</Country_Region>
-		<Survey_Name>Encuesta de Hogares de Propósitos Múltiples</Survey_Name>
 		<Childrens_Work_Statistics>
-			<Year>2011.0</Year>
-			<Survey_Score>EHPM</Survey_Score>
 			<Age_Range>5-14</Age_Range>
-			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children>6.3</Total_Percentage_of_Working_Children>
 			<Total_Working_Population>84927.0</Total_Working_Population>
 			<Agriculture>55.97</Agriculture>
-			<Service>33.62</Service>
+			<Services>33.62</Services>
 			<Industry>10.41</Industry>
 		</Childrens_Work_Statistics>
 		<Education_Statistics_Attendance_Statistics>
@@ -1381,16 +1209,12 @@
 		<Country_ISO2>ER</Country_ISO2>
 		<Country_ISO3>ERI</Country_ISO3>
 		<Country_Region>Sub-Saharan Africa</Country_Region>
-		<Survey_Name></Survey_Name>
 		<Childrens_Work_Statistics>
-			<Year></Year>
-			<Survey_Score></Survey_Score>
 			<Age_Range></Age_Range>
-			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children></Total_Percentage_of_Working_Children>
 			<Total_Working_Population></Total_Working_Population>
 			<Agriculture></Agriculture>
-			<Service></Service>
+			<Services></Services>
 			<Industry></Industry>
 		</Childrens_Work_Statistics>
 		<Education_Statistics_Attendance_Statistics>
@@ -1413,16 +1237,12 @@
 		<Country_ISO2>ET</Country_ISO2>
 		<Country_ISO3>ETH</Country_ISO3>
 		<Country_Region>Sub-Saharan Africa</Country_Region>
-		<Survey_Name>Demographic and Health Survey</Survey_Name>
 		<Childrens_Work_Statistics>
-			<Year>2011.0</Year>
-			<Survey_Score>DHS</Survey_Score>
 			<Age_Range>5-14</Age_Range>
-			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children>22.0</Total_Percentage_of_Working_Children>
 			<Total_Working_Population>5545319.0</Total_Working_Population>
 			<Agriculture></Agriculture>
-			<Service></Service>
+			<Services></Services>
 			<Industry></Industry>
 		</Childrens_Work_Statistics>
 		<Education_Statistics_Attendance_Statistics>
@@ -1445,16 +1265,12 @@
 		<Country_ISO2>FK</Country_ISO2>
 		<Country_ISO3>FLK</Country_ISO3>
 		<Country_Region>Europe &#38; Eurasia</Country_Region>
-		<Survey_Name></Survey_Name>
 		<Childrens_Work_Statistics>
-			<Year></Year>
-			<Survey_Score></Survey_Score>
 			<Age_Range></Age_Range>
-			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children></Total_Percentage_of_Working_Children>
 			<Total_Working_Population></Total_Working_Population>
 			<Agriculture></Agriculture>
-			<Service></Service>
+			<Services></Services>
 			<Industry></Industry>
 		</Childrens_Work_Statistics>
 		<Education_Statistics_Attendance_Statistics>
@@ -1477,16 +1293,12 @@
 		<Country_ISO2>FJ</Country_ISO2>
 		<Country_ISO3>FJI</Country_ISO3>
 		<Country_Region>Asia &#38; Pacific</Country_Region>
-		<Survey_Name></Survey_Name>
 		<Childrens_Work_Statistics>
-			<Year></Year>
-			<Survey_Score></Survey_Score>
 			<Age_Range></Age_Range>
-			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children></Total_Percentage_of_Working_Children>
 			<Total_Working_Population></Total_Working_Population>
 			<Agriculture></Agriculture>
-			<Service></Service>
+			<Services></Services>
 			<Industry></Industry>
 		</Childrens_Work_Statistics>
 		<Education_Statistics_Attendance_Statistics>
@@ -1509,16 +1321,12 @@
 		<Country_ISO2>GA</Country_ISO2>
 		<Country_ISO3>GAB</Country_ISO3>
 		<Country_Region>Sub-Saharan Africa</Country_Region>
-		<Survey_Name></Survey_Name>
 		<Childrens_Work_Statistics>
-			<Year></Year>
-			<Survey_Score></Survey_Score>
 			<Age_Range></Age_Range>
-			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children></Total_Percentage_of_Working_Children>
 			<Total_Working_Population></Total_Working_Population>
 			<Agriculture></Agriculture>
-			<Service></Service>
+			<Services></Services>
 			<Industry></Industry>
 		</Childrens_Work_Statistics>
 		<Education_Statistics_Attendance_Statistics>
@@ -1541,16 +1349,12 @@
 		<Country_ISO2>GM</Country_ISO2>
 		<Country_ISO3>GMB</Country_ISO3>
 		<Country_Region>Sub-Saharan Africa</Country_Region>
-		<Survey_Name>Multiple Indicator Cluster Survey 3</Survey_Name>
 		<Childrens_Work_Statistics>
-			<Year>2005-06</Year>
-			<Survey_Score>MICS 3</Survey_Score>
 			<Age_Range>5-14</Age_Range>
-			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children>36.4</Total_Percentage_of_Working_Children>
 			<Total_Working_Population>180954.0</Total_Working_Population>
 			<Agriculture></Agriculture>
-			<Service></Service>
+			<Services></Services>
 			<Industry></Industry>
 		</Childrens_Work_Statistics>
 		<Education_Statistics_Attendance_Statistics>
@@ -1573,16 +1377,12 @@
 		<Country_ISO2>GE</Country_ISO2>
 		<Country_ISO3>GEO</Country_ISO3>
 		<Country_Region>Europe &#38; Eurasia</Country_Region>
-		<Survey_Name>Multiple Indicator Cluster Survey 3</Survey_Name>
 		<Childrens_Work_Statistics>
-			<Year>2005.0</Year>
-			<Survey_Score>MICS 3</Survey_Score>
 			<Age_Range>5-14</Age_Range>
-			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children>29.1</Total_Percentage_of_Working_Children>
 			<Total_Working_Population>172378.0</Total_Working_Population>
 			<Agriculture></Agriculture>
-			<Service></Service>
+			<Services></Services>
 			<Industry></Industry>
 		</Childrens_Work_Statistics>
 		<Education_Statistics_Attendance_Statistics>
@@ -1605,16 +1405,12 @@
 		<Country_ISO2>GH</Country_ISO2>
 		<Country_ISO3>GHA</Country_ISO3>
 		<Country_Region>Sub-Saharan Africa</Country_Region>
-		<Survey_Name>Multiple Indicator Cluster Survey 3</Survey_Name>
 		<Childrens_Work_Statistics>
-			<Year>2006.0</Year>
-			<Survey_Score>MICS 3</Survey_Score>
 			<Age_Range>5-14</Age_Range>
-			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children>43.5</Total_Percentage_of_Working_Children>
 			<Total_Working_Population>2731596.0</Total_Working_Population>
 			<Agriculture></Agriculture>
-			<Service></Service>
+			<Services></Services>
 			<Industry></Industry>
 		</Childrens_Work_Statistics>
 		<Education_Statistics_Attendance_Statistics>
@@ -1637,16 +1433,12 @@
 		<Country_ISO2>GI</Country_ISO2>
 		<Country_ISO3>GIB</Country_ISO3>
 		<Country_Region>Europe &#38; Eurasia</Country_Region>
-		<Survey_Name></Survey_Name>
 		<Childrens_Work_Statistics>
-			<Year></Year>
-			<Survey_Score></Survey_Score>
 			<Age_Range></Age_Range>
-			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children></Total_Percentage_of_Working_Children>
 			<Total_Working_Population></Total_Working_Population>
 			<Agriculture></Agriculture>
-			<Service></Service>
+			<Services></Services>
 			<Industry></Industry>
 		</Childrens_Work_Statistics>
 		<Education_Statistics_Attendance_Statistics>
@@ -1669,16 +1461,12 @@
 		<Country_ISO2>GD</Country_ISO2>
 		<Country_ISO3>GRD</Country_ISO3>
 		<Country_Region>Latin America &#38; Caribbean</Country_Region>
-		<Survey_Name></Survey_Name>
 		<Childrens_Work_Statistics>
-			<Year></Year>
-			<Survey_Score></Survey_Score>
 			<Age_Range></Age_Range>
-			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children></Total_Percentage_of_Working_Children>
 			<Total_Working_Population></Total_Working_Population>
 			<Agriculture></Agriculture>
-			<Service></Service>
+			<Services></Services>
 			<Industry></Industry>
 		</Childrens_Work_Statistics>
 		<Education_Statistics_Attendance_Statistics>
@@ -1701,16 +1489,12 @@
 		<Country_ISO2>GT</Country_ISO2>
 		<Country_ISO3>GTM</Country_ISO3>
 		<Country_Region>Latin America &#38; Caribbean</Country_Region>
-		<Survey_Name>Encuesta Nacional de Condiciones de Vida</Survey_Name>
 		<Childrens_Work_Statistics>
-			<Year>2011.0</Year>
-			<Survey_Score>ENCOVI</Survey_Score>
 			<Age_Range>7-14</Age_Range>
-			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children>13.4</Total_Percentage_of_Working_Children>
 			<Total_Working_Population>414250.0</Total_Working_Population>
 			<Agriculture>68.3</Agriculture>
-			<Service>18.28</Service>
+			<Services>18.28</Services>
 			<Industry>13.42</Industry>
 		</Childrens_Work_Statistics>
 		<Education_Statistics_Attendance_Statistics>
@@ -1733,16 +1517,12 @@
 		<Country_ISO2>GN</Country_ISO2>
 		<Country_ISO3>GIN</Country_ISO3>
 		<Country_Region>Sub-Saharan Africa</Country_Region>
-		<Survey_Name>Enquete Nationale sur le Travail des Enfants</Survey_Name>
 		<Childrens_Work_Statistics>
-			<Year>2010.0</Year>
-			<Survey_Score>SIMPOC</Survey_Score>
 			<Age_Range>5-14</Age_Range>
-			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children>38.7970516823</Total_Percentage_of_Working_Children>
 			<Total_Working_Population>1118519.0</Total_Working_Population>
 			<Agriculture>76.2025147125</Agriculture>
-			<Service>18.5469766416</Service>
+			<Services>18.5469766416</Services>
 			<Industry>5.25050864585</Industry>
 		</Childrens_Work_Statistics>
 		<Education_Statistics_Attendance_Statistics>
@@ -1765,16 +1545,12 @@
 		<Country_ISO2>GW</Country_ISO2>
 		<Country_ISO3>GNB</Country_ISO3>
 		<Country_Region>Sub-Saharan Africa</Country_Region>
-		<Survey_Name>Multiple Indicator Cluster Survey 3</Survey_Name>
 		<Childrens_Work_Statistics>
-			<Year>2006.0</Year>
-			<Survey_Score>MICS 3</Survey_Score>
 			<Age_Range>5-14</Age_Range>
-			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children>47.3</Total_Percentage_of_Working_Children>
 			<Total_Working_Population>219734.0</Total_Working_Population>
 			<Agriculture></Agriculture>
-			<Service></Service>
+			<Services></Services>
 			<Industry></Industry>
 		</Childrens_Work_Statistics>
 		<Education_Statistics_Attendance_Statistics>
@@ -1797,16 +1573,12 @@
 		<Country_ISO2>GY</Country_ISO2>
 		<Country_ISO3>GUY</Country_ISO3>
 		<Country_Region>Latin America &#38; Caribbean</Country_Region>
-		<Survey_Name>Multiple Indicator Cluster Survey 3</Survey_Name>
 		<Childrens_Work_Statistics>
-			<Year>2006-07</Year>
-			<Survey_Score>MICS 3</Survey_Score>
 			<Age_Range>5-14</Age_Range>
-			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children>23.0</Total_Percentage_of_Working_Children>
 			<Total_Working_Population>44787.0</Total_Working_Population>
 			<Agriculture></Agriculture>
-			<Service></Service>
+			<Services></Services>
 			<Industry></Industry>
 		</Childrens_Work_Statistics>
 		<Education_Statistics_Attendance_Statistics>
@@ -1829,16 +1601,12 @@
 		<Country_ISO2>HT</Country_ISO2>
 		<Country_ISO3>HTI</Country_ISO3>
 		<Country_Region>Latin America &#38; Caribbean</Country_Region>
-		<Survey_Name>Demographic and Health Survey</Survey_Name>
 		<Childrens_Work_Statistics>
-			<Year>2005.0</Year>
-			<Survey_Score>DHS</Survey_Score>
 			<Age_Range>5-14</Age_Range>
-			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children>29.0</Total_Percentage_of_Working_Children>
 			<Total_Working_Population>659864.0</Total_Working_Population>
 			<Agriculture></Agriculture>
-			<Service></Service>
+			<Services></Services>
 			<Industry></Industry>
 		</Childrens_Work_Statistics>
 		<Education_Statistics_Attendance_Statistics>
@@ -1861,16 +1629,12 @@
 		<Country_ISO2>HM</Country_ISO2>
 		<Country_ISO3>HMD</Country_ISO3>
 		<Country_Region>Asia &#38; Pacific</Country_Region>
-		<Survey_Name></Survey_Name>
 		<Childrens_Work_Statistics>
-			<Year></Year>
-			<Survey_Score></Survey_Score>
 			<Age_Range></Age_Range>
-			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children></Total_Percentage_of_Working_Children>
 			<Total_Working_Population></Total_Working_Population>
 			<Agriculture></Agriculture>
-			<Service></Service>
+			<Services></Services>
 			<Industry></Industry>
 		</Childrens_Work_Statistics>
 		<Education_Statistics_Attendance_Statistics>
@@ -1893,16 +1657,12 @@
 		<Country_ISO2>HN</Country_ISO2>
 		<Country_ISO3>HND</Country_ISO3>
 		<Country_Region>Latin America &#38; Caribbean</Country_Region>
-		<Survey_Name>Encuesta Permanente de Hogares de Propositos Multiples</Survey_Name>
 		<Childrens_Work_Statistics>
-			<Year>2007.0</Year>
-			<Survey_Score>HHS</Survey_Score>
 			<Age_Range>5-14</Age_Range>
-			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children>7.2</Total_Percentage_of_Working_Children>
 			<Total_Working_Population>151468.0</Total_Working_Population>
 			<Agriculture>61.5</Agriculture>
-			<Service>25.2</Service>
+			<Services>25.2</Services>
 			<Industry>13.4</Industry>
 		</Childrens_Work_Statistics>
 		<Education_Statistics_Attendance_Statistics>
@@ -1925,16 +1685,12 @@
 		<Country_ISO2>IN</Country_ISO2>
 		<Country_ISO3>IND</Country_ISO3>
 		<Country_Region>Asia &#38; Pacific</Country_Region>
-		<Survey_Name>National Sample Survey Round 66</Survey_Name>
 		<Childrens_Work_Statistics>
-			<Year>2009-2010</Year>
-			<Survey_Score>NSS-R66</Survey_Score>
 			<Age_Range>5-14</Age_Range>
-			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children>1.97</Total_Percentage_of_Working_Children>
 			<Total_Working_Population>4371604.0</Total_Working_Population>
 			<Agriculture>69.5</Agriculture>
-			<Service>12.97</Service>
+			<Services>12.97</Services>
 			<Industry>17.53</Industry>
 		</Childrens_Work_Statistics>
 		<Education_Statistics_Attendance_Statistics>
@@ -1957,16 +1713,12 @@
 		<Country_ISO2>ID</Country_ISO2>
 		<Country_ISO3>IDN</Country_ISO3>
 		<Country_Region>Asia &#38; Pacific</Country_Region>
-		<Survey_Name>National Labor Force Survey (Sakernas)</Survey_Name>
 		<Childrens_Work_Statistics>
-			<Year>2010 (Aug)</Year>
-			<Survey_Score>LFS</Survey_Score>
 			<Age_Range>10-14</Age_Range>
-			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children>3.7</Total_Percentage_of_Working_Children>
 			<Total_Working_Population>816363.0</Total_Working_Population>
 			<Agriculture>61.59</Agriculture>
-			<Service>26.46</Service>
+			<Services>26.46</Services>
 			<Industry>11.95</Industry>
 		</Childrens_Work_Statistics>
 		<Education_Statistics_Attendance_Statistics>
@@ -1989,16 +1741,12 @@
 		<Country_ISO2>IQ</Country_ISO2>
 		<Country_ISO3>IRQ</Country_ISO3>
 		<Country_Region>Middle East &#38; North Africa</Country_Region>
-		<Survey_Name>Multiple Indicator Cluster Survey 4</Survey_Name>
 		<Childrens_Work_Statistics>
-			<Year>2011.0</Year>
-			<Survey_Score>MICS 4</Survey_Score>
 			<Age_Range>5-14</Age_Range>
-			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children>5.31740207696</Total_Percentage_of_Working_Children>
 			<Total_Working_Population>454330.0</Total_Working_Population>
 			<Agriculture></Agriculture>
-			<Service></Service>
+			<Services></Services>
 			<Industry></Industry>
 		</Childrens_Work_Statistics>
 		<Education_Statistics_Attendance_Statistics>
@@ -2021,16 +1769,12 @@
 		<Country_ISO2>JM</Country_ISO2>
 		<Country_ISO3>JAM</Country_ISO3>
 		<Country_Region>Latin America &#38; Caribbean</Country_Region>
-		<Survey_Name>Multiple Indicator Cluster Survey 3</Survey_Name>
 		<Childrens_Work_Statistics>
-			<Year>2006.0</Year>
-			<Survey_Score>MICS 3</Survey_Score>
 			<Age_Range>5-14</Age_Range>
-			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children>8.4</Total_Percentage_of_Working_Children>
 			<Total_Working_Population>48336.0</Total_Working_Population>
 			<Agriculture></Agriculture>
-			<Service></Service>
+			<Services></Services>
 			<Industry></Industry>
 		</Childrens_Work_Statistics>
 		<Education_Statistics_Attendance_Statistics>
@@ -2053,16 +1797,12 @@
 		<Country_ISO2>JO</Country_ISO2>
 		<Country_ISO3>JOR</Country_ISO3>
 		<Country_Region>Middle East &#38; North Africa</Country_Region>
-		<Survey_Name>National Child Labour Survey</Survey_Name>
 		<Childrens_Work_Statistics>
-			<Year>2007.0</Year>
-			<Survey_Score>SIMPOC</Survey_Score>
 			<Age_Range>5-14</Age_Range>
-			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children>0.8</Total_Percentage_of_Working_Children>
 			<Total_Working_Population>11255.0</Total_Working_Population>
 			<Agriculture>40.5</Agriculture>
-			<Service>48.4</Service>
+			<Services>48.4</Services>
 			<Industry>11.2</Industry>
 		</Childrens_Work_Statistics>
 		<Education_Statistics_Attendance_Statistics>
@@ -2085,16 +1825,12 @@
 		<Country_ISO2>KZ</Country_ISO2>
 		<Country_ISO3>KAZ</Country_ISO3>
 		<Country_Region>Asia &#38; Pacific</Country_Region>
-		<Survey_Name>Multiple Indicator Cluster Survey 3</Survey_Name>
 		<Childrens_Work_Statistics>
-			<Year>2006.0</Year>
-			<Survey_Score>MICS 3</Survey_Score>
 			<Age_Range>5-14</Age_Range>
-			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children>3.2</Total_Percentage_of_Working_Children>
 			<Total_Working_Population>79690.0</Total_Working_Population>
 			<Agriculture></Agriculture>
-			<Service></Service>
+			<Services></Services>
 			<Industry></Industry>
 		</Childrens_Work_Statistics>
 		<Education_Statistics_Attendance_Statistics>
@@ -2117,16 +1853,12 @@
 		<Country_ISO2>KE</Country_ISO2>
 		<Country_ISO3>KEN</Country_ISO3>
 		<Country_Region>Sub-Saharan Africa</Country_Region>
-		<Survey_Name>Multiple Indicator Cluster Survey 2</Survey_Name>
 		<Childrens_Work_Statistics>
-			<Year>2000.0</Year>
-			<Survey_Score>MICS 2</Survey_Score>
 			<Age_Range>5-14</Age_Range>
-			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children>32.5</Total_Percentage_of_Working_Children>
 			<Total_Working_Population>2943310.0</Total_Working_Population>
 			<Agriculture></Agriculture>
-			<Service></Service>
+			<Services></Services>
 			<Industry></Industry>
 		</Childrens_Work_Statistics>
 		<Education_Statistics_Attendance_Statistics>
@@ -2149,16 +1881,12 @@
 		<Country_ISO2>KI</Country_ISO2>
 		<Country_ISO3>KIR</Country_ISO3>
 		<Country_Region>Asia &#38; Pacific</Country_Region>
-		<Survey_Name></Survey_Name>
 		<Childrens_Work_Statistics>
-			<Year></Year>
-			<Survey_Score></Survey_Score>
 			<Age_Range></Age_Range>
-			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children></Total_Percentage_of_Working_Children>
 			<Total_Working_Population></Total_Working_Population>
 			<Agriculture></Agriculture>
-			<Service></Service>
+			<Services></Services>
 			<Industry></Industry>
 		</Childrens_Work_Statistics>
 		<Education_Statistics_Attendance_Statistics>
@@ -2181,16 +1909,12 @@
 		<Country_ISO2>KS</Country_ISO2>
 		<Country_ISO3>KSO</Country_ISO3>
 		<Country_Region>Europe &#38; Eurasia</Country_Region>
-		<Survey_Name></Survey_Name>
 		<Childrens_Work_Statistics>
-			<Year></Year>
-			<Survey_Score></Survey_Score>
 			<Age_Range></Age_Range>
-			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children></Total_Percentage_of_Working_Children>
 			<Total_Working_Population></Total_Working_Population>
 			<Agriculture></Agriculture>
-			<Service></Service>
+			<Services></Services>
 			<Industry></Industry>
 		</Childrens_Work_Statistics>
 		<Education_Statistics_Attendance_Statistics>
@@ -2213,16 +1937,12 @@
 		<Country_ISO2>KV</Country_ISO2>
 		<Country_ISO3>KVR</Country_ISO3>
 		<Country_Region>Asia &#38; Pacific</Country_Region>
-		<Survey_Name>Multiple Indicator Cluster Survey 3</Survey_Name>
 		<Childrens_Work_Statistics>
-			<Year>2006.0</Year>
-			<Survey_Score>MICS3</Survey_Score>
 			<Age_Range>5-14</Age_Range>
-			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children>4.5</Total_Percentage_of_Working_Children>
 			<Total_Working_Population>48305.0</Total_Working_Population>
 			<Agriculture></Agriculture>
-			<Service></Service>
+			<Services></Services>
 			<Industry></Industry>
 		</Childrens_Work_Statistics>
 		<Education_Statistics_Attendance_Statistics>
@@ -2245,16 +1965,12 @@
 		<Country_ISO2>LB</Country_ISO2>
 		<Country_ISO3>LBN</Country_ISO3>
 		<Country_Region>Middle East &#38; North Africa</Country_Region>
-		<Survey_Name></Survey_Name>
 		<Childrens_Work_Statistics>
-			<Year></Year>
-			<Survey_Score></Survey_Score>
 			<Age_Range></Age_Range>
-			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children></Total_Percentage_of_Working_Children>
 			<Total_Working_Population></Total_Working_Population>
 			<Agriculture></Agriculture>
-			<Service></Service>
+			<Services></Services>
 			<Industry></Industry>
 		</Childrens_Work_Statistics>
 		<Education_Statistics_Attendance_Statistics>
@@ -2277,16 +1993,12 @@
 		<Country_ISO2>LS</Country_ISO2>
 		<Country_ISO3>LSO</Country_ISO3>
 		<Country_Region>Sub-Saharan Africa</Country_Region>
-		<Survey_Name>Multiple Indicator Cluster Survey 2</Survey_Name>
 		<Childrens_Work_Statistics>
-			<Year>2000.0</Year>
-			<Survey_Score>MICS 2</Survey_Score>
 			<Age_Range>5-14</Age_Range>
-			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children>28.1</Total_Percentage_of_Working_Children>
 			<Total_Working_Population>124632.3</Total_Working_Population>
 			<Agriculture></Agriculture>
-			<Service></Service>
+			<Services></Services>
 			<Industry></Industry>
 		</Childrens_Work_Statistics>
 		<Education_Statistics_Attendance_Statistics>
@@ -2309,16 +2021,12 @@
 		<Country_ISO2>LR</Country_ISO2>
 		<Country_ISO3>LBR</Country_ISO3>
 		<Country_Region>Sub-Saharan Africa</Country_Region>
-		<Survey_Name>Labour Force Survey</Survey_Name>
 		<Childrens_Work_Statistics>
-			<Year>2010.0</Year>
-			<Survey_Score>LFS</Survey_Score>
 			<Age_Range>5-14</Age_Range>
-			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children>16.5611787728</Total_Percentage_of_Working_Children>
 			<Total_Working_Population>136340.1</Total_Working_Population>
 			<Agriculture>78.4194695947</Agriculture>
-			<Service>17.3959637132</Service>
+			<Services>17.3959637132</Services>
 			<Industry>4.22520300496</Industry>
 		</Childrens_Work_Statistics>
 		<Education_Statistics_Attendance_Statistics>
@@ -2341,16 +2049,12 @@
 		<Country_ISO2>MK</Country_ISO2>
 		<Country_ISO3>MKD</Country_ISO3>
 		<Country_Region>Europe &#38; Eurasia</Country_Region>
-		<Survey_Name>Multiple Indicator Cluster Survey 3</Survey_Name>
 		<Childrens_Work_Statistics>
-			<Year>2005.0</Year>
-			<Survey_Score>MICS3</Survey_Score>
 			<Age_Range>5-14</Age_Range>
-			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children>9.9</Total_Percentage_of_Working_Children>
 			<Total_Working_Population>30052.0</Total_Working_Population>
 			<Agriculture></Agriculture>
-			<Service></Service>
+			<Services></Services>
 			<Industry></Industry>
 		</Childrens_Work_Statistics>
 		<Education_Statistics_Attendance_Statistics>
@@ -2373,16 +2077,12 @@
 		<Country_ISO2>MG</Country_ISO2>
 		<Country_ISO3>MDG</Country_ISO3>
 		<Country_Region>Sub-Saharan Africa</Country_Region>
-		<Survey_Name>Enquete Nationale sur le Travail des Enfants</Survey_Name>
 		<Childrens_Work_Statistics>
-			<Year>2007.0</Year>
-			<Survey_Score>SIMPOC</Survey_Score>
 			<Age_Range>5-14</Age_Range>
-			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children>22.1</Total_Percentage_of_Working_Children>
 			<Total_Working_Population>1206992.0</Total_Working_Population>
 			<Agriculture>87.4</Agriculture>
-			<Service>8.4</Service>
+			<Services>8.4</Services>
 			<Industry>4.2</Industry>
 		</Childrens_Work_Statistics>
 		<Education_Statistics_Attendance_Statistics>
@@ -2405,16 +2105,12 @@
 		<Country_ISO2>MW</Country_ISO2>
 		<Country_ISO3>MWI</Country_ISO3>
 		<Country_Region>Sub-Saharan Africa</Country_Region>
-		<Survey_Name>Integrated Household Survey 3</Survey_Name>
 		<Childrens_Work_Statistics>
-			<Year>2010-2011</Year>
-			<Survey_Score>HIS</Survey_Score>
 			<Age_Range>5-14</Age_Range>
-			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children>20.6</Total_Percentage_of_Working_Children>
 			<Total_Working_Population>885332.8</Total_Working_Population>
 			<Agriculture></Agriculture>
-			<Service></Service>
+			<Services></Services>
 			<Industry></Industry>
 		</Childrens_Work_Statistics>
 		<Education_Statistics_Attendance_Statistics>
@@ -2437,16 +2133,12 @@
 		<Country_ISO2>MV</Country_ISO2>
 		<Country_ISO3>MDV</Country_ISO3>
 		<Country_Region>Asia &#38; Pacific</Country_Region>
-		<Survey_Name>Demographic and Health Survey</Survey_Name>
 		<Childrens_Work_Statistics>
-			<Year>2009.0</Year>
-			<Survey_Score>DHS</Survey_Score>
 			<Age_Range>5-14</Age_Range>
-			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children>3.9</Total_Percentage_of_Working_Children>
 			<Total_Working_Population>2364.2094</Total_Working_Population>
 			<Agriculture></Agriculture>
-			<Service></Service>
+			<Services></Services>
 			<Industry></Industry>
 		</Childrens_Work_Statistics>
 		<Education_Statistics_Attendance_Statistics>
@@ -2469,16 +2161,12 @@
 		<Country_ISO2>ML</Country_ISO2>
 		<Country_ISO3>MLI</Country_ISO3>
 		<Country_Region>Sub-Saharan Africa</Country_Region>
-		<Survey_Name>Enquete National sur le Travail des Enfants</Survey_Name>
 		<Childrens_Work_Statistics>
-			<Year>2005.0</Year>
-			<Survey_Score>SIMPOC</Survey_Score>
 			<Age_Range>5-14</Age_Range>
-			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children>46.4</Total_Percentage_of_Working_Children>
 			<Total_Working_Population>1700782.06</Total_Working_Population>
 			<Agriculture>82.5959748876</Agriculture>
-			<Service>14.1226051599</Service>
+			<Services>14.1226051599</Services>
 			<Industry>3.28142277846</Industry>
 		</Childrens_Work_Statistics>
 		<Education_Statistics_Attendance_Statistics>
@@ -2501,16 +2189,12 @@
 		<Country_ISO2>MR</Country_ISO2>
 		<Country_ISO3>MRT</Country_ISO3>
 		<Country_Region>Sub-Saharan Africa</Country_Region>
-		<Survey_Name>Multiple Indicator Cluster Survey 3</Survey_Name>
 		<Childrens_Work_Statistics>
-			<Year>2007.0</Year>
-			<Survey_Score>MICS 3</Survey_Score>
 			<Age_Range>5-14</Age_Range>
-			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children>18.2</Total_Percentage_of_Working_Children>
 			<Total_Working_Population>172936.0</Total_Working_Population>
 			<Agriculture></Agriculture>
-			<Service></Service>
+			<Services></Services>
 			<Industry></Industry>
 		</Childrens_Work_Statistics>
 		<Education_Statistics_Attendance_Statistics>
@@ -2533,16 +2217,12 @@
 		<Country_ISO2>MU</Country_ISO2>
 		<Country_ISO3>MUS</Country_ISO3>
 		<Country_Region>Sub-Saharan Africa</Country_Region>
-		<Survey_Name></Survey_Name>
 		<Childrens_Work_Statistics>
-			<Year></Year>
-			<Survey_Score></Survey_Score>
 			<Age_Range></Age_Range>
-			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children></Total_Percentage_of_Working_Children>
 			<Total_Working_Population></Total_Working_Population>
 			<Agriculture></Agriculture>
-			<Service></Service>
+			<Services></Services>
 			<Industry></Industry>
 		</Childrens_Work_Statistics>
 		<Education_Statistics_Attendance_Statistics>
@@ -2565,16 +2245,12 @@
 		<Country_ISO2>MD</Country_ISO2>
 		<Country_ISO3>MDA</Country_ISO3>
 		<Country_Region>Europe &#38; Eurasia</Country_Region>
-		<Survey_Name>Labour Force Survey-Child Labour Survey</Survey_Name>
 		<Childrens_Work_Statistics>
-			<Year>2009.0</Year>
-			<Survey_Score>LFS-SIMPOC</Survey_Score>
 			<Age_Range>5-14</Age_Range>
-			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children>24.277330891</Total_Percentage_of_Working_Children>
 			<Total_Working_Population>102104.7</Total_Working_Population>
 			<Agriculture>97.2649128052</Agriculture>
-			<Service>2.1725662701</Service>
+			<Services>2.1725662701</Services>
 			<Industry>0.562520924704</Industry>
 		</Childrens_Work_Statistics>
 		<Education_Statistics_Attendance_Statistics>
@@ -2597,16 +2273,12 @@
 		<Country_ISO2>MN</Country_ISO2>
 		<Country_ISO3>MNG</Country_ISO3>
 		<Country_Region>Asia &#38; Pacific</Country_Region>
-		<Survey_Name>Labour Force Survey-National Child Labour Survey</Survey_Name>
 		<Childrens_Work_Statistics>
-			<Year>2011-12</Year>
-			<Survey_Score>LFS-NCLS</Survey_Score>
 			<Age_Range>5-14</Age_Range>
-			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children>13.7591566632</Total_Percentage_of_Working_Children>
 			<Total_Working_Population>60245.67</Total_Working_Population>
 			<Agriculture>85.8116688853</Agriculture>
-			<Service>11.6987529842</Service>
+			<Services>11.6987529842</Services>
 			<Industry>2.4895781305</Industry>
 		</Childrens_Work_Statistics>
 		<Education_Statistics_Attendance_Statistics>
@@ -2629,16 +2301,12 @@
 		<Country_ISO2>ME</Country_ISO2>
 		<Country_ISO3>MNE</Country_ISO3>
 		<Country_Region>Europe &#38; Eurasia</Country_Region>
-		<Survey_Name>Multiple Indicator Cluster Survey 3</Survey_Name>
 		<Childrens_Work_Statistics>
-			<Year>2005.0</Year>
-			<Survey_Score>MICS3</Survey_Score>
 			<Age_Range>5-14</Age_Range>
-			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children>12.9</Total_Percentage_of_Working_Children>
 			<Total_Working_Population></Total_Working_Population>
 			<Agriculture></Agriculture>
-			<Service></Service>
+			<Services></Services>
 			<Industry></Industry>
 		</Childrens_Work_Statistics>
 		<Education_Statistics_Attendance_Statistics>
@@ -2661,16 +2329,12 @@
 		<Country_ISO2>MS</Country_ISO2>
 		<Country_ISO3>MSR</Country_ISO3>
 		<Country_Region>Europe &#38; Eurasia</Country_Region>
-		<Survey_Name></Survey_Name>
 		<Childrens_Work_Statistics>
-			<Year></Year>
-			<Survey_Score></Survey_Score>
 			<Age_Range></Age_Range>
-			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children></Total_Percentage_of_Working_Children>
 			<Total_Working_Population></Total_Working_Population>
 			<Agriculture></Agriculture>
-			<Service></Service>
+			<Services></Services>
 			<Industry></Industry>
 		</Childrens_Work_Statistics>
 		<Education_Statistics_Attendance_Statistics>
@@ -2693,16 +2357,12 @@
 		<Country_ISO2>MA</Country_ISO2>
 		<Country_ISO3>MAR</Country_ISO3>
 		<Country_Region>Middle East &#38; North Africa</Country_Region>
-		<Survey_Name>Enquête sur la Population et la Santé Familiale</Survey_Name>
 		<Childrens_Work_Statistics>
-			<Year>2003-04</Year>
-			<Survey_Score>DHS</Survey_Score>
 			<Age_Range>10-14</Age_Range>
-			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children>4.5</Total_Percentage_of_Working_Children>
 			<Total_Working_Population>150178.0</Total_Working_Population>
 			<Agriculture></Agriculture>
-			<Service></Service>
+			<Services></Services>
 			<Industry></Industry>
 		</Childrens_Work_Statistics>
 		<Education_Statistics_Attendance_Statistics>
@@ -2725,16 +2385,12 @@
 		<Country_ISO2>MZ</Country_ISO2>
 		<Country_ISO3>MOZ</Country_ISO3>
 		<Country_Region>Sub-Saharan Africa</Country_Region>
-		<Survey_Name>Multiple Indicator Cluster Survey 3</Survey_Name>
 		<Childrens_Work_Statistics>
-			<Year>2008.0</Year>
-			<Survey_Score>MICS3</Survey_Score>
 			<Age_Range>5-14</Age_Range>
-			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children>22.5</Total_Percentage_of_Working_Children>
 			<Total_Working_Population>1526559.77</Total_Working_Population>
 			<Agriculture></Agriculture>
-			<Service></Service>
+			<Services></Services>
 			<Industry></Industry>
 		</Childrens_Work_Statistics>
 		<Education_Statistics_Attendance_Statistics>
@@ -2757,16 +2413,12 @@
 		<Country_ISO2>NA</Country_ISO2>
 		<Country_ISO3>NAM</Country_ISO3>
 		<Country_Region>Sub-Saharan Africa</Country_Region>
-		<Survey_Name></Survey_Name>
 		<Childrens_Work_Statistics>
-			<Year></Year>
-			<Survey_Score></Survey_Score>
 			<Age_Range></Age_Range>
-			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children></Total_Percentage_of_Working_Children>
 			<Total_Working_Population></Total_Working_Population>
 			<Agriculture></Agriculture>
-			<Service></Service>
+			<Services></Services>
 			<Industry></Industry>
 		</Childrens_Work_Statistics>
 		<Education_Statistics_Attendance_Statistics>
@@ -2789,16 +2441,12 @@
 		<Country_ISO2>NP</Country_ISO2>
 		<Country_ISO3>NPL</Country_ISO3>
 		<Country_Region>Asia &#38; Pacific</Country_Region>
-		<Survey_Name>Labour Force Survey</Survey_Name>
 		<Childrens_Work_Statistics>
-			<Year>2008.0</Year>
-			<Survey_Score>LFS</Survey_Score>
 			<Age_Range>5-14</Age_Range>
-			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children>33.6694310276</Total_Percentage_of_Working_Children>
 			<Total_Working_Population>2097162.8</Total_Working_Population>
 			<Agriculture>88.8284309107</Agriculture>
-			<Service>3.09721736003</Service>
+			<Services>3.09721736003</Services>
 			<Industry>8.07435172927</Industry>
 		</Childrens_Work_Statistics>
 		<Education_Statistics_Attendance_Statistics>
@@ -2821,16 +2469,12 @@
 		<Country_ISO2>NI</Country_ISO2>
 		<Country_ISO3>NIC</Country_ISO3>
 		<Country_Region>Latin America &#38; Caribbean</Country_Region>
-		<Survey_Name>Encuesta Nacional de Hogares sobre Medicion de Nivel de Vida</Survey_Name>
 		<Childrens_Work_Statistics>
-			<Year>2005.0</Year>
-			<Survey_Score>HHS</Survey_Score>
 			<Age_Range>5-14</Age_Range>
-			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children>8.4</Total_Percentage_of_Working_Children>
 			<Total_Working_Population>109380.0</Total_Working_Population>
 			<Agriculture>70.7</Agriculture>
-			<Service>19.2</Service>
+			<Services>19.2</Services>
 			<Industry>10.1</Industry>
 		</Childrens_Work_Statistics>
 		<Education_Statistics_Attendance_Statistics>
@@ -2853,16 +2497,12 @@
 		<Country_ISO2>NE</Country_ISO2>
 		<Country_ISO3>NER</Country_ISO3>
 		<Country_Region>Sub-Saharan Africa</Country_Region>
-		<Survey_Name>Enquete Nationale sur le Travail des Enfants</Survey_Name>
 		<Childrens_Work_Statistics>
-			<Year>2009.0</Year>
-			<Survey_Score>SIMPOC</Survey_Score>
 			<Age_Range>5-14</Age_Range>
-			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children>47.77</Total_Percentage_of_Working_Children>
 			<Total_Working_Population>1561570.0</Total_Working_Population>
 			<Agriculture>13.55</Agriculture>
-			<Service>82.2</Service>
+			<Services>82.2</Services>
 			<Industry>4.25</Industry>
 		</Childrens_Work_Statistics>
 		<Education_Statistics_Attendance_Statistics>
@@ -2885,16 +2525,12 @@
 		<Country_ISO2>NG</Country_ISO2>
 		<Country_ISO3>NGA</Country_ISO3>
 		<Country_Region>Sub-Saharan Africa</Country_Region>
-		<Survey_Name>Multiple Indicator Cluster Survey 4</Survey_Name>
 		<Childrens_Work_Statistics>
-			<Year>2011.0</Year>
-			<Survey_Score>MICS 4</Survey_Score>
 			<Age_Range>5-14</Age_Range>
-			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children>31.1</Total_Percentage_of_Working_Children>
 			<Total_Working_Population>13924739.0</Total_Working_Population>
 			<Agriculture></Agriculture>
-			<Service></Service>
+			<Services></Services>
 			<Industry></Industry>
 		</Childrens_Work_Statistics>
 		<Education_Statistics_Attendance_Statistics>
@@ -2917,16 +2553,12 @@
 		<Country_ISO2>NU</Country_ISO2>
 		<Country_ISO3>NIU</Country_ISO3>
 		<Country_Region>Asia &#38; Pacific</Country_Region>
-		<Survey_Name></Survey_Name>
 		<Childrens_Work_Statistics>
-			<Year></Year>
-			<Survey_Score></Survey_Score>
 			<Age_Range></Age_Range>
-			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children></Total_Percentage_of_Working_Children>
 			<Total_Working_Population></Total_Working_Population>
 			<Agriculture></Agriculture>
-			<Service></Service>
+			<Services></Services>
 			<Industry></Industry>
 		</Childrens_Work_Statistics>
 		<Education_Statistics_Attendance_Statistics>
@@ -2949,16 +2581,12 @@
 		<Country_ISO2>NF</Country_ISO2>
 		<Country_ISO3>NFK</Country_ISO3>
 		<Country_Region>Asia &#38; Pacific</Country_Region>
-		<Survey_Name></Survey_Name>
 		<Childrens_Work_Statistics>
-			<Year></Year>
-			<Survey_Score></Survey_Score>
 			<Age_Range></Age_Range>
-			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children></Total_Percentage_of_Working_Children>
 			<Total_Working_Population></Total_Working_Population>
 			<Agriculture></Agriculture>
-			<Service></Service>
+			<Services></Services>
 			<Industry></Industry>
 		</Childrens_Work_Statistics>
 		<Education_Statistics_Attendance_Statistics>
@@ -2981,16 +2609,12 @@
 		<Country_ISO2>OM</Country_ISO2>
 		<Country_ISO3>OMN</Country_ISO3>
 		<Country_Region>Middle East &#38; North Africa</Country_Region>
-		<Survey_Name></Survey_Name>
 		<Childrens_Work_Statistics>
-			<Year></Year>
-			<Survey_Score></Survey_Score>
 			<Age_Range></Age_Range>
-			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children></Total_Percentage_of_Working_Children>
 			<Total_Working_Population></Total_Working_Population>
 			<Agriculture></Agriculture>
-			<Service></Service>
+			<Services></Services>
 			<Industry></Industry>
 		</Childrens_Work_Statistics>
 		<Education_Statistics_Attendance_Statistics>
@@ -3013,16 +2637,12 @@
 		<Country_ISO2>PK</Country_ISO2>
 		<Country_ISO3>PAK</Country_ISO3>
 		<Country_Region>Asia &#38; Pacific</Country_Region>
-		<Survey_Name>Labour Force Survey</Survey_Name>
 		<Childrens_Work_Statistics>
-			<Year>2010-2011</Year>
-			<Survey_Score>LFS</Survey_Score>
 			<Age_Range>10-14</Age_Range>
-			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children>12.9981497318</Total_Percentage_of_Working_Children>
 			<Total_Working_Population>2449480.0</Total_Working_Population>
 			<Agriculture>76.0490798047</Agriculture>
-			<Service>14.5888106863</Service>
+			<Services>14.5888106863</Services>
 			<Industry>9.32481506279</Industry>
 		</Childrens_Work_Statistics>
 		<Education_Statistics_Attendance_Statistics>
@@ -3045,16 +2665,12 @@
 		<Country_ISO2>PA</Country_ISO2>
 		<Country_ISO3>PAN</Country_ISO3>
 		<Country_Region>Latin America &#38; Caribbean</Country_Region>
-		<Survey_Name>Encuesta de Trabajo Infantil</Survey_Name>
 		<Childrens_Work_Statistics>
-			<Year>2010.0</Year>
-			<Survey_Score>ETI</Survey_Score>
 			<Age_Range>5-14</Age_Range>
-			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children>4.46809619149</Total_Percentage_of_Working_Children>
 			<Total_Working_Population>30016.0</Total_Working_Population>
 			<Agriculture>73.5407782516</Agriculture>
-			<Service>21.0187899787</Service>
+			<Services>21.0187899787</Services>
 			<Industry>5.44043176972</Industry>
 		</Childrens_Work_Statistics>
 		<Education_Statistics_Attendance_Statistics>
@@ -3077,16 +2693,12 @@
 		<Country_ISO2>PG</Country_ISO2>
 		<Country_ISO3>PNG</Country_ISO3>
 		<Country_Region>Asia &#38; Pacific</Country_Region>
-		<Survey_Name></Survey_Name>
 		<Childrens_Work_Statistics>
-			<Year></Year>
-			<Survey_Score></Survey_Score>
 			<Age_Range></Age_Range>
-			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children></Total_Percentage_of_Working_Children>
 			<Total_Working_Population></Total_Working_Population>
 			<Agriculture></Agriculture>
-			<Service></Service>
+			<Services></Services>
 			<Industry></Industry>
 		</Childrens_Work_Statistics>
 		<Education_Statistics_Attendance_Statistics>
@@ -3109,16 +2721,12 @@
 		<Country_ISO2>PY</Country_ISO2>
 		<Country_ISO3>PRY</Country_ISO3>
 		<Country_Region>Latin America &#38; Caribbean</Country_Region>
-		<Survey_Name>Encuesta Permanente de Hogares</Survey_Name>
 		<Childrens_Work_Statistics>
-			<Year>2005.0</Year>
-			<Survey_Score>HHS</Survey_Score>
 			<Age_Range>10-14</Age_Range>
-			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children>15.3</Total_Percentage_of_Working_Children>
 			<Total_Working_Population>113072.0</Total_Working_Population>
 			<Agriculture>60.8</Agriculture>
-			<Service>32.1</Service>
+			<Services>32.1</Services>
 			<Industry>7.1</Industry>
 		</Childrens_Work_Statistics>
 		<Education_Statistics_Attendance_Statistics>
@@ -3141,16 +2749,12 @@
 		<Country_ISO2>PE</Country_ISO2>
 		<Country_ISO3>PER</Country_ISO3>
 		<Country_Region>Latin America &#38; Caribbean</Country_Region>
-		<Survey_Name>Encuesta Nacional de  Hogares</Survey_Name>
 		<Childrens_Work_Statistics>
-			<Year>2011.0</Year>
-			<Survey_Score>ENAHO</Survey_Score>
 			<Age_Range>6-14</Age_Range>
-			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children>19.3833363229</Total_Percentage_of_Working_Children>
 			<Total_Working_Population>1014688.0</Total_Working_Population>
 			<Agriculture></Agriculture>
-			<Service></Service>
+			<Services></Services>
 			<Industry></Industry>
 		</Childrens_Work_Statistics>
 		<Education_Statistics_Attendance_Statistics>
@@ -3173,16 +2777,12 @@
 		<Country_ISO2>PH</Country_ISO2>
 		<Country_ISO3>PHL</Country_ISO3>
 		<Country_Region>Asia &#38; Pacific</Country_Region>
-		<Survey_Name>Labour Force Survey-Child Labour Survey</Survey_Name>
 		<Childrens_Work_Statistics>
-			<Year>2001.0</Year>
-			<Survey_Score>SIMPOC</Survey_Score>
 			<Age_Range>5-14</Age_Range>
-			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children>11.0</Total_Percentage_of_Working_Children>
 			<Total_Working_Population>2180565.0</Total_Working_Population>
 			<Agriculture>65.3558014027</Agriculture>
-			<Service>29.3527711266</Service>
+			<Services>29.3527711266</Services>
 			<Industry>5.29142747076</Industry>
 		</Childrens_Work_Statistics>
 		<Education_Statistics_Attendance_Statistics>
@@ -3205,16 +2805,12 @@
 		<Country_ISO2>PN</Country_ISO2>
 		<Country_ISO3>PCN</Country_ISO3>
 		<Country_Region>Europe &#38; Eurasia</Country_Region>
-		<Survey_Name></Survey_Name>
 		<Childrens_Work_Statistics>
-			<Year></Year>
-			<Survey_Score></Survey_Score>
 			<Age_Range></Age_Range>
-			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children></Total_Percentage_of_Working_Children>
 			<Total_Working_Population></Total_Working_Population>
 			<Agriculture></Agriculture>
-			<Service></Service>
+			<Services></Services>
 			<Industry></Industry>
 		</Childrens_Work_Statistics>
 		<Education_Statistics_Attendance_Statistics>
@@ -3237,16 +2833,12 @@
 		<Country_ISO2>RU</Country_ISO2>
 		<Country_ISO3>RUS</Country_ISO3>
 		<Country_Region>Europe &#38; Eurasia</Country_Region>
-		<Survey_Name></Survey_Name>
 		<Childrens_Work_Statistics>
-			<Year></Year>
-			<Survey_Score></Survey_Score>
 			<Age_Range></Age_Range>
-			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children></Total_Percentage_of_Working_Children>
 			<Total_Working_Population></Total_Working_Population>
 			<Agriculture></Agriculture>
-			<Service></Service>
+			<Services></Services>
 			<Industry></Industry>
 		</Childrens_Work_Statistics>
 		<Education_Statistics_Attendance_Statistics>
@@ -3269,16 +2861,12 @@
 		<Country_ISO2>RW</Country_ISO2>
 		<Country_ISO3>RWA</Country_ISO3>
 		<Country_Region>Sub-Saharan Africa</Country_Region>
-		<Survey_Name>Demographic and Health Survey</Survey_Name>
 		<Childrens_Work_Statistics>
-			<Year>2010.0</Year>
-			<Survey_Score>DHS</Survey_Score>
 			<Age_Range>5-14</Age_Range>
-			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children>16.1</Total_Percentage_of_Working_Children>
 			<Total_Working_Population>482180.3</Total_Working_Population>
 			<Agriculture></Agriculture>
-			<Service></Service>
+			<Services></Services>
 			<Industry></Industry>
 		</Childrens_Work_Statistics>
 		<Education_Statistics_Attendance_Statistics>
@@ -3301,16 +2889,12 @@
 		<Country_ISO2>SH</Country_ISO2>
 		<Country_ISO3>SHN</Country_ISO3>
 		<Country_Region>Europe &#38; Eurasia</Country_Region>
-		<Survey_Name></Survey_Name>
 		<Childrens_Work_Statistics>
-			<Year></Year>
-			<Survey_Score></Survey_Score>
 			<Age_Range></Age_Range>
-			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children></Total_Percentage_of_Working_Children>
 			<Total_Working_Population></Total_Working_Population>
 			<Agriculture></Agriculture>
-			<Service></Service>
+			<Services></Services>
 			<Industry></Industry>
 		</Childrens_Work_Statistics>
 		<Education_Statistics_Attendance_Statistics>
@@ -3333,16 +2917,12 @@
 		<Country_ISO2>KN</Country_ISO2>
 		<Country_ISO3>KNA</Country_ISO3>
 		<Country_Region>Latin America &#38; Caribbean</Country_Region>
-		<Survey_Name></Survey_Name>
 		<Childrens_Work_Statistics>
-			<Year></Year>
-			<Survey_Score></Survey_Score>
 			<Age_Range></Age_Range>
-			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children></Total_Percentage_of_Working_Children>
 			<Total_Working_Population></Total_Working_Population>
 			<Agriculture></Agriculture>
-			<Service></Service>
+			<Services></Services>
 			<Industry></Industry>
 		</Childrens_Work_Statistics>
 		<Education_Statistics_Attendance_Statistics>
@@ -3365,16 +2945,12 @@
 		<Country_ISO2>LC</Country_ISO2>
 		<Country_ISO3>LCA</Country_ISO3>
 		<Country_Region>Latin America &#38; Caribbean</Country_Region>
-		<Survey_Name></Survey_Name>
 		<Childrens_Work_Statistics>
-			<Year></Year>
-			<Survey_Score></Survey_Score>
 			<Age_Range></Age_Range>
-			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children></Total_Percentage_of_Working_Children>
 			<Total_Working_Population></Total_Working_Population>
 			<Agriculture></Agriculture>
-			<Service></Service>
+			<Services></Services>
 			<Industry></Industry>
 		</Childrens_Work_Statistics>
 		<Education_Statistics_Attendance_Statistics>
@@ -3397,16 +2973,12 @@
 		<Country_ISO2>VC</Country_ISO2>
 		<Country_ISO3>VCT</Country_ISO3>
 		<Country_Region>Latin America &#38; Caribbean</Country_Region>
-		<Survey_Name></Survey_Name>
 		<Childrens_Work_Statistics>
-			<Year></Year>
-			<Survey_Score></Survey_Score>
 			<Age_Range></Age_Range>
-			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children></Total_Percentage_of_Working_Children>
 			<Total_Working_Population></Total_Working_Population>
 			<Agriculture></Agriculture>
-			<Service></Service>
+			<Services></Services>
 			<Industry></Industry>
 		</Childrens_Work_Statistics>
 		<Education_Statistics_Attendance_Statistics>
@@ -3429,16 +3001,12 @@
 		<Country_ISO2>WS</Country_ISO2>
 		<Country_ISO3>WSM</Country_ISO3>
 		<Country_Region>Asia &#38; Pacific</Country_Region>
-		<Survey_Name></Survey_Name>
 		<Childrens_Work_Statistics>
-			<Year></Year>
-			<Survey_Score></Survey_Score>
 			<Age_Range></Age_Range>
-			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children></Total_Percentage_of_Working_Children>
 			<Total_Working_Population></Total_Working_Population>
 			<Agriculture></Agriculture>
-			<Service></Service>
+			<Services></Services>
 			<Industry></Industry>
 		</Childrens_Work_Statistics>
 		<Education_Statistics_Attendance_Statistics>
@@ -3461,16 +3029,12 @@
 		<Country_ISO2>ST</Country_ISO2>
 		<Country_ISO3>STP</Country_ISO3>
 		<Country_Region>Sub-Saharan Africa</Country_Region>
-		<Survey_Name>Multiple Indicator Cluster Survey 2</Survey_Name>
 		<Childrens_Work_Statistics>
-			<Year>2000.0</Year>
-			<Survey_Score>MICS 2</Survey_Score>
 			<Age_Range>5-14</Age_Range>
-			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children>15.4</Total_Percentage_of_Working_Children>
 			<Total_Working_Population>6218.0</Total_Working_Population>
 			<Agriculture></Agriculture>
-			<Service></Service>
+			<Services></Services>
 			<Industry></Industry>
 		</Childrens_Work_Statistics>
 		<Education_Statistics_Attendance_Statistics>
@@ -3493,16 +3057,12 @@
 		<Country_ISO2>SN</Country_ISO2>
 		<Country_ISO3>SEN</Country_ISO3>
 		<Country_Region>Sub-Saharan Africa</Country_Region>
-		<Survey_Name>Demographic and Health Survey</Survey_Name>
 		<Childrens_Work_Statistics>
-			<Year>2010-2011</Year>
-			<Survey_Score>DHS</Survey_Score>
 			<Age_Range>5-14</Age_Range>
-			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children>14.9</Total_Percentage_of_Working_Children>
 			<Total_Working_Population>510419.74</Total_Working_Population>
 			<Agriculture></Agriculture>
-			<Service></Service>
+			<Services></Services>
 			<Industry></Industry>
 		</Childrens_Work_Statistics>
 		<Education_Statistics_Attendance_Statistics>
@@ -3525,16 +3085,12 @@
 		<Country_ISO2>RS</Country_ISO2>
 		<Country_ISO3>SRB</Country_ISO3>
 		<Country_Region>Europe &#38; Eurasia</Country_Region>
-		<Survey_Name>Multiple Indicator Cluster Survey 3</Survey_Name>
 		<Childrens_Work_Statistics>
-			<Year>2005.0</Year>
-			<Survey_Score>MICS 3</Survey_Score>
 			<Age_Range>5-14</Age_Range>
-			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children>6.0</Total_Percentage_of_Working_Children>
 			<Total_Working_Population></Total_Working_Population>
 			<Agriculture></Agriculture>
-			<Service></Service>
+			<Services></Services>
 			<Industry></Industry>
 		</Childrens_Work_Statistics>
 		<Education_Statistics_Attendance_Statistics>
@@ -3557,16 +3113,12 @@
 		<Country_ISO2>SC</Country_ISO2>
 		<Country_ISO3>SYC</Country_ISO3>
 		<Country_Region>Sub-Saharan Africa</Country_Region>
-		<Survey_Name></Survey_Name>
 		<Childrens_Work_Statistics>
-			<Year></Year>
-			<Survey_Score></Survey_Score>
 			<Age_Range></Age_Range>
-			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children></Total_Percentage_of_Working_Children>
 			<Total_Working_Population></Total_Working_Population>
 			<Agriculture></Agriculture>
-			<Service></Service>
+			<Services></Services>
 			<Industry></Industry>
 		</Childrens_Work_Statistics>
 		<Education_Statistics_Attendance_Statistics>
@@ -3589,16 +3141,12 @@
 		<Country_ISO2>SL</Country_ISO2>
 		<Country_ISO3>SLE</Country_ISO3>
 		<Country_Region>Sub-Saharan Africa</Country_Region>
-		<Survey_Name>Multiple Indicator Cluster Survey 4</Survey_Name>
 		<Childrens_Work_Statistics>
-			<Year>2010.0</Year>
-			<Survey_Score>MICS 4</Survey_Score>
 			<Age_Range>5-14</Age_Range>
-			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children>34.7</Total_Percentage_of_Working_Children>
 			<Total_Working_Population>579851.3</Total_Working_Population>
 			<Agriculture></Agriculture>
-			<Service></Service>
+			<Services></Services>
 			<Industry></Industry>
 		</Childrens_Work_Statistics>
 		<Education_Statistics_Attendance_Statistics>
@@ -3621,16 +3169,12 @@
 		<Country_ISO2>SB</Country_ISO2>
 		<Country_ISO3>SLB</Country_ISO3>
 		<Country_Region>Asia &#38; Pacific</Country_Region>
-		<Survey_Name></Survey_Name>
 		<Childrens_Work_Statistics>
-			<Year></Year>
-			<Survey_Score></Survey_Score>
 			<Age_Range></Age_Range>
-			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children></Total_Percentage_of_Working_Children>
 			<Total_Working_Population></Total_Working_Population>
 			<Agriculture></Agriculture>
-			<Service></Service>
+			<Services></Services>
 			<Industry></Industry>
 		</Childrens_Work_Statistics>
 		<Education_Statistics_Attendance_Statistics>
@@ -3653,16 +3197,12 @@
 		<Country_ISO2>SO</Country_ISO2>
 		<Country_ISO3>SOM</Country_ISO3>
 		<Country_Region>Sub-Saharan Africa</Country_Region>
-		<Survey_Name>Multiple Indicator Cluster Survey 3</Survey_Name>
 		<Childrens_Work_Statistics>
-			<Year>2006.0</Year>
-			<Survey_Score>MICS 3</Survey_Score>
 			<Age_Range>5-14</Age_Range>
-			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children>39.8</Total_Percentage_of_Working_Children>
 			<Total_Working_Population>1012863.0</Total_Working_Population>
 			<Agriculture></Agriculture>
-			<Service></Service>
+			<Services></Services>
 			<Industry></Industry>
 		</Childrens_Work_Statistics>
 		<Education_Statistics_Attendance_Statistics>
@@ -3685,16 +3225,12 @@
 		<Country_ISO2>ZA</Country_ISO2>
 		<Country_ISO3>ZAF</Country_ISO3>
 		<Country_Region>Sub-Saharan Africa</Country_Region>
-		<Survey_Name></Survey_Name>
 		<Childrens_Work_Statistics>
-			<Year></Year>
-			<Survey_Score></Survey_Score>
 			<Age_Range></Age_Range>
-			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children></Total_Percentage_of_Working_Children>
 			<Total_Working_Population></Total_Working_Population>
 			<Agriculture></Agriculture>
-			<Service></Service>
+			<Services></Services>
 			<Industry></Industry>
 		</Childrens_Work_Statistics>
 		<Education_Statistics_Attendance_Statistics>
@@ -3717,16 +3253,12 @@
 		<Country_ISO2>SS</Country_ISO2>
 		<Country_ISO3>SSD</Country_ISO3>
 		<Country_Region>Sub-Saharan Africa</Country_Region>
-		<Survey_Name>Fifth Housing and Population Census</Survey_Name>
 		<Childrens_Work_Statistics>
-			<Year>2008.0</Year>
-			<Survey_Score>CENSUS</Survey_Score>
 			<Age_Range>10-14</Age_Range>
-			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children>45.6</Total_Percentage_of_Working_Children>
 			<Total_Working_Population>463624.0</Total_Working_Population>
 			<Agriculture>60.2</Agriculture>
-			<Service>38.2</Service>
+			<Services>38.2</Services>
 			<Industry>1.6</Industry>
 		</Childrens_Work_Statistics>
 		<Education_Statistics_Attendance_Statistics>
@@ -3749,16 +3281,12 @@
 		<Country_ISO2>LK</Country_ISO2>
 		<Country_ISO3>LKA</Country_ISO3>
 		<Country_Region>Asia &#38; Pacific</Country_Region>
-		<Survey_Name>Child Activity Survey</Survey_Name>
 		<Childrens_Work_Statistics>
-			<Year>2008-2009</Year>
-			<Survey_Score>SIMPOC</Survey_Score>
 			<Age_Range>5-14</Age_Range>
-			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children>9.17</Total_Percentage_of_Working_Children>
 			<Total_Working_Population>302864.63</Total_Working_Population>
 			<Agriculture>66.97</Agriculture>
-			<Service>17.05</Service>
+			<Services>17.05</Services>
 			<Industry>15.98</Industry>
 		</Childrens_Work_Statistics>
 		<Education_Statistics_Attendance_Statistics>
@@ -3781,16 +3309,12 @@
 		<Country_ISO2>SR</Country_ISO2>
 		<Country_ISO3>SUR</Country_ISO3>
 		<Country_Region>Latin America &#38; Caribbean</Country_Region>
-		<Survey_Name>Multiple Indicator Cluster Survey 4</Survey_Name>
 		<Childrens_Work_Statistics>
-			<Year>2010.0</Year>
-			<Survey_Score>MICS 4</Survey_Score>
 			<Age_Range>5-14</Age_Range>
-			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children>6.44539253137</Total_Percentage_of_Working_Children>
 			<Total_Working_Population>6671.261</Total_Working_Population>
 			<Agriculture></Agriculture>
-			<Service></Service>
+			<Services></Services>
 			<Industry></Industry>
 		</Childrens_Work_Statistics>
 		<Education_Statistics_Attendance_Statistics>
@@ -3813,16 +3337,12 @@
 		<Country_ISO2>SZ</Country_ISO2>
 		<Country_ISO3>SWZ</Country_ISO3>
 		<Country_Region>Sub-Saharan Africa</Country_Region>
-		<Survey_Name>Multiple Indicator Cluster Survey 4</Survey_Name>
 		<Childrens_Work_Statistics>
-			<Year>2010.0</Year>
-			<Survey_Score>MICS 4</Survey_Score>
 			<Age_Range>5-14</Age_Range>
-			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children>11.729758576</Total_Percentage_of_Working_Children>
 			<Total_Working_Population>35368.022</Total_Working_Population>
 			<Agriculture></Agriculture>
-			<Service></Service>
+			<Services></Services>
 			<Industry></Industry>
 		</Childrens_Work_Statistics>
 		<Education_Statistics_Attendance_Statistics>
@@ -3845,16 +3365,12 @@
 		<Country_ISO2>TZ</Country_ISO2>
 		<Country_ISO3>TZA</Country_ISO3>
 		<Country_Region>Sub-Saharan Africa</Country_Region>
-		<Survey_Name>National Panel Survey</Survey_Name>
 		<Childrens_Work_Statistics>
-			<Year>2010-2011</Year>
-			<Survey_Score>NPS</Survey_Score>
 			<Age_Range>5-14</Age_Range>
-			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children>25.1</Total_Percentage_of_Working_Children>
 			<Total_Working_Population>3157442.4</Total_Working_Population>
 			<Agriculture></Agriculture>
-			<Service></Service>
+			<Services></Services>
 			<Industry></Industry>
 		</Childrens_Work_Statistics>
 		<Education_Statistics_Attendance_Statistics>
@@ -3877,16 +3393,12 @@
 		<Country_ISO2>TH</Country_ISO2>
 		<Country_ISO3>THA</Country_ISO3>
 		<Country_Region>Asia &#38; Pacific</Country_Region>
-		<Survey_Name>Multiple Indicator Cluster Survey 3</Survey_Name>
 		<Childrens_Work_Statistics>
-			<Year>2005-06</Year>
-			<Survey_Score>MICS 3</Survey_Score>
 			<Age_Range>5-14</Age_Range>
-			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children>13.0</Total_Percentage_of_Working_Children>
 			<Total_Working_Population>1302267.0</Total_Working_Population>
 			<Agriculture></Agriculture>
-			<Service></Service>
+			<Services></Services>
 			<Industry></Industry>
 		</Childrens_Work_Statistics>
 		<Education_Statistics_Attendance_Statistics>
@@ -3909,16 +3421,12 @@
 		<Country_ISO2>TL</Country_ISO2>
 		<Country_ISO3>TLS</Country_ISO3>
 		<Country_Region>Asia &#38; Pacific</Country_Region>
-		<Survey_Name>Timor-Leste Survey of Living Standards</Survey_Name>
 		<Childrens_Work_Statistics>
-			<Year>2007.0</Year>
-			<Survey_Score>TLSLS</Survey_Score>
 			<Age_Range>10-14</Age_Range>
-			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children>19.9</Total_Percentage_of_Working_Children>
 			<Total_Working_Population>26268.0</Total_Working_Population>
 			<Agriculture>97.6</Agriculture>
-			<Service>1.0</Service>
+			<Services>1.0</Services>
 			<Industry>1.4</Industry>
 		</Childrens_Work_Statistics>
 		<Education_Statistics_Attendance_Statistics>
@@ -3941,16 +3449,12 @@
 		<Country_ISO2>TG</Country_ISO2>
 		<Country_ISO3>TGO</Country_ISO3>
 		<Country_Region>Sub-Saharan Africa</Country_Region>
-		<Survey_Name>Multiple Indicator Cluster Survey 4</Survey_Name>
 		<Childrens_Work_Statistics>
-			<Year>2010.0</Year>
-			<Survey_Score>MICS 4</Survey_Score>
 			<Age_Range>5-14</Age_Range>
-			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children>35.7</Total_Percentage_of_Working_Children>
 			<Total_Working_Population>616132.3</Total_Working_Population>
 			<Agriculture></Agriculture>
-			<Service></Service>
+			<Services></Services>
 			<Industry></Industry>
 		</Childrens_Work_Statistics>
 		<Education_Statistics_Attendance_Statistics>
@@ -3973,16 +3477,12 @@
 		<Country_ISO2>TK</Country_ISO2>
 		<Country_ISO3>TKL</Country_ISO3>
 		<Country_Region>Asia &#38; Pacific</Country_Region>
-		<Survey_Name></Survey_Name>
 		<Childrens_Work_Statistics>
-			<Year></Year>
-			<Survey_Score></Survey_Score>
 			<Age_Range></Age_Range>
-			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children></Total_Percentage_of_Working_Children>
 			<Total_Working_Population></Total_Working_Population>
 			<Agriculture></Agriculture>
-			<Service></Service>
+			<Services></Services>
 			<Industry></Industry>
 		</Childrens_Work_Statistics>
 		<Education_Statistics_Attendance_Statistics>
@@ -4005,16 +3505,12 @@
 		<Country_ISO2>TO</Country_ISO2>
 		<Country_ISO3>TON</Country_ISO3>
 		<Country_Region>Asia &#38; Pacific</Country_Region>
-		<Survey_Name></Survey_Name>
 		<Childrens_Work_Statistics>
-			<Year></Year>
-			<Survey_Score></Survey_Score>
 			<Age_Range></Age_Range>
-			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children></Total_Percentage_of_Working_Children>
 			<Total_Working_Population></Total_Working_Population>
 			<Agriculture></Agriculture>
-			<Service></Service>
+			<Services></Services>
 			<Industry></Industry>
 		</Childrens_Work_Statistics>
 		<Education_Statistics_Attendance_Statistics>
@@ -4037,16 +3533,12 @@
 		<Country_ISO2>TT</Country_ISO2>
 		<Country_ISO3>TTO</Country_ISO3>
 		<Country_Region>Latin America &#38; Caribbean</Country_Region>
-		<Survey_Name>Multiple Indicator Cluster Survey 3</Survey_Name>
 		<Childrens_Work_Statistics>
-			<Year>2006.0</Year>
-			<Survey_Score>MICS  3</Survey_Score>
 			<Age_Range>5-14</Age_Range>
-			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children>3.0</Total_Percentage_of_Working_Children>
 			<Total_Working_Population>5975.0</Total_Working_Population>
 			<Agriculture></Agriculture>
-			<Service></Service>
+			<Services></Services>
 			<Industry></Industry>
 		</Childrens_Work_Statistics>
 		<Education_Statistics_Attendance_Statistics>
@@ -4069,16 +3561,12 @@
 		<Country_ISO2>TN</Country_ISO2>
 		<Country_ISO3>TUN</Country_ISO3>
 		<Country_Region>Middle East &#38; North Africa</Country_Region>
-		<Survey_Name></Survey_Name>
 		<Childrens_Work_Statistics>
-			<Year></Year>
-			<Survey_Score></Survey_Score>
 			<Age_Range></Age_Range>
-			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children></Total_Percentage_of_Working_Children>
 			<Total_Working_Population></Total_Working_Population>
 			<Agriculture></Agriculture>
-			<Service></Service>
+			<Services></Services>
 			<Industry></Industry>
 		</Childrens_Work_Statistics>
 		<Education_Statistics_Attendance_Statistics>
@@ -4101,16 +3589,12 @@
 		<Country_ISO2>TR</Country_ISO2>
 		<Country_ISO3>TUR</Country_ISO3>
 		<Country_Region>Europe &#38; Eurasia</Country_Region>
-		<Survey_Name>Child Labour Survey</Survey_Name>
 		<Childrens_Work_Statistics>
-			<Year>2006.0</Year>
-			<Survey_Score>SIMPOC</Survey_Score>
 			<Age_Range>6-14</Age_Range>
-			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children>2.6</Total_Percentage_of_Working_Children>
 			<Total_Working_Population>320254.4</Total_Working_Population>
 			<Agriculture>57.1</Agriculture>
-			<Service>27.1</Service>
+			<Services>27.1</Services>
 			<Industry>15.8</Industry>
 		</Childrens_Work_Statistics>
 		<Education_Statistics_Attendance_Statistics>
@@ -4133,16 +3617,12 @@
 		<Country_ISO2>TC</Country_ISO2>
 		<Country_ISO3>TCA</Country_ISO3>
 		<Country_Region>Europe &#38; Eurasia</Country_Region>
-		<Survey_Name></Survey_Name>
 		<Childrens_Work_Statistics>
-			<Year></Year>
-			<Survey_Score></Survey_Score>
 			<Age_Range></Age_Range>
-			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children></Total_Percentage_of_Working_Children>
 			<Total_Working_Population></Total_Working_Population>
 			<Agriculture></Agriculture>
-			<Service></Service>
+			<Services></Services>
 			<Industry></Industry>
 		</Childrens_Work_Statistics>
 		<Education_Statistics_Attendance_Statistics>
@@ -4165,16 +3645,12 @@
 		<Country_ISO2>TV</Country_ISO2>
 		<Country_ISO3>TUV</Country_ISO3>
 		<Country_Region>Asia &#38; Pacific</Country_Region>
-		<Survey_Name></Survey_Name>
 		<Childrens_Work_Statistics>
-			<Year></Year>
-			<Survey_Score></Survey_Score>
 			<Age_Range></Age_Range>
-			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children></Total_Percentage_of_Working_Children>
 			<Total_Working_Population></Total_Working_Population>
 			<Agriculture></Agriculture>
-			<Service></Service>
+			<Services></Services>
 			<Industry></Industry>
 		</Childrens_Work_Statistics>
 		<Education_Statistics_Attendance_Statistics>
@@ -4197,16 +3673,12 @@
 		<Country_ISO2>UG</Country_ISO2>
 		<Country_ISO3>UGA</Country_ISO3>
 		<Country_Region>Sub-Saharan Africa</Country_Region>
-		<Survey_Name>Labour Force Survey</Survey_Name>
 		<Childrens_Work_Statistics>
-			<Year>2010.0</Year>
-			<Survey_Score>LFS</Survey_Score>
 			<Age_Range>5-14</Age_Range>
-			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children>30.9</Total_Percentage_of_Working_Children>
 			<Total_Working_Population>3034126.2</Total_Working_Population>
 			<Agriculture>95.4014793009</Agriculture>
-			<Service>3.05440109485</Service>
+			<Services>3.05440109485</Services>
 			<Industry>1.54411960428</Industry>
 		</Childrens_Work_Statistics>
 		<Education_Statistics_Attendance_Statistics>
@@ -4229,16 +3701,12 @@
 		<Country_ISO2>UA</Country_ISO2>
 		<Country_ISO3>UKR</Country_ISO3>
 		<Country_Region>Europe &#38; Eurasia</Country_Region>
-		<Survey_Name>Multiple Indicator Cluster Survey 3</Survey_Name>
 		<Childrens_Work_Statistics>
-			<Year>2005.0</Year>
-			<Survey_Score>MICS 3</Survey_Score>
 			<Age_Range>5-14</Age_Range>
-			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children>15.1</Total_Percentage_of_Working_Children>
 			<Total_Working_Population>904210.0</Total_Working_Population>
 			<Agriculture></Agriculture>
-			<Service></Service>
+			<Services></Services>
 			<Industry></Industry>
 		</Childrens_Work_Statistics>
 		<Education_Statistics_Attendance_Statistics>
@@ -4261,16 +3729,12 @@
 		<Country_ISO2>UY</Country_ISO2>
 		<Country_ISO3>URY</Country_ISO3>
 		<Country_Region>Latin America &#38; Caribbean</Country_Region>
-		<Survey_Name>Encuesta Nacional de Trabajo Infantil</Survey_Name>
 		<Childrens_Work_Statistics>
-			<Year>2009.0</Year>
-			<Survey_Score>SIMPOC</Survey_Score>
 			<Age_Range>5-14</Age_Range>
-			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children>6.1</Total_Percentage_of_Working_Children>
 			<Total_Working_Population>31954.65</Total_Working_Population>
 			<Agriculture>28.4</Agriculture>
-			<Service>59.1</Service>
+			<Services>59.1</Services>
 			<Industry>12.5</Industry>
 		</Childrens_Work_Statistics>
 		<Education_Statistics_Attendance_Statistics>
@@ -4293,16 +3757,12 @@
 		<Country_ISO2>UZ</Country_ISO2>
 		<Country_ISO3>UZB</Country_ISO3>
 		<Country_Region>Asia &#38; Pacific</Country_Region>
-		<Survey_Name>Multiple Indicator Cluster Survey 3</Survey_Name>
 		<Childrens_Work_Statistics>
-			<Year>2006.0</Year>
-			<Survey_Score>MICS 3</Survey_Score>
 			<Age_Range>5-14</Age_Range>
-			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children>4.3</Total_Percentage_of_Working_Children>
 			<Total_Working_Population>244095.0</Total_Working_Population>
 			<Agriculture></Agriculture>
-			<Service></Service>
+			<Services></Services>
 			<Industry></Industry>
 		</Childrens_Work_Statistics>
 		<Education_Statistics_Attendance_Statistics>
@@ -4325,16 +3785,12 @@
 		<Country_ISO2>VU</Country_ISO2>
 		<Country_ISO3>VUT</Country_ISO3>
 		<Country_Region>Asia &#38; Pacific</Country_Region>
-		<Survey_Name></Survey_Name>
 		<Childrens_Work_Statistics>
-			<Year></Year>
-			<Survey_Score></Survey_Score>
 			<Age_Range></Age_Range>
-			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children></Total_Percentage_of_Working_Children>
 			<Total_Working_Population></Total_Working_Population>
 			<Agriculture></Agriculture>
-			<Service></Service>
+			<Services></Services>
 			<Industry></Industry>
 		</Childrens_Work_Statistics>
 		<Education_Statistics_Attendance_Statistics>
@@ -4357,16 +3813,12 @@
 		<Country_ISO2>VE</Country_ISO2>
 		<Country_ISO3>VEN</Country_ISO3>
 		<Country_Region>Latin America &#38; Caribbean</Country_Region>
-		<Survey_Name>Encuesta de Hogares por Muestreo</Survey_Name>
 		<Childrens_Work_Statistics>
-			<Year>2006.0</Year>
-			<Survey_Score>HHS</Survey_Score>
 			<Age_Range>10-14</Age_Range>
-			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children>5.1</Total_Percentage_of_Working_Children>
 			<Total_Working_Population>138641.0</Total_Working_Population>
 			<Agriculture>32.3419557541</Agriculture>
-			<Service>55.659564214</Service>
+			<Services>55.659564214</Services>
 			<Industry>12.0</Industry>
 		</Childrens_Work_Statistics>
 		<Education_Statistics_Attendance_Statistics>
@@ -4389,16 +3841,12 @@
 		<Country_ISO2>WF</Country_ISO2>
 		<Country_ISO3>WLF</Country_ISO3>
 		<Country_Region>Europe &#38; Eurasia</Country_Region>
-		<Survey_Name></Survey_Name>
 		<Childrens_Work_Statistics>
-			<Year></Year>
-			<Survey_Score></Survey_Score>
 			<Age_Range></Age_Range>
-			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children></Total_Percentage_of_Working_Children>
 			<Total_Working_Population></Total_Working_Population>
 			<Agriculture></Agriculture>
-			<Service></Service>
+			<Services></Services>
 			<Industry></Industry>
 		</Childrens_Work_Statistics>
 		<Education_Statistics_Attendance_Statistics>
@@ -4421,16 +3869,12 @@
 		<Country_ISO2>WB</Country_ISO2>
 		<Country_ISO3>WBG</Country_ISO3>
 		<Country_Region>Middle East &#38; North Africa</Country_Region>
-		<Survey_Name></Survey_Name>
 		<Childrens_Work_Statistics>
-			<Year></Year>
-			<Survey_Score></Survey_Score>
 			<Age_Range></Age_Range>
-			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children></Total_Percentage_of_Working_Children>
 			<Total_Working_Population></Total_Working_Population>
 			<Agriculture></Agriculture>
-			<Service></Service>
+			<Services></Services>
 			<Industry></Industry>
 		</Childrens_Work_Statistics>
 		<Education_Statistics_Attendance_Statistics>
@@ -4453,16 +3897,12 @@
 		<Country_ISO2>EH</Country_ISO2>
 		<Country_ISO3>ESH</Country_ISO3>
 		<Country_Region>Middle East &#38; North Africa</Country_Region>
-		<Survey_Name></Survey_Name>
 		<Childrens_Work_Statistics>
-			<Year></Year>
-			<Survey_Score></Survey_Score>
 			<Age_Range></Age_Range>
-			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children></Total_Percentage_of_Working_Children>
 			<Total_Working_Population></Total_Working_Population>
 			<Agriculture></Agriculture>
-			<Service></Service>
+			<Services></Services>
 			<Industry></Industry>
 		</Childrens_Work_Statistics>
 		<Education_Statistics_Attendance_Statistics>
@@ -4485,16 +3925,12 @@
 		<Country_ISO2>YE</Country_ISO2>
 		<Country_ISO3>YEM</Country_ISO3>
 		<Country_Region>Middle East &#38; North Africa</Country_Region>
-		<Survey_Name>National Child Labour Survey</Survey_Name>
 		<Childrens_Work_Statistics>
-			<Year>2010.0</Year>
-			<Survey_Score>SIMPOC</Survey_Score>
 			<Age_Range>5-14</Age_Range>
-			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children>13.5694493656</Total_Percentage_of_Working_Children>
 			<Total_Working_Population>834865.8</Total_Working_Population>
 			<Agriculture>69.9946630949</Agriculture>
-			<Service>27.7908830099</Service>
+			<Services>27.7908830099</Services>
 			<Industry>2.21445389528</Industry>
 		</Childrens_Work_Statistics>
 		<Education_Statistics_Attendance_Statistics>
@@ -4517,16 +3953,12 @@
 		<Country_ISO2>ZM</Country_ISO2>
 		<Country_ISO3>ZMB</Country_ISO3>
 		<Country_Region>Sub-Saharan Africa</Country_Region>
-		<Survey_Name>Labour Force Survey</Survey_Name>
 		<Childrens_Work_Statistics>
-			<Year>2008.0</Year>
-			<Survey_Score>LFS</Survey_Score>
 			<Age_Range>5-14</Age_Range>
-			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children>28.1</Total_Percentage_of_Working_Children>
 			<Total_Working_Population>992721.681</Total_Working_Population>
 			<Agriculture>91.8</Agriculture>
-			<Service>7.0</Service>
+			<Services>7.0</Services>
 			<Industry>1.2</Industry>
 		</Childrens_Work_Statistics>
 		<Education_Statistics_Attendance_Statistics>
@@ -4549,16 +3981,12 @@
 		<Country_ISO2>ZW</Country_ISO2>
 		<Country_ISO3>ZWE</Country_ISO3>
 		<Country_Region>Sub-Saharan Africa</Country_Region>
-		<Survey_Name></Survey_Name>
 		<Childrens_Work_Statistics>
-			<Year></Year>
-			<Survey_Score></Survey_Score>
 			<Age_Range></Age_Range>
-			<Total_Child_Population>			</Total_Child_Population>
 			<Total_Percentage_of_Working_Children></Total_Percentage_of_Working_Children>
 			<Total_Working_Population></Total_Working_Population>
 			<Agriculture></Agriculture>
-			<Service></Service>
+			<Services></Services>
 			<Industry></Industry>
 		</Childrens_Work_Statistics>
 		<Education_Statistics_Attendance_Statistics>
