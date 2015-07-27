@@ -19,10 +19,10 @@ regs = regions.build()
 csl = ISO_countries.build()
 sp_chars = special_chars.build()
 
-mappings = [ 'Country_Name', 'Survey_Name', 
-              CWS+'_Year', CWS+'_Survey_Source', CWS+'_Age_Range', CWS +'_Total_Child_Population',
-              CWS+'_Total_Percentage_of_Working_Children', CWS+'_Total_Working_Population', 
-              CWS+'_Agriculture', CWS+'_Service', CWS+'_Industry', 
+mappings = [ 'Country_Name', 
+              CWS+'_Age_Range', CWS+'_Total_Percentage_of_Working_Children',
+              CWS+'_Total_Working_Population', 
+              CWS+'_Agriculture', CWS+'_Services', CWS+'_Industry', 
               ESAS+'_Year', ESAS+'_Age_Range', ESAS+'_Percentage', 
               CWAS+'_Year', CWAS+'_Age_Range', CWAS+'_Total', 
               UPCR+'_Year', UPCR+'_Rate' 
@@ -54,15 +54,11 @@ def include_extra(masterdata):
 	    	print "There is no ISO3 for ", md['Country_Name']
 
 	    md['Country_Region'] = regions.find_region_from_ISO3(md['Country_ISO3'], regs)
-	    md['Survey_Name'] = mdrec['Survey_Name']
-	    md[CWS+'_Year'] = mdrec[CWS+'_Year']
-	    md[CWS+'_Survey_Source'] = mdrec[CWS+'_Survey_Source']
 	    md[CWS+'_Age_Range'] = mdrec[CWS+'_Age_Range']
-	    md[CWS +'_Total_Child_Population'] = mdrec[CWS +'_Total_Child_Population']
 	    md[CWS+'_Total_Percentage_of_Working_Children'] = mdrec[CWS+'_Total_Percentage_of_Working_Children']
 	    md[CWS+'_Total_Working_Population'] = mdrec[CWS+'_Total_Working_Population']
 	    md[CWS+'_Agriculture'] = mdrec[CWS+'_Agriculture']
-	    md[CWS+'_Service'] = mdrec[CWS+'_Service']
+	    md[CWS+'_Services'] = mdrec[CWS+'_Services']
 	    md[CWS+'_Industry'] = mdrec[CWS+'_Industry']
 	    md[ESAS+'_Year'] = mdrec[ESAS+'_Year']
 	    md[ESAS+'_Age_Range'] = mdrec[ESAS+'_Age_Range']
@@ -75,106 +71,93 @@ def include_extra(masterdata):
 	    md_list.append(md)
 	return md_list
 
+
 def write_record(target, md):
 
-	#print md, "\n"
-
-	target.write("\t<Country>\n")
-
-	target.write("\t\t<Country_Name>")
+	target.write(utility.tabs(2)+"<Country_Name>")
 	target.write(md['Country_Name'])
-	target.write("</Country_Name>\n")
+	target.write("</Country_Name>"+utility.get_newline())
 
-	target.write("\t\t<Country_ISO2>")
+	target.write(utility.tabs(2)+"<Country_ISO2>")
 	target.write(str(md['Country_ISO2']))
-	target.write("</Country_ISO2>\n")
+	target.write("</Country_ISO2>"+utility.get_newline())
 
-	target.write("\t\t<Country_ISO3>")
+	target.write(utility.tabs(2)+"<Country_ISO3>")
 	target.write(str(md['Country_ISO3']))
-	target.write("</Country_ISO3>\n")
+	target.write("</Country_ISO3>"+utility.get_newline())
 
-	target.write("\t\t<Country_Region>")
+	target.write(utility.tabs(2)+"<Country_Region>")
 	target.write(special_chars.xml_safe(str(md['Country_Region']),sp_chars))
-	target.write("</Country_Region>\n")
+	target.write("</Country_Region>"+utility.get_newline())
+	return
 
 
-	target.write("\t\t<Survey_Name>")
-	target.write(md['Survey_Name'])
-	target.write("</Survey_Name>\n")
-
-	target.write("\t\t<Childrens_Work_Statistics>\n")
-	target.write("\t\t\t<Year>")
-	target.write(md[CWS+'_Year'])
-	target.write("</Year>\n")
-	target.write("\t\t\t<Survey_Score>")
-	target.write(md[CWS+'_Survey_Source'])
-	target.write("</Survey_Score>\n")
-	target.write("\t\t\t<Age_Range>")
+def write_data(target, md, count):
+	target.write(utility.tabs(count)+"<Childrens_Work_Statistics>"+utility.get_newline())
+	target.write(utility.tabs(count+1)+"<Age_Range>")
 	target.write(md[CWS+'_Age_Range'])
-	target.write("</Age_Range>\n")
-	target.write("\t\t\t<Total_Child_Population>")
-	target.write(md[CWS +'_Total_Child_Population'])
-	target.write("\t\t\t</Total_Child_Population>\n")
-	target.write("\t\t\t<Total_Percentage_of_Working_Children>")
+	target.write("</Age_Range>"+utility.get_newline())
+	target.write(utility.tabs(count+1)+"<Total_Percentage_of_Working_Children>")
 	target.write(str(md[CWS+'_Total_Percentage_of_Working_Children']))
-	target.write("</Total_Percentage_of_Working_Children>\n")
-	target.write("\t\t\t<Total_Working_Population>")
+	target.write("</Total_Percentage_of_Working_Children>"+utility.get_newline())
+	target.write(utility.tabs(count+1)+"<Total_Working_Population>")
 	target.write(str(md[CWS+'_Total_Working_Population']))
-	target.write("</Total_Working_Population>\n")
-	target.write("\t\t\t<Agriculture>")
+	target.write("</Total_Working_Population>"+utility.get_newline())
+	target.write(utility.tabs(count+1)+"<Agriculture>")
 	target.write(str(md[CWS+'_Agriculture']))
-	target.write("</Agriculture>\n")
-	target.write("\t\t\t<Service>")
-	target.write(str(md[CWS+'_Service']))
-	target.write("</Service>\n")
-	target.write("\t\t\t<Industry>")
+	target.write("</Agriculture>"+utility.get_newline())
+	target.write(utility.tabs(count+1)+"<Services>")
+	target.write(str(md[CWS+'_Services']))
+	target.write("</Services>"+utility.get_newline())
+	target.write(utility.tabs(count+1)+"<Industry>")
 	target.write(str(md[CWS+'_Industry']))
-	target.write("</Industry>\n")
-	target.write("\t\t</Childrens_Work_Statistics>\n")
+	target.write("</Industry>"+utility.get_newline())
+	target.write(utility.tabs(count)+"</Childrens_Work_Statistics>"+utility.get_newline())
 	
-	target.write("\t\t<Education_Statistics_Attendance_Statistics>\n")
-	target.write("\t\t\t<Year>")
+	target.write(utility.tabs(count)+"<Education_Statistics_Attendance_Statistics>"+utility.get_newline())
+	target.write(utility.tabs(count+1)+"<Year>")
 	target.write(md[ESAS+'_Year'])
-	target.write("</Year>\n")
-	target.write("\t\t\t<Age_Range>")
+	target.write("</Year>"+utility.get_newline())
+	target.write(utility.tabs(count+1)+"<Age_Range>")
 	target.write(md[ESAS+'_Age_Range'])
-	target.write("</Age_Range>\n")
-	target.write("\t\t\t<Percentage>")
+	target.write("</Age_Range>"+utility.get_newline())
+	target.write(utility.tabs(count+1)+"<Percentage>")
 	target.write(md[ESAS+'_Percentage'])
-	target.write("</Percentage>\n")
-	target.write("\t\t</Education_Statistics_Attendance_Statistics>\n")
+	target.write("</Percentage>"+utility.get_newline())
+	target.write(utility.tabs(count)+"</Education_Statistics_Attendance_Statistics>"+utility.get_newline())
 
-	target.write("\t\t<Children_Work_And_Studying>\n")
-	target.write("\t\t\t<Year>")
+	target.write(utility.tabs(count)+"<Children_Work_And_Studying>"+utility.get_newline())
+	target.write(utility.tabs(count+1)+"<Year>")
 	target.write(md[CWAS+'_Year'])
-	target.write("</Year>\n")
-	target.write("\t\t\t<Age_Range>")
+	target.write("</Year>"+utility.get_newline())
+	target.write(utility.tabs(count+1)+"<Age_Range>")
 	target.write(md[CWAS+'_Age_Range'])
-	target.write("</Age_Range>\n")
-	target.write("\t\t\t<Total>")
+	target.write("</Age_Range>"+utility.get_newline())
+	target.write(utility.tabs(count+1)+"<Total>")
 	target.write(md[CWAS+'_Total'])
-	target.write("</Total>\n")
-	target.write("\t\t</Children_Work_And_Studying>\n")
+	target.write("</Total>"+utility.get_newline())
+	target.write(utility.tabs(count)+"</Children_Work_And_Studying>"+utility.get_newline())
 
-	target.write("\t\t<Unesco_Primary_Completion_Rate>\n")
-	target.write("\t\t\t<Year>")
+	target.write(utility.tabs(count)+"<Unesco_Primary_Completion_Rate>"+utility.get_newline())
+	target.write(utility.tabs(count+1)+"<Year>")
 	target.write(md[UPCR+'_Year'])
-	target.write("</Year>\n")
-	target.write("\t\t\t<Rate>")
+	target.write("</Year>"+utility.get_newline())
+	target.write(utility.tabs(count+1)+"<Rate>")
 	target.write(md[UPCR+'_Rate'])
-	target.write("</Rate>\n")
-	target.write("\t\t</Unesco_Primary_Completion_Rate>\n")
-
-	target.write("\t</Country>\n")
+	target.write("</Rate>"+utility.get_newline())
+	target.write(utility.tabs(count)+"</Unesco_Primary_Completion_Rate>"+utility.get_newline())
 	return
 
 def to_xml(filename, mlist):
 	target = open(filename, 'w+')
-	target.write(utility.get_xml_header()+"\n")
-	target.write("<Country_Statistics>\n")
+	target.write(utility.get_xml_header()+""+utility.get_newline())
+	target.write("<Country_Statistics>"+utility.get_newline())
 	for country_record in mlist:
+		target.write(utility.tabs(1)+"<Country>"+utility.get_newline())
 		write_record(target, country_record)
-	target.write("</Country_Statistics>\n")
+		write_data(target, country_record, 2)
+		target.write(utility.tabs(1)+"</Country>"+utility.get_newline())		
+	target.write("</Country_Statistics>"+utility.get_newline())
 	target.close()
 	return
 
@@ -199,32 +182,28 @@ def order_by_country(mdlist):
 		md['Country_ISO2'] = mdrec['Country_ISO2']
 		md['Country_ISO3'] = mdrec['Country_ISO3']
 		md['Country_Region'] = mdrec['Country_Region']
-		md['Survey_Name'] = mdrec['Survey_Name']
 		md[CWS] = []
 
 		newcws = OrderedDict()
-		newcws['Year'] = mdrec[CWS+'_Year']
-		newcws['Survey_Source'] = mdrec[CWS+'_Survey_Source']
 		newcws['Age_Range'] = mdrec[CWS+'_Age_Range']
-		newcws['Total_Child_Population'] = mdrec[CWS +'_Total_Child_Population']
 		newcws['Total_Percentage_of_Working_Children'] = mdrec[CWS+'_Total_Percentage_of_Working_Children']
 		newcws['Total_Working_Population'] = mdrec[CWS+'_Total_Working_Population']
 		newcws['Agriculture'] = mdrec[CWS+'_Agriculture']
-		newcws['Service'] = mdrec[CWS+'_Service']
+		newcws['Services'] = mdrec[CWS+'_Services']
 		newcws['Industry'] = mdrec[CWS+'_Industry']
 		md[CWS].append(newcws)
 
 		md[ESAS] = []
 		newesas = OrderedDict()
 		newesas['Year'] = mdrec[ESAS+'_Year']
-		newesas['Age Range'] = mdrec[ESAS+'_Age_Range']
+		newesas['Age_Range'] = mdrec[ESAS+'_Age_Range']
 		newesas['Percentage'] = mdrec[ESAS+'_Percentage']
 		md[ESAS].append(newesas)
 
 		md[CWAS] = []
 		newcwas = OrderedDict()
 		newcwas['Year'] = mdrec[CWAS+'_Year']
-		newcwas['Age Range'] = mdrec[CWAS+'_Age_Range']
+		newcwas['Age_Range'] = mdrec[CWAS+'_Age_Range']
 		newcwas['Total'] = mdrec[CWAS+'_Total']
 		md[CWAS].append(newcwas)
 
@@ -237,6 +216,42 @@ def order_by_country(mdlist):
 
 	return result
 
+def found_stats_from(value, tag, mlist):
+	found = utility.get_default_error()
+
+	for count in range(0, len(mlist)):
+		stat = mlist[count]
+		if (stat[tag].strip().upper() == value.strip().upper()) :
+			found = count
+			break
+	return found
+
+
+def get_stats_from_iso3(iso3, mlist):
+
+	stats = utility.get_default_error()
+	index = found_stats_from(iso3, "Country_ISO3", mlist)
+
+	if index != utility.get_default_error() :
+		print "found"
+		stats = mlist[index]
+	else:
+		print "not found"
+
+	return stats
+
+
+def get_stats_from_name(name, mlist):
+	this_iso3 = ISO_countries.ISO3_from_name(name, csl)
+	stats = get_stats_from_iso3(this_iso3, mlist)
+	return stats
+
+def country_with_no_stats(mdlist, regs):
+	tab4 = utility.grab_values_for_tag(mdlist, "Country_Name")
+	tab1 = utility.grab_values_for_tag(regs, "Country_Name")
+	diff = utility.set_difference(tab1, tab4)
+	return diff
+
 if __name__ == '__main__':
 	
 	mdlist = build()
@@ -244,5 +259,14 @@ if __name__ == '__main__':
 	to_xml(xml_target, mdlist)
 	to_json(json_target, mdlist)
 	to_csv(csv_target, mdlist)
+     
+	#print get_stats_from_name("Cambodia", mdlist)
+
+	tab4 = utility.grab_values_for_tag(mdlist, "Country_Name")
+	tab1 = utility.grab_values_for_tag(regs, "Country_Name")
+	diff = utility.set_difference(tab1, tab4)
+
+	print "\n\nCountries with no stats: ", diff
+	
 
 	
