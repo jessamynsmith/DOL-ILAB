@@ -6,7 +6,7 @@ from collections import OrderedDict
 # Global XML Header String
 xml_header = """<?xml version="1.0" encoding="UTF-8"?>"""
 
-source_filename = "../source_data/RAPP_2013.xlsx"
+source_filename = "../source_data/RAPP_2013_revised_063015.xlsx"
 
 # Break Characters in a Good Name
 open_bracket = "("
@@ -164,7 +164,9 @@ def get_json_data(c_json_file):
 		country_data = json.load(json_file)
 	return country_data
 
-
+def get_xml_data(c_xml_file):
+    return
+    
 def get_tuple_by_X(cname, tag, list):
 
 	result = OrderedDict()
@@ -198,6 +200,19 @@ def create_closing_xml_tag(keyn):
 
 def tabs(no):
 	return (tab * no)
+
+def grab_values_for_tag(ordDict, tag):
+	results = []
+	for ele in ordDict:
+		results.append(ele[tag])
+	return results
+
+def set_difference(array1, array2):
+	superset = array1 if (len(array1) > len(array2)) else array2
+	subset = array2 if (len(array1) > len(array2)) else array1
+	result = list(set(superset) - set(subset))
+	return result
+
 
 
 
