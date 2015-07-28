@@ -66,7 +66,6 @@ def combine(c, gds, country_profiles, mds, sts, stats_attribs, md_attribs):
 	skeys = this_sts.keys()
 	mkeys = this_md.keys()	
 	advancement =  ( this_cp['advancement_level'] if (len(cpkeys) != 0) else "" )
-	#print "GOT HERE ", country_name
 	description = ( this_cp['description'] if (len(cpkeys) != 0) else "" )
 	sections = (this_cp['sections'] if (len(cpkeys) != 0) else [])
 	sources = ( this_cp['sources'] if (len(cpkeys) != 0) else [])
@@ -76,23 +75,38 @@ def combine(c, gds, country_profiles, mds, sts, stats_attribs, md_attribs):
 	newrow['ISO3'] = iso3
 	newrow['Advancement_Level'] = advancement
 	newrow['Description'] = description
-	newrow['Goods'] = this_goods
-	#print "GOT HERE ", country_name	
-	#print " Current Keys for Stats is ", skeys
-	if (skeys != 0):
+	newrow['Goods'] = this_goods 
+
+	newrow['Country_Statistics'] = []
+	sfound = False if ( stats.found_stats_from(iso3, "Country_ISO3", sts) == utility.get_default_error()) else True
+	if not sfound:
+		print " No Country Statistics for ", country_name 
+	if (skeys != 0) and (sfound) :
+		nray = []
 		for count in range(4,len(stats_attribs)):
+			nr = OrderedDict()
 			curkey = stats_attribs[count]
 			try:
-				newrow[curkey] = this_sts[curkey]
+				nr[curkey] = this_sts[curkey]
 			except KeyError:
-				newrow[curkey] = ""
-	if (mkeys != 0):
+				nr[curkey] = ""
+			nray.append(nr)
+		newrow['Country_Statistics'] = nray
+	newrow['Master_Data'] = []
+	mfound = False if (master_data.found_master_data_from(iso3, "Country_ISO3", mds) == utility.get_default_error()) else True
+	if not mfound:
+		print " No Master Data for ", country_name 
+	if (mkeys != 0) and (mfound):
+		mray = []
 		for newcount in range(5,len(md_attribs)):
+			nr = OrderedDict()
 			curkey = md_attribs[newcount]
 			try:
-				newrow[curkey] = this_md[curkey]
+				nr[curkey] = this_md[curkey]
 			except KeyError:
-				newrow[curkey] = ""
+				nr[curkey] = ""
+			mray.append(nr)
+		newrow['Master_Data'] = mray
 	newrow['Sections'] = sections
 	newrow['Sources'] = sources
 	return newrow
@@ -101,10 +115,6 @@ def to_json(filename, data):
 	utility.to_json(filename, data)
 	return
 
-
-def to_csv(filename, data):
-	utility.to_csv_from_OD(filename, data)
-	return
 
 def to_xml(filename, data):
 	target = open(filename, 'w+')
@@ -124,16 +134,28 @@ def write_record(target, cr, count):
 		kv = cr[ckeys[n]]
 		if (type(kv) == list):
 			target.write( utility.tabs(count) + utility.create_starting_xml_tag(ckeys[n]) + utility.get_newline() )
-			count += 1
-			for l in kv:
-				this_key_group = (ckeys[n])[:(len(ckeys[n])-1)]
-				if len(kv) > 0:
-					this_key_group = this_key_group.replace("ie", "y")
-					#print this_key_group
-					target.write( utility.tabs(count) + utility.create_starting_xml_tag(this_key_group) + utility.get_newline())
-				write_record(target, l, count+1)
-				if len(kv) > 0:
-					target.write( utility.tabs(count) + utility.create_closing_xml_tag(this_key_group) + utility.get_newline())
+			#count += 1
+			if ckeys[n] != "Goods":
+				for l in kv:
+					write_record(target, l, count+1)
+				#count -= 1
+			else:
+				for good in cr[ckeys[n]]:
+					target.write( utility.tabs(count+1) + "<Good>" + utility.get_newline() )
+					target.write( utility.tabs(count+2) + utility.create_starting_xml_tag("Good_Name"))
+					target.write( good["Good_Name"])
+					target.write( utility.create_closing_xml_tag("Good_Name") + utility.get_newline() )
+					target.write( utility.tabs(count+2) + utility.create_starting_xml_tag("Child_Labor") )
+					target.write( good["Child_Labor"] )
+					target.write( utility.create_closing_xml_tag("Child_Labor") + utility.get_newline() )
+					target.write( utility.tabs(count+2) + utility.create_starting_xml_tag("Forced_Labor") )
+					target.write( good["Forced_Labor"]  )
+					target.write( utility.create_closing_xml_tag("Forced_Labor") + utility.get_newline() )
+					target.write( utility.tabs(count+2) + utility.create_starting_xml_tag("Forced_Child_Labor")  )
+					target.write( good["Forced_Child_Labor"]  )
+					target.write( utility.create_closing_xml_tag("Forced_Child_Labor") + utility.get_newline() )
+					target.write( utility.tabs(count+1) + "</Good>" + utility.get_newline() )
+				#count -= 1
 			target.write( utility.tabs(count) + utility.create_closing_xml_tag(ckeys[n]) + utility.get_newline() )
 		else:
 			keyname = utility.to_str(ckeys[n])
@@ -143,16 +165,13 @@ def write_record(target, cr, count):
 			target.write( utility.tabs(count) + start + val + end + utility.get_newline() )
 	return
 
+
+
 if __name__ == '__main__':
 
 	cost = build()
 
-	#print cost
-
 	to_json(json_target, cost)
 	to_xml(xml_target, cost)
-
-
-	#to_csv(csv_target, cost)
 
 
