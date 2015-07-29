@@ -185,6 +185,13 @@ def get_tuple_by_X(cname, tag, list):
 
 	return result
 
+def unicode_to_str(strng):
+	str = ""
+	try:
+		str = strng. encode(encoding_standard)
+	except UnicodeEncodeError:
+		print "Error encoding: ", strng
+	return str
 
 def create_starting_xml_tag(keyn):
 	result = ""
