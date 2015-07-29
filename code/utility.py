@@ -6,7 +6,8 @@ from collections import OrderedDict
 # Global XML Header String
 xml_header = """<?xml version="1.0" encoding="UTF-8"?>"""
 
-source_filename = "../source_data/RAPP_2013.xlsx"
+source_filename_2013 = "../source_data/RAPP_2013.xlsx"
+source_filename_2014 = "../source_data/RAPP_2014.xlsx"
 
 # Break Characters in a Good Name
 open_bracket = "("
@@ -26,8 +27,15 @@ def get_xml_header():
 def get_default_error():
 	return default_error
 
-def get_source_filename():
-	return source_filename
+def get_source_filename(year):
+	result = default_error
+	if type(year) is type(int):
+		if year == 2013:
+			result = source_filename_2013
+		if year == 2014:
+			result = source_filename_2014
+
+	return result
 
 def get_encoding_standard():
 	return encoding_standard
@@ -168,10 +176,8 @@ def get_xml_data(c_xml_file):
     return
     
 def get_tuple_by_X(cname, tag, list):
-
 	result = OrderedDict()
 	fixed = str(cname).strip().upper()
-
 	for entry in list:
 		sname = str(entry[tag]).strip().upper()
 		if (sname == fixed):
@@ -182,7 +188,6 @@ def get_tuple_by_X(cname, tag, list):
 				newrow[currentkey] = entry[currentkey]
 			result = newrow
 			break
-
 	return result
 
 def unicode_to_str(strng):
