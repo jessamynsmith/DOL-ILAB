@@ -188,7 +188,9 @@ def sanitize(stri):
 	res = res.replace(",", "")
 	res = res.replace(" ","_")
 	res = res.replace("-", "_")
-
+	res = res.replace("(", "")
+	res = res.replace(")", "")
+	res = res.replace("_&_", "_and_")
 	return res
 
 def compact_data_for_app(data):
