@@ -159,7 +159,8 @@ def write_record(target, cr, count):
 			if (ckeys[n] == "Suggested_Actions"):
 				sga = cr[ckeys[n]]
 				for action in sga:
-					xmltag = utility.unicode_to_str(action['Area']).replace(" ","_")
+					stripped = unicode(utility.unicode_to_str(action['Area']), 'ascii', 'ignore')
+					xmltag = sanitize(utility.unicode_to_str(stripped))
 					target.write( utility.tabs(count+1) + utility.create_starting_xml_tag(xmltag) + utility.get_newline() )
 					for act in action['Actions']:
 						target.write(utility.tabs(count+2) + utility.create_starting_xml_tag("Action") + utility.get_newline() )
@@ -181,6 +182,14 @@ def write_record(target, cr, count):
 			end = utility.create_closing_xml_tag(keyname)
 			target.write( utility.tabs(count) + start + val + end + utility.get_newline() )
 	return
+
+def sanitize(stri):
+	res = stri.strip().replace(".", "")
+	res = res.replace(",", "")
+	res = res.replace(" ","_")
+	res = res.replace("-", "_")
+
+	return res
 
 def compact_data_for_app(data):
 	results = []
