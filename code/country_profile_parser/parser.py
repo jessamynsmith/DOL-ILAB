@@ -45,6 +45,7 @@ ADVANCEMENT_LEVELS = [
   'Moderate Advancement',
   'Minimal Advancement',
   'No Advancement',
+  'No Advancement - Efforts Made but Complicit',
   'No Assessment',
 ]
 
