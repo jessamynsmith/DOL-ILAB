@@ -10,8 +10,11 @@ from collections import OrderedDict
 source_json_file = "../source_data/country_profile.json"
 
 json_target = "../output/countries_2013.json"
-csv_target = "../output/countries_2013.csv"
 xml_target = "../output/countries_2013.xml"
+json_for_app_target = "../output/countries_for_app_2013.json"
+xml_for_app_target = "../output/countries_for_app_2013.xml"
+
+suggested_actions_text = "Suggested Government Actions"
 
 
 mds = master_data.build()
@@ -134,12 +137,10 @@ def write_record(target, cr, count):
 		kv = cr[ckeys[n]]
 		if (type(kv) == list):
 			target.write( utility.tabs(count) + utility.create_starting_xml_tag(ckeys[n]) + utility.get_newline() )
-			#count += 1
-			if ckeys[n] != "Goods":
+			if (ckeys[n] != "Goods") and (ckeys[n] != "Suggested_Actions"):
 				for l in kv:
 					write_record(target, l, count+1)
-				#count -= 1
-			else:
+			if (ckeys[n] == "Goods"):
 				for good in cr[ckeys[n]]:
 					target.write( utility.tabs(count+1) + "<Good>" + utility.get_newline() )
 					target.write( utility.tabs(count+2) + utility.create_starting_xml_tag("Good_Name"))
@@ -155,7 +156,23 @@ def write_record(target, cr, count):
 					target.write( good["Forced_Child_Labor"]  )
 					target.write( utility.create_closing_xml_tag("Forced_Child_Labor") + utility.get_newline() )
 					target.write( utility.tabs(count+1) + "</Good>" + utility.get_newline() )
-				#count -= 1
+			if (ckeys[n] == "Suggested_Actions"):
+				sga = cr[ckeys[n]]
+				for action in sga:
+					xmltag = utility.unicode_to_str(action['Area']).replace(" ","_")
+					target.write( utility.tabs(count+1) + utility.create_starting_xml_tag(xmltag) + utility.get_newline() )
+					for act in action['Actions']:
+						target.write(utility.tabs(count+2) + utility.create_starting_xml_tag("Action") + utility.get_newline() )
+						aname = special_chars.xml_safe(utility.unicode_to_str(act['Name']), sp_chars)
+						ayears = special_chars.xml_safe(utility.unicode_to_str(act['Years']), sp_chars)
+						target.write(utility.tabs(count+3) + utility.create_starting_xml_tag("Name")  
+						             + aname + utility.create_closing_xml_tag("Name")
+						             + utility.get_newline() )
+						target.write(utility.tabs(count+3) + utility.create_starting_xml_tag("Years")  
+						             + ayears + utility.create_closing_xml_tag("Years")
+						             + utility.get_newline() )
+						target.write(utility.tabs(count+2) + utility.create_closing_xml_tag("Action") + utility.get_newline() )
+					target.write( utility.tabs(count+1) + utility.create_closing_xml_tag(xmltag) + utility.get_newline() )
 			target.write( utility.tabs(count) + utility.create_closing_xml_tag(ckeys[n]) + utility.get_newline() )
 		else:
 			keyname = utility.to_str(ckeys[n])
@@ -165,13 +182,67 @@ def write_record(target, cr, count):
 			target.write( utility.tabs(count) + start + val + end + utility.get_newline() )
 	return
 
+def compact_data_for_app(data):
+	results = []
+	for record in data: 
+		newrec = OrderedDict()
+		newrec['Name'] = record['Name']
+		newrec['Region'] = record['Region']
+		newrec['ISO2'] = record['ISO2']
+		newrec['ISO3'] = record['ISO3']
+		newrec['Advancement_Level'] = record['Advancement_Level']
+		newrec['Description'] = record['Description']
+		newrec['Goods'] = record['Goods']
+		newrec['Country_Statistics'] = record['Country_Statistics']
+		newrec['Master_Data'] = record['Master_Data']
+		newrec['Suggested_Actions'] = get_suggested_actions(record)	
+		results.append(newrec)
+	return results
 
+
+def find_suggested_actions_section(country_record):
+    count = -1
+    sa_array = country_record['Sections']
+    for section in sa_array:
+    	count += 1
+    	ctitle = utility.unicode_to_str(section['title'])
+    	if (suggested_actions_text in ctitle ):
+    		break
+    	if (count == (len(sa_array) - 1)):
+    		count = -1
+
+    return count
+
+def get_suggested_actions(country_record):
+	actions = []
+	index = find_suggested_actions_section(country_record)
+	if (index != -1 ):
+		areas = country_record['Sections'][index]['tables'][0]['areas']
+		for cur_area in areas:
+			newarea = OrderedDict()
+			newarea['Area'] = cur_area['area']
+			newarea['Actions'] = []
+			cur_actions = cur_area['actions']
+			agglist = []
+			for cur_action in cur_actions:
+				newaction = OrderedDict()
+				newaction['Name'] = cur_action['action']
+				newaction['Years'] = cur_action['years']
+				agglist.append(newaction)
+			if len(agglist) != 0:
+				newarea['Actions'] = agglist
+			actions.append(newarea)
+	return actions
 
 if __name__ == '__main__':
 
 	cost = build()
+	app_cost = compact_data_for_app(cost)
 
 	to_json(json_target, cost)
 	to_xml(xml_target, cost)
+	to_json(json_for_app_target, app_cost)
+	to_xml(xml_for_app_target, app_cost)
+
 
 
