@@ -6,16 +6,21 @@ import regions
 import special_chars
 from collections import OrderedDict
 
-csv_target = '../output/extra/country_stats_from_XL_2013.csv' 
-xml_target = '../output/extra/country_stats_from_XL_2013.xml' 
-json_target = '../output/extra/country_stats_from_XL_2013.json' 
+csv_2013_target = '../output/2013/extra/country_stats_from_XL.csv' 
+xml_2013_target = '../output/2013/extra/country_stats_from_XL.xml' 
+json_2013_target = '../output/2013/extra/country_stats_from_XL.json' 
+
+csv_2014_target = '../output/2014/extra/country_stats_from_XL.csv' 
+xml_2014_target = '../output/2014/extra/country_stats_from_XL.xml' 
+json_2014_target = '../output/2014/extra/country_stats_from_XL.json' 
 
 CWS = "Children_Work_Statistics"
 ESAS = "Education_Statistics_Attendance_Statistics"
 CWAS = "Children_Working_and_Studying_7-14_yrs_old"
 UPCR = "UNESCO_Primary_Completion_Rate"
 
-regs = regions.build()
+current_year = 2013
+regs = regions.build(current_year)
 csl = ISO_countries.build()
 sp_chars = special_chars.build()
 
@@ -28,20 +33,33 @@ mappings = [ 'Country_Name',
               UPCR+'_Year', UPCR+'_Rate' 
               ]
 
+def get_current_year():
+	return current_year
 
-def build():
-	master_data = utility.from_excelsheet(utility.get_source_filename(), 3, 3, mappings)
-	results = include_extra(master_data)
+def set_current_year(yr):
+	current_year = yr
+	return
+
+def build(yr):
+	master_data = utility.from_excelsheet(utility.get_source_filename(yr), 3, 3, mappings)
+	results = include_extra(master_data, yr)
 	return results
 
-def build_ordered():
-	interim = build()
+def build_ordered(yr):
+	interim = build(yr)
 	result = order_by_country(interim)
 	return result
 
+def set_regions(yr):
+	regs = regions.build(yr)
+	return
 
-def include_extra(masterdata):
+def include_extra(masterdata, yr):
 	md_list = []
+	if (yr != get_current_year()) :
+		print "Switching years from ", get_current_year(), " to ", yr
+		set_regions(yr)
+		set_current_year(yr)
 	for mdrec in masterdata:
 	    md = OrderedDict()
 	    md['Country_Name'] = mdrec['Country_Name']
@@ -252,21 +270,40 @@ def country_with_no_stats(mdlist, regs):
 	diff = utility.set_difference(tab1, tab4)
 	return diff
 
+def prettify(list2, separator):
+	res_str = "\n"
+	for item in list2:
+		res_str = res_str + str(item) + separator
+	return res_str
+
+def get_country_name(iso3):
+	result = regions.find_X_from_Y("Country_Name", "Country_ISO3", regs, iso3)
+	return result
+
+
 if __name__ == '__main__':
 	
-	mdlist = build()
+	mdlist_2013 = build(2013)
+	mdlist_2014 = build(2014)
 
-	to_xml(xml_target, mdlist)
-	to_json(json_target, mdlist)
-	to_csv(csv_target, mdlist)
-     
-	#print get_stats_from_name("Cambodia", mdlist)
+	to_xml(xml_2013_target, mdlist_2013)
+	to_json(json_2013_target, mdlist_2013)
+	to_csv(csv_2013_target, mdlist_2013)
 
-	tab4 = utility.grab_values_for_tag(mdlist, "Country_Name")
-	tab1 = utility.grab_values_for_tag(regs, "Country_Name")
-	diff = utility.set_difference(tab1, tab4)
-
-	print "\n\nCountries with no stats: ", diff
+	to_xml(xml_2014_target, mdlist_2014)
+	to_json(json_2014_target, mdlist_2014)
+	to_csv(csv_2014_target, mdlist_2014)
 	
+	set_regions(2013)
+	tab4_2013 = utility.grab_values_for_tag(mdlist_2013, "Country_ISO3")
+	tab1_2013 = utility.grab_values_for_tag(regs, "Country_ISO3")
+	diff_2013 = utility.set_difference(tab1_2013, tab4_2013)
+	print "\nCountries with no stats (for 2013): ", prettify(map(get_country_name, diff_2013), "\n")
+	
+	set_regions(2014)
+	tab4_2014 = utility.grab_values_for_tag(mdlist_2014, "Country_ISO3")
+	tab1_2014 = utility.grab_values_for_tag(regs, "Country_ISO3")
+	diff_2014 = utility.set_difference(tab1_2014, tab4_2014)
+	print "\nCountries with no stats (for 2014): ", prettify( map(get_country_name, diff_2014), "\n")
 
 	
