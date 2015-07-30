@@ -7,11 +7,17 @@ import regions
 import special_chars
 from collections import OrderedDict
 
-csv_target = '../output/extra/goods_from_XL_2013.csv' 
-xml_target_by_country = '../output/extra/goods_from_XL_by_country_2013.xml' 
-xml_target_by_good = '../output/extra/goods_from_XL_by_good_2013.xml' 
-json_target_by_country = '../output/extra/goods_from_XL_by_country_2013.json' 
-json_target_by_good = '../output/extra/goods_from_XL_by_good_2013.json'
+csv_2013_target = '../output/2013/extra/goods_from_XL.csv' 
+xml_2013_target_by_country = '../output/2013/extra/goods_by_country_from_XL.xml' 
+xml_2013_target_by_good = '../output/2013/extra/goods_by_good_from_XL.xml' 
+json_2013_target_by_country = '../output/2013/extra/goods_by_country_from_XL.json' 
+json_2013_target_by_good = '../output/2013/extra/goods_by_good_from_XL.json'
+
+csv_2014_target = '../output/2014/extra/goods_from_XL.csv' 
+xml_2014_target_by_country = '../output/2014/extra/goods_by_country_from_XL.xml' 
+xml_2014_target_by_good = '../output/2014/extra/goods_by_good_from_XL.xml' 
+json_2014_target_by_country = '../output/2014/extra/goods_by_country_from_XL.json' 
+json_2014_target_by_good = '../output/2014/extra/goods_by_good_from_XL.json'
 
 present = "X"
 sp_chars = special_chars.build()
@@ -23,27 +29,45 @@ mappings = ["Country_Name",
             "Forced_Child_Labor"]    
 
 csl = ISO_countries.build()   
-regs = regions.build()         
-secs = sectors.build()
+base_year = 2013
+regs = regions.build(base_year)         
+secs = sectors.build(base_year)
 
-def  build():
-	goods = utility.from_excelsheet(utility.get_source_filename(), 2, 1, mappings)
-	results = include_extra(goods)
+def get_base_year():
+	return base_year
+
+def set_base_year(yr):
+	base_year = yr
+	return
+
+def  build(year):
+	goods = utility.from_excelsheet(utility.get_source_filename(year), 2, 1, mappings)
+	results = include_extra(goods, year)
 	return results
 
-def include_extra(goods_list):
+def set_regions(year):
+	regs = regions.build(year)
+	return
+
+def set_sectors(year):
+	secs = sectors.build(year)
+	return
+
+def include_extra(goods_list, yer):
 	result = []
+	if yer != get_base_year():
+		set_sectors(yer)
+		set_regions(yer)
+		set_base_year(yer)
 	for good in goods_list:
 		g = OrderedDict()
 		g['Country_Name'] = good['Country_Name']
 		g['Country_ISO2'] = ISO_countries.ISO2_from_name(g['Country_Name'], csl)
-		g['Country_ISO3'] = ISO_countries.ISO3_from_name(g['Country_Name'], csl)
-		
+		g['Country_ISO3'] = ISO_countries.ISO3_from_name(g['Country_Name'], csl)		
 		if (g['Country_ISO2'] == utility.get_default_error()):
 			print " No ISO2 was found for ", g['Country_Name']
 		if (g['Country_ISO3'] == utility.get_default_error()):
 			print " No ISO3 was found for ", g['Country_Name']
-
 		g['Country_Region'] = regions.find_region_from_ISO3(g['Country_ISO3'], regs)
 		g['Good_Name'] = good['Good_Name']
 		g['Good_Sector'] = sectors.find_sector_from_name(g['Good_Name'], secs)
@@ -99,7 +123,7 @@ def to_xml_by_country(filename, goods_list):
 	# Group by Country
 	for n in range(0, len(goods_list)):
 		row = goods_list[n]
-		country = str(row['Country_Name']).strip()
+		country = special_chars.xml_safe(str(row['Country_Name']).strip(), sp_chars)
 		iso2 = str(row['Country_ISO2'])
 		iso3 = str(row['Country_ISO3'])
 		region = special_chars.xml_safe(str(row['Country_Region']), sp_chars)
@@ -111,15 +135,13 @@ def to_xml_by_country(filename, goods_list):
 			target.write("\t\t<Country_Region>"+region+"</Country_Region>"+"\n")
 			good_tuples = get_good_tuples_for_country(goods_list, country)
 			target.write("\t\t<Goods>\n")
-			#print ("Year: " + str(year)+ ": "+country+": "+str(good_tuples))
 			for c in range(0, len(good_tuples)):
-				#print good_tuples
 				target.write("\t\t\t<Good>\n")
-				target.write("\t\t\t\t\t"+"<Good_Name>"+str(good_tuples[c]['Good_Name'])+"</Good_Name>\n")
-				target.write("\t\t\t\t\t"+"<Good_Sector>"+str(good_tuples[c]['Good_Sector'])+"</Good_Sector>\n")				
+				target.write("\t\t\t\t\t"+"<Good_Name>"+special_chars.xml_safe(str(good_tuples[c]['Good_Name']),sp_chars)+"</Good_Name>\n")
+				target.write("\t\t\t\t\t"+"<Good_Sector>"+special_chars.xml_safe(str(good_tuples[c]['Good_Sector']),sp_chars)+"</Good_Sector>\n")				
 				target.write("\t\t\t\t\t"+"<Child_Labor>"+str(good_tuples[c]['Child_Labor'])+"</Child_Labor>\n")
 				target.write("\t\t\t\t\t"+"<Forced_Labor>"+str(good_tuples[c]['Forced_Labor'])+"</Forced_Labor>\n")
-				target.write("\t\t\t\t\t"+"<Forced_Child_Labor>"+str(good_tuples[c]['Forced_Child_Labor'])+"</Forced_Labor>\n")
+				target.write("\t\t\t\t\t"+"<Forced_Child_Labor>"+str(good_tuples[c]['Forced_Child_Labor'])+"</Forced_Child_Labor>\n")
 				target.write("\t\t\t</Good>\n")
 			target.write("\t\t</Goods>\n")
 			target.write("\t</Country>\n")
@@ -135,7 +157,6 @@ def to_xml_by_good(filename, goods_list):
 	# Write XML Header
 	target.write(utility.get_xml_header()+"\n")
 	target.write("<Good_List>\n")
-	#print ("written to file")
 
 	# Sets of attributes
 	products = []
@@ -143,23 +164,23 @@ def to_xml_by_good(filename, goods_list):
 	# Group by Good
 	for n in range(0, len(goods_list)):
 		row = goods_list[n]
-		country = str(row['Country_Name']).strip()
-		good = str(row['Good_Name']).strip()
-		good_sector = str(row['Good_Sector']).strip()
+		country = special_chars.xml_safe(str(row['Country_Name']).strip(),sp_chars)
+		good = special_chars.xml_safe(str(row['Good_Name']).strip(),sp_chars)
+		good_sector = special_chars.xml_safe(str(row['Good_Sector']).strip(),sp_chars)
 		if 	(good not in products):
 			target.write("\t<Good>\n"+"\t\t<Good_Name>"+good+"</Good_Name>"+"\n")
 			target.write("\t\t<Good_Sector>"+good_sector+"</Good_Sector>"+"\n")			
 			countryset = get_country_tuples_for_good(goods_list, good)
-			#print (good+": "+str(countryset))
 			target.write("\t\t<Countries>\n")
 			for count in range(0, len(countryset)):
 				target.write("\t\t\t<Country>\n")
-				target.write("\t\t\t\t"+"<Country_Name>"+str(countryset[count]['Country_Name'])+"</Country_Name>\n")
+				target.write("\t\t\t\t"+"<Country_Name>"+special_chars.xml_safe(str(countryset[count]['Country_Name']),sp_chars)+"</Country_Name>\n")
 				target.write("\t\t\t\t"+"<Country_ISO2>"+str(countryset[count]['Country_ISO2'])+"</Country_ISO2>\n")
 				target.write("\t\t\t\t"+"<Country_ISO3>"+str(countryset[count]['Country_ISO3'])+"</Country_ISO3>\n")
 				target.write("\t\t\t\t"+"<Country_Region>"+special_chars.xml_safe(str(countryset[count]['Country_Region']),sp_chars)+"</Country_Region>\n")
 				target.write("\t\t\t\t"+"<Child_Labor>"+str(countryset[count]['Child_Labor'])+"</Child_Labor>\n")
 				target.write("\t\t\t\t"+"<Forced_Labor>"+str(countryset[count]['Forced_Labor'])+"</Forced_Labor>\n")
+				target.write("\t\t\t\t"+"<Forced_Child_Labor>"+str(countryset[count]['Forced_Child_Labor'])+"</Forced_Child_Labor>\n")
 				target.write("\t\t\t</Country>\n")
 			target.write("\t\t</Countries>\n")
 			target.write("\t</Good>\n")
@@ -227,14 +248,20 @@ def to_csv(filename, data):
 
 if __name__ == '__main__':
 	
-	goods = build()
+	goods_2013 = build(2013)
+	goods_2014 = build(2014)
 
-	to_csv(csv_target, goods)
+	to_csv(csv_2013_target, goods_2013)
+	to_xml(xml_2013_target_by_good, goods_2013, "G")
+	to_xml(xml_2013_target_by_country, goods_2013, "C")
+	to_json(json_2013_target_by_country, goods_2013, "C")
+	to_json(json_2013_target_by_good, goods_2013, "G")
 
-	to_xml(xml_target_by_good, goods, "G")
-	to_xml(xml_target_by_country, goods, "C")
+	to_csv(csv_2014_target, goods_2014)
+	to_xml(xml_2014_target_by_good, goods_2014, "G")
+	to_xml(xml_2014_target_by_country, goods_2014, "C")
+	to_json(json_2014_target_by_country, goods_2014, "C")
+	to_json(json_2014_target_by_good, goods_2014, "G")
 
-	to_json(json_target_by_country, goods, "C")
-	to_json(json_target_by_good, goods, "G")
 
 
