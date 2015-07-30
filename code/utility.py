@@ -28,8 +28,8 @@ def get_default_error():
 	return default_error
 
 def get_source_filename(year):
-	result = default_error
-	if type(year) is type(int):
+	result = ""
+	if type(year) == int:
 		if year == 2013:
 			result = source_filename_2013
 		if year == 2014:
