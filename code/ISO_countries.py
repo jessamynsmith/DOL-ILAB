@@ -101,7 +101,7 @@ def ISO_from_name(cname, cslist, tag):
                 if (sname == mname):
                     res = s[tag]
                     found = True
-                    print "MINOR CONCERN - ", sname, " was found in the country synonym list."
+                    #print "MINOR CONCERN - ", sname, " was found in the country synonym list."
                     break
             if found == True:
                 break
@@ -110,6 +110,14 @@ def ISO_from_name(cname, cslist, tag):
         print "MAJOR ERROR - ", sname, " was not found in the ISO country or synonym lists"
 
     return res 
+
+def name_from_ISO3(iso3, cslist):
+    result = utility.get_default_error()
+    cs = cslist[0]
+    for row in cs:
+        if str(row["ISO3"]) == str(iso3):
+            result = row["Name"]
+    return result
 
 
 def connect():

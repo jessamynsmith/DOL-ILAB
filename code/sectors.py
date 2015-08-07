@@ -1,12 +1,18 @@
 
 import utility
+import special_chars
 
-json_target = '../output/extra/good_sector_mappings.json' 
-csv_target = '../output/extra/good_sector_mappings.csv' 
-xml_target = '../output/extra/good_sector_mappings.xml' 
+json_2013_target = '../output/2013/extra/good_sector_mappings.json' 
+csv_2013_target = '../output/2013/extra/good_sector_mappings.csv' 
+xml_2013_target = '../output/2013/extra/good_sector_mappings.xml' 
 
+json_2014_target = '../output/2014/extra/good_sector_mappings.json' 
+csv_2014_target = '../output/2014/extra/good_sector_mappings.csv' 
+xml_2014_target = '../output/2014/extra/good_sector_mappings.xml' 
 
 mappings = ["Good_Sector", "Good_Name"]   #The attributes to be extracted from the spreadsheet
+
+sp_chars = special_chars.build()
 
 # Function that returns the sector associated with a good name (otherwise it returns -1)
 def find_sector_from_name(goodname, slist):
@@ -34,8 +40,8 @@ def find_goods_in_sector(sector, slist):
 	return result
 
 # Creates an Ordered Dictionary of Goods and their Associated Sectors
-def build():
-	result = utility.from_excelsheet(utility.get_source_filename(), 1, 1, mappings)
+def build(year):
+	result = utility.from_excelsheet(utility.get_source_filename(year), 1, 1, mappings)
 	return result
 
 # Creates a JSON file for the data
@@ -54,8 +60,8 @@ def to_xml(filename, data):
 	target.write("<Goods>\n")
 	for good in data:
 		target.write("\t<Good>\n")
-		target.write("\t\t<Good_Name>"+good['Good_Name']+"</Good_Name>\n")
-		target.write("\t\t<Good_Sector>"+good['Good_Sector']+"</Good_Sector>\n")
+		target.write("\t\t<Good_Name>"+special_chars.xml_safe(good['Good_Name'],sp_chars)+"</Good_Name>\n")
+		target.write("\t\t<Good_Sector>"+special_chars.xml_safe(good['Good_Sector'],sp_chars)+"</Good_Sector>\n")
 		target.write("\t</Good>\n")
 	target.write("</Goods>\n")
 	target.close()
@@ -63,10 +69,17 @@ def to_xml(filename, data):
 
 
 if __name__ == '__main__':
-	sectors = build()
-	to_json(json_target, sectors)
-	to_csv(csv_target, sectors)
-	to_xml(xml_target, sectors)
+	sectors_2013 = build(2013)
+	sectors_2014 = build(2014)
+
+	to_json(json_2013_target, sectors_2013)
+	to_csv(csv_2013_target, sectors_2013)
+	to_xml(xml_2013_target, sectors_2013)
+
+	to_json(json_2014_target, sectors_2014)
+	to_csv(csv_2014_target, sectors_2014)
+	to_xml(xml_2014_target, sectors_2014)
+
 
 
 

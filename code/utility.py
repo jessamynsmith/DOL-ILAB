@@ -6,7 +6,8 @@ from collections import OrderedDict
 # Global XML Header String
 xml_header = """<?xml version="1.0" encoding="UTF-8"?>"""
 
-source_filename = "../source_data/RAPP_2013.xlsx"
+source_filename_2013 = "../source_data/RAPP_2013.xlsx"
+source_filename_2014 = "../source_data/RAPP_2014.xlsx"
 
 # Break Characters in a Good Name
 open_bracket = "("
@@ -26,8 +27,15 @@ def get_xml_header():
 def get_default_error():
 	return default_error
 
-def get_source_filename():
-	return source_filename
+def get_source_filename(year):
+	result = ""
+	if type(year) == int:
+		if year == 2013:
+			result = source_filename_2013
+		if year == 2014:
+			result = source_filename_2014
+
+	return result
 
 def get_encoding_standard():
 	return encoding_standard
@@ -164,12 +172,12 @@ def get_json_data(c_json_file):
 		country_data = json.load(json_file)
 	return country_data
 
-
+def get_xml_data(c_xml_file):
+    return
+    
 def get_tuple_by_X(cname, tag, list):
-
 	result = OrderedDict()
 	fixed = str(cname).strip().upper()
-
 	for entry in list:
 		sname = str(entry[tag]).strip().upper()
 		if (sname == fixed):
@@ -180,9 +188,15 @@ def get_tuple_by_X(cname, tag, list):
 				newrow[currentkey] = entry[currentkey]
 			result = newrow
 			break
-
 	return result
 
+def unicode_to_str(strng):
+	str = ""
+	try:
+		str = strng. encode(encoding_standard)
+	except UnicodeEncodeError:
+		print "Error encoding: ", strng
+	return str
 
 def create_starting_xml_tag(keyn):
 	result = ""
@@ -199,27 +213,19 @@ def create_closing_xml_tag(keyn):
 def tabs(no):
 	return (tab * no)
 
-def write_record(target, cr, count):
-	ckeys = cr.keys()
-	for n in range(0, len(cr)): 
-		kv = cr[ckeys[n]]
-		if (type(kv) == list):
-			target.write( tabs(count) + create_starting_xml_tag(ckeys[n]) + newline )
-			count += 1
-			for l in kv:
-				this_key_group = (ckeys[n])[:(len(ckeys[n])-1)]
-				if len(kv) > 0:
-					this_key_group = this_key_group.replace("ies", "y")
-					print this_key_group
-					target.write( tabs(count) + create_starting_xml_tag(this_key_group) + newline)
-				write_record(target, l, count+1)
-				if len(kv) > 0:
-					target.write( tabs(count) + create_closing_xml_tag(this_key_group) + newline)
-			target.write( tabs(count) + create_closing_xml_tag(ckeys[n]) + newline )
-		else:
-			keyname = to_str(ckeys[n])
-			start = create_starting_xml_tag(keyname)
-			val = to_str(cr[keyname])
-			end = create_closing_xml_tag(keyname)
-			target.write( tabs(count) + start + val + end + newline )
-	return
+def grab_values_for_tag(ordDict, tag):
+	results = []
+	for ele in ordDict:
+		results.append(ele[tag])
+	return results
+
+def set_difference(array1, array2):
+	superset = array1 if (len(array1) > len(array2)) else array2
+	subset = array2 if (len(array1) > len(array2)) else array1
+	result = list(set(superset) - set(subset))
+	return result
+
+
+
+
+    

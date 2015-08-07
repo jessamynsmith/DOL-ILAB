@@ -1,14 +1,20 @@
 import utility 
 import ISO_countries
+import special_chars
 from collections import OrderedDict
 
-json_target = '../output/extra/country_region_mappings.json' 
-csv_target = '../output/extra/country_region_mappings.csv' 
-xml_target = '../output/extra/country_region_mappings.xml' 
+json_2013_target = '../output/2013/extra/country_region_mappings.json' 
+csv_2013_target = '../output/2013/extra/country_region_mappings.csv' 
+xml_2013_target = '../output/2013/extra/country_region_mappings.xml' 
+
+json_2014_target = '../output/2014/extra/country_region_mappings.json' 
+csv_2014_target = '../output/2014/extra/country_region_mappings.csv' 
+xml_2014_target = '../output/2014/extra/country_region_mappings.xml' 
 
 mappings = ["Country_Name", "Country_Region"]    # Info to be extracted from spreadsheet
 
 isocountries = ISO_countries.build()
+sp_chars = special_chars.build()
 
 def include_ISO(rlist):
 	result = []
@@ -22,8 +28,8 @@ def include_ISO(rlist):
 		result.append(row)
 	return result
 
-def build():
-	regs = utility.from_excelsheet(utility.get_source_filename(), 0, 1, mappings)
+def build(year):
+	regs = utility.from_excelsheet(utility.get_source_filename(year), 0, 1, mappings)
 	results = include_ISO(regs)
 	return results
 
@@ -52,6 +58,19 @@ def find_X_from_name(name, reglist, tag):
 			break
 	return result
 
+def find_X_from_Y(tag1, tag2, reglist, request):  
+	result = utility.get_default_error()
+	req = request.upper().strip()
+	for reg in reglist:
+		try:
+			pvar = reg[tag2].encode('utf-8').upper().strip()
+		except UnicodeDecodeError:
+			pvar = reg[tag2].upper().strip()
+		if (pvar == req):
+			result = reg[tag1]
+			break	
+	return result
+
 def find_region_from_ISO2(i2, reglist):
 	result = utility.get_default_error()
 	for reg in reglist:
@@ -67,29 +86,6 @@ def find_region_from_ISO3(i3, reglist):
 			result = reg['Country_Region']
 			break
 	return result
-
-
-def region_from_name(cname):
-	result = utility.get_default_error()
-	res = build()
-	if res != utility.get_default_error():
-		result = find_region_from_name(cname, res)
-	return result
-
-def region_from_ISO2(iso2):
-	result = utility.get_default_error()
-	res = build()
-	if res != utility.get_default_error():
-		result = find_region_from_ISO2(iso2, res)
-	return result
-
-def region_from_ISO3(iso3):
-	result = utility.get_default_error()
-	res = build()
-	if res != utility.get_default_error():
-		result = find_region_from_ISO3(iso3, res)
-	return result
-
 
 # Creates a JSON file for the data
 def to_json(filename, data):
@@ -107,21 +103,28 @@ def to_xml(filename, data):
 	target.write("<Countries>\n")
 	for country in data:
 		target.write("\t<Country>\n")
-		target.write("\t\t<Country_Name>"+country['Country_Name']+"</Country_Name>\n")
+		target.write("\t\t<Country_Name>"+special_chars.xml_safe(country['Country_Name'],sp_chars)+"</Country_Name>\n")
 		target.write("\t\t<Country_ISO2>"+str(country['Country_ISO2'])+"</Country_ISO2>\n")
 		target.write("\t\t<Country_ISO3>"+str(country['Country_ISO3'])+"</Country_ISO3>\n")
-		target.write("\t\t<Country_Region>"+country['Country_Region']+"</Country_Region>\n")						
+		target.write("\t\t<Country_Region>"+special_chars.xml_safe(country['Country_Region'],sp_chars)+"</Country_Region>\n")						
 		target.write("\t</Country>\n")
 	target.write("</Countries>\n")
 	target.close()
 	return
 
 if __name__ == '__main__':
-	regions = build()
+	regions_2013 = build(2013)
+	regions_2014 = build(2014)
 
-	to_json(json_target, regions)
-	to_csv(csv_target, regions)
-	to_xml(xml_target, regions)
+	to_json(json_2013_target, regions_2013)
+	to_csv(csv_2013_target, regions_2013)
+	to_xml(xml_2013_target, regions_2013)
+
+	to_json(json_2014_target, regions_2014)
+	to_csv(csv_2014_target, regions_2014)
+	to_xml(xml_2014_target, regions_2014)
+
+
 
 
 
