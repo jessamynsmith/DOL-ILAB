@@ -214,16 +214,25 @@ class Parser:
 
     area_item = None
     row_elems = table_elem.findall('.//tr')
+    # Most tables have 3 columns per table. Bosnia, however, has an extra
+    # blank column. We need to know the number of columns so we can tell the
+    # difference between a full row which lists the "Area" and a partial row
+    # which is part of the previous "Area" and listed only the "Action" and
+    # "Year".
+    num_cells_in_top_row = None
     for row_elem in row_elems[1:]:
       # Rows contain two or three cells. A three-columned cell has Area,
       # Suggested Action, and Year(s) Suggested. A two-columned cell has only
       # Suggested Action and Year(s) Suggested, and should use the previously
       # listed Area.
       cell_elems = row_elem.findall('./td')
-      # If there are three cells, create a new Area item and add the suggested
-      # action to it.
-      if len(cell_elems) == 3:
-        area_elem, action_elem, year_elem = cell_elems
+      # Store the width of the first row in the table.
+      if not num_cells_in_top_row:
+        num_cells_in_top_row = len(cell_elems)
+      # If there are the maximum number of cells, create a new Area item and
+      # add the suggested action to it.
+      if len(cell_elems) == num_cells_in_top_row:
+        area_elem, action_elem, year_elem = cell_elems[0:3]
         area_text = self.get_text(area_elem)
         if area_text:
           area_item = OrderedDict()
@@ -231,10 +240,10 @@ class Parser:
           area_item['actions'] = []
           table['areas'].append(area_item)
         AddSuggestedAction(area_item, action_elem, year_elem)
-      # If there are only two cells, then add a suggested action item to the
-      # current area item.
-      elif len(cell_elems) == 2:
-        action_elem, year_elem = cell_elems
+      # If there is one less than the maximum number of cells, then add a
+      # suggested action item to the current area item.
+      elif len(cell_elems) == num_cells_in_top_row - 1:
+        action_elem, year_elem = cell_elems[0:2]
         assert(area_item), self.get_text(action_elem)
         AddSuggestedAction(area_item, action_elem, year_elem)
 

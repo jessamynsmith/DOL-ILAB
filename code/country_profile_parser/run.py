@@ -82,7 +82,7 @@ from parser import Parser
 import xml_writer
 
 def print_usage():
-  print 'Usage: main.py -i <input_path> -o <output_file>'
+  print 'Usage: run.py -i <input_path> -o <output_file>'
 
 def main(argv):
   try:
@@ -91,7 +91,7 @@ def main(argv):
     print_usage()
     sys.exit(2)
 
-  input_path = output_path = None
+  input_path = output_file = None
   for opt, arg in opts:
     if opt == '-h' or opt == '--help':
       print_usage()
@@ -127,6 +127,11 @@ def main(argv):
   for filename in filepaths:
     with open(filename, 'r') as f:
       country_details.append(parser.parse(filename))
+
+  # Add the output directory if it doesn't already exist.
+  dirname = os.path.dirname(output_file)
+  if not os.path.exists(dirname):
+    os.makedirs(dirname)
 
   with open(output_file, 'w') as f:
     if output_file.endswith('.json'):
