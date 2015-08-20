@@ -57,7 +57,7 @@ def set_regions(yr):
 def include_extra(masterdata, yr):
 	md_list = []
 	if (yr != get_current_year()) :
-		print "Switching years from ", get_current_year(), " to ", yr
+		print "SWITCHING years from ", get_current_year(), " to ", yr, ".\n"
 		set_regions(yr)
 		set_current_year(yr)
 	for mdrec in masterdata:
@@ -93,7 +93,7 @@ def include_extra(masterdata, yr):
 def write_record(target, md):
 
 	target.write(utility.tabs(2)+"<Country_Name>")
-	target.write(md['Country_Name'])
+	target.write(special_chars.xml_safe(md['Country_Name'],sp_chars))
 	target.write("</Country_Name>"+utility.get_newline())
 
 	target.write(utility.tabs(2)+"<Country_ISO2>")

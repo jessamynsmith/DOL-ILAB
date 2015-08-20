@@ -7,27 +7,51 @@ import regions
 import special_chars
 from collections import OrderedDict
 
-source_json_file = "../source_data/country_profile.json"
 
-json_target = "../output/countries_2013.json"
-xml_target = "../output/countries_2013.xml"
-json_for_app_target = "../output/countries_for_app_2013.json"
-xml_for_app_target = "../output/countries_for_app_2013.xml"
+json_2013_target = "../output/2013/countries.json"
+xml_2013_target = "../output/2013/countries.xml"
+json_2013_for_app_target = "../output/2013/countries_for_app.json"
+xml_2013_for_app_target = "../output/2013/countries_for_app.xml"
+
+json_2014_target = "../output/2014/countries.json"
+xml_2014_target = "../output/2014/countries.xml"
+json_2014_for_app_target = "../output/2014/countries_for_app.json"
+xml_2014_for_app_target = "../output/2014/countries_for_app.xml"
 
 suggested_actions_text = "Suggested Government Actions"
 
+global cyear
 
-mds = master_data.build()
-sts = stats.build_ordered()
-gds = goods.build()
+cyear = 2013
+
+mds = master_data.build(cyear)
+sts = stats.build_ordered(cyear)
+gds = goods.build(cyear)
 csl = ISO_countries.build()
-regs = regions.build()
-cps = utility.get_json_data(source_json_file)
+regs = regions.build(cyear)
+cps = utility.get_json_data(utility.get_json_source_file())
 sp_chars = special_chars.build()
 
-def build():
+def build(yr):
+	if yr != cyear:
+		mds = master_data.build(yr)
+		sts = stats.build_ordered(yr)
+		gds = goods.build(yr)
+		regs = regions.build(yr)
+		utility.set_json_source_file()
+		cps = 
 	countries = merge(cps, gds, sts, mds)
 	return countries
+
+def merge(cps, gds, statistics, master_data):
+	results = []
+	country_profiles = add_to_country_profiles(cps)
+	stats_attribs = statistics[0].keys()
+	md_attribs = master_data[0].keys()
+	for c in regs:
+		nr = combine(c, gds, country_profiles, mds, sts, stats_attribs, md_attribs)
+		results.append(nr)
+	return results
 
 def add_to_country_profiles(profiles):
 	results = []
@@ -44,16 +68,6 @@ def add_to_country_profiles(profiles):
 		results.append(newrec)
 	return results
 
-
-def merge(cps, gds, statistics, master_data):
-	results = []
-	country_profiles = add_to_country_profiles(cps)
-	stats_attribs = statistics[0].keys()
-	md_attribs = master_data[0].keys()
-	for c in regs:
-		nr = combine(c, gds, country_profiles, mds, sts, stats_attribs, md_attribs)
-		results.append(nr)
-	return results
 
 def combine(c, gds, country_profiles, mds, sts, stats_attribs, md_attribs):
 	newrow = OrderedDict()
@@ -247,13 +261,21 @@ def get_suggested_actions(country_record):
 
 if __name__ == '__main__':
 
-	cost = build()
-	app_cost = compact_data_for_app(cost)
+	country_file_2013 = build(2013)
+	country_file_2013_for_app = compact_data_for_app(country_file_2013)
 
-	to_json(json_target, cost)
-	to_xml(xml_target, cost)
-	to_json(json_for_app_target, app_cost)
-	to_xml(xml_for_app_target, app_cost)
+	to_json(json_2013_target, country_file_2013)
+	to_xml(xml_2013_target, country_file_2013)
+	to_json(json_2013_for_app_target, country_file_2013_for_app)
+	to_xml(xml_2013_for_app_target, country_file_2013_for_app)
 
+
+	country_file_2014 = build(2014)
+	country_file_2014_for_app = compact_data_for_app(country_file_2014)
+
+	to_json(json_2014_target, country_file_2014)
+	to_xml(xml_2014_target, country_file_2014)
+	to_json(json_2014_for_app_target, country_file_2014_for_app)
+	to_xml(xml_2014_for_app_target, country_file_2014_for_app)
 
 

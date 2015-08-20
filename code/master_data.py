@@ -14,13 +14,13 @@ csv_2014_target = '../output/2014/extra/master_data_from_XL.csv'
 xml_2014_target = '../output/2014/extra/master_data_from_XL.xml' 
 json_2014_target = '../output/2014/extra/master_data_from_XL.json' 
 
-cur_year = 2013
+cur_year = 2014
 
 regs = regions.build(cur_year)
 csl = ISO_countries.build()
 sp_chars = special_chars.build()
 
-mappings = [ "Country_Name", "Country_Region", "Assessment",
+mappings = [ "Country_Name", "Assessment",
              "C_138_Ratified" , "C_182_Ratified",
              "Convention_on_the_Rights_of_the_Child_Ratified",
              "CRC_Commercial_Sexual_Exploitation_of_Children_Ratified",
@@ -30,12 +30,10 @@ mappings = [ "Country_Name", "Country_Region", "Assessment",
              "Minimum_Age_for_Work",
              "Minimum_Age_for_Hazardous_Work_Estabslished",
              "Minimum_Age_for_Hazardous_Work",
-             "Compulsory_Education_Age_Estabslished",
+             "Compulsory_Education_Age_Established",
              "Minimum_Age_for_Compulsory_Education",
-             "Free_Public_Education_Estabslished",
-             "Country_has_Mechanism_to_Coordinate_its_Efforts_in_Combatting_the_WFCL",
-             "National_Policy_on_WFCL_Estabslished"
-             ]
+             "Free_Public_Education_Estabslished"
+            ]
 
 def get_cur_year():
     return cur_year
@@ -48,36 +46,39 @@ def set_regions(yr):
     regs = regions.build(yr)
     return
 
-def build(year):
-    master_data = utility.from_excelsheet(utility.get_source_filename(year), 4, 1, mappings)
-    results = include_extra(master_data, year)
+def build(yr):
+    master_data = utility.from_excelsheet(utility.get_source_filename(yr), 4, 1, mappings)
+    results = include_extra(master_data, yr)
     return results
 
 def include_extra(masterdata, year):
     md_list = []
+    
     if year != get_cur_year():
-        print "Switching years from ", get_cur_year(), " to ", year
+        print "SWITCHING years from ", get_cur_year(), " to ", year, ".\n"
         set_regions(year)
         set_cur_year(year)
-	for mdrec in masterdata:
-	    md = OrderedDict()
-	    md['Country_Name'] = mdrec['Country_Name']
-	    md['Country_ISO2'] = str(ISO_countries.ISO2_from_name(md['Country_Name'], csl))
-	    md['Country_ISO3'] = str(ISO_countries.ISO3_from_name(md['Country_Name'], csl))
-	    md['Country_Region'] = str(regions.find_region_from_ISO3(md['Country_ISO3'], regs))
-	    mdreckeys = mdrec.keys()
-	    for n in range(2, len(mdrec)):
-	    	currentkey = mdreckeys[n]
-	    	md[currentkey] = mdrec[currentkey]
-	    md_list.append(md)
+    
+    for mdrec in masterdata:
+        md = OrderedDict()
+        md['Country_Name'] = mdrec['Country_Name']
+        md['Country_ISO2'] = str(ISO_countries.ISO2_from_name(md['Country_Name'], csl))
+        md['Country_ISO3'] = str(ISO_countries.ISO3_from_name(md['Country_Name'], csl))
+        md['Country_Region'] = str(regions.find_region_from_ISO3(md['Country_ISO3'], regs))
+        mdreckeys = mdrec.keys()
+        for n in range(1, len(mdrec)):
+            currentkey = mdreckeys[n]
+            md[currentkey] = mdrec[currentkey]
+            print "new ", currentkey, " value is ", md[currentkey]
+        md_list.append(md)
         if (md['Country_ISO2'] == "-1"):
             print " No ISO2 code found for ", md['Country_Name']
         if (md['Country_ISO3'] == "-1"):
-            print " No ISO3 code found for ", md['Country_Name']            
-        if (mdrec['Country_Region'].strip().upper() != md['Country_Region'].strip().upper()):
-            print "Region mismatch between region information in Tab 5 and Tab 1 for ", mdrec['Country_Name']
-
-	return md_list
+            print " No ISO3 code found for ", md['Country_Name']
+        #if (mdrec['Country_Region'].strip().upper() != md['Country_Region'].strip().upper()):
+            #print "Region mismatch between region information in Tab 5 and Tab 1 for ", mdrec['Country_Name']
+            #print "Region info from Tab 5 is '", mdrec['Country_Region'],"' and Region info from Tab 1 is '", md['Country_Region'],"'.\n"
+    return md_list
 
 
 def to_xml(filename, mlist):
@@ -94,7 +95,7 @@ def to_xml(filename, mlist):
     return
 
 def write_front(target, country_record, count):
-    target.write(utility.tabs(count)+"<Country_Name>"+country_record["Country_Name"]+"</Country_Name>"+utility.get_newline())
+    target.write(utility.tabs(count)+"<Country_Name>"+special_chars.xml_safe(country_record["Country_Name"],sp_chars)+"</Country_Name>"+utility.get_newline())
     target.write(utility.tabs(count)+"<Country_ISO2>"+country_record["Country_ISO2"]+"</Country_ISO2>"+utility.get_newline())
     target.write(utility.tabs(count)+"<Country_ISO3>"+country_record["Country_ISO3"]+"</Country_ISO3>"+utility.get_newline())
     target.write(utility.tabs(count)+"<Country_Region>"+special_chars.xml_safe(country_record["Country_Region"], sp_chars)+"</Country_Region>"+utility.get_newline())
@@ -163,26 +164,30 @@ def get_country_name(iso3):
     return result
 
 if __name__ == '__main__':
+
     mdlist_2013 = build(2013)
-    mdlist_2014 = build(2014)
+
 
     to_xml(xml_2013_target, mdlist_2013)
     to_json(json_2013_target, mdlist_2013)
     to_csv(csv_2013_target, mdlist_2013)
 
-    to_xml(xml_2014_target, mdlist_2014)
-    to_json(json_2014_target, mdlist_2014)
-    to_csv(csv_2014_target, mdlist_2014)
-
     set_regions(2013)
     tab4_2013 = utility.grab_values_for_tag(mdlist_2013, "Country_ISO3")
     tab1_2013 = utility.grab_values_for_tag(regs, "Country_ISO3")
     diff_2013 = utility.set_difference(tab1_2013, tab4_2013)
-    print "\nCountries with no stats (for 2013): ", prettify(map(get_country_name, diff_2013), "\n")
+    print "\nCountries with no master data (for 2013): ", prettify(map(get_country_name, diff_2013), "\n")
+ 
     
+    mdlist_2014 = build(2014)
+
+    to_xml(xml_2014_target, mdlist_2014)
+    to_json(json_2014_target, mdlist_2014)
+    to_csv(csv_2014_target, mdlist_2014)
+
     set_regions(2014)
     tab4_2014 = utility.grab_values_for_tag(mdlist_2014, "Country_ISO3")
     tab1_2014 = utility.grab_values_for_tag(regs, "Country_ISO3")
     diff_2014 = utility.set_difference(tab1_2014, tab4_2014)
-    print "\nCountries with no stats (for 2014): ", prettify( map(get_country_name, diff_2014), "\n")
+    print "\nCountries with no master data (for 2014): ", prettify( map(get_country_name, diff_2014), "\n")
 

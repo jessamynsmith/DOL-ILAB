@@ -9,6 +9,9 @@ xml_header = """<?xml version="1.0" encoding="UTF-8"?>"""
 source_filename_2013 = "../source_data/RAPP_2013.xlsx"
 source_filename_2014 = "../source_data/RAPP_2014.xlsx"
 
+json_source_filename_2013 = "../source_data/country_profile_2013.json"
+json_source_filename_2014 = "../source_data/country_profile_2014.json"
+
 # Break Characters in a Good Name
 open_bracket = "("
 slash = "/"
@@ -18,7 +21,17 @@ default_error = -1
 tab = "\t"
 newline = "\n"
 encoding_standard = "utf-8"
+json_source_file = source_filename_2013
 
+def get_json_source_file():
+	return json_source_file
+
+def set_json_source_file(year):
+	if year == 2013:
+		json_source_file = json_source_filename_2013
+	if year == 2014:
+		json_source_file = json_source_filename_2014
+	return 
 
 # Function that returns XML Header
 def get_xml_header():
@@ -56,6 +69,8 @@ def from_excelsheet(filename, sheetno, startrow, tags):
 				row[key] = str(row_values[n]).strip()
 			except UnicodeEncodeError:
 				row[key] = row_values[n].encode(encoding_standard).strip()
+			except IndexError:
+				print "INDEX ERROR: Looking up attribute - ", key, " at row ", n, " in the spreadsheet named ", filename
 		rows.append(row)
 	return rows
 
