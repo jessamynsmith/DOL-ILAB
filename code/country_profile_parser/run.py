@@ -1,7 +1,7 @@
 #!/usr/bin/python
 
 """Parses all country files specified in <input_path> and writes the output as
-JSON to <output_file>.
+JSON or XML to <output_file>.
 
 Usage: ./run.py --input_path <directory> --output_file <file>
 

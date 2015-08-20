@@ -12,6 +12,10 @@ source_filename_2014 = "../source_data/RAPP_2014.xlsx"
 json_source_filename_2013 = "../source_data/country_profile_2013.json"
 json_source_filename_2014 = "../source_data/country_profile_2014.json"
 
+global json_source_filename
+
+json_source_filename = ""
+
 # Break Characters in a Good Name
 open_bracket = "("
 slash = "/"
@@ -23,8 +27,12 @@ newline = "\n"
 encoding_standard = "utf-8"
 json_source_file = source_filename_2013
 
-def get_json_source_file():
-	return json_source_file
+def get_json_source_filename(yr):
+	if yr == 2013:
+		json_source_filename = json_source_filename_2013
+	if yr == 2014:
+		json_source_filename = json_source_filename_2014	
+	return json_source_filename
 
 def set_json_source_file(year):
 	if year == 2013:
@@ -47,7 +55,6 @@ def get_source_filename(year):
 			result = source_filename_2013
 		if year == 2014:
 			result = source_filename_2014
-
 	return result
 
 def get_encoding_standard():

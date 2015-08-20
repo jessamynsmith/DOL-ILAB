@@ -69,7 +69,7 @@ def include_extra(masterdata, year):
         for n in range(1, len(mdrec)):
             currentkey = mdreckeys[n]
             md[currentkey] = mdrec[currentkey]
-            print "new ", currentkey, " value is ", md[currentkey]
+            #print "new ", currentkey, " value is ", md[currentkey]
         md_list.append(md)
         if (md['Country_ISO2'] == "-1"):
             print " No ISO2 code found for ", md['Country_Name']
