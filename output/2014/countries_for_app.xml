@@ -8726,8 +8726,8 @@
 		<Region>Sub-Saharan Africa</Region>
 		<ISO2>MG</ISO2>
 		<ISO3>MDG</ISO3>
-		<Advancement_Level></Advancement_Level>
-		<Description></Description>
+        <Advancement_Level>Significant Advancement</Advancement_Level>
+        <Description>In 2014, Madagascar made a significant advancement in efforts to eliminate the worst forms of child labor. The newly elected Government adopted the Anti-Trafficking in Persons Law, which criminalizes all forms of human trafficking and contains provisions to prevent child trafficking and other worst forms of child labor. The Regional Child Labor Committees in the Sava region organized workshops and conducted activities to raise awareness of child labor in the production of vanilla. The Government also adopted a National Development Plan that includes activities to combat the worst forms of child labor. In addition, the National Police Force&#8217;s Morals and Minors Brigade investigated an estimated 187 cases of child commercial sexual exploitation and referred them for prosecution. However, children in Madagascar are engaged in child labor, including in agriculture and particularly in the production of vanilla and in the worst forms of child labor, including in mining. Limited resources for the systematic enforcement of child labor laws impede government efforts to protect children from the worst forms of child labor. Social programs to combat child labor are also insufficient to adequately address the extent of the problem.</Description>
 		<Goods>
 			<Good>
 				<Good_Name>Sapphires</Good_Name>
@@ -8788,6 +8788,62 @@
 			<Free_Public_Education_Estabslished>Yes</Free_Public_Education_Estabslished>
 		</Master_Data>
 		<Suggested_Actions>
+			<Legal_Framework>
+				<Action>
+					<Name>Ensure that law prohibits hazardous occupations and activities in all relevant child labor sectors, including agriculture.</Name>
+					<Years>2014</Years>
+				</Action>
+			</Legal_Framework>
+			<Enforcement>
+				<Action>
+					<Name>Increase the funding, training and number of labor inspectors responsible for enforcing laws related to child labor in order to provide adequate coverage of the workforce.</Name>
+					<Years>2009 &#8211; 2014</Years>
+				</Action>
+				<Action>
+					<Name>Establish a referral mechanism between law enforcement agencies and the Ministry of Population and Social Affairs to ensure victims of child labor receive appropriate social services.</Name>
+					<Years>2014</Years>
+				</Action>
+				<Action>
+					<Name>Collect and make publicly available information on the funding levels for law enforcement agencies, law violations and penalties assessed, as well as number of labor inspections and criminal convictions related to the worst forms of child labor.</Name>
+					<Years>2013 &#8211; 2014</Years>
+				</Action>
+				<Action>
+					<Name>Disaggregate complaints made by child protection hotlines by number of children exploited in child labor.</Name>
+					<Years>2013 &#8211; 2014</Years>
+				</Action>
+				<Action>
+					<Name>Fully fund existing child labor databases.</Name>
+					<Years>2009 &#8211; 2014</Years>
+				</Action>
+			</Enforcement>
+			<Coordination>
+				<Action>
+					<Name>Ensure that the various mechanisms have the appropriate funding to effectively coordinate efforts to address child labor, including its worst forms.  </Name>
+					<Years>2014</Years>
+				</Action>
+			</Coordination>
+			<Social_Programs>
+				<Action>
+					<Name>Ensure that social protection systems are properly funded and adequate to meet the needs of victims of the worst forms of child labor.</Name>
+					<Years>2014</Years>
+				</Action>
+				<Action>
+					<Name>Improve access to education, including by providing subsidies for school fees, food, school supplies, and implementing a program to address the lack of school infrastructure and birth registration.</Name>
+					<Years>2011 &#8211; 2014</Years>
+				</Action>
+				<Action>
+					<Name>Assess the impact that existing programs may have on child labor.</Name>
+					<Years>2010 &#8211; 2014</Years>
+				</Action>
+				<Action>
+					<Name>Expand programs to address child labor in agriculture and the worst forms of child labor in commercial sexual exploitation and mining.</Name>
+					<Years>2014</Years>
+				</Action>
+				<Action>
+					<Name>Increase awareness of the possible use of traditional cultural practices that might lead to commercial sexual exploitation of children.</Name>
+					<Years>2013 &#8211; 2014</Years>
+				</Action>
+			</Social_Programs>
 		</Suggested_Actions>
 	</Country>
 	<Country>
@@ -9260,8 +9316,9 @@
 		<Region>Sub-Saharan Africa</Region>
 		<ISO2>MR</ISO2>
 		<ISO3>MRT</ISO3>
-		<Advancement_Level></Advancement_Level>
-		<Description></Description>
+		<Advancement_Level>Moderate Advancement</Advancement_Level>
+        <Description>In 2014, Mauritania made a moderate advancement in efforts to eliminate the worst forms of child labor. The Government adopted the Roadmap for the Eradication of the Vestiges of Slavery based upon UN recommendations that raises awareness of slavery practices and implements programs that provide former slaves with access to education and livelihood opportunities. The Government also continued to operate regional centers that provide food, shelter, education, and training to children withdrawn from child labor. Further, the Government participated in two new programs to combat the worst forms of child labor. However, children in Mauritania are engaged in child labor, including in agriculture and herding, and in the worst forms of child labor, including in indentured and hereditary servitude. Mauritania&#8217;s legal framework does not prohibit hazardous occupations and activities in all relevant child labor sectors, including agriculture; and does not prohibit the use of children in illicit activities. Limited resources for the systematic enforcement of child labor laws impede government efforts to protect children from the worst forms of child labor. Additionally, the Government continued to detain anti-slavery protestors.
+        </Description>
 		<Goods>
 			<Good>
 				<Good_Name>Cattle</Good_Name>
@@ -9316,6 +9373,96 @@
 			<Free_Public_Education_Estabslished>Yes</Free_Public_Education_Estabslished>
 		</Master_Data>
 		<Suggested_Actions>
+			<Legal_Framework>
+				<Action>
+					<Name>Ensure the law prohibits hazardous occupations and activities in all relevant child labor sectors, including agriculture.</Name>
+					<Years>2009 &#8211; 2014</Years>
+				</Action>
+				<Action>
+					<Name>Ensure that the law&#8217;s minimum age provisions and protections apply to children in unpaid, temporary, or noncontract work.</Name>
+					<Years>2012 &#8211; 2014</Years>
+				</Action>
+				<Action>
+					<Name>Ensure the law specifically prohibits the use of children in illicit activities.</Name>
+					<Years>2009 &#8211; 2014</Years>
+				</Action>
+				<Action>
+					<Name>Adopt the law on prohibiting the worst forms of child labor.</Name>
+					<Years>2012 &#8211; 2014</Years>
+				</Action>
+			</Legal_Framework>
+			<Enforcement>
+				<Action>
+					<Name>Increase the number of training, resources, criminal investigators, and labor inspectors responsible for enforcing laws related to child labor in order to provide adequate coverage of the workforce.</Name>
+					<Years>2010 &#8211; 2014</Years>
+				</Action>
+				<Action>
+					<Name>Strengthen the inspection system by initiating routine or targeted inspections, rather than performing inspections solely based on complaints received.</Name>
+					<Years>2014</Years>
+				</Action>
+				<Action>
+					<Name>Collect and make public information on number, type, and quality of labor inspections; number of child labor law violations, citations, and penalties assessed; as well as criminal prosecutions and convictions related to the worst forms of child labor.</Name>
+					<Years>2011 &#8211; 2014</Years>
+				</Action>
+				<Action>
+					<Name>Effectively enforce compulsory education legal provisions.</Name>
+					<Years>2010 &#8211; 2014</Years>
+				</Action>
+				<Action>
+					<Name>Establish a referral mechanism between the law enforcement agencies and MASEF to ensure victims of child labor receive appropriate social services.	</Name>
+					<Years>2014</Years>
+				</Action>
+			</Enforcement>
+			<Coordination>
+				<Action>
+					<Name>Ensure the Child Trafficking, Smuggling, and Labor Group and the National Council for Children are active and receive adequate funding to fulfill their mission.</Name>
+					<Years>2014</Years>
+				</Action>
+			</Coordination>
+			<Government_Policies>
+				<Action>
+					<Name>Adopt a more comprehensive policy that addresses all relevant worst forms of child labor.</Name>
+					<Years>2013 &#8211; 2014</Years>
+				</Action>
+				<Action>
+					<Name>Integrate child labor elimination and prevention strategies into existing policies.</Name>
+					<Years>2009 &#8211; 2014</Years>
+				</Action>
+				<Action>
+					<Name>Ensure appropriate funding exists to effectively implement the National Plan to Combat the Vestiges of Slavery.</Name>
+					<Years>2014</Years>
+				</Action>
+				<Action>
+					<Name>Take steps to ensure anti-slavery protestors&#8217; rights of freedom of expression and peaceful assembly.</Name>
+					<Years>2011 &#8211; 2014</Years>
+				</Action>
+				<Action>
+					<Name>Collect data on slavery to develop effective policies that identify and protect children at risk.</Name>
+					<Years>2010 &#8211; 2014</Years>
+				</Action>
+			</Government_Policies>
+			<Social_Programs>
+				<Action>
+					<Name>Ensure that all children have access to education, including refugees, by registering children at birth, and establishing and implementing a program to address the lack of teachers and schools.</Name>
+					<Years>2011 &#8211; 2014</Years>
+				</Action>
+				<Action>
+					<Name>Expand the scope of programs to address the worst forms of child labor, including in agriculture, herding, domestic work, and other sectors in which children work, as well as children in hereditary and indentured servitude.	</Name>
+					<Years>2009 &#8211; 2014</Years>
+				</Action>
+				<Action>
+					<Name>Make publicly available the study on child trafficking and the worst forms of child labor in Mauritania.	</Name>
+					<Years>2012 &#8211; 2014</Years>
+				</Action>
+				<Action>
+					<Name>Implement a continuous, awareness-raising program on worst forms of child labor laws and for government officials on slavery.</Name>
+					<Years>2012 &#8211; 2014</Years>
+				</Action>
+				<Action>
+					<Name>Assess the impact that existing social programs may have on addressing child labor.</Name>
+					<Years>2011 &#8211; 2014</Years>
+				</Action>
+			</Social_Programs>
 		</Suggested_Actions>
 	</Country>
 	<Country>
